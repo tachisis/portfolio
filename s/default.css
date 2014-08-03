@@ -262,7 +262,8 @@ footer:after {
 }
 footer p {
 	padding: 3px;
-	font:italic 12px/1 Palatino,serif;
+	font-style: italic;
+	font-size: 12px;
 	background: #fefeeb;
 }
 footer .copy {
@@ -273,7 +274,8 @@ footer .top {
 	display: block;
 	padding: 3px;
 	background: #fefeeb;
-	font:italic 12px/1 Palatino,serif;
+	font-style: italic;
+	font-size: 12px;
 	text-decoration: none;
 }
 
