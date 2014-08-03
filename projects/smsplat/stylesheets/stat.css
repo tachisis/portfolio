@@ -1,0 +1,128 @@
+/* Warnings
+-------------------------------------- */
+.warn {
+   background:url(../images/warn-bg.png) repeat-y;
+   margin-bottom:20px;
+   }
+   .warn .t {background:url(../images/warn-top.png) no-repeat;}
+   .warn .b {
+      padding:12px;
+      background:url(../images/warn-bot.png) 0 100% no-repeat;
+      }
+   .warn P {
+      width:540px;
+      margin:auto;
+      font-size:1.2em;
+      color:#A20000;
+      padding:15px 0 13px 70px;
+      background:url(../images/ico/warn.png) 0 50% no-repeat;
+      }
+   .warn.mails P {
+      color:#277FD8;
+      padding-left:100px;
+      background:url(../images/ico/mails.png) 0 50% no-repeat;
+      }
+   .warn A,
+   .statistics A {
+      color:#FF4111;
+      text-decoration:underline;
+      }
+
+/* Statistics table
+-------------------------------------- */ 
+.statistics {position:relative;}     
+.statistics TABLE {
+   margin:0 19px 12px;
+   border-bottom:1px solid #CCC;
+   }
+.statistics TD,
+.statistics TH {
+   padding:5px;
+   border-top:1px solid #CCC;
+   color:#4C4C4C;
+   }
+.statistics TH {
+   color:#000;
+   padding-bottom:4px;
+   font-weight:bold;
+   }
+.statistics .revenue {width:170px;}
+.statistics .profit {width:120px;}
+.statistics .period {width:200px;}
+   .statistics .period SELECT {width:180px;}
+.statistics .payout-date {width:125px;}
+.statistics .service {width:165px;color:#000;}
+.statistics .countries {width:110px;color:#000;}
+
+.statistics .export {
+   border:1px solid #CCC;
+   padding:5px 5px 3px;
+   margin:0 19px;
+   }
+   .statistics .export INPUT,
+   .statistics .export SELECT {vertical-align:middle;}
+   .statistics .export SELECT {width:90px;}
+   .statistics .export LABEL {font-weight:bold;}
+   
+/* Modalbox
+-------------------------------------- */
+.modal {
+   position:absolute;
+   top:5.6em;
+   width:656px !important;
+   }
+   .modal.service {right:310px;}
+   .modal.countries {right:140px;}
+   .modal .bg {background:#FFF url(../images/modal-bg.png) repeat-y;}
+   .modal .t {
+      height:10px;
+      background:url(../images/modal-t.png) no-repeat;
+      }
+   .modal.countries .t {background:url(../images/modal-t-shift.png) no-repeat;}
+   .modal .b {
+      background:url(../images/modal-b.png) 0 100% no-repeat;
+      padding:23px 11px 8px 15px;
+      }
+   .modal H3 {
+      color:#099C91;
+      font-size:1.4em;
+      overflow:hidden;
+      margin-bottom:5px;
+      }
+      .modal H3 SPAN {
+         float:left;
+         display:block;
+         margin-right:2px;
+         }
+      .modal H3 .help {
+         display:block;
+         float:left;
+         width:17px;
+         height:16px;
+         text-indent:-9999px;
+         background:url(../images/ico/help-small.png) no-repeat;
+         }
+   .modal .sort {margin-bottom:15px;}
+   .modal .sort LI {
+      display:inline;
+      margin-right:15px;
+      }      
+   .modal .list {
+      overflow:hidden;
+      margin-bottom:10px;
+      }
+      .modal .list INPUT {
+         margin:0 5px 0 0;
+         vertical-align:top;
+         }
+      .modal .list LI {
+         float:left;
+         padding-bottom:5px;
+         line-height:1.5;
+         }
+      .modal .list .sep {border-right:1px solid #CCC;}
+      .modal.service .list LI {width:280px;}
+      .modal.service .list .sep {margin-right:45px;}
+      .modal.countries .list LI {width:190px;}
+      .modal.countries .list .sep {margin-right:15px;}
+   .modal .btns {text-align:right;}

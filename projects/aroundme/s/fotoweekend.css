@@ -1,0 +1,1004 @@
+/* Weekend Heading
+-------------------------------------- */
+.weekend-head {overflow:hidden;}
+   .weekend-head .logo {
+      float:left;
+      margin-right:50px;
+      }
+   .weekend-head .menu {margin-top:15px;}
+   .weekend-head .menu LI {
+      float:left;
+      width:240px;
+      font-size:1.2em;
+      margin-bottom:8px;
+      text-transform:uppercase;
+      color:#FFF;
+      }
+   .weekend-head .menu SPAN {
+      display:block;
+      float:left;
+      }
+   .weekend-head .menu SPAN SPAN SPAN SPAN {
+      padding:3px 7px;
+      }
+   .weekend-head .menu .active SPAN {background:#005F00 url(../i/weekend/weekend-menu-t-l.png) no-repeat;}
+   .weekend-head .menu .active SPAN SPAN {background:url(../i/weekend/weekend-menu-t-r.png) 100% 0 no-repeat;}
+   .weekend-head .menu .active SPAN SPAN SPAN {background:url(../i/weekend/weekend-menu-b-l.png) 0 100% no-repeat;}
+   .weekend-head .menu .active SPAN SPAN SPAN SPAN {background:url(../i/weekend/weekend-menu-b-r.png) 100% 100% no-repeat;}
+   .weekend-head .menu A {
+      text-decoration:none;
+      color:#005F00;
+      }
+
+/* Weekend body
+-------------------------------------- */   
+.weekend-body {
+   background:#FFF url(../i/weekend/weekend-t-l.png) no-repeat;
+   overflow:hidden;
+   margin-bottom:20px;
+   min-height:450px;
+   }
+.weekend-body A {color:#005F00;}
+.weekend-body .head {
+   padding:20px;
+   background:url(../i/weekend/weekend-t-r.png) 100% 0 no-repeat;
+   color:#b0b9b0;
+   }
+   .weekend-body .head H1 {font-size:2.8em;}
+   .weekend-body .head .to-reg-small {
+      display:block;
+      width:247px;
+      height:36px;
+      position:relative;
+      overflow:hidden;
+      float:right;
+      font-size:1.5em;
+      text-decoration:none;
+      }
+      .weekend-body .head .to-reg-small SPAN {
+         display:block;
+         width:247px;
+         height:36px;
+         position:absolute;
+         top:0;
+         left:0;
+         background:url(../i/weekend/to-reg-small.png) no-repeat;
+         cursor:pointer;
+         }
+   
+/* Weekend actions
+-------------------------------------- */   
+.weekend-body .actions {
+   float:left;
+   margin:20px;
+   display:inline;
+   width:195px;
+   padding-top:130px;
+   background:url(../i/ico/registration.jpg) 50% 0 no-repeat;
+   color:#5C5C5C;
+   }
+   .weekend-body .actions LI {margin-bottom:5px;}
+   .weekend-body .actions A {color:#5B9729;}
+   .weekend-body .actions P {margin-bottom:20px;}
+   .weekend-body .actions.warning {
+      background:url(../i/ico/warning-big.jpg) 50% 0 no-repeat;
+      text-indent:-9999px;
+      padding-top:150px;
+      }
+   .weekend-body .actions.no-pic {background:none;}
+   .weekend-body .actions.local-menu {
+      padding-top:0;
+      background:none;
+      font-size:1.1em;
+      margin-top:0;
+      }
+   .weekend-body .actions.local-menu LI {padding:5px;}
+   .weekend-body .actions.local-menu .active {
+      background:#D5F0C9;
+      color:#005F00;
+      }
+   .weekend-body .actions.local-menu A {
+      color:#005F00;
+      text-decoration:none;
+      }
+      
+/* Weekend text column
+-------------------------------------- */
+.weekend-body .text {
+   float:left;
+   width:700px;
+   margin:0 30px 0;
+   }
+
+/* Already user
+-------------------------------------- */
+.weekend-body .already-user {
+   float:right;
+   width:244px;
+   margin:0 0 0 20px;
+   background:url(../i/weekend/already-user-t.png) no-repeat;
+   }
+   .weekend-body .already-user .b {
+      padding:15px 20px;
+      background:url(../i/weekend/already-user-b.png) 0 100% no-repeat;
+      }
+   .weekend-body .already-user A {
+      display:block;
+      padding-bottom:5px;
+      background:url(../i/ico/big-green-arr-r.png) 100% 100% no-repeat;
+      text-decoration:none;
+      }
+   .weekend-body .already-user STRONG {
+      font-size:1.7em;
+      display:block;
+      margin-bottom:10px;
+      text-decoration:underline;
+      }
+   .weekend-body .already-user SMALL {
+      color:#000;
+      font-size:1.1em;
+      }
+
+/* Weekend registration form
+-------------------------------------- */      
+.weekend-body .registration H2,
+.weekend-body .congrat H2,
+.weekend-body .partners H2 {
+   margin-bottom:20px;
+   font-size:2.4em;
+   }
+   .weekend-body .registration .weekend-required {
+      margin-left:-10px;
+      overflow:hidden;
+      }
+   .weekend-body .registration .name {
+      float:left;
+      width:468px;
+      border:1px solid #99C6A8;
+      padding:10px;
+      }
+   .weekend-body .registration .req {
+      float:left;
+      width:170px;
+      margin:15px 0 0 -1px;
+      padding:10px;
+      border:1px solid #99C6A8;
+      border-left:1px solid #FFF;
+      position:relative;
+      z-index:100;
+      background:url(../i/weekend/req-bg.gif);
+      color:#007025;
+      font-size:1.1em;
+      }
+   .weekend-body .registration .note {width:400px;}
+
+/* Weekend congratulations for registration
+-------------------------------------- */
+.weekend-body .congrat {
+   padding-top:270px;
+   background:url(../i/weekend/pic.jpg) 0 20px no-repeat;
+   overflow:hidden;
+   }
+   .weekend-body .congrat .back {
+      width:244px;
+      float:left;
+      margin-right:40px;
+      background:url(../i/weekend/already-user-t.png) no-repeat;
+      }
+      .weekend-body .congrat .back .b {
+         padding:15px 20px;
+         background:url(../i/weekend/already-user-b.png) 0 100% no-repeat;
+         }
+      .weekend-body .congrat .back A {
+         display:block;
+         font-size:1.3em;
+         padding:4px 0 4px 25px;
+         background:url(../i/ico/big-green-arr-l.png) 0 50% no-repeat;
+         }
+      .weekend-body .congrat .back.stopit A {
+         color:#FF000C;
+         background:none;
+         text-align:center;
+         padding-left:0;
+         }
+
+/* Weekend about
+-------------------------------------- */         
+.weekend-body .text-about,
+.weekend-body .phases {padding:0 20px 20px;}
+   .weekend-body .text-about H2,
+   .weekend-body .phases H2 {
+      font-size:1.6em;
+      margin-bottom:10px;
+      }
+   .weekend-body .text-about P {margin-bottom:20px;}
+   .weekend-body .text-about BLOCKQUOTE {
+      width:415px;
+      float:right;
+      margin-left:30px;
+      color:#B0B9B0;
+      font-size:2.2em;
+      }
+   .weekend-body .text-about BLOCKQUOTE STRONG {
+      font-weight:normal;
+      color:#005F00;
+      }
+/* Phases
+-------------------------------------- */
+.weekend-body .phases UL {
+   width:912px;
+   height:150px;
+   position:relative;
+   background:url(../i/weekend/phases-bg.png) no-repeat;
+   margin-bottom:20px;
+   }
+   .weekend-body .phases UL LI {
+      width:150px;
+      height:150px;
+      position:absolute;
+      top:0;
+      text-indent:-9999px;
+      }
+   .weekend-body .phases .step-1 .one {background:url(../i/weekend/1.png) no-repeat;}
+   .weekend-body .phases .step-2 .two {background:url(../i/weekend/2.png) no-repeat;}
+   .weekend-body .phases .step-3 .three {background:url(../i/weekend/3.png) no-repeat;}
+   .weekend-body .phases .step-4 .four {background:url(../i/weekend/4.png) no-repeat;}
+   .weekend-body .phases .step-5 .five {background:url(../i/weekend/5.png) no-repeat;}
+      .weekend-body .phases .one {left:0; cursor:pointer;}
+      .weekend-body .phases .two {left:170px; cursor:pointer;}
+      .weekend-body .phases .three {left:400px; cursor:pointer;}
+      .weekend-body .phases .four {left:600px; cursor:pointer;}
+      .weekend-body .phases .five {left:800px; cursor:pointer;}
+   
+   .weekend-body .phases .phase {
+      padding-left:290px;
+      min-height:210px;
+      background:url(../i/weekend/phase-bg.png) 60px 16px no-repeat;
+      }
+   .weekend-body .phases .phase .about-b {
+      width:534px;
+      background:url(../i/weekend/phase-b.png) 0 100% no-repeat;
+      }
+   .weekend-body .phases .phase .about-t {   
+      background:url(../i/weekend/phase-t.png) no-repeat;
+      padding:20px 25px 10px;
+      }
+   .weekend-body .phases .phase .about-t P {margin-bottom:10px;}
+
+/* Hello page
+-------------------------------------- */
+#page.hello {padding:30px 60px;}
+.hello H1 {
+   width:490px;
+   font-size:4.5em;
+   color:#005F00;
+   margin-bottom:15px;
+   }
+   .hello H1 STRONG {
+      display:block;
+      font:.4em Arial,sans-serif;
+      color:#000;
+      padding-left:85px;
+      margin-top:5px;
+      }
+   .hello .hello-menu {
+      width:234px;
+      float:right;
+      }
+   .hello .hello-menu .t {
+      height:21px;
+      font-size:0;
+      background:url(../i/weekend/hello-menu-t.png) no-repeat;
+      }
+   .hello .hello-menu UL {
+      font-size:1.2em;
+      text-transform:uppercase;
+      padding:0 10px 6px 25px;
+      background:url(../i/weekend/hello-menu-b.png) 0 100% no-repeat;
+      }
+   .hello .hello-menu LI {margin-bottom:15px;}
+   .hello .hello-menu A {text-decoration:none;}
+   .hello P {
+      width:410px;
+      margin-left:85px;
+      line-height:1.5;
+      margin-bottom:10px;
+      }
+   .hello A {color:#005F00;}
+   .hello .picture {
+      margin:30px 0 20px;
+      width:797px;
+      height:232px;
+      background:url(../i/weekend/hello.png) no-repeat;
+      }
+   .hello .to-reg {
+      width:845px;
+      height:72px;
+      overflow:hidden;
+      position:relative;
+      font-size:3.5em;
+      text-decoration:none;
+      }
+      .hello .to-reg SPAN {
+         width:845px;
+         height:72px;
+         display:block;
+         position:absolute;
+         top:0;
+         left:0;
+         background:url(../i/weekend/to-reg.png) no-repeat;
+         cursor:pointer;
+         }
+         
+/* Weekend How To & Jury
+-------------------------------------- */
+.how-to H2,
+.jury H2 {
+   font-size:2.2em;
+   margin-bottom:10px;
+   }
+.how-to P {
+   margin-bottom:10px;
+   }
+.how-to UL,
+.how-to LI {
+   list-style:circle;
+   margin-bottom:10px;
+   }
+.how-to .points {overflow:hidden;}
+.how-to .points LI {
+   width:300px;
+   margin:0 40px 30px 0;
+   list-style:none;
+   float:left;
+   }
+.how-to .points IMG {
+   display:block;
+   margin-bottom:10px;
+   }
+.jury {
+   width:100% !important;
+   }
+.jury UL {
+   overflow:hidden;
+   }
+.jury LI {
+   list-style:none;
+   float:left;
+   width:450px;
+   margin:0 30px 30px 0;
+   }
+.jury IMG {
+   float:left;
+   margin:0 15px 15px 0;
+   }
+.jury H3 {
+   font-size:1.1em;
+   font-weight:bold;
+   margin-bottom:10px;
+   }
+
+/* Buttons background
+-------------------------------------- */				
+.list-map-switcher,
+.list-map-switcher SPAN,
+.list-map-switcher EM,
+.list-map-switcher B,
+.big-button,
+.big-button B,
+.thumbnails .th_editphoto li A,
+.thumbnails .th_edittitle A {background:url(../i/buttons-bg.png) 0 0 no-repeat;}
+
+/* Thumbnails & uploading
+-------------------------------------- */
+.thumbnails {
+	clear:both;
+	padding:20px 0 60px 35px;
+	overflow:hidden;
+	width:100%;
+	}
+  .thumbnails_j {
+  	clear:both;
+  	padding:20px 0 60px 35px;
+  	overflow:hidden;
+  	width:100%;
+  	}
+.uploading-text {
+	width:200px;
+	float:left;
+	padding:0;
+	margin:0 auto 0 -30px;
+	}
+.text.uploading {
+   float:left;
+   width:200px !important;
+   margin:0;
+   }
+.thumbnails.uploading {
+	display:block;
+	float:left;
+	clear:none;
+	width:720px !important;
+	overflow:hidden;
+	}
+	.thumbnails LI {
+		display:block;
+		float:left;
+		margin:0 30px 0 0;
+		padding:0;
+		width:165px;
+		height:auto;
+		}
+		.thumbnails_j LI {
+  		display:block;
+  		float:left;
+  		margin:0 10px 0 0;
+  		padding:0;
+  		width:80px;
+  		height:auto;
+  		}
+	.thumbnails.uploading LI {margin-right:70px;}
+	.thumbnails DL {
+		display:block;
+		position:relative;
+		height:245px;
+		}
+		.thumbnails .highlighted {background:#D9A66D;}
+		.thumbnails.video DT {
+			}
+			.thumbnails .th_photo,
+			.thumbnails .th_video {
+				width:165px;
+				height:165px;
+				background:url(../i/ajax-loader2.gif) 50% 50% no-repeat;
+				display:table-cell;
+				vertical-align:middle;
+				text-align:center;
+				}
+			.thumbnails .th_video {
+			   width:190px;
+			   height:130px;
+			   }
+			.thumbnails .th_photo A,
+			.thumbnails .th_video A {
+				text-decoration:none;
+				width:165px;
+				}
+				.thumbnails_j .th_photo A,
+  			.thumbnails_j .th_video A {
+  				text-decoration:none;
+  				width:80px;
+  				}
+			.thumbnails .th_video A {width:190px;}
+			.thumbnails .th_photo A SPAN,
+			.thumbnails .th_photo A EM {
+				display:block;
+				width:165px;
+				height:120px;
+				line-height:130px;
+				background:#EEE;
+				border:1px solid #D7D7D7;
+				text-align:center;
+				color:#000;
+				font:1.1em/120px Arial,sans-serif;
+				text-decoration:underline;
+				}
+			.thumbnails .th_photo A EM {
+				text-decoration:none;
+				background:#EEE url(../i/ajax-loader2.gif) 68px 56px no-repeat;
+				}
+			.thumbnails .user-name {margin:10px 0 5px;}
+			.thumbnails .th_vote {
+				margin-top:5px;
+				padding-left:24px;
+				background:url(../i/th_vote.gif) 0 50% no-repeat;
+				line-height:20px;
+				}
+			.thumbnails .th_voted {
+				margin-top:10px;
+				padding-left:0px;
+				line-height:20px;
+				font-size:.9em;
+            white-space:nowrap;
+				}
+			.thumbnails .th_editphoto LI {
+				display:block;
+				width:auto;
+				float:left;
+				margin:0;
+				padding:0;
+				}
+         .thumbnails .th_editphoto LI A,
+         .thumbnails .th_edittitle A {
+            display:block;
+            width:25px;
+            height:25px;
+            overflow:hidden;
+            background-position:-25px -259px;
+            }
+         .thumbnails .th_edittitle A.edit-ok {
+            background-position:-75px -259px;
+            width:54px;
+            }
+         .thumbnails .th_editphoto LI A.edit-ccw {background-position:0 -259px;}
+         .thumbnails .th_editphoto LI A.edit-erase {background-position:-50px -259px;}
+         .thumbnails A B {display:none;}
+         .thumbnails .jury-vote .del {color:red;}
+
+/* Thumbnails Jury
+-------------------------------------- */
+.thumbnails_j {width:90%;}
+   .thumbnails_j LI {
+      margin:0 30px 20px 0;
+      height:9em;
+      }
+      .thumbnails_j .th_photo {margin-bottom:10px;}
+
+/* Pagination
+-------------------------------------- */
+.pagination {clear:both;}
+	.pagination DL {padding:1em 0 0 0;}
+		.pagination DT {
+			font-size:24px;
+			display:inline;
+			margin:0 .5em;
+			color:#295B16;
+			}
+		.pagination DD {
+			font-size:16px;
+			display:inline;
+			}
+			.pagination DT A {padding:0 6px;}			
+			.pagination DD A {
+			   text-decoration:none;
+			   padding:2px 6px
+			   }
+			.pagination DD.active A,
+			.pagination DD A:hover{
+				background:#295B16;
+				color:#FFF;
+				}
+
+/* List/Map Switcher
+-------------------------------------- */
+.list-map-switcher,
+.list-map-switcher SPAN,
+.list-map-switcher EM,
+.list-map-switcher B {
+	display:block;
+	overflow:hidden;
+	height:40px;
+	padding:0 0 0 6px;
+	margin:0;
+	float:left;
+	font-size:24px;
+	font-style:normal;
+	color:#FFF;
+	font-weight:normal;
+	}
+.list-map-switcher {
+   float:right;
+   margin-top:8px;
+   }
+.list-map-switcher BR {display:none;}
+	.list-map-switcher SPAN {
+		background-position:100% -71px;
+		padding:0 6px 0 0;
+		}
+		.list-map-switcher EM {
+			height:31px;
+			padding:0 0 0 10px;
+			line-height:31px;
+			background-position:0 -40px;
+			margin:4px 0;
+			}
+			.list-map-switcher B {
+				height:31px;
+				background-position:100% -40px;
+				padding:0 10px 0 0;
+				}
+		.list-map-switcher A {
+			display:block;
+			float:left;
+			background:none;
+			margin:0 10px;
+			padding:0;
+			color:#3A801F;
+			line-height:40px;
+			text-decoration:none;
+			}
+		.list-map-switcher A:hover {color:red;}
+
+/* Photo Themes
+-------------------------------------- */		
+.photo-themes {
+	display:block;
+	clear:both;
+	width:940px;
+	margin:0;
+	padding:.6em 0 1em 0;
+	}
+	.photo-themes LI {
+		display:inline;
+		margin-right:14px;
+		line-height:30px;
+		}
+		.photo-themes LI A,
+		.photo-themes LI B {
+			font-size:14px;
+			text-decoration:none;
+			border-bottom:1px dashed #5B9729;
+			}
+	   .photo-themes LI B {
+   	   font-weight:normal;
+      	color:#7A7B7A;
+      	border:none;
+      	}
+	
+/* Big Buttons
+-------------------------------------- */
+.big-button,
+.big-button B {
+	display:block;
+	border:0;
+	float:left;
+	height:42px;
+	overflow:hidden;
+	background-position:0 -111px;
+	padding:0 0 0 15px;
+	color:#FFF;
+	font:bold 20px Arial;
+	text-decoration:none;
+	white-space:nowrap;
+	}
+   .big-button B {
+   	line-height:42px;
+   	padding:0 15px 0 0;
+   	background-position:100% -111px;
+   	cursor:pointer;
+   	}
+.big-button.blue {background-position:0 -153px;}	
+.big-button.blue B {background-position:100% -153px;}
+	
+/* One Photo
+-------------------------------------- */
+.one-photo {padding:0 20px;}
+	.one-photo DL {
+		display:block;
+		width:220px;
+		float:right;
+		text-align:left;
+		margin:0;
+		padding:0;
+		}
+		.one-photo DD,
+		.one-photo DT {
+			padding:0 0 10px 0;
+			margin:0;
+			display:block;
+			clear:both;
+			overflow:hidden;
+			width:100%;
+			}
+		.one-photo DT {padding-top:35px;}
+		.filed-shadow {
+			display:block;
+			padding:10px 5px;
+			background:url(../i/field-shadow.png) 0 0 no-repeat;
+			border:1px solid #DDD;
+			border-color:#7C7C7C #C3C3C3 #DDD #C3C3C3;
+			}
+	.big-photo {
+		display:block;
+		float:left;
+		padding:10px;
+		background:#EED;
+		}
+		.big-photo IMG {
+			display:block;
+			border:1px solid #FFF;
+			font-size:10px;
+			}
+	.pic-info .mini-map {width:220px;}
+   .pic-info .author {font-size:2.6em;}
+   .pic-info .topic {
+      font-size:1.4em;
+      line-height:1.4;
+      margin-bottom:10px;
+      }
+   .pic-info P {margin-bottom:10px;}
+   .pic-info TEXTAREA {width:99%;}
+   .points-map {
+          width: 100% !important;
+          height: 400px !important;
+          }
+
+/* Map Linking
+-------------------------------------- */
+.map-linking {
+	padding:0 0 0 20px;
+	clear:both;
+	}
+.thumnails-small {
+	float:left;
+	width:210px;
+	}
+   .thumnails-small LI {
+   	display:block;
+   	float:left;
+   	height:90px;
+   	width:100px;
+   	}
+      .thumnails-small LI A {
+      	display:block;
+      	width:90px;
+      	height:90px;
+      	position:relative;
+      	}
+         .thumnails-small LI A IMG {
+         	display:block;
+         	border:3px solid #FFF;
+         	position:absolute;
+         	left:0;
+         	bottom:0;
+         	}
+         .thumnails-small LI.th-notonmap A IMG {border-color:#FF0000;}
+         .thumnails-small LI A:hover IMG,
+         .thumnails-small LI.th-selected A IMG {border-color:#459423;}
+.map-linking-right {
+	float:left;
+	width:200px !important;
+	}	
+.map-linking-center {
+	padding:10px;
+	background:#EED;
+	float:left;
+	}
+/*.map-linking-center object, .map-linking-center img {
+	border:1px solid #FFF;
+	}*/
+	
+/* Big Pictures
+-------------------------------------- */	
+.big-pictures {
+	display:block;
+	height:172px;
+	width:822px;
+	margin-left:85px;
+	background:url(../i/pictures-big.png) 0 0 no-repeat;
+	}
+.big-pictures.voting {
+   margin-top:70px;
+	background-image:url(../i/voting-big.png);
+	}
+.big-pictures.to-exh {
+   margin-top:-60px;
+   height:306px;
+   background:url(../i/weekend/to-exh.png) no-repeat;
+   }
+.big-pictures B {display:none;}
+.view-block {
+	float:left;
+	width:345px;
+	}
+.view-block A {
+	display:block;
+	padding-top:165px;
+	background:url(../i/pictures.png) left center no-repeat;
+	font-size:26px;
+	}
+.view-block.videos A {background-image:url(../i/type.png);}
+
+/* STYLES OVERRIDE FOR THIS PAGE */	
+.hello .weekend-body,
+.hello  .head {
+   width:auto !important;
+   height:auto !important;
+   background:none !important;
+   min-height:0!important;
+   display:block;
+   padding-left:0;
+   }
+.hello .weekend-body  .head .to-reg-small {
+   float:left;
+   display:block;
+   }
+/* END OF OVERRIDE */
+
+/* Video Object
+-------------------------------------- */
+.video-object {
+	margin-top:8px;
+	float:right;
+	padding:10px;
+	background:#CBEDBC;
+	}
+.video-object IMG,
+.video-object OBJECT {
+	display:block;
+	border:1px solid #FFF;
+	}
+
+/* Checkpoints
+-------------------------------------- */	
+.creative-teams {margin-left:85px;}
+.creative-teams DT {margin-bottom:20px}
+   .creative-teams DT STRONG {font:2em Arial,sans-serif;}
+.creative-teams DD {
+	width:180px;
+	float:left;
+	text-decoration:none;
+	margin-bottom:32px;
+	}
+   .creative-teams DD BR {display:none}
+   .creative-teams DD IMG {
+   	display:block;
+   	border:0;
+   	}
+	.creative-teams DD STRONG {text-decoration:underline;}
+
+/* Upload Not Logged
+-------------------------------------- */	
+.upload-notlogged-form H2 {
+	font-size:30px;
+	padding:30px 0
+	}
+   .upload-notlogged-form FORM FIELDSET {
+   	display:block;
+   	float:left;
+   	width:470px;
+   	padding:20px 10px;
+   	border:1px solid #99C6A8;
+   	}
+.upload-notlogged-form .big-button {margin-top:24px;}
+.upload-notlogged-form INPUT {
+	display:block;
+	width:170px;
+	font-size:16px;
+	line-height:20px;
+	margin-top:5px;
+	border:1px solid #658BAE;
+	}
+.upload-notlogged-form LABEL {
+	display:block;
+	float:left;
+	width:185px;
+	}
+.upload-notlogged-form .form-help  {
+	border:1px solid #99C6A8;
+	border-width:1px 1px 1px 0;
+	background:url(../i/form-help-bg.png);
+	width:200px;
+	height:55px;
+	float:left;
+	text-align:center;
+	color:#007025;
+	font-size:14px;
+	overflow:hidden;
+	margin:22px 0 0 -1px;
+	}
+.upload-notlogged-form .form-help P {margin-top:12px;}
+.upload-notlogged-form SMALL {
+	color:#959595;
+	display:block;
+	padding:10px 0 0 0;
+	}
+.upload-notlogged-form BR {
+	display:block;
+	height:1px;
+	overflow:hidden;
+	clear:both;
+	}
+.upload-notlogged-form LEGEND {display:none;}
+
+/* Map
+-------------------------------------- */	
+.look-map {padding:16px 32px;}
+.photo-on-map {
+	padding:1px;
+	background-color:#FFF;
+   }
+
+/* Partners
+-------------------------------------- */
+.weekend-body .partners {margin:0 30px;}
+   .weekend-body .partners LI {
+      margin-bottom:20px;
+      line-height:1.5em;
+      overflow:hidden;
+      }
+   .weekend-body .partners P {margin-bottom:5px;}
+   .weekend-body .partners IMG {
+      float:left;
+      margin:0 40px 30px 0;
+      }
+      
+/* Winners
+-------------------------------------- */
+.to-winners {
+   display:block;
+   width:210px;
+   margin:-60px 0 0 85px;
+   padding-top:105px;
+   font-size:1.8em;
+   background:url(../i/weekend/to-winners.png) 10px 0 no-repeat;
+   }
+
+/* Found
+-------------------------------------- */
+.found .weekend-body,
+#page.found {margin-bottom:0 !important;}
+   .found .text {width:900px;}
+   .found .address {
+      width:185px;
+      float:right;
+      }
+   .found P {
+      line-height:1.5;
+      margin-bottom:10px;
+      }
+   .found H2 {
+      width:620px;
+      height:188px;
+      margin-bottom:30px;
+      background:url(../i/weekend/found-h.png) no-repeat;
+      text-indent:-9999px;
+      }
+   .found H3 {
+      font:bold 1.1em Arial,sans-serif;
+      margin-bottom:10px;
+      }
+   .found .ab-exh {
+      width:240px;
+      padding-left:470px;
+      padding-bottom:100px;
+      background:url(../i/weekend/found-bg.jpg) no-repeat;
+      }
+      
+/* Winners
+-------------------------------------- */
+.winners {
+   margin:0 30px;
+   overflow:hidden;
+   }
+   .winners H3 {
+      font:bold 1.1em Arial,sans-serif;
+      margin-bottom:10px;
+      }
+   .winners P {
+      line-height:1.4;
+      margin-bottom:10px;
+      }
+.about-winners {
+   width:175px;
+   float:right;
+   margin-left:40px;
+   }
+.winner {
+   overflow:hidden;
+   margin-bottom:80px;
+   }
+   .winner .picture {
+      float:left;
+      margin:0 20px 0 0;
+      border:5px solid #EFECDD;
+      padding:0;
+      }
+      .winner .picture IMG {vertical-align:bottom;}
+   .winner .topic {
+      background:#E8F4E0;
+      padding:5px 15px;
+      color:#285A15;
+      font-size:2.8em;
+      margin-left:240px;
+      }
+   .winner DD,
+   .winner DT {
+      margin:0 0 10px 240px;
+      padding:0 15px;
+      }
+   .winner DT {
+      font:bold 1.2em Arial,sans-serif;
+      margin-bottom:20px;
+      }
+   .winner .address {margin-bottom:20px;}

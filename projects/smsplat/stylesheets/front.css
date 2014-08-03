@@ -1,0 +1,338 @@
+#content.front H3 {
+   font-size:1.9em;
+   margin:0 0 20px 43px;
+   }
+#content.inner H1 {
+   font:2.8em Georgia,serif;
+   margin:0 0 18px 43px;
+   color:#000;
+   }
+#content.inner H2 {
+   font:1.8em Georgia,serif;
+   margin:0 0 18px 43px;
+   color:#000;
+   }
+
+/* Main promo block
+-------------------------------------- */
+#teaserblock .body {
+	width: 1000px;
+	height: 240px;
+	overflow: hidden;
+    position:relative;
+}
+#teaserblock .container {
+	width: 8000px;
+	height: 240px;
+}
+.promo {
+   margin:0 0px 20px;
+   padding:30px 30px 35px 400px;
+   height:160px;
+   float: left;
+   width: 570px;
+   border-top:1px solid #CCC;
+   overflow:hidden;
+   }
+#promo_1 {
+   background:url(../images/teaser1.jpg) 50px 23px no-repeat;
+   }
+#promo_2 {
+   background:url(../images/teaser2.jpg) 50px 23px no-repeat;
+   }
+#promo_3 {
+   background:url(../images/teaser3.jpg) 50px 23px no-repeat;
+   }
+#promo_4 {
+   background:url(../images/teaser4.jpg) 50px 23px no-repeat;
+   }
+#promo_5 {
+   background:url(../images/teaser5.jpg) 50px 23px no-repeat;
+   }
+#promo_6 {
+   background:url(../images/teaser6.jpg) 50px 23px no-repeat;
+   }
+#promo_7 {
+   background:url(../images/teaser7.jpg) 50px 23px no-repeat;
+   }
+   .promo H1 {
+      font-size:2.3em;
+      margin-bottom:15px;
+      color:#1A3B60;
+      }
+   .promo P {width:440px;}
+   #teaserblock .more {
+      display:block;
+      width:80px;
+      height:24px;
+      position:absolute;
+      right:30px;
+      bottom:10px;
+      z-index: 10;
+      background:url(../images/forms/more.png) no-repeat;
+      text-indent:-9999px;
+      }
+      
+/* Main navigation
+-------------------------------------- */
+.nav {
+   margin:0 7px 23px;
+   padding-left:10px;
+   height:3em;
+   overflow:hidden;
+   background:url(../images/nav-bg.png) repeat-x;
+   }
+   .nav LI {
+      float:left;
+      width:75px;
+      padding:0 40px;
+      margin:0 17px 10px;
+      font-size:.9em;
+      }
+   .nav STRONG,
+   .nav A {
+      display:block;
+      padding-top:20px;
+      text-align:center;
+      }
+   .nav A, .nav STRONG {
+      background:url(../images/nav-inactive.png) 50% 0 no-repeat;
+      color:#000;
+      }
+   .nav A.selected, .nav STRONG.selected {
+      background:url(../images/nav-active.png) 50% 0 no-repeat;
+      color:#FF6633;
+      }
+      
+/* News
+-------------------------------------- */
+#content .news {
+   margin:0 0 20px 43px;
+   overflow:hidden;
+   }
+   #content .news A {color:#FF6633;}
+   #content .news LI {
+      float:left;
+      width:290px;
+      margin-right:20px;
+      color:#333;
+      }
+   #content .news .date {
+      display:block;
+      color:#999;
+      margin-bottom:5px;
+      }
+   #content .news .archive {
+      padding-right:22px;
+      background:url(../images/ico/news.png) 100% 50% no-repeat;
+      }
+      
+/* Texts
+-------------------------------------- */
+#content .texts {
+   margin:0 0 0 43px;
+   overflow:hidden;
+   }
+   #content .texts H3 {margin-left:0;color:#000;}
+   #content .texts LI {
+      float:left;
+      width:290px;
+      padding-top:20px;
+      margin-right:20px;
+      color:#333;
+      }
+   #content .texts .sep {border-top:1px solid #E5E5E5;}
+   #content .texts H5 {
+      font-size:1.1em;
+      color:#000;
+      padding-bottom:5px;
+      }
+   #content .texts .no-heading {
+      padding-top:5.3em;
+      }
+   #content .texts .pic {
+      float:left;
+      margin:0 10px 3px 0;
+      }
+   #content .texts .block {
+      margin-top:2.2em;
+      width:223px;
+      background:url(../images/block-bg.png) repeat-y;
+      }
+      #content .texts .block .t {background:url(../images/block-t.png) no-repeat;}
+      #content .texts .block .b {
+         padding:20px 18px;
+         background:url(../images/block-b.png) 0 100% no-repeat;
+         }
+         
+/* Submenu
+-------------------------------------- */
+.submenu {
+   margin:-10px 7px 35px;
+   overflow:hidden;
+   padding:0 35px 8px;
+   background:url(../images/submenu-bg.png) 0 100% no-repeat;
+   }
+   .submenu LI {
+      float:left;
+      font-size:.85em;
+      margin-right:11px;
+      }
+   .submenu LI.active {background:#FF5E0B url(../images/submenu-act-bg.png) repeat-x;}
+      .submenu LI STRONG {
+         display:block;
+         background:url(../images/submenu-act-t-l.png) no-repeat;
+         }
+         .submenu LI STRONG SPAN {
+            display:block;
+            background:url(../images/submenu-act-t-r.png) 100% 0 no-repeat;
+            }
+            .submenu LI STRONG SPAN SPAN {background:url(../images/submenu-act-b-l.png) 0 100% no-repeat;}
+               .submenu LI STRONG SPAN SPAN SPAN {
+                  display:block;
+                  padding:4px 9px;
+                  color:#FFF;
+                  font-weight:bold;
+                  background:url(../images/submenu-act-b-r.png) 100% 100% no-repeat;
+                  }
+               .submenu LI A SPAN SPAN SPAN {
+                  display:block;
+                  padding:4px 9px;
+                  color:#000;
+                  }
+                  
+/* About
+-------------------------------------- */
+#content.inner .about {
+   width:720px;
+   margin:0 27px 30px 11px;
+   float:left;
+   }
+   #content.inner .about .pic {
+      display:block;
+      margin-bottom:20px;
+      }
+   #content.inner .about P {
+      margin:0 15px 15px 31px;
+      font-size:1.1em;
+      line-height:1.6;
+      }
+   #content.inner .about .add-your-own {
+      display:block;
+      width:135px;
+      height:24px;
+      margin-left:31px;
+      background:url(../images/forms/your-own.png) no-repeat;
+      text-indent:-9999px;
+      }
+      
+/* About-menu
+-------------------------------------- */
+#content.inner .about-menu {
+   width:195px;
+   float:left;
+   margin-bottom:30px;
+   border:1px solid #D1D8DF;
+   }
+   #content.inner .about-menu H3 {
+      background:#D1D8DF;
+      font-size:1.1em;
+      padding:8px 10px;
+      border-bottom:1px solid #DCE1E6;
+      }
+      #content.inner .about-menu H3 A {
+         color:#1A3B60;
+         font-weight:normal;
+         padding-right:25px;
+         }
+      #content.inner .about-menu .unfolded H3 A {background:url(../images/about-arr.png) 100% 55% no-repeat;}
+      #content.inner .about-menu .unfolded H3 {border:none;}
+      #content.inner .about-menu .unfolded .text {display:block;}
+      #content.inner .about-menu .text {
+         text-align:center;
+         padding:25px 18px;
+         display:none;
+         font-size:.85em;
+         line-height:1.5;
+         }
+      #content.inner .about-menu .text A {
+         color:#FFF;
+         font-weight:normal;
+         background:#FF6F37;
+         }
+      
+/* Examples
+-------------------------------------- */
+#content.inner .examples {
+   overflow:hidden;
+   margin:0 0 40px 32px;
+   }
+   #content.inner .examples LI {
+      float:left;
+      width:165px;
+      margin-right:15px;
+      }
+   #content.inner .examples IMG {
+      display:block;
+      margin:0 0 12px 11px;
+      }
+   #content.inner .examples H4 {
+      font-size:1.1em;
+      color:#D4491B;
+      margin-bottom:5px;
+      padding-left:14px;
+      background:url(../images/example-bull.png) 0 50% no-repeat;
+      }
+   #content.inner .examples H4 A {color:#D4491B;}
+   #content.inner .examples P {
+      margin-left:13px;
+      font-size:.85em;
+      line-height:1.3;
+      }
+      
+/* Promo text
+-------------------------------------- */
+#content.inner .promo-text {
+   width:655px;
+   float:left;
+   margin:0 50px 0 35px;
+   }
+   #content.inner .promo-text .pic {
+      float:left;
+      margin-right:20px;
+      }
+   #content.inner .promo-text P {
+      padding:15px 0;
+      font-size:1.1em;
+      line-height:1.6;
+      }
+      
+/* Help
+-------------------------------------- */
+#content.inner .help {
+   width:206px;
+   float:left;
+   }
+   #content.inner .help .block {background:url(../images/inner-block-bg.png) repeat-y;}
+   #content.inner .help .block .t {background:url(../images/inner-block-t.png) no-repeat;}
+   #content.inner .help .block .b {
+      background:url(../images/inner-block-b.png) 0 100% no-repeat;
+      padding:16px 18px 12px;
+      }
+   #content.inner .help .block H5 {
+      font-size:1.8em;
+      margin-bottom:10px;
+      }
+   #content.inner .help .block P {
+      color:#414646;
+      line-height:1.4;
+      font-size:.9em;
+      margin-bottom:10px;
+      }
+   #content.inner .help .how-to {
+      display:block;
+      width:116px;
+      height:24px;
+      background:url(../images/forms/how.png) no-repeat;
+      text-indent:-9999px;
+      }

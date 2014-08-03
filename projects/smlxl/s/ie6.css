@@ -1,0 +1,98 @@
+/* Modal Boxes
+---------------------------------------- */
+HTML.modal, .modal BODY {height:100%;overflow:hidden;}
+#modal-shadow {position:absolute;width:100%;height:100%;zoom:1;}
+
+/* PNG-24 Filters
+---------------------------------------- */
+A.like-it,
+.tshirt-picture .main .like-it A {
+	background:none;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../i/ico/like-dis-20.png',sizingMethod='crop');
+	}
+A.like-yes,
+.tshirt-picture .main .like-yes A,
+.signup .wishlist H2 .ico,
+A.like-it:hover {
+	background:none;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../i/ico/like-en-20.png',sizingMethod='crop');
+	}
+.star-it {
+	background:none;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../i/ico/star-dis-22.png',sizingMethod='crop');
+	}
+.star-yes,
+.star-it:hover {
+	background:none;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../i/ico/star-en-22.png',sizingMethod='crop');
+	}
+.fit-it {
+	background:none !important;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../i/ico/hanger-dis.png',sizingMethod='crop');
+	}
+.fit-yes,
+.fit-it:hover {
+	background:none !important;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../i/ico/hanger-en.png',sizingMethod='crop');
+	}		
+.tshirts-block .wishlist-block .hint .like {
+	background:none;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../i/ico/like-dis-20.png',sizingMethod='crop');
+	zoom:1;
+	}
+.tshirts-block .wishlist-block .hint .like.yes {
+	background:none;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../i/ico/like-en-20.png',sizingMethod='crop');
+	}
+.fitting-room .model {margin-right:0;}
+.main-nav .categories .color .cur {
+	background:none;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../i/bg/color-cur.png',sizingMethod='crop');
+	}
+.main-nav .categories .color .white .cur {
+	background:none;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../i/bg/color-cur-black.png',sizingMethod='crop');
+	}
+.modal-box .switcher .l A:hover {background:url(../i/btn/switcher-l-ie.png) 0 50% no-repeat;}
+.modal-box .switcher .r A:hover {background:url(../i/btn/switcher-r-ie.png) 100% 50% no-repeat;}
+
+/* Just Hacks
+---------------------------------------- */
+#header .menu .tshirts A {padding:8px 11px 7px;}
+.tshirts-wall UL {
+	position:relative;
+	overflow:hidden;
+	top:0;
+	left:0;
+	}
+.tshirts-wall LI {width:140px;}
+.ico {top:1px;}
+.content {zoom:1;}
+.tshirt-page .link-embed, .tshirt-page .brand {padding-bottom: 0 !important;} /* double padding in cleared block*/
+.tshirt-page UL.tab LI {display: inline;}
+.tshirts-block .wishlist-block.full .help SPAN {left:0;}
+.tshirts-block .wishlist-block DT {zoom:1;}
+.tshirt-picture .views LI {margin-right:0;}
+.signup .wishlist .cor {right:-1px;}
+#search .scan .show-all {zoom:1;}
+.tshirts-block .wishlist-block DD {
+	width:90px !important;
+	zoom:1;
+	height:204px;
+	}
+.tshirts-block .wishlist-block LI {zoom:1;}
+.tshirts-block .wishlist-block.full .help {zoom:1;}
+.main-nav .categories .color {width:92px;}
+.main-nav .categories .scrollable {
+	margin-right:5px;
+	height: expression( this.scrollHeight > 182 ? "182px" : "auto" );
+	}
+.fitting-room .tshirts-block {
+	height: expression( this.scrollHeight < 500 ? "500px" : "auto" );
+	}
+
+/* Tshirt Page
+---------------------------------------- */
+.tshirt-page .shop .address {
+	zoom: 1;
+}

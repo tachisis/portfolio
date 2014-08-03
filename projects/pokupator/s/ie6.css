@@ -1,0 +1,273 @@
+/* HasLayout
+---------------------------------------- */
+.product-card,
+.with-tabs .tabs,
+.responses .actions,
+#footer,
+.product-card .i-am .my-relation .b-r,
+.with-tabs .actions .b-r,
+.product-card .price,
+#main-nav .steps,
+.request .count DL,
+.request .actions,
+.request .actions .t-r,
+.request .actions .b-r,
+.request .actions .b-l,
+#picture-popup .views UL,
+#content .service-note,
+.tender-main .offer .heading .t-r,
+.tender-main .offer .chat DD,
+.tender-main .offer .delivery,
+.tender-main .offer .discount,
+.tender-main .offer .item .offer-me,
+.tender-main .offer {
+	zoom:1;
+	}
+	
+#main-nav .main .item .l,
+.my-requests .request-block .heading UL,
+.my-requests .request-block,
+.basket,
+.my-requests,
+.popup.alternative .next,
+#main-page .main-promo-tabs,
+#main-page .main-promo-container UL,
+#main-page .main-actions,
+.main-page-promo .promo .data,
+.main-page-promo .promo-tabs,
+.tender-main .offer .analogues .list LI,
+.product-card .about .heading .h-note .dropdown LI,
+.why-pokupator DL,
+.product-card .product-ad H4,
+.product-card .product-ad .b,
+.basket .offer .item .mod-block .mod-list LI,
+.basket .offer .item .small-nav {
+	zoom:1;
+	}
+.basket .actions .b-r,
+.virtual-basket .heading .cor-t-r,
+.virtual-basket .models .dropdown LI,
+.virtual-basket,
+.virtual-basket .models {
+	zoom:1;
+	}
+
+/* Png24 Fix
+---------------------------------------- */
+.products-viewer .mark-8 {
+	background:none;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../i/admin/mark-8.png',sizingMethod='crop');
+	}
+.products-viewer .mark-7 {
+	background:none;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../i/admin/mark-7.png',sizingMethod='crop');
+	}
+.popup.logging .t {
+	background:none;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../i/corners/logging-t.png',sizingMethod='crop');
+	}
+.popup.logging .b {
+	background:none;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../i/corners/logging-b.png',sizingMethod='crop');
+	}
+.popup.logging .bg {
+	width:356px;
+	padding:0;
+	background:none;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../i/bgs/logging-bg.png',sizingMethod='scale');
+	}
+.global-hint .tail {
+	background:none;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../i/bgs/bubble-tail-b.png',sizingMethod='crop');
+	}
+.global-hint.top .tail {
+	background:none;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../i/bgs/bubble-tail-t.png',sizingMethod='crop');
+	}
+.global-hint .t {
+	background:none;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../i/corners/bubble-t.png',sizingMethod='crop');
+	}
+.global-hint .b {
+	background:none;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../i/corners/bubble-b.png',sizingMethod='crop');
+	}
+#main-page.v4 .main-request-form .hint .t {
+	background:none;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../i/corners/mainpage-hint.png',sizingMethod='crop');
+	}
+#main-page.v4 .main-request-form .hint .b {
+	background:none;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../i/corners/mainpage-hint-b.png',sizingMethod='crop');
+	}
+.product-card .product-ad.blue .rosette {
+	background:none;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../i/bgs/rosette-blue.png',sizingMethod='crop');
+	}
+.product-card .product-ad.orange .rosette {
+	background:none;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../i/bgs/rosette-orange.png',sizingMethod='crop');
+	}
+.product-card .product-ad .btn SPAN {
+	background:none;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../i/buttons/ad-btn.png',sizingMethod='crop');
+	}
+.button.orange-transp {
+	width:160px;
+	margin-left:0 !important;
+	background:none;
+	text-align:center;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../i/buttons/ad-btn-ie.png',sizingMethod='crop');
+	}
+.tender-main .offer .summary .info .moneyback .rosette {
+	background:none;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../i/bgs/moneyback-rosette.png',sizingMethod='crop');
+	}
+
+/* Just Hacks
+---------------------------------------- */
+BODY, HTML {height:100%;}
+BODY {background:#FFF url(about:blank) fixed;}
+#shadow,
+.popup {
+	position:absolute;
+	top:expression(0+((e=document.documentElement.scrollTop)?e:document.body.scrollTop)+'px');
+	}
+.popup {margin-top:100px;}
+.popup.logging .data {margin:0 10px;}
+.popup.logging .submit-panel {
+	padding:12px 0 3px;
+	margin:0 12px;
+	}
+.popup.logging .note A {
+	position:relative;
+	zoom:1;
+	}
+.request .main {margin-top:0;}
+#main-nav .dropdown .list {width:170px !important;}
+.request .address-details .street {width:190px;}
+.request .when .data {margin-left:0;float:left;}
+.questions .response DD .answer-text {margin-top:-10px;}
+.questions .response DD .answer-text .b-r {padding-bottom:8px;padding-top:8px;}
+.questions .response DD .d5-block TEXTAREA,
+.questions .response DD .d5-block INPUT {width:98%;}
+.product-pictures .pic {height:207px;}
+#main-nav .tender {
+	width: 917px;
+	padding-right: 0 !important;
+	padding-left: 0 !important
+	}
+#main-nav .tender .tender-info {
+	margin-bottom:0;
+	width: 100%;
+	}
+#main-nav .tender .tender-info .status {margin-left: 12px;}
+#main-nav .tender-tabs {
+	width: 865px;
+	margin-left: 27px;
+	margin-right: 25px;
+	}
+#status-bar {
+	width: 902px;
+	padding-right: 15px;
+	}
+.change-details .when .data .chk input {
+	left: auto;
+	position: static;
+	}
+.change-details .when .data .chk textarea {
+	width:300px;
+	display: block;
+	float: left;
+	left: 0;
+	clear: both !important
+	}
+.change-details {width: 900px;}
+.tender-main .offer .item .offer-me LI {position:static;}
+.tender-main .offer .item .offer-me .del {display:none !important;}
+.popup INPUT,
+.popup TEXTAREA {
+	position:relative;
+	zoom:1;
+	}
+#main-nav .tender {
+	width:100%;
+	float:none;
+	}
+.request .when .first-time .signup-form .pass {
+	width:auto;
+	zoom:1;
+	}
+.product-card .product-ad {margin-left:10px;}
+
+/* Corners Positioning
+---------------------------------------- */
+.specs .show .cur .t-r,
+.catalog .sort .cur .t-r,
+.with-tabs .tabs .t-r,
+.paging .cur .t-r,
+#main-nav .tender-tabs .t-r,
+.catalog .catalog-list .high .t-r,
+.catalog .catalog-list .low .t-r {right:expression(parentNode.offsetWidth%2?-1:0);}
+
+.specs .show .cur .b-l,
+.catalog .sort .cur .b-l,
+.paging .cur .b-l,
+.catalog .catalog-list .high .b-l,
+.catalog .catalog-list .low .b-l {bottom:expression(parentNode.offsetHeight%2?-1:0);}
+
+.specs .show .cur .b-r,
+.catalog .sort .cur .b-r,
+.paging .cur .b-r,
+.catalog .catalog-list .high .b-r,
+.catalog .catalog-list .low .b-r {
+	bottom:expression(parentNode.offsetHeight%2?-1:0);
+	right:expression(parentNode.offsetWidth%2?-1:0);
+	}
+.tender-main .offer I.t-r,
+.my-requests .request-block I.t-r {right:expression(parentNode.offsetWidth%2?-2:-1);}
+.tender-main .offer I.b-l,
+.my-requests .request-block I.b-l {bottom:expression(parentNode.offsetHeight%2?-2:-1);}
+.tender-main .offer I.b-r,
+.my-requests .request-block I.b-r {
+	bottom:expression(parentNode.offsetHeight%2?-2:-1);
+	right:expression(parentNode.offsetWidth%2?-2:-1);
+	}
+.catalog .catalog-list .very-high .t-r,
+.main-page-promo .promo .t-r {right:expression(parentNode.offsetWidth%2?-3:-2);}
+.catalog .catalog-list .very-high .b-l,
+.main-page-promo .promo .b-l {bottom:expression(parentNode.offsetHeight%2?-3:-2);}
+.catalog .catalog-list .very-high .b-r,
+.main-page-promo .promo .b-r {
+	bottom:expression(parentNode.offsetHeight%2?-3:-2);
+	right:expression(parentNode.offsetWidth%2?-3:-2);
+	}
+.change-details I {
+	height:16px;
+	position:absolute;
+	width:15px;
+	z-index:1;
+	}
+.change-details I.b-r {bottom:-5px;}
+.change-details I.b-l {bottom:-5px;}
+#main-page .main-promo-tabs {margin-left:-4px;}
+.main-page-tab-data LI {height:85px;}
+.main-page-top .make-offer .offer .txt {height:116px;}
+.tender-main .offer .analogues .info {
+	width:390px;
+	margin:0 10px;
+	}
+.product-card .about .heading .h-note .dropdown UL {height: expression( this.scrollHeight > 299 ? "300px" : "auto" );}
+#main-page.v4 .main-request-form .hint.requests {left:-100px;top:-50px;}
+#main-page.v4 .main-request-form .hint.stores {top:-85px;}
+#main-page.v4 .main-request-form .hint.examples {top:90px;}
+.tender-main .offer .analogues .list {height:330px;}
+.button.orange-transp .r {
+	background:none;
+	position:relative;
+	}
+.product-card .product-ad .b {padding-left:105px;}
+.basket .offer .item .mod-block .mod-list {height:168px;}
+.offers-info {margin-right:15px;}
+.basket .offer .item .mod-block .mod-list .about {height:37px;}
+.tender-main .offer .summary .info .moneyback .b {zoom:1;}

@@ -1,0 +1,41 @@
+.messages {
+   width:750px;
+   margin:0 19px 15px;
+   }
+   .messages UL {margin-bottom:15px;}
+   .messages INPUT {
+      float:left;
+      margin-top:5px;
+      }
+   .messages .message {
+      margin-left:35px;
+      padding:5px 12px;
+      border-bottom:1px solid #CCC;
+      }
+   .messages .message .text,
+   .messages .message .heading STRONG,
+   .messages .message.unfolded .heading A {display:none;}
+   .messages .message.unfolded {
+      border-left:7px solid #099C91;
+      border-right:7px solid #099C91;
+      padding:5px;
+      }
+   .messages .message.unfolded .text,
+   .messages .message.unfolded STRONG {display:block !important;}
+   .messages .message.unfolded .text {padding:0 50px 5px 10px;}
+   .messages .message.unfolded STRONG {
+      color:#FF3300;
+      margin-bottom:5px;
+      }
+   .messages .message .heading {
+      overflow:hidden;
+      font-size:1em;
+      }
+   .messages .message .heading A,
+   .messages .message .heading STRONG {float:left;}
+   .messages .message .heading SMALL {
+      float:right;
+      color:#8193A8;
+      }
+   .messages .btns {margin-left:45px;}
+   .messages .btns INPUT {margin-right:10px;}

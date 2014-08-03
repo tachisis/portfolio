@@ -1,0 +1,22 @@
+#header,
+.request-hint .label SPAN SPAN,
+#main-nav .main,
+#main-nav .subnav,
+.request .d5-block .b-r,
+.tender-sidebar .navigator .b-r,
+.tender-main .stores-offers DIV.b-r,
+#header .user-actions .user .b-r,
+.request .when .first-time {
+	zoom:1;
+	}
+.responses .response DT .estimate EM {padding-bottom:10px;}
+.request .count DD .counter {margin-top:-10px;}
+.request .yours TEXTAREA {width:580px;}
+#main-nav .subnav.empty {padding-bottom:0;}
+.request .delivery .cur {padding-top:12px !important;}
+#header {padding-bottom:10px;}
+.questions .response DD .d5-block textarea,	.questions .response DD .d5-block input {width:98%;}
+.offer-me FIELDSET {width:255px;}
+.main-page-top .make-offer .submit {margin-bottom:0;}
+.product-card .about .heading .h-note .dropdown {z-index:100;}
+.virtual-basket .models .dropdown {width:317px;}

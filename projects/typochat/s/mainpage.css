@@ -1,0 +1,184 @@
+/* Mainpage Header
+---------------------------------------- */
+.mainpage #header {
+	padding:25px 0;
+	background-color:#000;
+	}
+	.mainpage #header .inner {
+		width:655px;
+		margin:0 auto;
+		min-width:655px;
+		}
+	.mainpage #header H1 {font-size:1.9em;}
+		.mainpage #header H1 SMALL {
+			color:#858585;
+			font:.4em 'Trebuchet MS',Arial,sans-serif;;
+			}
+
+/* Enter Form
+---------------------------------------- */
+.enter {
+	margin-bottom:20px;
+	font-size:.8em;
+	}
+	.enter FIELDSET {
+		width:100%;
+		overflow:hidden;
+		padding-bottom:10px;
+		}
+	.enter I {
+		width:3px;
+		height:3px;
+		background:url(../i/design/enter-cor.gif) no-repeat;
+		}
+	.enter .name {
+		position:relative;
+		float:left;
+		width:200px;
+		margin-right:10px;
+		border:solid 1px #B6B6B6;
+		border-width:1px 0 0 1px;
+		}
+		.enter .name .bor {
+			width:190px;
+			padding:3px 4px 4px;
+			border:solid 1px #EBEBEB;
+			}
+		.enter .name INPUT {
+			display:block;
+			width:190px;
+			border:none;
+			padding:0;
+			}
+		.enter .name .hint {
+			color:#C0C2C5;
+			}
+		.enter .name .t-l {
+			top:-1px;
+			left:-1px;
+			}
+		.enter .name .t-r {
+			top:-1px;
+			right:0;
+			background-position:-3px 0;
+			}
+		.enter .name .b-l {
+			bottom:0;
+			left:-1px;
+			background-position:0 -3px;
+			}
+		.enter .name .b-r {
+			background-position:-3px -3px;
+			}
+	.enter .error {
+		margin-bottom:10px;
+		color:#FF1B1B;
+		}
+		
+/* Create Chat Form
+---------------------------------------- */
+.create-chat {
+	position:relative;
+	margin-bottom:45px;
+	border:solid 1px #BFC1C2;
+	border-top:none;
+	background:#EAEAEA url(../i/design/pattern.gif);
+	}
+	.create-chat I {
+		width:3px;
+		height:3px;
+		background:url(../i/design/create-form-cor.gif) no-repeat;
+		}
+	.create-chat .t-l {left:-1px;}
+	.create-chat .t-r {
+		right:-1px;
+		background-position:-3px 0;
+		}
+	.create-chat .b-l {
+		bottom:-1px;
+		left:-1px;
+		background-position:0 -3px;
+		}
+	.create-chat .b-r {
+		bottom:-1px;
+		right:-1px;
+		background-position:-3px -3px;
+		}	
+	.create-chat FIELDSET {
+		padding:57px 15px 53px;
+		border-bottom:solid 1px #858585;
+		}
+	.create-chat .name {
+		position:relative;
+		width:320px;
+		border-top:solid 1px #858585;
+		margin:0 auto 30px;
+		}
+		.create-chat .name .bor {
+			border:solid 1px #DBDCDC;
+			padding:0;
+			}
+		.create-chat .name INPUT {
+			display:block;
+			border:none;
+			width:298px;
+			padding:10px;
+			font-size:1.4em;
+			text-align:center;
+			margin:0;
+			}
+			.create-chat .name .hint {
+  			color:#C0C2C5;
+			}
+		.create-chat .name I {
+			background:url(../i/design/create-form-name-cor.gif) no-repeat;
+			}
+		.create-chat .name .t-l {
+			top:-1px;
+			left:0;
+			}
+		.create-chat .name .t-r {
+			top:-1px;
+			right:0;
+			background-position:-3px 0;
+			}
+		.create-chat .name .b-l {
+			bottom:0;
+			left:0;
+			background-position:0 -3px;
+			}
+		.create-chat .name .b-r {
+			right:0;
+			bottom:0;
+			background-position:-3px -3px;
+			}
+	.create-chat .btn {
+		display:block;
+		margin:0 auto;
+		}
+		
+/* Features
+---------------------------------------- */
+.features {
+	width:100%;
+	overflow:hidden;
+	}
+	.features .last {margin-right:0;}
+	.features DL {
+		float:left;
+		width:195px;
+		margin-right:20px;
+		}
+	.features DT {
+		margin-bottom:10px;
+		font-size:.9em;
+		color:#6B87A1;
+		}
+		.features DT IMG {
+			display:block;
+			margin-bottom:15px;
+			}
+	.features DD {
+		font-size:.75em;
+		color:#878C8F;
+		}

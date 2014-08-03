@@ -1,0 +1,5 @@
+#container,
+#header .nav,
+#content .menu {
+   zoom:1;
+   }

@@ -1,0 +1,214 @@
+/* Main Page Version 4
+---------------------------------------- */
+/* Reassignment of old header & content styles */
+#main-page.v4 #header {
+	width:887px;
+	padding:10px 0 10px 30px;
+	font-size:12px;
+	}
+#main-page.v4 #header .info {
+	margin:0;
+	width:550px;
+	margin-right:20px;
+	}
+	#main-page.v4 #header .info UL {
+		padding:0;
+		font-size:12px;
+		}
+#main-page.v4 #header .online-help {
+	float:left;
+	padding-top:6px;
+	}
+	#main-page.v4 #header .online-help A {
+		padding-left:22px;
+		background:url(../i/ico/help.png) 0 50% no-repeat;
+		}
+#main-page.v4 #header .user-actions {margin:0;}
+	#main-page.v4 #header .user-actions .user {margin-bottom:0;}
+#main-page.v4 #content {
+	width:887px;
+	padding:0 0 80px 30px;
+	}
+/* Main New Styles */
+#main-page.v4 H2 {
+	margin-bottom:22px;
+	font:bold 26px/1 Arial,sans-serif;
+	text-align:center;
+	color:#4E4E4E;
+	}
+	#main-page.v4 H2 SPAN {cursor:pointer;}
+	#main-page.v4 H2 .hover {border-bottom:1px dashed #404040;}
+/* Main Super Logo */
+#main-page.v4 .logo-super {
+	margin-bottom:30px;
+	border:1px solid #CECECE;
+	padding:27px 20px 32px;
+	border-width:1px 0;
+	}
+	#main-page.v4 .logo-super .logo {
+		position:relative;
+		display:block;
+		width:273px;
+		height:54px;
+		padding-top:10px;
+		margin:auto;
+		overflow:hidden;
+		text-decoration:none;
+		color:#666;
+		font:36px 'Myriad Pro',Arial,sans-serif;
+		text-align:center;
+		}
+		#main-page.v4 .logo-super .logo SPAN {
+			position:absolute;
+			display:block;
+			width:100%;
+			height:100%;
+			top:0;
+			left:0;
+			background:url(../i/logo-super.png) no-repeat;
+			}
+/* Main Request Form */
+#main-page.v4 .main-request-form {position:relative;}
+#main-page.v4 .main-request-form .buy {
+	padding:28px 33px 26px;
+	margin-bottom:30px;
+	background-color:#DEEEF0;
+	}
+	#main-page.v4 .main-request-form .buy LABEL {
+		margin-right:20px;
+		font:bold 30px/1 Arial,sans-serif;
+		color:#E05D00;
+		vertical-align:middle;
+		}
+	#main-page.v4 .main-request-form .buy .txt {
+		width:515px;
+		height:40px;
+		margin-right:4px;
+		padding-left:5px;
+		border:1px solid #7E91A5;
+		font:15px Arial,sans-serif;
+		vertical-align:middle;
+		color:#444;
+		}
+	#main-page.v4 .main-request-form .buy .txt.example {
+		font:italic 15px Arial,sans-serif;
+		color:#8D8D8D;
+		}
+	#main-page.v4 .main-request-form .buy INPUT {vertical-align:middle;}
+	#main-page.v4 .main-request-form .example-offer {
+		width:100%;
+		padding-bottom:30px;
+		overflow:hidden;
+		font-size:16px;
+		}
+		#main-page.v4 .main-request-form .example-offer LABEL {
+			float:left;
+			text-align:right;
+			width:140px;
+			margin-right:20px;
+			color:#373737;
+			font-weight:bold;
+			}
+		#main-page.v4 .main-request-form .example-offer UL {
+			float:left;
+			width:720px;
+			height:44px;
+			overflow:hidden;
+			color:#676767;
+			line-height:1.3;
+			}
+		#main-page.v4 .main-request-form .example-offer LI {
+			overflow:hidden;
+			height:44px;
+			cursor:pointer;
+			}
+			#main-page.v4 .main-request-form .example-offer LI SPAN {border-bottom:1px dashed #676767;}
+		#main-page.v4 .main-request-form .hint {
+			position:absolute;
+			display:none;
+			width:302px;
+			color:#404040;
+			font:14px Arial,sans-serif;
+			z-index:100;
+			}
+			#main-page.v4 .main-request-form .hint .t {
+				height:14px;
+				font-size:0;
+				background:url(../i/corners/mainpage-hint.png) no-repeat;
+				}
+			#main-page.v4 .main-request-form .hint .b {
+				height:30px;
+				font-size:0;
+				background:url(../i/corners/mainpage-hint.png) 0 -14px no-repeat;
+				}
+			#main-page.v4 .main-request-form .hint .bg {
+				padding:0 20px;
+				border:5px solid #90AEBE;
+				border-width:0 5px;
+				background-color:#FFF;
+				}
+			#main-page.v4 .main-request-form .hint.stores {
+				top:-100px;
+				right:130px;
+				}
+			#main-page.v4 .main-request-form .hint.requests {
+				top:-65px;
+				left:90px;
+				}
+			#main-page.v4 .main-request-form .hint.examples {
+				top:80px;
+				right:130px;
+				}
+/* Main menu */
+#main-page.v4 .main-menu {
+	width:100%;
+	overflow:hidden;
+	padding-top:25px;
+	border-top:1px solid #CECECE;
+	font:bold 18px Arial,sans-serif;
+	color:#2B7DAF;
+	text-align:center;
+	}
+	#main-page.v4 .main-menu LI {
+		display:inline;
+		padding-right:75px;
+		margin-right:70px;
+		background:url(../i/bgs/main-menu-sep.gif) 100% 50% no-repeat;
+		}
+	#main-page.v4 .main-menu LI.last {
+		margin-right:0;
+		padding-right:0;
+		background:none;
+		}
+	#main-page.v4 .main-menu A:hover {text-decoration:none;}
+
+/* How It Works
+---------------------------------------- */
+.how-it-works {padding-left:30px;}
+	
+/* Why Pokupator
+---------------------------------------- */
+.why-pokupator {
+	margin-bottom:30px;
+	}
+	.why-pokupator DL {
+		margin-bottom:10px;
+		border-bottom:1px solid #CECECE;
+		}
+	.why-pokupator DT {
+		margin-bottom:10px;
+		padding-left:20px;
+		background:url(../i/ico/closed-6-gray.png) 0 50% no-repeat;
+		font-size:17px;
+		color:#2B7DAF;
+		cursor:pointer;
+		}
+	.why-pokupator DD {
+		display:none;
+		padding-left:20px;
+		font-size:14px;
+		color:#444;
+		}
+		.why-pokupator DD P {margin-bottom:10px;}
+	.why-pokupator .open DT {font-weight:bold;}
+	.why-pokupator .open DD {display:block;}

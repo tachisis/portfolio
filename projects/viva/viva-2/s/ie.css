@@ -1,0 +1,32 @@
+#header .paging,
+#header .menu,
+#content,
+#content .sidebar .nav,
+.stars .menu,
+#content.adminka .main-pics {
+	zoom:1;
+	}
+#login FORM {
+	background:none;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../i/login-bg.png',sizingMethod='crop');
+	}
+#login LABEL {
+	background:none;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../i/login-label.png',sizingMethod='crop');
+	}
+#login .btn {
+	background:none;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../i/login-btn.png',sizingMethod='crop');
+	}
+	#login .btn:hover {
+		background:none;
+		filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../i/login-btn-hover.png',sizingMethod='crop');
+		}
+#content .sidebar .magazine  {
+	background:none;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../i/magazine.png',sizingMethod='crop');
+	}
+#content .text {width:400px;}
+#content .sidebar {display:inline;margin-right:0 !important;}
+#content .sidebar .photos {margin-top:10px;}
+#content .text .partners LI {margin-right:20px;}

@@ -1,0 +1,200 @@
+.virtual-basket {
+	position:relative;
+	margin:0 25px 20px;
+	padding:3px;
+	border:1px solid #4896C0;
+	font-size:12px;
+	}
+/* Corners */
+.virtual-basket I {
+	position:absolute;
+	width:11px;
+	height:11px;
+	font-size:0;
+	background:url(../i/corners/corners.png) no-repeat;
+	z-index:1;
+	}
+.virtual-basket I.t-l {
+	top:-1px;
+	left:-1px;
+	background-position:0 -32px;
+	}
+.virtual-basket I.t-r {
+	top:-1px;
+	right:-1px;
+	background-position:-11px -32px;
+	}
+.virtual-basket I.b-l {
+	bottom:-1px;
+	left:-1px;
+	background-position:0 -43px;
+	}
+.virtual-basket I.b-r {
+	bottom:-1px;
+	right:-1px;
+	background-position:-11px -43px;
+	}
+/* Heading */
+.virtual-basket .heading {
+	position:relative;
+	margin-bottom:15px;
+	z-index:100;
+	background:#D5E6F0 url(../i/bgs/c9-3-dot.gif) 0 100% repeat-x;
+	font-size:12px;
+	color:#2E2E2E;
+	}
+	.virtual-basket .heading .cor-t-l {background:url(../i/corners/d5-6-t-l.png) no-repeat;}
+	.virtual-basket .heading .cor-t-r {
+		padding:10px 10px 14px;
+		overflow:hidden;
+		background:url(../i/corners/d5-6-t-r.png) 100% 0 no-repeat;
+		}
+	.virtual-basket .heading H3 {
+		float:left;
+		width:100px;
+		margin-right:10px;
+		font-size:13px;
+		color:#666;
+		}
+	.virtual-basket .heading DL {margin-left:110px;}
+	.virtual-basket .heading DT {
+		margin-bottom:5px;
+		font:bold 16px Arial,sans-serif;
+		}
+	.virtual-basket .heading DL A {
+		margin-left:5px;
+		font:11px Arial,sans-serif;
+		}
+	.virtual-basket .heading DD {
+		font-size:12px;	
+		white-space:nowrap;
+		}
+		.virtual-basket .heading DD P {
+			display:inline;
+			width:510px;
+			overflow:hidden;
+			}
+	.virtual-basket .heading .edit {
+		text-decoration:none;
+		border-bottom:1px dashed #2B74A6;
+		}
+/* Notes */
+.virtual-basket .notes {
+	margin-bottom:10px;
+	color:#757575;
+	text-align:center;
+	}
+	.virtual-basket .notes H4 {
+		margin-bottom:5px;
+		font:bold 18px/1 Arial,sans-serif;
+		}
+	.virtual-basket .notes H5 {font-size:15px;}
+/* Models */
+.virtual-basket .models {
+	position:relative;
+	margin-bottom:25px;
+	padding:0 45px;
+	z-index:100;
+	}
+	.virtual-basket .models .control {
+		position:absolute;
+		top:50%;
+		margin-top:-49px;
+		width:14px;
+		height:98px;
+		background:url(../i/buttons/card-controls-v.png) no-repeat;
+		cursor:pointer;
+		}
+	.virtual-basket .models .control.l {left:10px;}
+	.virtual-basket .models .control.r {
+		right:10px;
+		background-position:-70px 0;
+		}
+	.virtual-basket .models .control.more {
+		width:28px;
+		background-position:-14px 0;
+		}
+	.virtual-basket .models .control.more.l {background-position:-42px 0;}
+		.virtual-basket .models .control SPAN {display:none;}
+		.virtual-basket .models .control .count {display:none;}
+		.virtual-basket .models .control.more .count {
+			display:block;
+			margin:42px 0 0 6px;
+			font:10px Arial,sans-serif;
+			color:#757575;
+			}
+		.virtual-basket .models .control.more.l .count {margin:42px 0 0 15px;}
+	.virtual-basket .models .list {
+		width:100%;
+		overflow:hidden;
+		width:765px;
+		height:150px;
+		}
+		.virtual-basket .models .list LI {
+			float:left;
+			width:380px;
+			height:60px;
+			margin:0 5px 20px 0;
+			}
+		.virtual-basket .models .list LI.last {margin-right:0;}
+		.virtual-basket .models .list .pic {float:left;}
+		.virtual-basket .models .list DL {margin-left:60px;}
+		.virtual-basket .models .list DT {
+			overflow:hidden;
+			white-space:nowrap;
+			margin-bottom:3px;
+			font:bold 14px 'Trebuchet MS',sans-serif;
+			}
+			.virtual-basket .models .list DT A {text-decoration:none;}
+		.virtual-basket .models .list DD.sub {
+			overflow:hidden;
+			white-space:nowrap;
+			font-size:11px;
+			color:#757575;
+			}
+		.virtual-basket .models .list DD.actions {margin-top:5px;}
+		.virtual-basket .models .list DD.alter {
+			padding:1px 2px;
+			background-color:#FAEEC5;
+			font-size:11px;
+			color:#555;
+			}
+			.virtual-basket .models .list DD.alter .mod {
+				border-bottom:1px dashed #2B74A6;
+				color:#2B74A6;
+				cursor:pointer;
+				}
+	.virtual-basket .models .dropdown {
+		display:none;
+		position:absolute;
+		top:1.5em;
+		left:0;
+		width:313px;
+		height:144px;
+		overflow:auto;
+		background-color:#FFF;
+		border:1px solid #FAEEC5;
+		z-index:100;
+		}
+		.virtual-basket .models .dropdown LI {
+			float:none;
+			width:auto;
+			height:auto;
+			margin:0;
+			padding:5px 10px;
+			overflow:hidden;
+			}
+		.virtual-basket .models .dropdown.open {display:block;}
+/* Footer */
+.virtual-basket .footer {
+	position:relative;
+	background:#EEE url(../i/corners/b-action-b-l.png) 0 100% no-repeat;
+	text-align:center;
+	color:#757575;
+	z-index:10;
+	}
+	.virtual-basket .footer .cor-b-r {
+		padding:10px;
+		background:url(../i/corners/b-action-b-r.png) 100% 100% no-repeat;
+		}
+	.virtual-basket .footer .from-catalog {font:bold 14px Arial,sans-serif;}

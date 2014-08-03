@@ -1,0 +1,36 @@
+#header,
+#header .menu,
+#footer .content,
+#header .user.logged .username,
+#content .tabs,
+#content .my-channels DL,
+#content .my-channels H2,
+#content,
+#content.player .ch-head,
+#content.player .heading,
+#content.player .video-prev,
+#content .comm-head,
+#content .comments LI,
+#content.player .about .switch,
+#content.player .about .code H2,
+#content.profile FIELDSET,
+#entr LABEL,
+#content.blog .posts H3,
+#content.blog .posts LI,
+#content.blog .posts .actions,
+#container,
+#entr FORM DIV {
+	zoom:1;
+	}
+#header .search {width:180px;}
+.input INPUT {margin-top:-1px;}
+#header .user.logged .username {margin-bottom:0;}
+* HTML #entr {
+	background:none;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true,sizingMethod=crop,src='i/entr-shad-l.png');
+	}
+* HTML #entr .shad-b {
+	background:none;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true,sizingMethod=crop,src='i/entr-shad-r.png');
+	}
+#content.profile .settings .chk LABEL {vertical-align:middle;line-height:1;}

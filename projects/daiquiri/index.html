@@ -1,0 +1,188 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ru" lang="ru">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<title>Daiquiri</title>
+	<link rel="stylesheet" href="s/style.css" type="text/css" />
+	<!--[if lt IE 8]><link rel="stylesheet" href="s/ie.css" type="text/css" /><![endif]-->
+	<!--[if lt IE 7]><link rel="stylesheet" href="s/ie6.css" type="text/css" /><![endif]-->
+	<script type="text/javascript" src="js/scripts.js"></script>
+</head>
+<body>
+<div id="page">
+	<div id="main-nav">
+			<ul>
+			<li class="dashboard">
+				<div class="sep"><a href="#"><span></span>Приборка</a></div>
+			</li>
+			<li class="projects">
+				<a href="#"><span></span>Проекты</a>
+				<a href="#" class="sub">Начать&nbsp;проект</a>
+			</li>
+			<li class="cur cases">
+				<a href="#"><span></span>Ваши дела</a>
+				<a href="#" class="sub">Поручить&nbsp;дело</a>
+			</li>
+			<li class="library">
+				<a href="#"><span></span>Библиотека</a>
+			</li>
+			<li class="address-book">
+				<a href="#"><span></span>Адресная книга</a>
+			</li>
+			<li class="men">
+				<div class="sep"><a href="#"><span></span>Люди</a></div>
+			</li>
+			<li class="profile">
+				<div class="sep">
+				<img src="i/example/avatar.jpg" alt=""/>
+				<strong>Я&nbsp;—&nbsp;менеджер</strong>
+				<a href="#" class="user">Мой профиль</a>
+				</div>
+			</li>
+			<li class="exit">
+				<a href="#"><span></span>Выйти</a>
+			</li>
+			</ul>
+		</div>
+	
+	<div id="container">
+	<div id="content">
+		<form action="#" class="new-project">
+			<div class="main">
+				<h2>Новый проект</h2>
+				<fieldset>
+					<label for="name">Название проекта</label>
+					<input type="text" id="name"/>
+				</fieldset>
+				<fieldset>
+					<label for="client">Заказчик</label>
+					<input type="text" id="client" value="Авридайкри"/>
+				</fieldset>
+				<p class="note">Возможно, вы имели в виду <a href="#">Авридайкири</a>, <a href="#">Авродайкири</a>, <a href="#">Авводайкири</a>?</p>
+			</div>
+			<div class="tasks">
+				<h2>Задачи</h2>
+				<table>
+					<tr class="open">
+						<td class="desc"><a href="#">Доставка евробуклета</a></td>
+						<td class="start">до 25 янв</td>
+						<td class="end"></td>
+					</tr>
+					<tr class="open">
+						<td class="desc"><a href="#">Доставка евробуклета</a></td>
+						<td class="start">до 25 янв</td>
+						<td class="end"></td>
+					</tr>
+					<tr class="close">
+						<td class="desc"><a href="#">Доставка евробуклета</a></td>
+						<td class="start">до 25 янв</td>
+						<td class="end"></td>
+					</tr>
+					<tr class="edit">
+						<td class="desc"><input type="text" value="Доставка евробуклета"/></td>
+						<td class="start">
+							<input type="text" value="22"/>
+							<span class="switcher"><a href="#" class="up">&#x2191;</a> <a href="#" class="down">&#x2193;</a></span>
+							<select><option>январь</option></select>
+							<span class="st">Старт</span>
+						</td>
+						<td class="end cur">
+							<input type="text" value="22"/>
+							<span class="switcher"><a href="#" class="up">&#x2191;</a> <a href="#" class="down">&#x2193;</a></span>
+							<select><option>январь</option></select>
+							<span class="fin">Финиш</span>
+						</td>
+					</tr>
+				</table>
+				<a href="#" class="add-task">Добавить задачу<span></span></a>
+			</div>
+			<div class="cases">
+				<h2>Дела</h2>
+				<dl class="case">
+					<dt><a href="#" class="user">Сергей Быков</a> пишет:</dt>
+					<dd class="text">Почему простой с визитками?</dd>
+					<dd class="desc"><strong>Проект</strong>: Фирменный стиль <a href="#">Getalime</a> по заказу рекламного агентства <a href="#">НК-Восток</a>.</dd>
+					<dd class="desc"><strong>Задача</strong>: <a href="#">Печать визиток</a></dd>
+					<dd class="actions">
+						<a href="#" class="pause" title="Приостановить">Приостановить</a>
+						<a href="#" class="renew" title="Возобновить">Возобновить</a>
+						<input type="checkbox" id="done-1"/>
+						<label for="done-1">Выполнено</label>
+					</dd>
+				</dl>
+				<dl class="case">
+					<dt><a href="#" class="user">Сергей Быков</a> пишет:</dt>
+					<dd class="text">Почему простой с визитками?</dd>
+					<dd class="desc"><strong>Проект</strong>: Фирменный стиль <a href="#">Getalime</a> по заказу рекламного агентства <a href="#">НК-Восток</a>.</dd>
+					<dd class="desc"><strong>Задача</strong>: <a href="#">Печать визиток</a></dd>
+					<dd class="actions">
+						<a href="#" class="pause" title="Приостановить">Приостановить</a>
+						<a href="#" class="renew" title="Возобновить">Возобновить</a>
+						<input type="checkbox" id="done-2"/>
+						<label for="done-2">Выполнено</label>
+					</dd>
+				</dl>
+			</div>
+			<fieldset class="btn">
+				<input type="image" src="i/buttons/save.png" alt="Сохранить"/>
+			</fieldset>
+		</form>
+	</div>
+	
+	<div id="sidebar">
+		<div class="section">
+			<h3>Подсказки</h3>
+			<ul class="tips">
+				<li><a href="#">Аверьян</a></li>
+				<li><a href="#">Аверьян</a></li>
+				<li class="cur">Аверьян</li>
+				<li><a href="#">Аверьян</a></li>
+				<li><a href="#">Аверьян</a></li>
+				<li><a href="#">Аверьян</a></li>
+			</ul>
+		</div>
+		<div class="section">
+			<h3>Люди</h3>
+			<dl class="people">
+				<dt class="avatar">
+					<img src="i/example/avatar-sm.jpg" alt=""/>
+				</dt>
+				<dt class="name">Александр Веселов</dt>
+				<dd class="work"><a href="#">задачи</a> <a href="#">загруженность</a></dd>
+				<dd class="actions">
+					<a href="#" class="remove">вывести его из проекта</a>
+					<a href="#" class="replace">заменить его</a>
+				</dd>
+			</dl>
+			<dl class="people">
+				<dt class="avatar">
+					<img src="i/example/avatar-sm.jpg" alt=""/>
+				</dt>
+				<dt class="name">Александр Веселов</dt>
+				<dd class="work"><a href="#">задачи</a> <a href="#">загруженность</a></dd>
+				<dd class="actions">
+					<a href="#" class="remove">вывести его из проекта</a>
+					<a href="#" class="replace">заменить его</a>
+				</dd>
+			</dl>
+			<a href="#" class="add-people"><span>Добавить еще кого-нибудь?</span></a>
+		</div>
+		<div class="section">
+			<h3>За проектом следят</h3>
+			<dl class="people last">
+				<dt class="avatar">
+					<img src="i/example/avatar-sm.jpg" alt=""/>
+				</dt>
+				<dt class="name">Александр Веселов</dt>
+				<dd class="work"><a href="#">задачи</a> <a href="#">загруженность</a></dd>
+				<dd class="actions">
+					<a href="#" class="remove">вывести его из проекта</a>
+				</dd>
+			</dl>
+		</div>
+	</div>
+	</div>
+	
+</div>
+</body>
+</html>

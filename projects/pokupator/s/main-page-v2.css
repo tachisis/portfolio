@@ -1,0 +1,323 @@
+#main-page .promo-bg {
+	padding:30px 0 10px;
+	background:#91C2DF url(../i/bgs/main-page-bg.png) repeat-x;
+	}
+#main-page .wrapper {	
+	width:877px;
+	margin:auto;
+	}
+	#main-page H1 {
+		position:relative;
+		overflow:hidden;
+		width:805px;
+		height:30px;
+		margin:0 auto 25px;
+		text-align:center;
+		color:#FFF;
+		font:32px 'Myriad Pro',Arial,sans-serif;
+		text-shadow: 1px 1px 1px #2580b7;
+		}
+	#main-page H1 SPAN {
+		display:block;
+		position:absolute;
+		top:0;
+		left:0;
+		width:805px;
+		height:30px;
+		font-size:0;
+		background:url(../i/bgs/main-page-h1.png) no-repeat;
+		}
+#main-page .main-promo {}
+#main-page .main-promo-tabs {overflow:hidden;}
+	#main-page .main-promo-tabs .first {
+		float:left;
+		width:425px;
+		height:39px;
+		font-size:0;
+		margin:0 6px 0 4px;
+		background:#4D7C95 url(../i/corners/main-promo-tab-first.png) no-repeat;
+		}
+	#main-page .main-promo-tabs .first-active {background:#FFF url(../i/corners/main-promo-tab-first-active.png) no-repeat;}
+	#main-page .main-promo-tabs .last {
+		float:left;
+		width:437px;
+		height:39px;
+		font-size:0;
+		background:#4D7C95 url(../i/corners/main-promo-tab-last.png) no-repeat;
+		}
+	#main-page .main-promo-tabs .last-active {background:#FFF url(../i/corners/main-promo-tab-last-active.png) no-repeat;}
+	#main-page .main-promo-tabs A {
+		display:block;
+		height:100%;
+		text-indent:-9999px;
+		}
+	#main-page .main-promo-tabs .active A {cursor:text;}
+	#main-page .main-promo-container {background:#FFF url(../i/bgs/main-promo-bg.png) repeat-y;}
+	#main-page .main-promo-container .promo-list {
+		overflow:hidden;
+		padding:7px 29px 5px;
+		background:url(../i/bgs/main-promo-ul-bg.png) repeat-y;
+		color:#686868;
+		font-size:14px;
+		}
+	#main-page .main-promo-container .promo-list LI {
+		float:left;
+		width:230px;
+		padding-right:20px;
+		margin-right:20px;
+		}
+	#main-page .main-promo-container .promo-list LI.middle {width:270px;}
+	#main-page .main-promo-container .promo-list LI.last {
+		padding-right:0;
+		margin-right:0;
+		}
+	#main-page .main-promo-container H3 {
+		position:relative;
+		overflow:hidden;
+		width:115px;
+		height:22px;
+		margin-bottom:7px;
+		font:bold 22px 'Myriad Pro',Arial,sans-serif;
+		color:#179EE4;
+		}
+		#main-page .main-promo-container H3 SPAN {
+			position:absolute;
+			top:0;
+			left:0;
+			display:block;
+			width:115px;
+			height:22px;
+			font-size:0;
+			}
+	#main-page .main-promo-container .first H3 SPAN {background:url(../i/bgs/main-promo-h3-1.png) no-repeat;}
+	#main-page .main-promo-container .middle H3 SPAN {background:url(../i/bgs/main-promo-h3-2.png) no-repeat;}
+	#main-page .main-promo-container .last H3 SPAN {background:url(../i/bgs/main-promo-h3-3.png) no-repeat;}
+	#main-page .main-promo-container .note {
+		margin-top:15px;
+		font-size:12px;
+		}
+	#main-page .main-promo .top {
+		width:872px;
+		height:18px;
+		font-size:0;
+		background:#FFF url(../i/corners/main-promo-t-l.png) no-repeat;
+		}
+	#main-page .main-promo .top.left {
+		margin-left:4px;
+		background:#FFF url(../i/corners/main-promo-t-r.png) 100% 0 no-repeat;
+		}
+	#main-page .main-promo .bottom {
+		width:872px;
+		height:33px;
+		font-size:0;
+		background:#FFF url(../i/corners/main-promo-bottom.png) 0 100% no-repeat;
+		}
+	#main-page .main-actions {
+		overflow:hidden;
+		padding:0 3px;
+		margin-bottom:20px;
+		background:url(../i/bgs/main-promo-actions.png) repeat-x;
+		}
+	#main-page .want-to-buy {
+		float:left;
+		width:559px;
+		margin:0 23px 0 3px;
+		}
+		#main-page .want-to-buy .top {
+			font-size:0;
+			height:12px;
+			background:url(../i/corners/want-to-buy-t.png) no-repeat;
+			}
+		#main-page .want-to-buy .bg {
+			padding:10px 25px 5px;
+			height:178px;
+			background:url(../i/bgs/want-to-buy-bg.png) repeat-y;
+			}
+		#main-page .want-to-buy .bottom {
+			font-size:0;
+			height:19px;
+			background:url(../i/corners/want-to-buy-b.png) no-repeat;
+			}
+		#main-page .want-to-buy H2 {
+			position:relative;
+			width:456px;
+			height:19px;
+			overflow:hidden;
+			font:bold 18px 'Myriad Pro',Arial,sans-serif;
+			color:#A33600;
+			}
+			#main-page .want-to-buy H2 SPAN {
+				position:absolute;
+				top:0;
+				left:0;
+				width:456px;
+				height:19px;
+				background:url(../i/bgs/want-to-buy-h2.png) no-repeat;
+				}
+		#main-page .want-to-buy P {
+			font-size:13px;
+			color:#818675;
+			}
+		#main-page .want-to-buy .note {
+			margin-bottom:10px;
+			font-size:14px;
+			}
+		#main-page .want-to-buy TEXTAREA {
+			width:501px;
+			border:1px solid #7E91A5;
+			font-size:12px;
+			background:#FFF url(../i/bgs/want-to-buy-tarea.png) no-repeat;
+			}
+		#main-page .want-to-buy .submit {margin-top:10px;}
+			#main-page .want-to-buy .submit INPUT {
+				float:left;
+				margin-right:25px;
+				}
+			#main-page .want-to-buy .submit P {
+				float:left;
+				width:225px;
+				padding-top:.3em;
+				line-height:1.2;
+				}
+	#main-page .use-catalog {
+		float:left;
+		width:287px;
+		}
+		#main-page .use-catalog .top {
+			width:287px;
+			height:13px;
+			font-size:0;
+			background:url(../i/corners/use-catalog-t.png) no-repeat;
+			}
+		#main-page .use-catalog .bottom {
+			width:287px;
+			height:19px;
+			font-size:0;
+			background:url(../i/corners/use-catalog-b.png) no-repeat;
+			}
+		#main-page .use-catalog .bg {
+			padding:7px 29px 5px;
+			height:180px;
+			background:url(../i/bgs/use-catalog-bg.png) repeat-y;
+			}
+		#main-page .use-catalog H2 {
+			position:relative;
+			overflow:hidden;
+			width:162px;
+			height:63px;
+			margin-bottom:11px;
+			font:bold 16px 'Myriad Pro',Arial,sans-serif;
+			color:#0579b5;
+			}
+			#main-page .use-catalog H2 SPAN {
+				position:absolute;
+				top:0;
+				left:0;
+				width:162px;
+				height:63px;
+				font-size:0;
+				background:url(../i/bgs/use-catalog-h2.png) no-repeat;
+				}
+		#main-page .use-catalog P {
+			margin-bottom:10px;
+			font-size:14px;
+			line-height:1.3;
+			color:#7A8B99;
+			}
+		#main-page .use-catalog .to-catalog {
+			display:block;
+			width:213px;
+			height:41px;
+			position:relative;
+			overflow:hidden;
+			}
+			#main-page .use-catalog .to-catalog SPAN {
+				position:absolute;
+				top:0;
+				left:0;
+				width:213px;
+				height:41px;
+				font-size:0;
+				background:url(../i/buttons/to-catalog.png) no-repeat;
+				cursor:pointer;
+				}
+	#main-page .main-page-catalog {padding:0 20px;}
+		#main-page .main-page-catalog H2 {
+			margin-bottom:10px;
+			font:24px 'Myriad Pro',Arial,sans-serif;
+			color:#696969;
+			}
+			#main-page .main-page-catalog H2 A {
+				color:#696969;
+				text-decoration:none;
+				}
+		#main-page .main-page-catalog UL {
+			width:100%;
+			overflow:hidden;
+			margin-bottom:15px;
+			}
+		#main-page .main-page-catalog LI {
+			float:left;
+			width:250px;
+			height:90px;
+			padding-bottom:15px;
+			margin-right:25px;
+			border-bottom:1px solid #ECECEC;
+			font-size:12px;
+			}
+		#main-page .main-page-catalog .last LI {border:none;}
+		#main-page .main-page-catalog A {
+			color:#686868;
+			text-decoration:none;
+			}
+		#main-page .main-page-catalog A:hover {text-decoration:underline;}
+		#main-page .main-page-catalog H3 {
+			margin-bottom:5px;
+			font:17px 'Myriad Pro',Arial,sans-serif;
+			color:#0E79B0;
+			}
+			#main-page .main-page-catalog H3 A {color:#0E79B0;}
+	#main-page .old-version {
+		padding:0 25px;
+		font-size:13px;
+		color:#686868;
+		}
+		#main-page .old-version H2 {
+			position:relative;
+			overflow:hidden;
+			width:677px;
+			height:23px;
+			font:bold 24px 'Myriad Pro',Arial,sans-serif;
+			margin-bottom:15px;
+			}
+			#main-page .old-version H2 SPAN {
+				position:absolute;
+				top:0;
+				left:0;
+				width:677px;
+				height:23px;
+				font-size:0;
+				background:url(../i/bgs/old-version-h2.png) no-repeat;
+				}
+		#main-page .old-version .sheet {
+			float:right;
+			position:relative;
+			text-indent:-9999px;
+			width:255px;
+			height:198px;
+			background:url(../i/bgs/promo-sheet.png) no-repeat;
+			}
+			#main-page .old-version .sheet A {
+				position:absolute;
+				display:block;
+				right:60px;
+				bottom:34px;
+				width:88px;
+				height:21px;
+				}
+		#main-page .old-version OL {
+			width:500px;
+			padding-left:1.6em;
+			list-style-type:decimal;
+			}
+		#main-page .old-version LI {margin-bottom:10px;}

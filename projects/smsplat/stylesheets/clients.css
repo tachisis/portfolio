@@ -1,0 +1,92 @@
+#content .clients {
+   overflow:hidden;
+   margin:0 17px 20px;
+   }
+   #content .clients .info {
+      padding:0 9px 20px;
+      margin-bottom:15px;
+      border-bottom:1px solid #CCC;
+      }
+      #content .clients .info H2 {
+         font-size:1.4em;
+         margin-bottom:15px;
+         }
+      #content .clients .info H2 .rur {color:#104785;}
+      #content .clients .info H2 .usd {color:#3C8636;}
+   #content .clients .actions {margin:0 0 20px 9px;}
+      #content .clients .actions LI {
+         display:inline;
+         font-size:2em;
+         padding-right:25px;
+         }
+      #content .clients .actions A {
+         color:#099C91;
+         border-bottom:1px dashed #099C91;
+         }
+   #content .clients H3 {
+      margin:0 0 9px 15px;
+      font-weight:bold;
+      font-size:1em;
+      }
+   #content .clients .clients-list {
+      float:left;
+      width:565px;
+      margin-right:20px;
+      }
+      #content .clients .clients-list INPUT {
+         margin:0;
+         padding:0;
+         vertical-align:bottom;
+         }
+      #content .clients .clients-list DT {margin-bottom:7px;}
+      #content .clients .clients-list DD {
+         margin:0 0 25px 17px;
+         color:#585858;
+         font-size:.9em;
+         padding-bottom:6px;
+         border-bottom:1px dotted #585858;
+         }
+      #content .clients .clients-list A,
+      #content .clients .filtres A {
+         color:#FF3300;
+         text-decoration:underline;
+         }
+   #content .clients .filtres {
+      float:left;
+      width:360px;
+      }
+      #content .clients .filtres LI {
+         padding-left:15px;
+         margin-bottom:10px;
+         }
+      #content .clients .filtres .active {
+         color:#099C91;
+         background:url(../images/filters-bul.gif) 0 55% no-repeat;
+         }
+         
+/* Modalbox
+-------------------------------------- */
+.modalbox {
+   position:absolute;
+   top:50%;
+   left:50%;
+   width:487px;
+   margin-left:-243px;
+   margin-top:-100px;
+   border:1px solid #CCC;
+   padding:65px 10px 5px;
+   text-align:center;
+   background:#F5F5F5 url(../images/modalbox-bg.png) no-repeat;
+   }
+   .modalbox FIELDSET {margin-bottom:30px;}
+   .modalbox LABEL {
+      display:block;
+      font-size:1.3em;
+      margin-bottom:10px;
+      }
+   .modalbox .error-field {
+      display:block;
+      font-size:.8em;
+      margin-top:5px;
+      color:#F00;
+      }

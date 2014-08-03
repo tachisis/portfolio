@@ -1,0 +1,69 @@
+/* Check
+-------------------------------------- */
+.check-it {margin:0 19px 10px;}
+   .check-it FIELDSET {overflow:hidden;}
+   .check-it LABEL {
+      display:block;
+      font-size:.9em;
+      margin-bottom:2px;
+      }
+   .check-it INPUT {width:215px;}
+   .check-it .btn {
+      width:auto;
+      vertical-align:middle;
+      margin-left:5px;
+      }
+      
+/* Send sms
+-------------------------------------- */
+.send-sms {
+   margin:20px 19px;
+   overflow:hidden;
+   }
+   .send-sms TABLE {
+      border-bottom:1px solid #CCC;
+      margin-bottom:13px;
+      }
+   .send-sms TH,
+   .send-sms TD {
+      padding:5px;
+      border-top:1px solid #CCC;
+      }
+   .send-sms TH {font-weight:bold;}
+   .send-sms .time {width:140px;}
+   .send-sms .number {width:195px;}
+   .send-sms .id {width:145px;}
+   .send-sms .message {width:195px;}
+   .send-sms .price {width:120px;}
+   .send-sms .answer {width:80px;}
+   .send-sms .btn {
+      float:right;
+      margin-bottom:20px;
+      }
+   .send-sms H2 {
+      font-size:1.4em;
+      margin-bottom:15px;
+      }
+   .send-sms TEXTAREA {
+      width:430px;
+      padding:5px;
+      }
+      
+/* Statistics logs
+-------------------------------------- */
+.stat-logs {
+   margin:15px 20px;
+   border-bottom:1px solid #CCC;
+   }
+   .stat-logs TH,
+   .stat-logs TD {
+      padding:5px;
+      border-top:1px solid #CCC;
+      }
+   .stat-logs TH {font-weight:bold;}
+   .stat-logs .time {width:140px;}
+   .stat-logs .number {width:195px;}
+   .stat-logs .id {width:145px;}
+   .stat-logs .message {width:205px;}
+   .stat-logs .price {width:120px;}
+   .stat-logs .answer {width:80px;}

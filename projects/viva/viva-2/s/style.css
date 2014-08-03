@@ -1,0 +1,379 @@
+@import 'reset.css';
+
+HTML,BODY {height:100%;}
+BODY {
+	position:relative;
+	background:url(../i/page-bg.jpg);
+	font:.8em Arial,Tahoma,Verdana,sans-serif;
+	color:#FFF;
+	}
+
+A {color:#FFF;text-decoration:none;}
+A:hover {}
+
+#page {
+	}
+
+/* Header
+-------------------------------------- */
+#header {
+	width:970px;
+	margin:auto;
+	}
+	#header .logo {
+		width:557px;
+		height:137px;
+		background:url(../i/logo.png) no-repeat;
+		text-indent:-9999px;
+		margin:39px 0 0 214px;
+		}
+	#header .paging {
+		overflow:hidden;
+		margin:-16px 0 6px 9px;
+		}
+		#header .paging .prev {
+			float:left;
+			width:106px;
+			height:20px;
+			margin-top:12px;
+			background:url(../i/prev.png) no-repeat;
+			text-indent:-9999px;
+			}
+		#header .paging .next {
+			float:right;
+			width:162px;
+			height:32px;
+			background:url(../i/next.png) no-repeat;
+			text-indent:-9999px;
+			}
+			#header .paging LI A {
+				display:block;
+				width:100%;
+				height:100%;
+				}
+		#header .menu,
+		.stars .menu {
+			overflow:hidden;
+			padding:14px 6px 14px 16px;
+			border:1px solid #6C7D79;
+			color:#FFF;
+			margin-bottom:18px;
+			}
+		.stars .menu {
+		   padding-bottom:0;
+		   margin-bottom:3px;
+		   }
+			#header .menu LI,
+			.stars .menu LI {
+				float:left;
+				width:80px;
+				padding:4px 4px 4px;
+				height:115px;
+				margin-right:6px;
+				}
+			.stars .menu LI {margin-bottom:30px;}
+			#header .menu .active,
+			.stars .menu .active {
+				padding-top:4px;
+				background:#0D9F00;
+				}
+				#header .menu IMG,
+				.stars .menu IMG {
+					display:block;
+					margin-bottom:3px;
+					}
+				#header .menu A,
+				.stars .menu A {color:#FFF;text-decoration:none;}
+				#header .menu STRONG,
+				.stars .menu STRONG {font:.8em Tahoma,sans-serif;}
+
+/* Ads
+-------------------------------------- */
+.ads {
+	width:724px;
+	margin:auto;
+	margin-bottom:18px;
+	}
+	
+/* Content
+-------------------------------------- */
+#content {
+	width:970px;
+	margin:auto;
+	overflow:hidden;
+	}
+	#content .sidebar {
+		width:510px;
+		float:left;
+		margin:0 35px 30px 0;
+		position:relative;
+		}
+		#content .sidebar .magazine  {
+			float:right;
+			width:229px;
+			height:307px;
+			background:url(../i/magazine.png) no-repeat;
+			text-indent:-9999px;
+			}
+		#content .sidebar .nav {
+			overflow:hidden;
+			}
+		#content .sidebar .nav UL {
+			float:left;
+			margin-top:38px;
+			width:280px;
+			padding-top:2px;
+			background:url(../i/nav-sep.png) no-repeat;
+			font:1.3em Arial,sans-serif;
+			}
+			#content .sidebar .nav LI {
+				margin-bottom:-1px;
+				padding:0 0 2px 1px;
+				background:url(../i/nav-sep.png) 0 100% no-repeat;
+				position:relative;
+				}
+			#content .sidebar .nav LI A {
+				display:block;
+				padding:10px 27px 11px;
+				text-align:right;
+				}
+			#content .sidebar .nav LI A:hover {background:#ccc;}
+			#content .sidebar .nav LI STRONG {
+				display:block;
+				padding:9px 27px 11px;
+				text-align:right;
+				color:#FFF;
+				font-weight:normal;
+				background:#0D9F00;
+				}
+			#content .sidebar .photos {
+				position:relative;
+				height:780px;
+				}
+				#content .sidebar .photos .white {
+					display:block;
+					background:#FFF;
+					padding:15px;
+					}
+				#content .sidebar .photos .brown {
+					display:block;
+					background:#D5CAB0;
+					padding:15px;
+					}
+				#content .sidebar .photos.hor-vert .over {
+					position:absolute;
+					bottom:0;
+					left:115px;
+					}
+				#content .sidebar .photos.hor-hor .over {
+					position:absolute;
+					bottom:110px;
+					left:80px;
+					}
+				#content .sidebar .photos.vert-hor .under,
+				#content .sidebar .photos.vert-vert .under {margin-left:33px;}
+				#content .sidebar .photos.vert-hor .over {
+					position:absolute;
+					bottom:0;
+					left:115px;
+					}
+				#content .sidebar .photos.vert-vert .over {
+					position:absolute;
+					bottom:0;
+					left:115px;
+					}
+	#content .text {
+		float:right;
+		width:420px;
+		margin-bottom:30px;
+		}
+		#content .text H2 {
+			padding-left:34px;
+			font-size:2.8em;
+			margin-bottom:20px;
+			}
+		#content .text H3 {
+			padding-left:34px;
+			font-size:1.8em;
+			margin-bottom:16px;
+			}
+		#content .text P {
+			padding:0 34px;
+			margin-bottom:18px;
+			font:1.1em/1.3em Arial,sans-serif;
+			}
+		#content .text P.first {background:url(../i/p-first.png) 0 3px no-repeat;}
+		#content .text P.last {background:url(../i/p-last.png) 100% 100% no-repeat;}
+		#content .text .partners {
+			overflow:hidden;
+			padding-left:34px;
+			}
+			#content .text .partners LI {
+				float:left;
+				margin-right:30px;
+				}
+
+/* Adminka
+-------------------------------------- */
+#content.adminka {
+   position:relative;
+   padding-top:55px;
+   padding-bottom:100px;
+   background:url(../i/adm-footer.png) 20px 100% no-repeat;
+   }
+
+#content.adminka .exit {
+   position:absolute;
+   top:0;
+   right:0;
+   width:225px;
+   height:80px;
+   background:url(../i/exit-bg.png) 0 100% no-repeat;
+   }
+   #content.adminka .exit A {
+      display:block;
+      width:80px;
+      height:36px;
+      float:right;
+      margin:17px 0 0 0;
+      background:url(../i/exit.png) no-repeat;
+      text-indent:-9999px;
+      }
+      #content.adminka .exit A:hover {background:url(../i/exit-hover.png) no-repeat;}
+#content.adminka H2 {
+   font-size:2.4em;
+   margin:0 0 10px 20px;
+   }
+#content.adminka .stars {margin-bottom:30px;}
+#content.adminka .stars .del {
+   padding:3px 10px 3px 18px;
+   margin:0 0 0 20px;
+   background:#D80000 url(../i/adm-marker.gif) 3px 50% no-repeat;
+   }
+#content.adminka .add-prev {
+   margin-bottom:30px;
+   }
+
+#content.adminka .add-prev .preview {
+   float:left;
+   padding-left:20px;
+   margin-right:17px;
+   }
+   #content.adminka .add-prev .preview .img {
+      width:80px;
+      height:80px;
+      border:1px solid #8C9996;
+      margin-bottom:3px;
+      }
+   #content.adminka .add-prev .preview .del A {
+      padding:2px 13px 2px 20px;
+      background:#D80000 url(../i/adm-marker.gif) 3px 50% no-repeat;
+      }
+   #content.adminka .add-prev .add {
+      padding-top:27px;
+      }
+#content.adminka .main-pics {
+   overflow:hidden;
+   margin-bottom:30px;
+   }
+   #content.adminka .main-pics FIELDSET {
+      border:1px solid #8C9996;
+      padding:25px 22px;
+      float:left;
+      margin-left:20px;
+      display:inline;
+      }
+   #content.adminka .main-pics H3 {
+      font-size:1.4em;
+      margin-bottom:10px;
+      }
+   #content.adminka .main-pics IMG {
+      display:block;
+      margin-bottom:1px;
+      }
+   #content.adminka .main-pics .del {
+      padding:2px 13px 2px 20px;
+      background:#D80000 url(../i/adm-marker.gif) 3px 50% no-repeat;
+      }
+   #content.adminka .main-pics .add {margin-top:35px;}
+   #content.adminka .texts {
+      padding-left:20px;
+      }
+   #content.adminka .texts INPUT,
+   #content.adminka .texts LABEL,
+   #content.adminka .texts TEXTAREA {
+      display:block;
+      }
+   #content.adminka .texts LABEL {
+      font-size:1.4em;
+      }
+   #content.adminka .texts INPUT {
+      width:515px;
+      margin-bottom:25px;
+      }
+   #content.adminka .texts TEXTAREA {
+      width:855px;
+      margin-bottom:22px;
+      }
+   #content.adminka .texts .btn {
+      float:right;
+      width:auto;
+      margin-right:90px;
+      }
+   
+
+
+/* Footer
+-------------------------------------- */				
+#footer {
+	padding:21px 0 60px;
+	background:url(../i/footer-bg.png) repeat-x;
+	}
+	#footer P {
+		text-align:center;
+		font-size:1.1em;
+		color:#000;
+		}
+		#footer A {color:#75746F;}
+		
+
+/* Login
+-------------------------------------- */
+#login {
+	position:absolute;
+	top:50%;
+	left:50%;
+	width:572px;
+	height:435px;
+	padding-top:155px;
+	padding-left:270px;
+	margin-top:-295px;
+	margin-left:-421px;
+	background:url(../i/login-bg.png) no-repeat;
+	}
+#login LABEL {
+	display:block;
+	width:342px;
+	height:65px;
+	background:url(../i/login-label.png) no-repeat;
+	text-indent:-9999px;
+	}
+#login .txt {
+	display:block;
+	width:348px;
+	padding:2px 3px;
+	margin:27px 0;
+	border:1px solid #FFF;
+	background:#2B443E;
+	color:#FFF;
+	font-size:3em;
+	}
+#login .btn {
+	display:block;
+	width:132px;
+	height:61px;
+	margin-left:85px;
+	text-indent:-9999px;
+	background:url(../i/login-btn.png) no-repeat;
+	}
+	#login .btn:hover {background:url(../i/login-btn-hover.png) no-repeat;}

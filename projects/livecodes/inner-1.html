@@ -1,0 +1,178 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ru" lang="ru">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<title>Живой код</title>
+	<link rel="stylesheet" href="s/style.css" type="text/css" />
+	<!--[if lt IE 7]><link rel="stylesheet" href="s/ie6.css" type="text/css" /><![endif]-->
+</head>
+<body>
+<div id="page">
+	<div id="header">
+		<h1 class="logo"><a href="/">Живой код: современнейшая технология<span></span></a></h1>
+		<a href="#" class="more">Узнать больше</a>
+		<div class="user-panel">
+			<span class="l"></span>
+			<ul>
+				<li class="sign-in"><a href="#">Войти в систему</a></li>
+			</ul>
+			<span class="r"></span>
+		</div>
+		<ul class="about">
+			<li><a href="#">Что такое живой код?</a></li>
+			<li><a href="#">Скачать ридер для мобильника</a></li>
+			<li><a href="#">Создать свой живой код</a></li>
+		</ul>
+	</div>
+	<div id="main-nav">
+		<!-- Друг! Из-за IE6 это меню стало очень сложным: первый и последний элементы в обычном состоянии имеют классы first и last соответственно. Однако, в активном состоянии, вместо того, чтобы просто приписать класс active, как это происходит с двумя средними пунктами, придется заменять класс first на first-active и для last аналогично. Надеюсь, с точки зрения программирования это не вызовет больших сложностей — вариантов у нас, к сожалению, нет. -->
+		<span class="t"></span>
+		<ul>
+			<li class="first-active">
+				<span class="shadow">
+						<span class="text-img"></span>
+						<strong><span class="cor"></span><span>Текст</span></strong>
+				</span>
+			</li>
+			<li class="">
+				<span class="shadow">
+					<a href="#">
+						<span class="link-img"></span>
+						<strong><span class="cor"></span><span>Ссылка</span></strong>
+					</a>
+				</span>
+			</li>
+			<li class="">
+				<span class="shadow">
+					<a href="#">
+						<span class="contact-img"></span>
+						<strong><span class="cor"></span><span>Контакт</span></strong>
+					</a>
+				</span>
+			</li>			
+			<li class="last">
+				<span class="shadow">
+					<a href="#">
+						<span class="photo-img"></span>
+						<strong><span class="cor"></span><span>Фотография</span></strong>
+					</a>
+				</span>
+			</li>
+		</ul>
+		<span class="shad"></span>
+	</div>
+	<div id="content">
+		<div class="sidebar">
+			<h3>Размещай любые контакты</h3>
+			<p>Хочешь продать свою машину? Напечатай живой код с контактной информацией, приклей на стекло – увеличь шансы найти покупателя.</p>
+			<h3>Как это будет выглядеть?</h3>
+			<p class="pic"><img src="i/looks/contact.jpg" alt="Как это будет выглядеть" /></p>
+		</div>
+		<div class="main-text">
+			<h2>Закодировать «Контакт»</h2>
+			<form action="" class="create">
+				<div class="module-violet name">
+					<div class="t"><span class="l"></span><span class="bg"></span><span class="r"></span></div>
+						<div class="bg">
+							<fieldset>
+								<label for="name">Имя</label>
+								<input type="text" value="" id="name" />
+							</fieldset>
+							<fieldset>
+								<label for="surname">Фамилия</label>
+								<input type="text" value="" id="surname" />
+							</fieldset>
+						</div>
+					<div class="b"><span class="l"></span><span class="bg"></span><span class="r"></span></div>
+				</div>
+				<div class="contact-info">
+					<h3>Контактная информация</h3>
+					<div class="group">
+						<fieldset>
+							<input type="text" value="" id="phone" />
+							<label for="phone">&mdash;&nbsp;Домашний</label>
+						</fieldset>
+						<fieldset>
+							<input type="text" value="" id="work-phone" />
+							<label for="work-phone">&mdash; Рабочий</label>
+						</fieldset>
+					</div>
+					<div class="group">
+						<fieldset>
+							<input type="text" value="" id="e-mail" />
+							<label for="e-mail">&mdash; E-mail</label>
+						</fieldset>
+						<fieldset>
+							<input type="text" value="" id="icq" />
+							<label for="icq">&mdash; ICQ</label>
+						</fieldset>
+					</div>
+				</div>
+				<div class="address">
+					<h3>Адреса</h3>
+					<textarea cols="" rows="5"></textarea>
+				</div>
+				<fieldset class="chk">
+					<input type="checkbox" id="sign-up" />
+					<label for="sign-up">Я хочу управлять своим кодом</label>
+				</fieldset>
+				<div class="reg-or-not">
+					<fieldset class="group">
+						<p class="note">Для этого нужно пройти простую регистрацию</p>
+						<div class="registration">
+							<div class="bg">
+								<fieldset>
+									<label for="email">Ваш e-mail:</label>
+									<input type="text" value="" id="email" />
+									<span class="err">&larr; Это поле заполнено неверно</span>
+								</fieldset>
+								<fieldset>
+									<label for="nickname">Никнейм:</label>
+									<input type="text" value="" id="nickname" />
+								</fieldset>
+								<fieldset>
+									<label for="pass">Пароль:</label>
+									<input type="password" value="" id="pass" />
+								</fieldset>
+								<fieldset>
+									<label for="pass-2">И ещё раз пароль:</label>
+									<input type="password" value="" id="pass-2" />
+								</fieldset>
+								<div class="b-l"></div><div class="b-r"></div>
+							</div>
+						</div>
+					</fieldset>
+					<fieldset class="group signed-in">
+						<a href="#">Я уже зарегистрирован</a>
+						<p class="note">Нажмите, если это действительно так.</p>
+					</fieldset>
+				</div>
+				<fieldset class="btn">
+					<input type="image" src="i/forms/create-code.png" value="Создать мой код" alt="Создать мой код" />
+				</fieldset>
+			</form>
+		</div>
+	</div>
+	<div id="footer">
+		<div class="main-part">
+			<ul class="menu">
+				<li class="first"><a href="/api/key">API</a></li>
+				<li><a href="http://livecoderu.wordpress.com/">Блог проекта</a></li>
+				<li><a href="/agreement">Пользовательское соглашение</a></li>
+				<li><a href="/contacts">Контакты</a></li>
+				<li><a href="#" class="feedback-popup-button">Задать вопрос</a></li>
+			</ul>
+			<p class="logos">
+				<a href="http://inventure.ru"><img src="i/pic/inventure.png" alt="inVenture"/></a>
+				<img src="i/pic/livecode-logo-sm.png" alt="Живой Код"/>
+			</p>
+			<p class="copyright">&copy; 2008 LiveCode. Все права защищены.</p>
+		</div>
+		<dl class="design">
+			<dt>Дизайн рисовали:</dt>
+			<dd><a href="http://c-tm.ru/"><img src="i/pic/cr-team.png" alt="Creative team" /></a></dd>
+		</dl>
+	</div>
+</div>	
+</body>
+</html>

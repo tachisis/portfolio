@@ -1,0 +1,293 @@
+@import 'reset.css';
+
+body {
+	background: #150200;
+	color: #250400;
+	font: 16px/1.6 Palatino,serif;
+	}
+a {
+	color: #b22d00;
+	}
+a:hover {text-decoration: none;}
+
+
+header {
+	position: relative;
+	max-width: 1346px;
+	margin: auto;
+	background: #fefeeb url(../i/header.jpg) 50% 0 no-repeat;
+	min-height: 400px;
+	text-align: center;
+	}
+header hgroup {
+	max-width: 1000px;
+	margin: auto;
+	padding: 252px 20px 0;
+	color: #fff;
+	text-shadow: 0 1px 0 #000;
+	}
+header h1 {
+	font-size: 40px;
+	line-height: 1;	
+	}
+header h2 {
+	font-size: 14px;
+	font-style: italic;
+	}
+header nav {
+	position: absolute;
+	width: 100%;
+	bottom: 0;
+	background: rgba(44,13,0,.7);
+	}
+header nav ul {
+	max-width: 1000px;
+	padding: 0 20px;
+	margin: auto;
+	font-size: 18px;
+	}
+header nav li {
+	display: inline-block;
+	padding: 8px 20px;
+	}
+header nav a {
+	color: #fff;
+	text-decoration: none;
+	}
+
+article {
+	padding: 20px 0 0;
+	background: #fefeeb;
+	max-width: 1346px;
+	margin: auto;
+	}
+article h3 {
+	text-transform: uppercase;
+	font-size: 15px;
+	letter-spacing: 1px;
+	padding: 0 0 15px;
+	text-align: center;
+	}
+article h4 {
+	font-size: 20px;
+	font-style: italic;
+	padding: 0 0 15px;
+	text-align: center;
+	}
+article h5 {
+	font-size: 16px;
+	font-style: italic;
+	padding: 0 0 10px;
+	text-align: center;
+	}
+article p {
+	font-size: 15px;
+	padding: 0 0 7px;
+	}
+article .note {
+	padding-bottom: 15px;
+	font-style: italic;
+	text-align: center;
+	}
+section {
+	max-width: 1000px;
+	margin: auto;
+	}
+section:after {
+	content: ' ';
+	display: block;
+	clear: both;
+	overflow: hidden;
+	height: 0;
+	font-size: 0;
+	}
+section .col {
+	float: left;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	width: 48%;
+	padding: 30px 30px;
+	}
+section .col:first-child {
+	margin-right: 4%;
+	}
+section .col p:last-child {
+	padding-bottom: 0;
+}
+
+.about {
+	padding: 0 0 20px;
+	}
+
+.photo {
+	padding: 50px 0;
+	background: url(../i/pattern.jpg);
+	}
+.photo img {
+	display: block;
+	width: 100%;
+	height: auto;
+	}
+.photo .col {
+	background: #fefeeb;
+	min-height: 692px;
+	}
+.photo .cap {
+	position: relative;
+	}
+.photo .letter {
+	position: absolute;
+	top: -40px;
+	left: -20px;
+	width: 100px;
+	height: 141px;
+	background:url(../i/cap.png) no-repeat;
+	text-indent: -9999px;
+	}
+.photo .cap:before {
+	content:' ';
+	display: block;
+	float: left;
+	clear: left;
+	width: 5.6em;
+	height: 3.6em;
+	}
+.photo .cap:after {
+	content:' ';
+	display: block;
+	float: left;
+	clear: left;
+	width: 4em;
+	height: 3em;
+	}
+.photo .col p {
+	padding: 0 0 14px;
+	line-height: 1.7;
+}
+
+.contacts,
+.media {
+	padding: 30px 30px 50px;
+	text-align: center;
+	}
+.contacts ul {
+	}
+.contacts li {
+	display: inline-block;
+	font-size: 30px;
+	}
+.contacts li:before {
+	display: inline-block;
+	margin: 0 20px;
+	content: '❈';
+	font: 20px/1 Arial,sans-serif;
+	}
+.contacts li:first-child:before {
+	display: none;
+	}
+
+.portfolio {
+	padding: 50px 0;
+	background:url(../i/pattern3.jpg);
+	}
+.portfolio section {
+	padding: 30px;
+	max-width: 940px;
+	background: #fefeeb;
+	}
+.portfolio dl {
+	padding: 0 0 50px;
+	}
+.portfolio dl dd {
+	padding: 0 0 10px;
+}
+.portfolio dl dd.pics {
+	float: left;
+	padding: 0;
+	margin: 0 10px 0 -7px;
+	}
+.portfolio dl dd img {
+	margin:0 5px 5px 0;
+}
+.portfolio dl dt {
+	margin-top: 5px;
+	padding: 15px 0 10px;
+	font-size: 17px;
+	border-top: 1px dashed #cecece;
+	}
+.portfolio dl dt:first-child {
+	margin: 0;
+	padding-top: 0;
+	border: none;
+	}
+.portfolio dl .note {
+	text-align: left;
+	font-size: 13px;
+	}
+.portfolio dl dt:first-child:before {
+	display: none;
+	}
+.portfolio dl dt em {
+	font-size:12px;
+	color:#BBB;
+	}
+.portfolio dl dd.work-desc {
+	font-weight:bold;
+}
+.portfolio dl dd.work-desc:after {
+	content: ' ';
+	display: block;
+	clear: both;
+	overflow: hidden;
+	height: 0;
+	font-size: 0;
+	}
+
+.media li {
+	padding-bottom: 10px;
+}
+
+footer {
+	padding: 20px 30px;
+	background: #fefeeb url(../i/header.jpg) 50% 50% no-repeat;
+}
+footer:after {
+	content: ' ';
+	display: block;
+	clear: both;
+	overflow: hidden;
+	height: 0;
+	font-size: 0;
+}
+footer p {
+	padding: 3px;
+	font:italic 12px/1 Palatino,serif;
+	background: #fefeeb;
+}
+footer .copy {
+	float: left;
+}
+footer .top {
+	float: right;
+	display: block;
+	padding: 3px;
+	background: #fefeeb;
+	font:italic 12px/1 Palatino,serif;
+	text-decoration: none;
+}
+
+@media screen and (max-width: 800px) {
+   section .col {
+   	float: none;
+   	width: auto;
+   	margin-right: 0 !important;
+   }
+   .photo img {
+	   	max-width: 400px;
+	   	margin: auto;
+   }
+   .photo .col {
+   	min-height: 0;
+   }
+}

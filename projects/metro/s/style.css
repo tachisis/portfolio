@@ -1,0 +1,842 @@
+* {padding:0;margin:0;}
+
+HTML {font-size:100%;}
+BODY {
+	padding:14px 0;
+	background:#0F131B;
+	font:.8em Arial, Tahoma, sans-serif;
+	color:#9FA8B7;
+	}
+FIELDSET {border:solid 0 transparent;}
+UL LI {list-style:none;}
+IMG {border:none;}
+A {outline:none;color:#4274B3;}
+A:hover {color:#A3CEFF;}
+A.rarr {
+	padding-right:10px;
+	background:url(../i/metro/rarr.gif) 100% 62% no-repeat;
+	text-decoration:none;
+	}
+	A.rarr:hover {
+		background:url(../i/metro/rarr-hover.gif) 100% 62% no-repeat;
+		}
+ADDRESS {
+	font-style: normal;
+	}
+
+.clear {
+	width:100%;
+	height:1px;
+	overflow:hidden;
+	clear:both;
+	}
+	
+/* Counters
+-------------------------------------- */
+#counters {
+	position:absolute;
+	top:-9999px;
+	}
+#logos {
+	float:right;
+	-moz-opacity:.3;
+	opacity:.3;
+	}
+	#logos IMG {
+		vertical-align:top;
+		}
+
+/* Main
+-------------------------------------- */
+#main {
+	margin:0 auto;
+	width:964px;
+	}
+	
+/* Publish info
+-------------------------------------- */
+#publish-info {
+	overflow:hidden;
+	}
+#publish-info LI {
+	float:left;
+	list-style:none;
+	}
+#publish-info .flash {
+	float:right;
+	padding-right:4px;
+	}
+
+/* Header
+-------------------------------------- */
+#header {
+	position:relative;
+	margin:14px 0;
+	}
+	#header H1 SPAN {
+		display:none;
+		}
+
+/* Metro */
+#metro #header {
+	background:#000 url(../i/metro/header.jpg) 100% 0 no-repeat;
+	}
+	#metro #header H1 {
+		padding:44px 0 0 57px;
+		height:82px;
+		background:url(../i/metro/logo.gif) 57px 44px no-repeat;
+		}
+		#metro #header H1 A {
+			display:block;
+			width:160px;
+			height:68px;
+			}
+
+/* Menu
+-------------------------------------- */
+.menu LI {
+	float:left;
+	}
+.menu A,
+.menu STRONG {
+	float:left;
+	background-repeat:no-repeat;
+	}
+.menu A:hover,
+.menu STRONG {
+	background-position:0 0 !important;
+	}
+.menu SPAN {
+	display:none;
+	}
+.menu LI.right {
+	float:right;
+	}
+
+/* Metro */
+#metro .menu {
+	background:url(../i/metro/menu/corner.gif) 0 100% no-repeat;
+	}
+#metro .menu UL {
+	padding-left:25px;
+	height:36px;
+	}
+#metro .menu A,
+#metro .menu STRONG {
+	margin:12px 15px 0 0;
+	height:15px;
+	background-position:0 -15px;
+	}
+#metro .menu .dozor {
+	width:64px;
+	background-image:url(../i/metro/menu/dozor.gif);
+	}
+#metro .menu .game {
+	width:52px;
+	background-image:url(../i/metro/menu/game.gif);
+	}
+#metro .menu .distributors {
+	width:201px;
+	background-image:url(../i/metro/menu/distributors.gif);
+	}
+#metro .menu .artem {
+	width:63px;
+	background-image:url(../i/metro/menu/artem.gif);
+	}
+#metro .menu .chelnoki {
+	width:86px;
+	background-image:url(../i/metro/menu/chelnoki.gif);
+	}
+#metro .menu .ganza {
+	width:61px;
+	background-image:url(../i/metro/menu/ganza.gif);
+	}
+#metro .menu .dark {
+	width:50px;
+	background-image:url(../i/metro/menu/dark.gif);
+	}
+#metro .menu .read {
+	width:149px;
+	background-image:url(../i/metro/menu/read.gif);
+	}
+
+/* Page
+-------------------------------------- */
+#page {
+	padding:16px 40px 16px 40px;
+	margin:0 0 14px;
+	overflow:hidden;
+	background:#090B10;
+	position:relative;
+	}
+
+/* Content
+-------------------------------------- */
+#content {
+	float:left;
+	padding:24px 0 10px;
+	width:549px;
+	line-height:1.5em;
+	}
+	#content H3 {
+		margin-bottom:.5em;
+		}
+	#content P {
+		clear:both;
+		margin:0 0 1.5em;
+		width:100%;
+		overflow:hidden;
+		}
+	#content P.print {
+		font-size:.9em;
+		}
+	#content P.notice {
+		color:#4274B3;
+		font-size:1.1em;
+		}
+
+/* Headings
+-------------------------------------- */
+#content H2 {
+	margin:0;
+	overflow:hidden;
+	text-indent:-9000px;
+	font-size:1em;
+	}
+
+/* Metro */
+#metro #content H2 {
+	height:18px;
+	}
+#metro #content .author {
+	background:url(../i/metro/head/author.gif) no-repeat;
+	}
+#metro #content .interview {
+	background:url(../i/metro/head/interview.gif) no-repeat;
+	}
+#metro #content .book {
+	background:url(../i/metro/head/book.gif) no-repeat;
+	}
+#metro #content .distr {
+	background:url(../i/metro/head/distr.gif) no-repeat;
+	}
+#metro #content .merchandising {
+	background:url(../i/metro/head/merchandising.gif) no-repeat;
+	}
+#metro #content .outside-advert {
+	background:url(../i/metro/head/outside-advert.gif) no-repeat;
+	}
+#metro #content .dozor {
+	background:url(../i/metro/head/dozor.gif) no-repeat;
+	}
+#metro #content .artem {
+	background:url(../i/metro/head/artem.gif) no-repeat;
+	}
+#metro #content .chelnoki {
+	background:url(../i/metro/head/chelnoki.gif) no-repeat;
+	}
+#metro #content .ganza {
+	background:url(../i/metro/head/ganza.gif) no-repeat;
+	}
+#metro #content .dark {
+	background:url(../i/metro/head/dark.gif) no-repeat;
+	}
+#metro #content .shop {
+	background:url(../i/metro/head/stores.gif) no-repeat;
+	}
+#metro #content .posters {
+	background:url(../i/metro/head/posters.gif) no-repeat;
+	}
+#metro #content .prolog {
+	background:url(../i/metro/head/prolog.gif) no-repeat;
+	}
+
+/* Definition lists
+-------------------------------------- */
+#content DL {
+	margin-bottom:20px;
+	}
+	#content DL DT {
+		font-weight:bold;
+		color:#FFF;
+		margin-bottom:10px;
+		}
+	#content DL DD {
+		margin-bottom:10px;
+		}
+	#content DL DL DT {
+		margin-bottom:3px;
+		color:#9FA8B7;
+		}
+	#content DL DT A {
+		color:#FFF;
+		}
+/* Picture
+-------------------------------------- */
+.pic {
+	display:block;
+	margin:.2em 0 1em 0;
+	color:#444;
+	}
+.pic.left {
+	float:left;
+	margin-right:1.5em;
+	}
+.pic.right {
+	float:right;
+	margin-left:1.5em;
+	}
+	.pic IMG {
+		display:block;
+		}
+	.pic SMALL {
+		display:block;
+		padding:.5em 0 0;
+		font-size:.9em;
+		}
+.center {
+	text-align:center;
+	background:none !important;
+	}
+	.center IMG {
+		margin:auto;
+		}
+P.pic {
+	background:none !important;
+	}
+		
+/* Quote
+-------------------------------------- */
+#content .quote {
+	width:250px;
+	font-size:.85em;
+	}
+	#content .quote.right {
+		float:right;
+		text-align:right;
+		padding-right:1em;
+		}
+
+/* Sidebar
+-------------------------------------- */
+#sidebar {
+	float:right;
+	width:310px;
+	padding-top:24px;
+	margin-bottom:400px;
+	}
+	#sidebar #poplit H3 {
+			background:url(../i/metro/head/poplit.gif) no-repeat;
+			width:310px;
+			height:14px;
+			}
+		#sidebar #poplit IMG {
+			display:block;
+			margin-bottom:20px;
+			}
+		#sidebar #poplit P {
+			padding-left:18px;
+			}
+	#interview {
+		background:url(../i/gast/left-q.gif) 0 401px no-repeat;
+		}
+	#interview H3 {
+		background:url(../i/metro/head/dm-glu.gif) no-repeat;
+		width:294px;
+		height:21px;
+		}
+	#interview P {
+		padding-left:18px;
+		background:url(../i/gast/right-q.gif) 94% 100% no-repeat;
+		}
+	#interview P A {
+		color:#9FA8B7;
+		text-decoration:none;
+		}
+		#sidebar #interview P A:hover,
+		#ind #interview P A:hover {
+		color:#A3CEFF;
+		text-decoration:none !important;
+		}
+	#shops H3 {
+		background:url(../i/metro/head/shop.gif) no-repeat;
+		width:167px;
+		height:18px;
+		}
+	/*#shops UL {
+		margin:0 0 15px 32px;
+		color:#FFF;
+		}
+		#shops UL LI {
+			list-style-type:circle;
+			margin-bottom:5px;
+			}
+		#shops A {
+			color:#939497;
+			text-decoration:none;
+			}
+		#shops A:hover {text-decoration:underline;}*/
+
+	#shops {
+		font:1em 'Verdana', sans-serif;
+		}
+	#shops UL {
+		margin:0 0 15px 15px;
+		color:#6D8095;
+		float:left;
+		}
+		#shops UL LI {
+			list-style-type:circle;
+			margin-left:16px;
+			margin-bottom:5px;
+			}
+		#ind #shops A,
+		#shops A {
+			color:white;
+			font-weight:normal;
+			text-decoration:underline;
+			}
+		#shops STRONG A {
+			font-weight:bold !important;
+			}
+
+	#news H3 {
+		width:103px;
+		height:10px;
+		background:url(../i/metro/head/news.gif) no-repeat;
+		}
+	#news P,
+	#news H4 {
+		padding-left:15px;
+		}
+	#news H4 {
+		margin-bottom:4px;
+		}
+
+/* Project
+-------------------------------------- */
+#project {
+	width:308px;
+/*	padding-bottom:50px;
+	position:absolute;
+	bottom:0;
+	right:0;*/
+	}
+#project H3 {
+	background:url(../i/metro/head/partners.gif) no-repeat;
+	width:203px;
+	height:14px;
+	}
+#project .book {
+	margin:0 0 10px 15px;
+	}
+#project .module {
+	width:270px;
+	margin:0 auto;
+	padding-right:0;
+	}
+#partners {
+	padding-left:15px;
+	overflow:hidden;
+	}
+#partners LI {
+	float:left;
+	display:block;
+	margin:0 10px 15px 0;
+	list-style:none;
+	}
+	#partners LI A {
+		display:block;		
+		}
+	#partners LI SPAN {
+		display:none;
+		}
+	#partners LI.nms A {
+		width:143px;
+		height:47px;
+		background:url(../i/partners/part-nms.gif) no-repeat;
+		}
+	#partners LI.club A {
+		width:74px;
+		height:51px;
+		background:url(../i/partners/part-club.gif) no-repeat;
+		}
+	#partners LI.dni A {
+		width:58px;
+		height:16px;
+		background:url(../i/partners/part-dni.gif) no-repeat;
+		}
+	#partners LI.vz A {
+		width:69px;
+		height:20px;
+		background:url(../i/partners/part-vz.gif) no-repeat;
+		}
+	#partners LI.dozory A {
+		width:62px;
+		height:28px;
+		background:url(../i/partners/part-dozory.gif) no-repeat;
+		}
+	#partners LI.sob A {
+		width:101px;
+		height:28px;
+		background:url(../i/partners/part-sob.gif) no-repeat;
+		}
+	#partners LI.redstorm A {
+		width:104px;
+		height:28px;
+		background:url(../i/partners/part-redstorm.gif) no-repeat;
+		}
+	#partners LI.nz A {
+		width:99px;
+		height:20px;
+		background:url(../i/partners/part-nz.gif) no-repeat;
+		}
+	#partners LI.made A {
+		width:137px;
+		height:18px;
+		background:url(../i/partners/part-made.gif) no-repeat;
+		}
+	#partners LI.soyuz STRONG,
+	#partners LI.soyuz A {
+		display:block;
+		width:36px;
+		height:52px;
+		background:url(../i/partners/part-soyuz.gif) no-repeat;
+		}
+	#partners LI.soyuz A:hover {
+		background:url(../i/partners/part-soyuz-hover.gif) no-repeat;
+		}
+	#partners LI.nms A:hover {
+		background:url(../i/partners/part-nms-hover.gif) no-repeat;
+		}
+	#partners LI.club A:hover {
+		background:url(../i/partners/part-club-hover.gif) no-repeat;
+		}
+	#partners LI.dni A:hover {
+		background:url(../i/partners/part-dni-hover.gif) no-repeat;
+		}
+	#partners LI.vz A:hover {
+		background:url(../i/partners/part-vz-hover.gif) no-repeat;
+		}
+	#partners LI.dozory A:hover {
+		background:url(../i/partners/part-dozory-hover.gif) no-repeat;
+		}
+	#partners LI.sob A:hover {
+		background:url(../i/partners/part-sob-hover.gif) no-repeat;
+		}
+	#partners LI.redstorm A:hover {
+		background:url(../i/partners/part-redstorm-hover.gif) no-repeat;
+		}
+	#partners LI.nz A:hover {
+		background:url(../i/partners/part-nz-hover.gif) no-repeat;
+		}
+	#partners LI.made A:hover {
+		background:url(../i/partners/part-made-hover.gif) no-repeat;
+		}
+/* Module
+-------------------------------------- */
+.module {
+	margin-bottom:25px;
+	}
+	.module H3 {
+		margin-bottom:15px;
+		}
+		.module H3 A {
+			display:block;
+			width:100%;
+			height:100%;
+			}
+		.module H3 SPAN {
+			display:none;
+			}
+
+/* Footer
+-------------------------------------- */
+#footer {
+	margin:0 0 14px;
+	}
+
+/* Metro */
+#metro #footer {
+	background:#000 url(../i/metro/footer.jpg) 114px 100% no-repeat;
+	}
+	#metro #footer .menu {
+		padding:0 0 125px;
+		}
+
+/* Gast */
+#gast #footer {
+	height:162px;
+	background:#000 url(../i/gast/footer.jpg) no-repeat;
+	}
+	#gast #footer .menu {
+		padding:16px 0 0;
+		}
+
+/* Index
+-------------------------------------- */	
+#ind-container {
+	width:942px;
+	margin:auto;
+	overflow:hidden;
+	/*background:url(../i/bg.jpg);*/
+	}
+	#ind-header {
+		margin-left:55px;
+		}
+
+	#ind-header IMG {
+		display:block;
+		}
+	.ind-menu {
+		margin-left:55px;
+		padding:49px 0 65px 0;
+		overflow:hidden;
+		}
+		.ind-menu LI {
+			float:left;
+			margin-right:40px;
+			}
+			.ind-menu LI A {
+				display:block;
+				height:19px;
+				}
+				.ind-menu LI A SPAN {
+					display:none;
+					}
+		.ind-menu .ind-main {
+			width:107px;
+			background:url(../i/main.gif) no-repeat;
+			}
+		.ind-menu .ind-game {
+			width:66px;
+			background:url(../i/game.gif) no-repeat;
+			}
+		.ind-menu .ind-book {
+			width:190px;
+			background:url(../i/book.gif) no-repeat;
+			}
+		.ind-menu .ind-distr {
+			width:226px;
+			margin-left:83px;
+			background:url(../i/distr.gif) no-repeat;
+			}
+		.ind-menu .ind-posters {
+			width:116px;
+			background:url(../i/posters.gif) 0 1px no-repeat;
+			}
+		/*.ind-menu .right {
+			float:right;
+			margin-right:0;
+			}*/
+
+		.ind-menu A.ind-game:hover {
+			background-image:url(../i/game-hover.gif);
+			}
+		.ind-menu A.ind-book:hover {
+			background-image:url(../i/book-hover.gif);
+			}
+		.ind-menu A.ind-distr:hover {
+			background-image:url(../i/distr-hover.gif);
+			}
+		.ind-menu A.ind-posters:hover {
+			background-image:url(../i/posters-hover.gif);
+			}
+
+#ind {
+	padding:0;
+	/*background:#000;*/
+	background:#000 url(../i/flash-bg.jpg) no-repeat 50% 0;
+	/*font:.65em 'Verdana', sans-serif;*/
+	color:#7F8690;
+	}
+#ind A {
+	text-decoration:none;
+	/*font-weight:bold;*/
+	/*color:#939497;*/
+	color:#A0A9B8;
+	}
+#ind A:hover {text-decoration:underline;}
+#ind-content {
+	float:left;
+	width:600px;
+	/*background:url(../i/menu-bg.jpg) 50% 0 no-repeat;*/
+	}
+	#ind-content .ind-pic {
+		/*float:left;*/
+		display: block;
+		margin-right:20px;
+		margin-bottom:10px;
+		border:2px solid #1c2024;
+		}
+	#ind-content H2 {
+		margin-bottom:10px;
+		/*font-size:1.8em;*/
+		font:bold 1.8em 'Arial', sans-serif;
+		}
+		#ind-content H2 A {
+			color:#FFF;
+			}
+			#ind-content H2 A:hover {
+				text-decoration:none;
+				color:#939497;
+				}
+	#ind-content SMALL {
+		display:block;
+		font-size:.9em;
+		margin-bottom:10px;
+		}
+		#ind-content SMALL A {
+			margin-right:15px;
+			}
+	#ind-content P {
+		margin-bottom:10px;
+		}
+
+.ind-news {
+	/*background:url(../i/bg.jpg) repeat-y;*/
+	padding-bottom:10px;
+	}
+	.ind-news LI {
+		padding:0 0 5px 55px;
+		}
+		#ind .ind-news SMALL {
+			font-style:italic;
+			}
+		#ind .ind-news SMALL A {
+			color: white;
+			text-decoration: underline;
+			font-weight: normal;
+			}
+	.ind-news H3 {
+		margin-bottom:5px;
+		}
+	.ind-news .image,
+	.ind-news .video {
+		margin: 5px 0 1em;
+		}
+	.ind-news .video {
+		margin-top: 0;
+		}
+	.ind-news UL {
+		margin-bottom:10px;
+		}
+	.ind-news LI LI {
+		width:auto;
+		padding:0;
+		}
+	.ind-news .ind-hr {
+		width:95%;
+		height:57px;
+		background:url(../i/provod.gif) no-repeat;
+		}
+		.ind-news .ind-hr HR {
+			display:none;
+			}
+	.ind-news OL {
+		margin:0 0 15px 30px;
+		}
+		.ind-news OL LI {
+			list-style-type:decimal !important;
+			}
+#ind-sidebar {
+	float:right;
+	width:310px;
+	}
+	#ind-sidebar P {
+		margin-bottom:15px;
+		}
+	/* Poplit */
+	#ind-sidebar #poplit H3 {
+			background:url(../i/metro/head/poplit.gif) no-repeat;
+			width:310px;
+			height:14px;
+			}
+	#ind-sidebar #poplit P {
+		margin-left:18px;
+		}
+	/* Shops */
+	#ind-sidebar #shops P {
+		margin-left:18px;
+		}
+
+/* Footer
+-------------------------------------- */
+#ind-footer {
+	background: url(../i/footer-bg.jpg) no-repeat 50% 0;
+	color: white;
+	font: 11px/1.5 'Verdana', sans-serif;
+	}
+	#ind-footer .ind-menu {
+		padding:20px 20px 20px 55px;
+		}
+	#ind-footer DIV {
+		position:relative;
+		width:942px;
+		margin:auto;
+		height:250px;
+		padding-top:150px;
+		padding-bottom:130px;
+		}
+		#ind-footer #redstorm-logo {
+			float: right;
+			width: 280px;
+			padding-top: 7px;
+			}
+		#ind-footer #poplit-logo {
+			float: left;
+			padding-left: 55px;
+			padding-top: 5px;
+			}
+		#ind-footer ADDRESS {
+			margin-left: 250px;
+			margin-right: 320px;
+			}
+		#ind-footer A {
+			color: white;
+			font-weight: bold;
+			text-decoration: underline;
+			}
+		#ind-footer #logos {
+			position: absolute;
+			/*left: 260px;*/
+			right: 0;
+			bottom: 15px;
+			width: 280px;
+			}
+
+#ind #footer {
+	padding-bottom:30px;
+	margin-bottom:-15px;
+	color:#36383d;
+	background:#000001 url(../i/metro/footer.jpg) 50% 40px no-repeat;
+	}
+	#ind #footer A {
+		color: white;
+		font-weight: bold;
+		text-decoration: underline;
+		}
+	#ind #footer UL {
+		padding:15px 60px 142px;
+		}
+	#ind #footer .plit {
+		float:left;
+		margin-right:90px;
+		}
+
+
+/* Paging
+-------------------------------------- */
+.paging {
+	width:15em;
+	overflow:hidden;
+	margin:0 0 30px 55px;
+	}
+	.paging LI {
+		margin-bottom:5px;
+		text-decoration:none;
+		}
+		#ind .paging LI A {
+			color:white;
+			font-weight:normal;
+			}

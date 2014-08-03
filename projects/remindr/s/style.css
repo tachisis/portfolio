@@ -1,0 +1,176 @@
+@import 'reset.css';
+HTML,BODY {height:98%;}
+
+BODY {
+   background:#FFF;
+   color:#000;
+   padding:10px;
+   font:1em/1.4 Georgia,serif;
+   }
+A {
+   color:#4DB900;
+   text-decoration:none;
+   }
+A:visited {color:#9B9B9B;}
+A:hover {text-decoration:underline;}
+
+/* Container
+-------------------------------------- */   
+#container {
+   width:775px;
+   margin:0 auto;
+   min-height:100%;
+   }
+   
+#page {
+   position:relative;
+   padding-bottom:5em;
+   }
+
+/* Logo
+-------------------------------------- */
+.logo {
+   margin:0 0 30px 0;
+   min-height:40px;
+   padding:16px 0 8px 65px;
+   font-size:1.9em;
+   color:#43AF00;
+   background:url(../i/logo.png) 0 50% no-repeat;
+   }
+   .logo SPAN {color:#9B9B9B;}
+   .logo A {color:#43AF00;}
+/* Hint
+-------------------------------------- */
+.hint {
+   position:fixed;
+   top:1px;
+   right:1px;
+   }
+   
+/* Reminder
+-------------------------------------- */
+.reminder INPUT {
+   font:1.9em Georgia,serif;
+   color:#43AF00;
+   padding:0 5px;
+   }
+.reminder FIELDSET {margin-bottom:15px;}
+.reminder INPUT.example {color:#9B9B9B;}
+.reminder .message,
+.reminder .date,
+.reminder .main {
+   padding-left:65px;
+   }
+   .reminder .message LABEL,
+   .reminder .main {
+      display:block;
+      font-size:1.9em;
+      margin-bottom:5px;
+      }
+   .reminder .message INPUT {width:690px;}
+.reminder .date P.error {
+  padding-left:65px;
+  font-size:.7em;
+  color:#FF0036;
+  }
+
+.reminder .message P.error {
+  font-size:1em;
+  color:#FF0036;
+  }
+.reminder .date {
+   font-size:1.9em;
+   margin-bottom:50px;
+   }
+   .reminder .date INPUT {
+      width:180px;
+      vertical-align:bottom;
+      font-size:1em;
+      }
+.reminder .contact {
+   overflow:hidden;
+   margin-bottom:15px;
+   }
+   .reminder .contact INPUT {width:260px;font-size:1em;}
+   .reminder .contact LABEL {
+      display:block;
+      padding:6px 0 7px 65px;
+      font-size:1.9em;
+      min-height:46px;
+      }
+   .reminder .contact FIELDSET {
+      float:left;
+      width:335px;
+      }
+   .reminder .contact .twitter LABEL {background:url(../i/twitter.png) 0 50% no-repeat;}
+   .reminder .contact .jabber LABEL {background:url(../i/jabber.png) 0 50% no-repeat;}
+   .reminder .contact .email LABEL {background:url(../i/email.png) 0 50% no-repeat;}
+   .reminder .contact .phone LABEL {background:url(../i/phone.png) 0 50% no-repeat;}
+   .reminder .contact P {
+      padding-left:65px;
+      font-size:.7em;
+      color:#464646;
+      }
+      .reminder .contact P.error {
+         padding-left:65px;
+         font-size:.7em;
+         color:#FF0036;
+         }
+   .reminder .contact .twitter,
+   .reminder .contact .jabber {
+      margin-right:90px;
+      }
+.reminder .captcha {
+	width:320px;
+	margin:0 auto 30px;
+	}
+.reminder .btn {
+   text-align:center;
+   margin-bottom:10px;
+   }
+.reminder .btn INPUT {
+   background:#4DB900;
+   color:#FFF;
+   padding:0;
+   vertical-align:middle;
+   }
+   
+/* System messages
+-------------------------------------- */
+.fieldWithErrors {
+  display: inline;
+}
+.warning,
+.error {margin-bottom:20px;}
+   .warning H2,
+   .error H2 {
+      color:#4DB901;
+      font-size:2.2em;
+      padding:5px 0 5px 65px;
+      background:url(../i/warning.png) 0 50% no-repeat;
+      min-height:46px;
+      }
+   .error H2 {
+      color:#FF0036;
+      background:url(../i/error.png) 0 50% no-repeat;
+      }
+   .warning P {
+      padding-left:65px;
+      color:#555;
+      font-size:1.1em;
+      }
+   .error P {
+      padding-left:65px;
+      color:#555;
+      font-size:0.9em;
+      }
+
+/* Footer
+-------------------------------------- */
+#footer {
+   position:relative;
+   margin:-5em 0 20px;
+   text-align:center;
+   font-size:.7em;
+   color:#9B9B9B;
+   }

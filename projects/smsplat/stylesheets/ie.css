@@ -1,0 +1,80 @@
+#header,
+#menu UL,
+#content .tree FORM,
+#footer,
+#content .accounting-period .heading,
+#content .accounting-period .payins,
+#content .accounting-period .payout,
+#content .accounting-period .payins .add,
+#content .services .options H2,
+#content .services .cost .inner,
+#content .services .countries .country-list,
+#content .services .switching,
+#content .services .switching .agr,
+#content .services .abonent,
+#content .services .spec-opt FIELDSET,
+#content .services .test .select,
+#content .services .test .values,
+#content .services .options .btns,
+#content .paging,
+#content .clients,
+.profile .stat,
+.profile .data,
+.profile.edit LI,
+.profile.edit .radio,
+.profile.edit .subscribe FIELDSET,
+.profile.edit .btns,
+.profile.edit .btns FIELDSET,
+.warn,
+.warn .t,
+.warn .b,
+.check-it FIELDSET,
+.send-sms,
+.messages .message .heading,
+.nav,
+#content .news,
+#content .texts,
+.submenu,
+#content.inner .examples,
+.modal H3,
+.modal .list {
+   zoom:1;
+   }
+   
+#content .services .options H2 .help,
+.modal H3 .help {
+   background-image: none;
+   filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/images/ico/help.png', sizingMethod='crop');
+   }
+.warn .b {padding:0;}
+.messages LI,
+#content .services LI {display:inline-block;}
+.messages LI,
+#content .services LI {display:block;}
+.promo {height:180px;}
+.modal .t {overflow:hidden;}
+.modal {top:5.7em;}
+#menu A {cursor:pointer;}
+#menu .home {background-image: none;filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/images/ico/home.png', sizingMethod='crop');}
+#menu .services {background-image: none;filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/images/ico/services.png', sizingMethod='crop');}
+#menu .stat {background-image: none;filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/images/ico/stat.png', sizingMethod='crop');}
+#menu .sms {background-image: none;filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/images/ico/sms.png', sizingMethod='crop');}
+#menu .help {background-image: none;filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/images/ico/help.png', sizingMethod='crop');}
+#menu .support {background-image: none;filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/images/ico/support.png', sizingMethod='crop');}
+#menu .exit {background-image: none;filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/images/ico/exit.png', sizingMethod='crop');}
+#menu .login {background-image: none;filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/images/ico/login.png', sizingMethod='crop');}
+#menu .register {background-image: none;filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/images/ico/registration.png', sizingMethod='crop');}
+
+#menu .key {background-image: none;filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/images/ico/key.png', sizingMethod='crop');}
+#menu .safe {background-image: none;filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/images/ico/safe.png', sizingMethod='crop');}
+#menu .chat {background-image: none;filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/images/ico/chat.png', sizingMethod='crop');}
+#menu .transit {background-image: none;filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/images/ico/transit.png', sizingMethod='crop');}
+#menu .rates {background-image: none;filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/images/ico/rates.png', sizingMethod='crop');}
+#menu .bank {background-image: none;filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/images/ico/bank.png', sizingMethod='crop');}
+
+#menu .profile {background-image: none;filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/images/ico/profile.png', sizingMethod='crop');margin:0;}
+#menu .messages {background-image: none;filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/images/ico/messages.png', sizingMethod='crop');}
+#menu .users {background-image: none;filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/images/ico/users.png', sizingMethod='crop');}
+#menu .prefixes {background-image: none;filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/images/ico/prefixes.png', sizingMethod='crop');}
+#menu .payouts {background-image: none;filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/images/ico/payouts.png', sizingMethod='crop');}
+#menu .logs {background-image: none;filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/images/ico/logs.png', sizingMethod='crop');}

@@ -1,0 +1,260 @@
+@import 'reset.css';
+@import 'prefixes.css';
+@import 'accounting.css';
+@import 'dashboard.css';
+@import 'clients.css';
+@import 'profile.css';
+@import 'stat.css';
+@import 'logs.css';
+@import 'messages.css';
+@import 'front.css';
+@import 'secondary.css';
+HTML {height:100%;}
+BODY {
+   background:#C0C0C0;
+   font:.8em 'Lucida Grande',Arial,Tahoma,Verdana,sans-serif;
+   }
+HR {
+	display:block;
+	height:1px;
+	margin:5px 0;
+	clear:both;
+	border-bottom:3px solid #000;
+	}
+A {
+   color:#1A3B60;
+   text-decoration:none;
+   }
+.rss {
+   display:block;
+   width:12px;
+   height:12px;
+   background:url(../images/ico/rss.png) no-repeat;
+   text-indent:-9999px;
+   }   
+.clear {clear:both;}
+
+
+input.fieldWithErrors {border: 2px red inset !important;}
+/* Container
+-------------------------------------- */   
+#container {
+   width:1000px;
+   margin:auto;
+   border:1px solid #000;
+   border-width:0 1px 1px;
+   background:#FFF;
+   }
+   
+/* Header
+-------------------------------------- */
+#header {
+	margin-bottom:15px;
+   overflow:hidden;
+   }
+   /* Logo */
+   #header .logo {
+   	float:left;
+   	width:168px;
+	   height:60px;
+	   margin:5px 0 0 13px;
+	   overflow:hidden;
+	   position:relative;
+	   font-size:1em;
+   	}
+		#header .logo A {
+			display:block;
+			width:168px;
+   	   height:60px;
+			position:absolute;
+			top:0;
+			left:0;
+			text-indent:-9999px;
+   	   background:url(../images/logo.png) no-repeat;
+			}
+	/* Menu */
+	#header .contacts {
+	   float:right;
+	   margin-top:18px;
+	   }
+		#header .contacts LI {
+		   float:left;
+		   width:170px;
+		   margin-right:10px;
+		   }
+		   #header .contacts .phone {
+		      display:block;
+		      width:114px;
+		      height:23px;
+		      overflow:hidden;
+		      position:relative;
+		      }
+		      #header .contacts .phone SPAN {
+		         display:block;
+		         position:absolute;
+		         top:0;
+		         left:0;
+   		      width:114px;
+   		      height:23px;
+   		      background:url(../images/phone.png) no-repeat;
+		         }
+         #header .contacts .support {
+		      display:block;
+		      width:114px;
+		      height:23px;
+		      overflow:hidden;
+		      position:relative;
+		      }
+		      #header .contacts .support SPAN {
+		         display:block;
+		         position:absolute;
+		         top:0;
+		         left:0;
+   		      width:116px;
+   		      height:23px;
+   		      background:url(../images/support.png) no-repeat;
+		         }
+		   #header .contacts SMALL {
+   		   display:block;
+   		   font-size:.75em;
+   		   color:#BBB;
+   		   margin:-2px 0 0 42px;
+   		   }
+
+/* Navigation
+-------------------------------------- */
+#menu {
+   width:986px;
+   margin:0 0 25px 7px;
+   background:#1A3B60 url(../images/nav-t.png) no-repeat;
+   }
+   #menu A {
+      display:block;
+      width:70px;
+      padding-top:70px;
+      color:#FFF;
+      text-decoration:none;
+      text-align:center;
+      }
+   #menu UL {
+      padding:10px;
+      background:url(../images/nav-b.png) 0 100% no-repeat;
+      font-size:.85em;
+      color:#FFF;
+      overflow:hidden;
+      }
+      #menu UL LI {
+         float:left;
+         padding:0 0 0;
+         margin-right:10px;
+         }
+      #menu .sep {
+         margin-right:20px;
+         padding-right:28px;
+         border-right:1px solid #5F7690;
+         }
+      #menu .single {
+         float:right;
+         margin-right:0;
+         }
+      /* Icons */
+      #menu .home {background:url(../images/ico/home.png) 50% 0 no-repeat;}
+      #menu .services {background:url(../images/ico/services.png) 50% 0 no-repeat;}
+      #menu .stat {background:url(../images/ico/stat.png) 50% 0 no-repeat;}
+      #menu .sms {background:url(../images/ico/sms.png) 50% 0 no-repeat;}
+      #menu .help {background:url(../images/ico/help.png) 50% 0 no-repeat;}
+      #menu .support {background:url(../images/ico/support.png) 50% 0 no-repeat;}
+      #menu .exit {background:url(../images/ico/exit.png) 50% 0 no-repeat;}
+      #menu .login {background:url(../images/ico/login.png) 50% 0 no-repeat;}
+      #menu .register {background:url(../images/ico/registration.png) 50% 0 no-repeat;}
+
+	  #menu .key {background:url(../images/ico/key.png) 50% 0 no-repeat;}
+	  #menu .safe {background:url(../images/ico/safe.png) 50% 0 no-repeat;}
+	  #menu .chat {background:url(../images/ico/chat.png) 50% 0 no-repeat;}
+	  #menu .transit {background:url(../images/ico/transit.png) 50% 0 no-repeat;}
+	  #menu .rates {background:url(../images/ico/rates.png) 50% 0 no-repeat;}
+	  #menu .bank {background:url(../images/ico/bank.png) 50% 0 no-repeat;}
+
+	  #menu .profile {background:url(../images/ico/profile.png) 50% 0 no-repeat;margin:0;}
+	  #menu .messages {background:url(../images/ico/messages.png) 50% 0 no-repeat;margin:0;}
+	  #menu .users {background:url(../images/ico/users.png) 50% 0 no-repeat;}
+	  #menu .prefixes {background:url(../images/ico/prefixes.png) 50% 0 no-repeat;}
+	  #menu .payouts {background:url(../images/ico/payouts.png) 50% 0 no-repeat;}
+	  #menu .logs {background:url(../images/ico/logs.png) 50% 0 no-repeat;}
+
+/* Content
+-------------------------------------- */
+#content {
+   padding:0 7px;
+   font-family:Arial,sans-serif;
+   }
+   #content H1 {
+      margin:0 0 20px 24px;
+      color:#1A3B60;
+      font:1.8em Arial,sans-serif;
+      }
+
+/* Paging
+-------------------------------------- */
+#content .paging {
+   overflow:hidden;
+   border:1px solid #CBCBCB;
+   padding:9px 20px;
+   margin:0 20px;
+   }
+   #content .paging LI {float:right;}
+   #content .paging .sep {
+      padding-left:10px;
+      margin-left:5px;
+      background:url(../images/paging-sep.gif) 0 60% no-repeat;
+      }
+   #content .paging A {color:#986E63;}
+   
+/* Search
+-------------------------------------- */
+#content .search {
+   margin:0 17px 20px;
+   padding:0 9px 20px;
+   border-bottom:1px solid #CCC;
+   }
+   #content .search LABEL {
+      font-size:1.4em;
+      display:block;
+      margin-bottom:13px;
+      }
+   #content .search .txt {width:645px;}
+   
+/* Footer
+-------------------------------------- */
+#footer {
+   margin:30px 7px 0;
+   padding:20px 40px 50px;
+   border-top:1px solid #ABABAB;
+   overflow:hidden;
+   font-size:.9em;
+   }
+   #footer A {color:#FF3300;}
+   #footer .company {
+      float:left;
+      width:300px;
+      margin-right:30px;
+      }
+      #footer .company .address {
+         display:block;
+         margin-top:4px;
+         }
+   #footer .contacts {
+      float:left;
+      width:300px;
+      margin-right:30px;
+      }
+      #footer .contacts EM {
+         color:#ABABAB;
+         font-style:normal;
+         }
+      #footer .contacts A {
+         display:block;
+         margin-left:3em;
+         margin-top:4px;
+         }
+   #footer .info {float:left;}

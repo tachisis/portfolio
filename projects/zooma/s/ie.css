@@ -1,0 +1,86 @@
+* HTML BODY {
+	text-align:center;
+	}
+* HTML #container {
+	text-align:left;
+	width:951px;
+	w\idth:900px;
+	}
+* HTML #sidebar-1 {
+	width:225px;
+	w\idth:204px;
+	}
+* HTML #content {
+	width:400px;
+	w\idth:378px;
+	}
+* HTML #sidebar-2 {
+	width:273px;
+	w\idth:230px;
+	}
+* HTML #leftcol #content {
+	width:673px;
+	w\idth:654px;
+	}
+* HTML #rightcol #content {
+	width:625px;
+	w\idth:604px;
+	}
+* HTML #onecol #content {
+	width:898px;
+	w\idth:878px;
+	}
+* HTML #onecol #content.reg {
+	text-align:center;
+	}
+	* HTML #onecol #content.reg .form {
+		text-align:left;
+		}
+	#onecol #content.err-404 .desc {
+		width:740px;
+		w\idth:600px;
+		}
+
+/* Menus */
+.menu LI SPAN SPAN SPAN {
+		padding:8px 12px 8px;
+		}
+* HTML #userbar LI.reg A {
+	width:8em;
+	}
+* HTML #userbar LI.reg .note {
+	width:11em;
+	w\idth:10em;
+	}
+
+/* HasLayout */
+* HTML #content .video,
+#content .video-prev,
+#content .poll,
+#head #steps,
+#content .cont-info,
+* HTML .menu,
+* HTML #head {
+	zoom:1;
+	}
+
+/* Content */
+#content .desc {
+	height:120px;
+	}
+	
+/* Footer */	
+* HTML #footer {
+	height:100px;
+	}
+
+/* Form */
+.form .btn .chk {
+	margin-top:5px;
+	}
+* HTML .form .btn .sbmt INPUT {
+		width:1px;
+		padding:6px 12px 5px;
+		cursor:hand;
+		curso\r:pointer;
+		}

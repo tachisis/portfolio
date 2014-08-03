@@ -1,0 +1,44 @@
+BODY {text-align:center;}
+#container {width:992px;text-align:left;}
+#content .service .login {width:368px;height:98px;}
+#content .service .search {width:402px;height:98px;}
+#content .highlights-photos .description {width:267px;}
+#content .highlights-photos .pic {margin-left:-3px;}
+#content .highlight-articles LI {width:250px;}
+#content .highlight-art-nav .articles .cur {padding:6px 11px;}
+#content .contents .bill {width:250px;}
+#content .contents .news {width:230px;}
+#content .contents .banner, #content .contents .creative {width:229px;}
+#content .hl-articles {width:740px;}
+#content .highlight-articles LI {height:142px;}
+#content .contents .photographers {width:270px;}
+#footer .copy {width:270px;}
+#content .service .login INPUT,#content .service .search INPUT {height:20px;}
+#content .service .logged {width:368px;}
+#content .contents .article {width:479px;}
+#content .contents .review {width:250px;}
+#content .contents .model {width:500px;}
+#content .contents .prices {width:270px;}
+#content .contents .details {width:500px;}
+#content .contents .details TH {width:360px;}
+#content .contents .brand-info {width:270px;}
+#content .contents .mark-pro {width:230px;}
+#content .brand-info {width:720px;}
+#content .results .img {width:124px;}
+#content .results .price {width:87px;}
+#content .results TABLE {width:719px;}
+#content .contents .tops {width:268px;}
+#content .catalog {width:500px;}
+#content .catalog .list LI {width:152px;}
+#content .fav-cameras LI,#content .highlight-articles LI {cursor:hand;}
+#spec {width:494px;text-align:left;}
+#spec TH {width:126px;}
+#content .photoset .photos LI {width:250px;height:142px;}
+#content .contents .close-up.two {width:510px;}
+#content .highlights-photos .description.mid-prev {width:270px;}
+#expo-all .expo-info {width:460px;}
+#content .text {width:500px;}
+#test-camera-index .contents .news-inline {width:472px;}
+.add-comment {width:460px;}
+#answers .ans-search INPUT {height:20px;}
+#personal .contents .review {width:190px;}

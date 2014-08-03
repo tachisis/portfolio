@@ -1,0 +1,12 @@
+.clear {zoom:1;}
+.ico {top:0;}
+#header .logo {width:288px;}
+.heading-brand-full .desc,
+.heading-store-full .url {
+	display:inline;
+	margin-right:150px;
+	}
+.heading-store-full .name {
+	display:inline;
+	margin-right:20px;
+	}

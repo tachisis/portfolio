@@ -1,0 +1,728 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ru" lang="ru">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<title>Покупатор</title>
+	<link rel="stylesheet" href="s/style.css" type="text/css" />
+	<!--[if lt IE 8]><link rel="stylesheet" href="s/ie7.css" type="text/css" /><![endif]-->
+	<!--[if lt IE 7]><link rel="stylesheet" href="s/ie6.css" type="text/css" /><![endif]-->
+</head>
+<body>
+<div id="header">
+	<h2 class="logo"><a href="/">Покупатор<span></span></a></h2>
+	<div class="info">
+		<ul>
+			<li class="first"><a href="http://blog.pokupator.ru/help">Вопросы и ответы</a></li>
+			<li><a href="#">Помощь</a></li>
+			<li class="communities-dropdown-logic">
+				<div class="l">
+					<a href="#" class="drop-down">Сообщества</a>
+					<ul>
+						<li><a href="http://vkontakte.ru/club10951038">В Контакте</a></li>
+						<li><a href="http://www.facebook.com/group.php?gid=112863247689">Facebook</a></li>
+						<li><a href="http://community.livejournal.com/pokupator_ru/">Livejournal</a></li>
+						<li><a href="http://twitter.com/pokupator">Twitter</a></li>
+						<li class="last"><a href="http://friendfeed.com/pokupatr">FriendFeed</a></li>
+					</ul>
+				</div>
+			</li>
+		</ul>
+		<form action="/products/search" class="srch" method="get">
+			<fieldset>
+				<input type="text" title="Поиск по каталогу" name="query" class="txt example" value="Поищите по каталогу"/><input type="image" src="i/buttons/search.png" alt="Поиск" class="btn"/>
+			</fieldset>
+			<p class="note">&hellip;или <a href="#">напишите, что хотите купить</a>, своими словами.</p>
+		</form>
+	</div>
+	<div class="user-actions">
+		<div class="user">
+		<div class="t-r">
+		<div class="b-l">	
+		<ul class="b-r">
+			<li><a href="/seller/orders" class="male">unlinl+shop2</a></li>
+			<li class="exit"><a href="http://test20.pokupator.ru/session" onclick="var f = document.createElement('form'); f.style.display = 'none'; this.parentNode.appendChild(f); f.method = 'POST'; f.action = this.href;var m = document.createElement('input'); m.setAttribute('type', 'hidden'); m.setAttribute('name', '_method'); m.setAttribute('value', 'delete'); f.appendChild(m);var s = document.createElement('input'); s.setAttribute('type', 'hidden'); s.setAttribute('name', 'authenticity_token'); s.setAttribute('value', '7q9KYwH7FAY31qc1L3btGADZnYWGFGT/p63h9iRumSU='); f.appendChild(s);f.submit();return false;">Выход</a></li>
+		</ul>
+		</div>
+		</div>
+		</div>
+		<a href="#" class="help">Он-лайн помощь</a>
+	</div>
+</div>
+<div id="main-nav">
+	<div class="main">
+		<table>
+			<tr>
+				<td class="active">
+					<div class="item category-dropdown">
+						<div class="r"><div class="l"><a href="/categories/31">Фото</a></div></div>
+						<ul class="list" style="top:2.75em;">
+							<li><a href="/categories/32">Фотоаппараты</a></li>
+							<li><a href="/categories/33">Видеокамеры</a></li>
+							<li><a href="/categories/10">Сумки для фото и видеокамер</a></li>
+							<li><a href="/categories/35">Вспышки</a></li>
+							<li class="last"><a href="/categories/36">Штативы</a></li>
+							<li class="all"><a href="/categories/31">Посмотреть все...</a></li>
+						</ul>
+					</div>
+				</td>
+				<td>
+					<div class="item category-dropdown">
+						<div class="r"><div class="l"><a href="/categories/18">Бытовая техника</a></div></div>
+						<ul class="list" style="top:2.75em;"><!-- Top выстчитываем: высота .l - 1px -->
+							<li><a href="/categories/19">Для кухни</a></li>
+							<li class="last"><a href="/categories/20">Для дома</a></li>
+							<li class="all"><a href="/categories/18">Посмотреть все...</a></li>
+						</ul>
+					</div>
+				</td>
+				<td>
+					<div class="item category-dropdown">
+						<div class="r"><div class="l"><a href="/categories/43">Электроника</a></div></div>
+						<ul class="list" style="top:3.75em;">
+							<li><a href="/categories/44">Телевизоры и плазменные панели</a></li>
+							<li><a href="/categories/45">Проекторы</a></li>
+							<li class="last"><a href="/categories/46">DVD - плееры</a></li>
+							<li class="all"><a href="/categories/43">Посмотреть все...</a></li>
+						</ul>
+					</div>
+				</td>
+				<td>
+					<div class="item category-dropdown">
+						<div class="r"><div class="l"><a href="/categories/39">Телефония</a></div></div>
+						<ul class="list" style="top:2.75em;">
+							<li><a href="/categories/40">Сотовые телефоны</a></li>
+							<li><a href="/categories/41">Проводные телефоны</a></li>
+							<li><a href="/categories/47">Спутниковые телефоны</a></li>
+							<li class="last"><a href="/categories/48">Аксессуары к сотовым телефонам</a></li>
+							<li class="all"><a href="/categories/39">Посмотреть все...</a></li>
+						</ul>
+					</div>
+				</td>
+				<td>
+					<div class="item category-dropdown dropdown">
+						<div class="r"><div class="l"><a href="/categories/22">Компьютерная техника</a></div></div>
+						<ul class="list" style="top:2.75em;">
+							<li><a href="/categories/27">Ноутбуки</a></li>
+							<li><a href="/categories/26">Мониторы</a></li>
+							<li><a href="/categories/28">Игровые приставки</a></li>
+							<li><a href="/categories/30">Компьютерная акустика</a></li>
+							<li class="last"><a href="/categories/37">Принтеры и МФУ</a></li>
+							<li class="all"><a href="/categories/22">Посмотреть все...</a></li>
+						</ul>
+					</div>
+				</td>
+				<td>
+					<div class="item more"><div class="r"><div class="l"><a href="/categories">Еще</a></div></div></div>
+				</td>
+			</tr>
+		</table>
+	</div>
+	<div class="subnav">
+		<ul>
+			<li><a href="#">Фотография</a></li>
+			<li><a href="#">Цифровые камеры</a></li>
+			<li class="last active"><a href="#">Зеркальные фотоаппараты</a></li>
+		</ul>
+	</div>
+</div>
+<div id="content">
+	<div class="how-to"><a href="#">Как работает Покупатор?</a><i class="b-l"></i><i class="b-r"></i></div>
+	<div class="product-card">
+		<div class="about">
+			<div class="heading">
+				<div class="button orange"><span class="r"><a href="#" class="buy">Купить товар</a></span></div>
+				<h1>Canon EOS 450D</h1>
+				<div class="h-note">
+					<p>У этой модели есть несколько</p>
+					<div class="dropdown">
+						<div class="bg"><span>модификаций</span></div>
+						<ul style="top:1.7em"><!-- Позиционируем: top = bg.height-1px -->
+							<li>
+								<img src="i/example/product-tiny.jpg" alt="" class="pic"/>
+								<dl>
+									<dt><a href="#">Canon EOS 450D Kit </a></dt>
+									<dd>EF-S 17-85 mm f/4-5,6 IS USM</dd>
+								</dl>
+							</li>
+							<li>
+								<img src="i/example/product-tiny.jpg" alt="" class="pic"/>
+								<dl>
+									<dt><a href="#">Canon EOS 450D Kit </a></dt>
+									<dd>EF-S 17-85 mm f/4-5,6 IS USM</dd>
+								</dl>
+							</li>
+							<li>
+								<img src="i/example/product-tiny.jpg" alt="" class="pic"/>
+								<dl>
+									<dt><a href="#">Canon EOS 450D Kit </a></dt>
+									<dd>EF-S 17-85 mm f/4-5,6 IS USM</dd>
+								</dl>
+							</li>
+							<li>
+								<img src="i/example/product-tiny.jpg" alt="" class="pic"/>
+								<dl>
+									<dt><a href="#">Canon EOS 450D Kit </a></dt>
+									<dd>EF-S 17-85 mm f/4-5,6 IS USM</dd>
+								</dl>
+							</li>
+							<li>
+								<img src="i/example/product-tiny.jpg" alt="" class="pic"/>
+								<dl>
+									<dt><a href="#">Canon EOS 450D Kit </a></dt>
+									<dd>EF-S 17-85 mm f/4-5,6 IS USM</dd>
+								</dl>
+							</li>
+							<li>
+								<img src="i/example/product-tiny.jpg" alt="" class="pic"/>
+								<dl>
+									<dt><a href="#">Canon EOS 450D Kit </a></dt>
+									<dd>EF-S 17-85 mm f/4-5,6 IS USM</dd>
+								</dl>
+							</li>
+							<li>
+								<img src="i/example/product-tiny.jpg" alt="" class="pic"/>
+								<dl>
+									<dt><a href="#">Canon EOS 450D Kit </a></dt>
+									<dd>EF-S 17-85 mm f/4-5,6 IS USM</dd>
+								</dl>
+							</li>
+							<li>
+								<img src="i/example/product-tiny.jpg" alt="" class="pic"/>
+								<dl>
+									<dt><a href="#">Canon EOS 450D Kit </a></dt>
+									<dd>EF-S 17-85 mm f/4-5,6 IS USM</dd>
+								</dl>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="product-pictures">
+				<table class="pic"><tr><td><img src="i/example/product-big.jpg" alt=""/></td></tr></table>
+				<div class="views">
+					<div class="control l">&larr;</div>
+					<ul>
+						<li><img src="i/example/product-tiny.jpg" alt=""/></li>
+						<li><img src="i/example/product-tiny.jpg" alt=""/></li>
+						<li><img src="i/example/product-tiny.jpg" alt=""/></li>
+					</ul>
+					<div class="control r">&rarr;</div>
+				</div>
+			</div>
+			<div class="stat">
+				<ul class="price">
+					<li><a href="#">Цены без учета доставки</a>:<br/> от <strong>30,972</strong> до <strong>39,441</strong> руб.</li>
+					<li><a href="#">В наличии у</a>:<br/> <strong>39 магазинов</strong></li>
+				</ul>
+				<ul class="people">
+					<li class="want"><strong>1200</strong> <p>хотели бы купить</p></li>
+					<li class="relation">
+						<p class="plus"><strong>325</strong> довольны покупкой</p>
+						<p class="minus"><strong>15</strong> разочарованы</p>
+					</li>
+				</ul>
+				<div class="i-am">
+					<ul>
+						<li class="selected"><span><span><span>Я это хочу</span></span></span></li>
+						<li><span><span><span>У меня это есть</span></span></span></li>
+						<li><span><span><span>У меня это было</span></span></span></li>
+					</ul>
+					<div class="my-relation" style="display:none;">
+					<div class="t-r">
+					<div class="b-l">
+					<div class="b-r">
+						<label for="yes">И я остался</label>
+						<div class="button green-gray" id="yes"><span class="r"><a href="#">Доволен</a></span></div>
+						<div class="button red-gray"><span class="r"><a href="#">Разочарован</a></span></div>
+						<span class="close">Закрыть</span>
+					</div>
+					</div>
+					</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="alter">
+			<h3>Альтернативы</h3>
+			<div class="variants">
+				<div class="control">&uarr;</div>
+				<ul>
+				<li>
+					<img src="i/example/product-tiny.jpg" alt="" class="pic"/>
+					<dl>
+						<dt><a href="#">Canon EOS 450D</a></dt>
+						<dd class="mark">Оценка 5</dd>
+					</dl>
+				</li>
+				<li>
+					<img src="i/example/product-tiny.jpg" alt="" class="pic"/>
+					<dl>
+						<dt><a href="#">Canon EOS 450D</a></dt>
+						<dd class="mark">Оценка 5</dd>
+					</dl>
+				</li>
+				<li>
+					<img src="i/example/product-tiny.jpg" alt="" class="pic"/>
+					<dl>
+						<dt><a href="#">Canon EOS 450D</a></dt>
+						<dd class="mark">Оценка 5</dd>
+					</dl>
+				</li>
+				<li>
+					<img src="i/example/product-tiny.jpg" alt="" class="pic"/>
+					<dl>
+						<dt><a href="#">Canon EOS 450D</a></dt>
+						<dd class="mark">Оценка 5</dd>
+					</dl>
+				</li>
+				<li>
+					<img src="i/example/product-tiny.jpg" alt="" class="pic"/>
+					<dl>
+						<dt><a href="#">Canon EOS 450D</a></dt>
+						<dd class="mark">Оценка 5</dd>
+					</dl>
+				</li>
+				<li>
+					<img src="i/example/product-tiny.jpg" alt="" class="pic"/>
+					<dl>
+						<dt><a href="#">Canon EOS 450D</a></dt>
+						<dd class="mark">Оценка 5</dd>
+					</dl>
+				</li>
+				<li>
+					<img src="i/example/product-tiny.jpg" alt="" class="pic"/>
+					<dl>
+						<dt><a href="#">Canon EOS 450D</a></dt>
+						<dd class="mark">Оценка 5</dd>
+					</dl>
+				</li>
+				<li>
+					<img src="i/example/product-tiny.jpg" alt="" class="pic"/>
+					<dl>
+						<dt><a href="#">Canon EOS 450D</a></dt>
+						<dd class="mark">Оценка 5</dd>
+					</dl>
+				</li>
+				</ul>
+				<div class="control d">&darr;</div>
+			</div>
+		</div>
+	</div>
+	<div class="with-tabs">
+		<ul class="tabs">
+			<li>Отзывы<i class="t-l"></i><i class="t-r"></i></li>
+			<li>Обзоры и тесты<i class="t-l"></i><i class="t-r"></i></li>
+			<li class="active">Характеристики<i class="t-l"></i><i class="t-r"></i></li>
+			<li>Вопросы и ответы<i class="t-l"></i><i class="t-r"></i></li>
+		</ul>
+		<div class="tab-body visible">
+			<div class="responses">
+				<div class="actions">
+					<div class="t-r">
+					<div class="b-l">
+					<div class="b-r">
+					<div class="button blue"><span class="r"><a href="#">Написать отзыв</a></span></div>
+					<div class="select">
+						<label for="sort">Сортировать по:</label>
+						<select id="sort"><option>Полезности вопроса</option></select>
+					</div>
+					</div>
+					</div>
+					</div>
+				</div>
+				<dl class="response">
+					<dt>
+						<span class="rating-score"><span class="r">Оценка 8,9</span></span>
+						<span class="people-count"><strong>43 человека</strong> считают отзыв полезным</span>
+						<span class="estimate">
+							<em>Полезный отзыв?</em>
+							<span class="t-l active"><span><span><span>Да</span></span></span></span>
+							<span class="t-l"><span><span><span>Нет</span></span></span></span>
+						</span>
+					</dt>
+					<dd>
+						<h5>AndrewN, Москва, <small>более месяца назад</small></h5>
+						<p>Камера для фотографов - свадебщиков, настоящий подарок. И истинные фотолюбители получат огромное удовольствие от фотопроцесса.</p>
+						<p class="plus">Очень неплохая модель, отрабатывает свои деньги на все 100 процентов. Удобное визирование, улучшены ручные настройки, китовый объектив значительно лучше, чем на предыдущих моделях.</p>
+						<p class="minus">Очень "неухватистый", автомат работает кое-как (а в репортажной спешке он бывает очень нужен).</p>
+					</dd>
+				</dl>
+				<dl class="response last">
+					<dt>
+						<span class="rating-score"><span class="r">Оценка 8,9</span></span>
+						<span class="people-count"><strong>43 человека</strong> считают отзыв полезным</span>
+						<span class="estimate">
+							<em>Полезный отзыв?</em>
+							<span class="t-l"><span><span><span>Да</span></span></span></span>
+							<span class="t-l"><span><span><span>Нет</span></span></span></span>
+						</span>
+					</dt>
+					<dd>
+						<h5>AndrewN, Москва, более месяца назад</h5>
+						<p>Камера для фотографов - свадебщиков, настоящий подарок. И истинные фотолюбители получат огромное удовольствие от фотопроцесса.</p>
+						<p class="plus">Очень неплохая модель, отрабатывает свои деньги на все 100 процентов. Удобное визирование, улучшены ручные настройки, китовый объектив значительно лучше, чем на предыдущих моделях.</p>
+						<p class="minus">Очень "неухватистый", автомат работает кое-как (а в репортажной спешке он бывает очень нужен).</p>
+					</dd>
+				</dl>
+			</div>
+		</div>
+		<div class="tab-body visible">
+			<div class="responses">
+				<dl class="response">
+					<dt>
+						<span class="people-count"><strong>43 человека</strong> считают обзор полезным</span>
+						<span class="estimate">
+							<em>Полезный обзор?</em>
+							<span class="t-l"><span><span><span>Да</span></span></span></span>
+							<span class="t-l"><span><span><span>Нет</span></span></span></span>
+						</span>
+					</dt>
+					<dd>
+						<h4><a href="#">Tom’s Hardware Guide</a></h4>
+						<h5>Автор: Сергей Петров, более месяца назад</h5>
+						<p>Камера для фотографов - свадебщиков, настоящий подарок. И истинные фотолюбители получат огромное удовольствие от фотопроцесса.</p>
+						<p><a href="#">Читать далее</a></p>
+					</dd>
+				</dl>
+				<dl class="response last">
+					<dt>
+						<span class="people-count"><strong>43 человека</strong> считают обзор полезным</span>
+						<span class="estimate">
+							<em>Полезный обзор?</em>
+							<span class="t-l"><span><span><span>Да</span></span></span></span>
+							<span class="t-l"><span><span><span>Нет</span></span></span></span>
+						</span>
+					</dt>
+					<dd>
+						<h4><a href="#">Tom’s Hardware Guide</a></h4>
+						<h5>Автор: Сергей Петров, более месяца назад</h5>
+						<p>Камера для фотографов - свадебщиков, настоящий подарок. И истинные фотолюбители получат огромное удовольствие от фотопроцесса.</p>
+						<p><a href="#">Читать далее</a></p>
+					</dd>
+				</dl>
+			</div>				
+		</div>
+		<div class="tab-body visible">
+			<div class="modifications">
+				<h3>У этого товара есть несколько модификаций:</h3>
+				<table class="products-viewer">
+				<tr>
+					<td class="picture">
+						<div>
+							<em class="mark mark-8">Оценка<span>8.12</span></em>
+							<img src="i/example/product-big.jpg" alt=""/>
+						</div>
+					</td>
+					<td class="product">
+						<h3>
+							<label for="yes">Canon EOS 450D Kit</label>
+							<small>EF-S 17-85 mm f/4-5,6 IS USM</small>
+						</h3>
+						<p>от <strong>30,972</strong> до <strong>39,441</strong> руб.</p>
+						<p class="more"><a href="#">Характеристики модификации</a></p>
+					</td>
+					<td class="info">
+						<h4>Отличительные особенности:</h4>
+						<p>Фотоаппарат поставляется вместе с обьективом</p>
+					</td>
+				</tr>
+				<tr class="last">
+					<td class="picture">
+						<div>
+							<em class="mark mark-7">Оценка<span>7</span></em>
+							<img src="i/example/product-big.jpg" alt=""/>
+						</div>
+					</td>
+					<td class="product">
+						<h3>
+							<label for="yes">Canon EOS 450D Kit</label>
+							<small>EF-S 17-85 mm f/4-5,6 IS USM</small>
+						</h3>
+						<p>от <strong>30,972</strong> до <strong>39,441</strong> руб.</p>
+						<p class="more"><a href="#">Характеристики модификации</a></p>
+					</td>
+					<td class="info">
+						<h4>Отличительные особенности:</h4>
+						<p>Фотоаппарат поставляется вместе с обьективом</p>
+					</td>
+				</tr>
+				</table>
+			</div>
+			<div class="specs">
+				<div class="actions">
+					<div class="t-r">
+					<div class="b-l">
+					<div class="b-r">
+					<div class="button blue"><span class="r"><a href="#">Задать вопрос</a></span></div>
+					<dl class="show">
+						<dt>Показать:</dt>
+						<dd>основные<i class="t-l"></i><i class="t-r"></i><i class="b-l"></i><i class="b-r"></i></dd>
+						<dd class="cur">все характеристики<i class="t-l"></i><i class="t-r"></i><i class="b-l"></i><i class="b-r"></i></dd>
+					</dl>
+					</div>
+					</div>
+					</div>
+				</div>
+				<div class="blank-state">
+					Мы пока не знаем характеристик этой модели, но скоро все их здесь запишем.
+				</div>
+				<div class="col-1">
+					<h4>Матрица</h4>
+					<ul>
+						<li>
+							<label for="px"><span><span>Общее число пикселов пикселов</span></span></label>
+							<strong id="px">10.5 млн</strong>
+						</li>
+						<li>
+							<label for="eff-px"><span>Число эффективных пикселов</span></label>
+							<strong id="eff-px">10.5 млн</strong>								
+						</li>
+						<li>
+							<label for="dim"><span>Максимальное разрешение</span></label>
+							<strong id="dim">3888 x 2592</strong>
+						</li>
+						<li>
+							<label for="iso"><span>Число эффективных пикселов</span></label>
+							<strong id="iso">100 - 3200 ISO, Auto ISO</strong>								
+						</li>
+						<li>
+							<label for="px10"><span><span>Общее число пикселов пикселов</span></span></label>
+							<strong id="px10">10.5 млн</strong>
+						</li>
+						<li>
+							<label for="eff-px10"><span>Число эффективных пикселов</span></label>
+							<strong id="eff-px10">10.5 млн</strong>								
+						</li>
+						<li>
+							<label for="dim10"><span>Максимальное разрешение</span></label>
+							<strong id="dim10">3888 x 2592</strong>
+						</li>
+						<li>
+							<label for="iso10"><span>Число эффективных пикселов</span></label>
+							<strong id="iso10">100 - 3200 ISO, Auto ISO</strong>								
+						</li>
+						<li>
+							<label for="eff-px11"><span>Число эффективных пикселов</span></label>
+							<strong id="eff-px11">10.5 млн</strong>								
+						</li>
+						<li>
+							<label for="dim11"><span>Максимальное разрешение</span></label>
+							<strong id="dim11">3888 x 2592</strong>
+						</li>
+						<li>
+							<label for="iso11"><span>Число эффективных пикселов</span></label>
+							<strong id="iso11">100 - 3200 ISO, Auto ISO</strong>								
+						</li>
+						<li>
+							<label for="eff-px12"><span>Число эффективных пикселов</span></label>
+							<strong id="eff-px12">10.5 млн</strong>								
+						</li>
+						<li>
+							<label for="dim12"><span>Максимальное разрешение</span></label>
+							<strong id="dim12">3888 x 2592</strong>
+						</li>
+						<li>
+							<label for="iso12"><span>Число эффективных пикселов</span></label>
+							<strong id="iso12">100 - 3200 ISO, Auto ISO</strong>								
+						</li>
+					</ul>
+					<h4>Экспозиция</h4>
+					<ul>
+						<li>
+							<label for="px2"><span>Общее число пикселов</span></label>
+							<strong id="px2">10.5 млн</strong>
+						</li>
+						<li>
+							<label for="eff-px2"><span>Число эффективных пикселов</span></label>
+							<strong id="eff-px2">с приоритетом затвора, с приоритетом диафрагмы</strong>								
+						</li>
+						<li>
+							<label for="dim3"><span>Максимальное разрешение</span></label>
+							<strong id="dim3">3888 x 2592</strong>
+						</li>
+						<li>
+							<label for="iso4"><span>Число эффективных пикселов</span></label>
+							<strong id="iso4">100 - 3200 ISO, Auto ISO</strong>								
+						</li>
+						<li>
+							<label for="px3"><span>Общее число пикселов</span></label>
+							<strong id="px3">10.5 млн</strong>
+						</li>
+						<li>
+							<label for="eff-px3"><span>Число эффективных пикселов</span></label>
+							<strong id="eff-px3">с приоритетом затвора, с приоритетом диафрагмы</strong>								
+						</li>
+						<li>
+							<label for="dim4"><span>Максимальное разрешение</span></label>
+							<strong id="dim4">3888 x 2592</strong>
+						</li>
+						<li>
+							<label for="iso5"><span>Число эффективных пикселов</span></label>
+							<strong id="iso5">100 - 3200 ISO, Auto ISO</strong>								
+						</li>
+					</ul>
+				</div>
+				<div class="col-2">
+					<h4>Функциональные возможности</h4>
+					<ul class="without-lines">
+						<li>
+							<label for="px4"><span>Общее число пикселов</span></label>
+							<strong id="px4">автоматический, ручная установка, из списка, брекетинг</strong>
+						</li>
+						<li>
+							<label for="eff-px4"><span>Число эффективных пикселов</span></label>
+							<strong id="eff-px4">встроенная, подавление эффекта красных глаз, башмак, синхроконтакт, брекетинг, E-TTL II</strong>								
+						</li>
+					</ul>
+					<h4>Объектив</h4>
+					<ul class="without-lines">
+						<li>
+							<label for="px6"><span>Общее число пикселов</span></label>
+							<strong id="px6">автоматический, ручная установка, из списка, брекетинг</strong>
+						</li>
+						<li>
+							<label for="eff-px7"><span>Число эффективных пикселов</span></label>
+							<strong id="eff-px7">встроенная, подавление эффекта красных глаз, башмак, синхроконтакт, брекетинг, E-TTL II</strong>								
+						</li>
+					</ul>
+					<h4>Матрица</h4>
+					<ul>
+						<li>
+							<label for="px7"><span>Общее число пикселов</span></label>
+							<strong id="px7">10.5 млн</strong>
+						</li>
+						<li>
+							<label for="eff-px8"><span>Число эффективных пикселов</span></label>
+							<strong id="eff-px8">10.5 млн</strong>								
+						</li>
+						<li>
+							<label for="dim5"><span>Максимальное разрешение</span></label>
+							<strong id="dim5">3888 x 2592</strong>
+						</li>
+						<li>
+							<label for="iso6"><span>Число эффективных пикселов</span></label>
+							<strong id="iso6">100 - 3200 ISO, Auto ISO</strong>								
+						</li>
+					</ul>
+					<h4>Экспозиция</h4>
+					<ul>
+						<li>
+							<label for="px9"><span>Общее число пикселов</span></label>
+							<strong id="px9">10.5 млн</strong>
+						</li>
+						<li>
+							<label for="eff-px9"><span>Число эффективных пикселов</span></label>
+							<strong id="eff-px9">с приоритетом затвора, с приоритетом диафрагмы</strong>								
+						</li>
+						<li>
+							<label for="dim7"><span>Максимальное разрешение</span></label>
+							<strong id="dim7">3888 x 2592</strong>
+						</li>
+						<li>
+							<label for="iso9"><span>Число эффективных пикселов</span></label>
+							<strong id="iso9">100 - 3200 ISO, Auto ISO</strong>								
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="tab-body visible">
+			<div class="responses">
+				<div class="actions">
+					<div class="t-r">
+					<div class="b-l">
+					<div class="b-r">
+					<div class="button blue"><span class="r"><a href="#">Задать вопрос</a></span></div>
+					<div class="select">
+						<label for="sort-2">Сортировать по:</label>
+						<select id="sort-2"><option>Полезности вопроса</option></select>
+					</div>
+					</div>
+					</div>
+					</div>
+				</div>
+				<dl class="response">
+					<dt>
+						<span class="people-count"><strong>43 человека</strong> считают отзыв полезным</span>
+						<span class="estimate">
+							<em>Полезный отзыв?</em>
+							<span class="t-l"><span><span><span>Да</span></span></span></span>
+							<span class="t-l"><span><span><span>Нет</span></span></span></span>
+						</span>
+					</dt>
+					<dd>
+						<h5>AndrewN, Москва, <small>более месяца назад</small></h5>
+						<h3><a href="#">Как он себя проявляет при сьемке в темном помещении?</a></h3>
+						<p>Камера для фотографов - свадебщиков, настоящий подарок. И истинные фотолюбители получат огромное удовольствие от фотопроцесса.</p>
+						<div class="answers">
+						<div class="t-r">
+						<div class="b-l">
+						<ul>
+							<li>20 ответов</li>
+							<li><a href="#">Показать ответы</a></li>
+						</ul>
+						</div>
+						</div>
+						</div>
+					</dd>
+				</dl>
+				<dl class="response last">
+					<dt>
+						<span class="people-count"><strong>43 человека</strong> считают отзыв полезным</span>
+						<span class="estimate">
+							<em>Полезный отзыв?</em>
+							<span class="t-l"><span><span><span>Да</span></span></span></span>
+							<span class="t-l"><span><span><span>Нет</span></span></span></span>
+						</span>
+					</dt>
+					<dd>
+						<h5>AndrewN, Москва, более месяца назад</h5>
+						<h3><a href="#">Как он себя проявляет при сьемке в темном помещении?</a></h3>
+						<p>Камера для фотографов - свадебщиков, настоящий подарок. И истинные фотолюбители получат огромное удовольствие от фотопроцесса.</p>
+						<div class="answers">
+						<div class="t-r">
+						<div class="b-l">
+						<ul>
+							<li>20 ответов</li>
+							<li><a href="#">Показать ответы</a></li>
+						</ul>
+						</div>
+						</div>
+						</div>
+					</dd>
+				</dl>
+			</div>
+		</div>
+	</div>
+</div>
+<div id="footer">
+	<div class="wrapper">
+	<table>
+	<tr>
+		<td>
+		<ul>
+			<li><a href="#">О Покупаторе</a></li>
+			<li><a href="#">Вакансии</a></li>
+			<li><a href="#">Наш блог</a></li>
+			<li><a href="#">Контакты</a></li>
+		</ul>
+		</td>
+		<td>
+		<ul>
+			<li><a href="#">Для магазинов</a></li>
+			<li><a href="#">Для производителей</a></li>
+			<li><a href="#">Пользовательское соглашение</a></li>
+		</ul>
+		</td>
+		<td class="last">
+		<ul>
+			<li><a href="#">RSS</a></li>
+			<li><a href="#">Каталог</a></li>
+		</ul>
+		</td>
+	</tr>
+	</table>
+	</div>
+</div>
+</body>
+</html>

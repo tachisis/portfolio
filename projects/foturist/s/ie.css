@@ -1,0 +1,8 @@
+#container,
+#header,
+#content .secondary,
+#content .posts .post .heading,
+#content .actions,
+#sidebar .calendar .switcher {
+   zoom:1;
+   }

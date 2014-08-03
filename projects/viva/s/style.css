@@ -1,0 +1,190 @@
+@import url(reset.css);
+BODY {
+	background:#492E1B url(../i/bg.gif);
+	color:#FFF;
+	font:.9em "Times New Roman", Times, serif;
+	}
+	
+#container {
+	width:1000px;
+	margin:0 auto;
+	}
+	
+#header {
+	width:761px;
+	height:180px;
+	background:url(../i/header.png) no-repeat;
+	text-indent:-9999px;
+	}
+	
+#nav {
+	position:relative;
+	margin:-20px 0 20px 40px;
+	height:175px;
+	background:url(../i/menu-bg.png) 0 50% no-repeat;
+	color:#FF4B58;
+	font:1.4em "Garamond Premier Pro", Garamond, serif;
+	}
+	#nav LI {
+		position:absolute;
+		width:145px;
+		text-align:center;
+		}
+		#nav LI.cur {		
+			padding-top:113px;
+			background:url(../i/star-hover.png) 50% 0 no-repeat;
+			}
+		#nav LI.empty {		
+			padding-top:113px;
+			background:url(../i/star-empty.png) 50% 0 no-repeat;
+			text-indent:-9999px;
+			}
+		#nav LI A {
+			display:block;
+			width:100%;
+			padding-top:113px;
+			background:url(../i/star.png) 50% 0 no-repeat;
+			text-decoration:none;
+			color:#F19927;
+			}
+		#nav LI A:hover {
+			color:#E95A47;
+			background:url(../i/star-hover.png) 50% 0 no-repeat;
+			}
+		#nav .item-1 {top:72px;left:0;}
+		#nav .item-2 {top:60px;left:165px;}
+		#nav .item-3 {top:37px;left:330px;}
+		#nav .item-4 {top:0;left:480px;}
+		#nav .item-5 {top:20px;left:640px;}
+		#nav .item-6 {top:65px;left:780px;}
+	
+#content {
+	overflow:hidden;
+	position:relative;
+	margin-bottom:30px;
+	}
+#content .photos {
+	width:582px;
+	float:left;
+	margin:50px 15px 0 25px;
+	position:relative;
+	}
+	#content.anfisa .photos {
+		height:812px;
+		background:url(../i/people/anfisa.png) no-repeat;
+		}
+		#content.anfisa .photos A {
+			left:0;
+			bottom:0;
+			}
+	#content.bachinskiy .photos {
+		height:1030px;
+		background:url(../i/people/bachinskiy.png) no-repeat;
+		}
+		#content.bachinskiy .photos A {
+			left:150px;
+			bottom:0;
+			}
+	#content.subbotina .photos {
+		height:940px;
+		background:url(../i/people/subbotina.png) no-repeat;
+		}
+		#content.subbotina .photos A {
+			left:20px;
+			bottom:0;
+			}
+	#content.chaif .photos {
+		width:607px;
+		height:812px;
+		margin:20px 15px 0 0;
+		background:url(../i/people/chaif.png) no-repeat;
+		}
+		#content.chaif .photos A {
+			left:200px;
+			bottom:0;
+			}
+	#content .photos A {
+		position:absolute;
+		display:block;
+		width:240px;
+		height:240px;
+		background:url(../i/extrem-photos.gif) no-repeat;
+		text-indent:-9999px;
+		}
+#content .magazine {
+	position:absolute;
+	top:0;
+	left:382px;
+	z-index:100;
+	}
+	#content .magazine .mag {
+		width:227px;
+		height:303px;
+		margin-bottom:15px;
+		padding:0 8px 2px 0;
+		background:url(../i/mag-bg.png) 100% 100% no-repeat;
+		}
+		#content .magazine .mag A {
+			display:block;
+			width:220px;
+			height:300px;
+			text-indent:-9999px;
+			background:url(../i/covers/1.jpg) no-repeat;
+			}
+		#content .magazine .mag A:hover {background:url(../i/covers/1.jpg) 0 -302px no-repeat;}
+	#content .magazine .menu {
+		width:170px;
+		margin-left:58px;
+		font:24px/24px "Garamond Premier Pro", Garamond, serif;
+		}
+	#content .magazine .menu LI {
+		margin-bottom:11px;
+		}
+	#content .magazine .menu A {
+		padding-left:13px;
+		text-decoration:none;
+		color:#F0C8AE;
+		background:url(../i/bull.gif) 0 50% no-repeat;
+		}
+	#content .magazine .menu A:hover {
+		color:#FFB200;
+		background:url(../i/bull-hover.gif) 0 50% no-repeat;
+		}
+#content .about {
+	width:375px;
+	float:left;
+	}
+	#content .about H2 {
+		font:3.5em Garamond,serif;
+		margin-bottom:14px;
+		}
+	#content .about H3 {
+		margin:10px 0 10px;
+		font-size:1.3em;
+		}
+	#content .about P {
+		font-size:1.1em;
+		line-height:1.2em;
+		margin-bottom:20px;
+		}
+		
+#footer {
+	margin-top:55px;
+	font:1.3em Arial,sans-serif;
+	}
+	#footer .partners {
+		margin-bottom:15px;
+		}
+		#footer .partners LI {
+			display:inline;
+			margin-right:25px;
+			}
+	#footer .copy {
+		text-indent:-1.1em;
+		margin-bottom:0 !important;
+		}
+	#footer .mail A {
+		color:#9E9085;
+		text-decoration:none;
+		}
+	#footer .mail A:hover {color:#FFF;}

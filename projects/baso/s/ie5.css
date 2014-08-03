@@ -1,0 +1,19 @@
+BODY {text-align:center;}
+#container {text-align:left;}
+#content {width:790px;}
+#content .main {width:392px;}
+#content.inner .main {width:575px;}
+#content .posts {margin-top:8px;}
+#content .posts .post-info {width:70px;}
+#content .posts P {width:450px;}
+.bot-banner {text-align:left;}
+#footer {text-align:left;}
+#content .sidebar .calendar CAPTION,
+#content .sidebar .calendar CAPTION SPAN {height:1.6em;}
+#content .blog-info {margin-top:10px;}
+#sidebar .search INPUT {height:20px;}
+#content .first-news .text {width:670px;}
+#content .news-info {width:60px;margin-left:0;padding-left:0 !important;}
+#content .news-info LI {padding:0 !important;margin:0 !important;}
+#content .back-to A {width:190px;}
+#container.err-404 .nav .swiss {width:211px;}

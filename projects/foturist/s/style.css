@@ -1,0 +1,297 @@
+@import 'reset.css';
+
+BODY {
+   padding:20px 0;
+   font:.9em/1.3em Arial,sans-serif;
+   background:#EEEEE7;
+   }
+A {color:#000;}
+A:hover {color:#FF0088;}
+
+/* Page
+-------------------------------------- */
+#page {
+   width:950px;
+   margin:auto;
+   }
+   
+/* Container
+-------------------------------------- */
+#container {
+   overflow:hidden;
+   }
+   
+/* Header
+-------------------------------------- */
+#header {
+   padding:16px 16px 0 16px;
+   background:#FFF;
+   margin-bottom:17px;
+   overflow:hidden;
+   }
+   #header .logo {
+      float:left;
+      width:298px;
+      height:71px;
+      margin-right:25px;
+      overflow:hidden;
+      position:relative;
+      background:#FF0088;
+      }
+      #header .logo A {
+         display:block;
+         color:#FFF;
+         text-decoration:none;
+         font-size:3.2em;
+         padding-left:15px;
+         line-height:1;
+         }
+      #header .logo SPAN {
+         display:block;
+         width:298px;
+         height:71px;
+         position:absolute;
+         top:0;
+         left:0;
+         background:url(../i/logo.png) no-repeat;
+         }
+   #header .desc {
+      width:230px;
+      font-size:1.6em;
+      float:left;
+      line-height:1.2;
+      margin-top:7px;
+      }
+   #header .menu {
+      float:right;
+      margin-top:40px;
+      color:#FFF;
+      font:.95em Tahoma,sans-serif;
+      }
+      #header .menu A {color:#FFF;}
+      #header .menu LI {
+         float:left;
+         padding:8px 8px 9px;
+         }
+      #header .menu .active {
+         padding-bottom:22px;
+         font-weight:bold;
+         }
+      #header .menu .recent {background:#FF0088;}
+      #header .menu .archive {background:#FF7B00;}
+      #header .menu .friends {background:#1CD600;}
+      #header .menu .userinfo {background:#00D0FF;}
+      
+/* Content
+-------------------------------------- */
+#content {
+   float:left;
+   width:670px;
+   }
+   /* Secondary menu */
+   #content .secondary {
+      margin:0 27px 15px 27px;
+      overflow:hidden;
+      font-size:.9em;
+      }
+      #content .secondary LI {
+         float:left;
+         line-height:1;
+         padding:2px 0;
+         margin-right:22px;
+         }
+      #content .secondary LI A  {margin-left:26px;}
+      #content .secondary .prev {
+         font-weight:bold;
+         background:url(../i/ico/prev-posts.png) 0 50% no-repeat;
+         }
+      #content .secondary .atom {
+         font-family:Tahoma,sans-serif;
+         background:url(../i/ico/atom.png) 0 50% no-repeat;
+         }
+      #content .secondary .rss {
+         font-family:Tahoma,sans-serif;
+         background:url(../i/ico/rss.png) 0 50% no-repeat;
+         }
+      #content .secondary .next {
+         float:right;
+         margin-right:0;
+         font-weight:bold;
+         background:url(../i/ico/next-posts.png) 100% 50% no-repeat;
+         }
+         #content .secondary .next A {padding-right:27px;}
+         
+   /* Posts */
+   #content .posts .post {
+      padding:20px 42px 20px 27px;
+      margin-bottom:30px;
+      background:#FFF url(../i/post-corner.png) 100% 100% no-repeat;
+      }
+      #content .posts .post .heading {
+         overflow:hidden;
+         margin-bottom:20px;
+         }
+         #content .posts .post .heading .user {
+            float:left;
+            margin-right:20px;
+            }
+            #content .posts .post .heading .user A,
+            #content .posts .post .heading .info DD A {color:#FF0088;}
+            #content .posts .post .heading .user A:hover,
+            #content .posts .post .heading .info DD A:hover {color:#000;}
+         #content .posts .post .heading .user .userpic {
+            display:block;
+            margin-bottom:8px;
+            }
+         #content .posts .post .heading .user .ljuser {font:.95em Tahoma,sans-serif;}
+            #content .posts .post .heading .user .ljuser IMG {vertical-align:bottom;}
+         #content .posts .post .heading .info {
+            float:left;
+            width:470px;
+            }
+         #content .posts .post .heading .date {
+            display:block;
+            margin-bottom:7px;
+            font:.9em Tahoma,sans-serif;
+            }
+            #content .posts .post .heading .date EM {
+               font-style:normal;
+               font-size:1.2em;
+               color:#545454;
+               }
+         #content .posts .post .heading H2 {
+            font-size:2em;
+            line-height:1;
+            margin-bottom:15px;
+            }
+            #content .posts .post .heading H2 A {text-decoration:none;}
+         #content .posts .post .heading .info DT {
+            display:inline;
+            padding-right:5px;
+            font:bold .95em Tahoma,sans-serif;
+            }
+         #content .posts .post .heading .info DD {
+            display:inline;
+            font:.95em Tahoma,sans-serif;
+            }
+            
+      /* Post Text */
+      #content .post .text {font-size:1.1em;}
+      #content .post .text .pic {
+         display:block;
+         margin-bottom:10px;
+         }
+      #content .post .text A {color:#FF0088;}
+      #content .post .text A:hover {color:#000;}
+      #content .post .text P {margin-bottom:15px;}
+      #content .post .text H3 {
+         font-size:1.3em;
+         margin-bottom:10px;
+         }
+      
+   /* Content Actions */
+   #content .actions {
+      overflow:hidden;
+      border-top:1px solid #DADAD4;
+      padding-top:15px;
+      font:bold 1em Arial,sans-serif;
+      }
+      #content .actions LI {
+         display:inline;
+         padding:0 10px;
+         border-left:1px solid #DADAD4;
+         }
+      #content .actions .first {
+         padding-left:0;
+         border-left:none;
+         }
+   
+/* Sidebar
+-------------------------------------- */
+#sidebar {
+   float:right;
+   width:260px;
+   }
+   #sidebar H5 {
+      background:#FFF;
+      padding:10px 11px;
+      font-size:1.4em;
+      margin-bottom:10px;
+      }
+   /* Calendar */
+   #sidebar .calendar {margin-bottom:35px;}
+      #sidebar .calendar .switcher {
+         overflow:hidden;
+         background:#FFF;
+         margin-bottom:15px;
+         }
+         #sidebar .calendar .switcher LI {float:left;}
+         #sidebar .calendar .switcher .prev A,
+         #sidebar .calendar .switcher .next A,
+         #sidebar .calendar .switcher .prev EM,
+         #sidebar .calendar .switcher .next EM {
+            display:block;
+            width:19px;
+            padding:15px 0;
+            text-indent:-9999px;
+            }
+         #sidebar .calendar .switcher .prev A {background:#FF7B00 url(../i/ico/prev-month.png) 50% 50% no-repeat;}
+         #sidebar .calendar .switcher .next A {background:#FF7B00 url(../i/ico/next-month.png) 50% 50% no-repeat;}
+         #sidebar .calendar .switcher .prev EM {background:url(../i/ico/prev-month-unactive.png) 50% 50% no-repeat;}
+         #sidebar .calendar .switcher .next EM {background:url(../i/ico/next-month-unactive.png) 50% 50% no-repeat;}
+         #sidebar .calendar .switcher .month {
+            width:180px;
+            margin:0 20px;
+            padding:1.2em 0 0;
+            text-align:center;
+            }
+      #sidebar .calendar TABLE {
+         width:225px;
+         margin:auto;
+         font:1em Tahoma,sans-serif;
+         color:#383B3B;
+         text-align:center;
+         }
+      #sidebar .calendar TH {
+         font-weight:bold;
+         padding:3px 10px;
+         }
+      #sidebar .calendar TD {
+         padding:3px 10px;
+         text-align:center;
+         }
+      #sidebar .calendar .link {background:#FFF;}
+      #sidebar .calendar .today {
+         background:#FF7B00;
+         color:#FFF;
+      }
+      #sidebar .calendar TD A {text-decoration:none;}
+      #sidebar .calendar .weekend {color:#FF7B00;}
+      
+   /* Tags */
+   #sidebar .tags {margin-bottom:40px;}
+   #sidebar .tags LI {
+      display:inline;
+      line-height:1.3;
+      color:#10B8DE;
+      }
+   #sidebar .tags A {color:#10B8DE;}
+   #sidebar .tags .lvl-1 {font-size:.8em;}
+   #sidebar .tags .lvl-2 {font-size:.9em;}
+   #sidebar .tags .lvl-3 {font-size:1em;}
+   #sidebar .tags .lvl-4 {font-size:1.1em;}
+   #sidebar .tags .lvl-5 {font-size:1.2em;}
+   #sidebar .tags .lvl-6 {font-size:1.3em;}
+   #sidebar .tags .lvl-7 {font-size:1.4em;}
+   #sidebar .tags .lvl-8 {font-size:1.5em;}
+   #sidebar .tags .lvl-9 {font-size:1.6em;}
+   #sidebar .tags .lvl-10 {font-size:1.7em;}
+   #sidebar .tags .lvl-11 {font-size:1.8em;}
+   #sidebar .tags .lvl-12 {font-size:1.9em;}
+   #sidebar .tags .lvl-13 {font-size:2em;}
+   
+   /* Contents */
+   #sidebar .contents LI {
+      font-size:1.1em;
+      margin:0 0 10px 11px;
+      }

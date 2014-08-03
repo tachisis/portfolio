@@ -1,0 +1,288 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ru" lang="ru" id="chat-page">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<title>typochat</title>
+	<link rel="stylesheet" href="s/style.css" type="text/css" />
+	<!--[if lt IE 8]><link rel="stylesheet" href="s/ie.css" type="text/css" /><![endif]-->
+	<!--[if lt IE 7]><link rel="stylesheet" href="s/ie6.css" type="text/css" /><![endif]-->
+	<script src="/javascripts/jquery.js" type="text/javascript"></script>
+  	<script src="/javascripts/jquery-ui.js" type="text/javascript"></script>
+  	<script src="/javascripts/jrails.js" type="text/javascript"></script>
+	<script type="text/javascript">
+		function init() {
+		  
+			if (document.body.clientWidth > 1600) {
+				document.getElementById('wrapper').className="centered";
+			} else {
+				document.getElementById('wrapper').className="";
+			}
+      
+		  if (/MSIE 6/i.test(navigator.userAgent)) {
+		    $('#wrapper').width('auto')
+		    if (document.body.clientWidth > 1600) {
+          $('#wrapper').width(1600)
+        } 
+        
+        $('#chat-frame').width( $('#wrapper').width() - 45 -$('#sidebar').width() -parseInt($('#chat-frame').css('padding-left')) - parseInt($('#chat-frame').css('padding-right')))
+        $('#chat-frame').height( $('body').height() - parseInt($('#chat-frame').css('top')) - parseInt($('#chat-frame').css('bottom')) - 80)
+        $('#chat-frame UL').width( $('#chat-frame').width() - parseInt($('#chat-frame UL').css('right')) - parseInt($('#chat-frame UL').css('left')))
+        $('#chat-frame UL').height( $('#chat-frame').height() - parseInt($('#chat-frame UL').css('top')) - parseInt($('#chat-frame UL').css('bottom')))
+        $('#message-box').width( $('#wrapper').width() -45 -$('#sidebar').width())
+        $('#message-box').css('top', $('#chat-frame').height() + 30)
+        $('#chat-frame').addClass('rightbottom')
+        $('#chat-frame UL').addClass('rightbottom')
+        
+      }
+		};
+
+		window.onload = init;
+		window.onresize = init;
+	</script>
+</head>
+<body>
+<div id="header">
+	<div class="inner">
+		<h1 class="logo"><a href="#">typochat</a></h1>
+		<ul class="user-actions">
+			<li class="exit"><a href="#">Выйти</a><span></span></li>
+		</ul>
+	</div>
+</div>
+<div id="wrapper">
+<div id="chat-frame">
+<ul>
+	<li>
+		<dl>
+			<dt>
+				<span>
+				Masha G.
+				<i class="t-l"></i><i class="t-r"></i><i class="b-l"></i><i class="b-r"></i>
+				</span>
+			</dt>
+			<dd>
+				<p>Дифференциальное исчисление недоказуемо</p>
+			</dd>
+		</dl>
+	</li>
+	<li class="gray">
+		<dl>
+			<dt>
+				<span>
+				Immanuil P.
+				<i class="t-l"></i><i class="t-r"></i><i class="b-l"></i><i class="b-r"></i>
+				</span>
+			</dt>
+			<dd>
+				<p>Умножение двух векторов (скалярное) непосредственно проецирует</p>
+				<!-- <p><img src="http://p-userpic.livejournal.com/86457226/1643209" alt=""/> <img src="http://p-userpic.livejournal.com/86457226/1643209" alt=""/></p> -->
+			</dd>
+		</dl>
+	</li>
+	<li class="me">
+		<dl>
+			<dt>
+				<span>
+				Ilya D.
+				<i class="t-l"></i><i class="t-r"></i><i class="b-l"></i><i class="b-r"></i>
+				</span>						
+			</dt>
+			<dd>
+				<p>Умножение двух векторов (скалярное) непосредственно проецирует</p>
+				<p>А где <strong class="address-to-me">Антон</strong>, кстати? И <strong class="address-to-default">Вася</strong>, и <strong class="address-to-pink">Петя</strong>, и <strong class="address-to-blue">Марина</strong>, и <strong class="address-to-green">Вова</strong>, и <strong class="address-to-yellow">Катя</strong>, и <strong class="address-to-red">Даша</strong>?</p>
+			</dd>
+		</dl>
+	</li>
+	<li class="secondary">
+		<span>
+			Anton P. пошёл поспать
+			<i class="t-l"></i><i class="t-r"></i><i class="b-l"></i><i class="b-r"></i>
+		</span>
+	</li>
+	<li class="pink">
+		<dl>
+			<dt>
+				<span>
+				Ilya D.
+				<i class="t-l"></i><i class="t-r"></i><i class="b-l"></i><i class="b-r"></i>
+				</span>						
+			</dt>
+			<dd>
+				<p>Умножение двух векторов (скалярное) непосредственно проецирует (скалярное) непосредственно проецирует (скалярное) непосредственно проецирует</p>
+			</dd>
+		</dl>
+	</li>
+	<li class="event">
+		<span>
+			Ilya L. вышел из чата
+			<i class="t-l"></i><i class="t-r"></i><i class="b-l"></i><i class="b-r"></i>
+		</span>
+	</li>
+	<li class="event freezed">
+		<span>
+			Konstantin M. заморозил чат
+			<i class="t-l"></i><i class="t-r"></i><i class="b-l"></i><i class="b-r"></i>
+		</span>
+	</li>
+	<li class="yellow">
+		<dl>
+			<dt>
+				<span>
+				Konstantin P.
+				<i class="t-l"></i><i class="t-r"></i><i class="b-l"></i><i class="b-r"></i>
+				</span>						
+			</dt>
+			<dd>
+				<p><a href="#" class="ico ico-video"><span></span>chumazik.avi</a> (12mb), <a href="#" class="ico ico-doc"><span></span>word.doc</a>, <a href="#" class="ico ico-excel"><span></span>price.xls</a>, <a href="#" class="ico ico-default"><span></span>kino.torrent</a>, <a href="#" class="ico ico-zip"><span></span>archive.zip</a>, <a href="#" class="ico ico-pic"><span></span>picture.jpg</a></p>
+			</dd>
+		</dl>
+	</li>
+	<li class="blue">
+		<dl>
+			<dt>
+				<span>
+				Sergey M.
+				<i class="t-l"></i><i class="t-r"></i><i class="b-l"></i><i class="b-r"></i>
+				</span>
+			</dt>
+			<dd>
+				<p>Привет всем! Вот посмотрите баян</p>
+				<p>
+					<img src="i/example/video.jpg" alt=""/>
+				</p>
+			</dd>
+		</dl>
+	</li>
+	<li class="green">
+		<dl>
+			<dt>
+				<span>
+				Sergey M.
+				<i class="t-l"></i><i class="t-r"></i><i class="b-l"></i><i class="b-r"></i>
+				</span>
+			</dt>
+			<dd>
+				<p>Привет всем! Вот посмотрите баян</p>
+			</dd>
+		</dl>
+	</li>
+	<li class="red">
+		<dl>
+			<dt>
+				<span>
+				Sergey M.
+				<i class="t-l"></i><i class="t-r"></i><i class="b-l"></i><i class="b-r"></i>
+				</span>
+			</dt>
+			<dd>
+				<p>Привет всем! Вот посмотрите баян</p>
+			</dd>
+		</dl>
+	</li>	
+</ul>
+<i class="b-l"></i><i class="b-r"></i>
+</div>	
+<div id="message-box">
+	<form action="#">
+		<div class="text">
+		<div>
+			<textarea cols="" rows="2"></textarea>
+		</div>
+		<i class="t-l"></i><i class="t-r"></i><i class="b-l"></i><i class="b-r"></i>
+		</div>
+		<ul class="actions">
+			<li class="attaches open"><!-- open — когда открыт список файлов -->
+				<div class="l"><div class="r">
+					<!-- Если файлов нет: 
+						<div class="attach">Прикрепить файл</div>
+					 -->
+					<!-- Файлы есть -->
+					<div class="attach">2 файла</div>
+					<span class="cor"></span>
+				</div></div>
+				<div class="file-list" style="top:-70px;display:block;"><!-- Top генерируем динамически, равен -(filelist.height-3px), значение — в EM -->
+					<div class="t"></div>
+					<ul>
+						<li>
+							<div class="file">chumazikchumazikchumazikchumazikchumazik.avi</div>
+							<strong class="del" title="Удалить">&times;</strong>
+						</li>
+						<li class="last">
+							<div class="file">mambasa.jpg</div>
+							<strong class="del" title="Удалить">&times;</strong>
+						</li>
+					</ul>
+					<div class="b"></div>
+				</div>
+			</li>
+			<li class="add-attach"><span class="add">добавить</span></li>
+			<li class="btn"><input type="image" src="i/forms/send.png" alt="Отправить"/></li>
+		</ul>
+	</form>
+	<i class="t-l"></i><i class="t-r"></i><i class="b-l"></i><i class="b-r"></i>
+</div>
+<div id="sidebar">
+	<dl class="invite">
+		<dt class="t">Пригласите друзей</dt>
+		<dd class="bg-b">
+			<dl class="bg-t">
+				<dt>Отправьте им ссылку</dt>
+				<dd class="bg">
+					<p><a href="#" class="ico ico-chat-link">http://typochat.ru/cgy6hnd<span></span></a></p>
+					<!-- Обычное состояние: -->
+					<p><span class="by-sms">или пригласите по SMS</span></p>
+					<!-- Открыта форма приглашения -->
+					<!-- <p><span class="by-sms inactive">или пригласите по SMS</span></p>
+					<div class="invite-by-sms"> -->
+						<!-- Поле для телефона -->
+						<!-- <fieldset>
+							<input type="text" value="+7 950 189 47 035"/>
+							<span class="yes">Пригласить</span>
+						</fieldset> -->
+						<!-- или сообщение отправлено -->
+						<!-- <div class="done">
+							Приглашение успешно отправлено
+							<i class="t-l"></i><i class="t-r"></i><i class="b-l"></i><i class="b-r"></i>
+						</div>
+						<span class="no">отменить</span>
+					</div> -->
+				</dd>
+			</dl>
+		</dd>
+	</dl>
+	<dl class="people">
+		<dt class="t">Собеседники <span>5</span></dt>
+		<dd class="bg-b">
+			<div class="bg-t">
+				<ul class="bg">
+					<li class="first"><a href="#">Ivan Lopuhov</a></li>
+					<li><a href="#">Ivan Lopuhov</a></li>
+					<li><a href="#">Ivan Lopuhov</a> <a href="#" class="edit">ред.</a></li>
+					<li><a href="#">Ivan Lopuhov</a></li>
+					<li class="last"><a href="#">Ivan Lopuhov</a></li>
+				</ul>
+			</div>
+		</dd>
+	</dl>
+	<ul class="actions">
+		<li><a href="#" class="ico ico-save"><span></span>Сохранить историю</a></li>
+		<li><a href="#" class="ico ico-freeze"><span></span>Заморозить чат</a></li>
+	</ul>
+	<dl class="reference">
+		<dt class="t">Справочник команд</dt>
+		<dd class="bg-b">
+			<div class="bg-t">
+				<ul class="bg">
+					<li><strong>/me [имя]</strong> &mdash; сменить имя</li>
+					<li><strong>/todo [название]</strong> &mdash; создать todo-список</li>
+					<li><strong>/item [...]</strong> &mdash; добавить задание в список</li>
+					<li><strong>/fuckall</strong> &mdash; послать всех</li>
+					<li class="last"><strong>/close</strong> &mdash; закрыть чат</li>
+				</ul>
+			</div>
+		</dd>
+	</dl>
+</div>
+</div>
+</body>
+</html>

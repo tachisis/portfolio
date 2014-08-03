@@ -1,0 +1,66 @@
+#wrapper {
+	overflow:visible;
+	}
+
+#header,
+#content,
+#chat-frame LI {
+	zoom:1;
+	}
+	
+/* Positions
+---------------------------------------- */
+#message-box {
+	right:auto;
+	bottom:auto;
+	}
+.rightbottom {
+	right:auto;
+	bottom:auto;
+	}
+.thousandsix {width:1600px;}
+#sidebar {margin-right:7px;}
+
+/* Corners Positioning
+---------------------------------------- */
+I.t-r {right:expression(parentNode.offsetWidth%2?-1:0);}
+I.b-l {bottom:expression(parentNode.offsetHeight%2?-1:0);}
+I.b-r {
+	bottom:expression(parentNode.offsetHeight%2?-1:0);
+	right:expression(parentNode.offsetWidth%2?-1:0);
+	}
+	
+/* Message Box Positioning
+---------------------------------------- */
+#message-box {height:9em;}
+#message-box .text TEXTAREA {height:3.7em;}
+#message-box .actions {
+	padding:0 0 7px;
+	bottom:expression(parentNode.offsetHeight%2?-1:0);
+	}
+#message-box .b-l,
+#message-box .b-r {bottom:expression(parentNode.offsetHeight%2?-1:-2);}
+#message-box .t-r,
+#message-box .b-r {right:expression(parentNode.offsetWidth%2?-2:-1);}
+#message-box .actions .attaches {margin-left:7px;}
+#message-box .actions .btn {margin-right:8px;}
+#message-box .actions .attaches .file-list .del {right:8px;}
+#message-box .actions .attaches .cor {right:expression(parentNode.offsetWidth%2?-1:0);}
+
+/* Invite Box Positioning
+---------------------------------------- */
+#sidebar .invite .invite-by-sms .done {zoom:1;}
+#sidebar .invite .invite-by-sms .done .t-l,
+#sidebar .invite .invite-by-sms .done .t-r {top:0;}
+
+/* Header
+---------------------------------------- */
+#header .logo {margin-left:8px;}
+#header .user-actions {margin-right:8px;}
+
+/* Create Chat Positioning
+---------------------------------------- */
+/*.create-chat .b-l,
+.create-chat .b-r {bottom:expression(parentNode.offsetHeight%2?-1:-2);}
+.create-chat .t-r,
+.create-chat .b-r {right:expression(parentNode.offsetWidth%2?-2:-1);}*/

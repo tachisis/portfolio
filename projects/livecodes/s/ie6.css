@@ -1,0 +1,67 @@
+/* HasLayout
+-------------------------------------- */
+#header .user-panel UL,
+#content,
+#footer,
+#main-nav UL,
+.textarea,
+.reg-or-not,
+.create .link .module-violet .bg,
+.create .name .bg,
+.reader,
+.create .address,
+.choose-reader,
+.faq DD {
+   zoom:1;
+   }
+
+/* Modules */
+.module-violet .t,
+.module-violet .b,
+.module-gray .t,
+.module-gray .b,
+.module-gray-green .t,
+.module-gray-green .b,
+.module-violet .bg,
+.module-gray-1px .t,
+.module-gray-1px .b {
+   zoom:1;
+   }
+
+   
+/* PNG 24
+-------------------------------------- */
+#header .more {background:none;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://engelside.net/portfolio/livecodes/more.png', sizingMethod='crop');}
+#header .user-panel .l {background:none;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://engelside.net/portfolio/livecodes/user-panel/l.png', sizingMethod='crop');}
+#header .user-panel .r {background:none;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://engelside.net/portfolio/livecodes/user-panel/r.png', sizingMethod='crop');}
+#main-nav .shad {background:none;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://engelside.net/portfolio/livecodes/main-nav/bot-shad.png', sizingMethod='crop');}
+#main-nav .text-img {background:none;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://engelside.net/portfolio/livecodes/ico/create-text.png', sizingMethod='crop');}
+#main-nav .link-img {background:none;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://engelside.net/portfolio/livecodes/ico/create-link.png', sizingMethod='crop');}
+#main-nav .contact-img {background:none;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://engelside.net/portfolio/livecodes/ico/create-contact.png', sizingMethod='crop');}
+#main-nav .photo-img {background:none;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://engelside.net/portfolio/livecodes/ico/create-photo.png', sizingMethod='crop');}
+.download-reader {background:none;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://engelside.net/portfolio/livecodes/layout/download-reader.png', sizingMethod='crop');}
+#modal .popup-shadow {background:none;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://engelside.net/portfolio/livecodes/layout/shadow.png', sizingMethod='scale');}
+.promo {background:none;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://engelside.net/portfolio/livecodes/main-page/round.png', sizingMethod='crop');}
+.promo.hover {background:none;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://engelside.net/portfolio/livecodes/main-page/round-hover.png', sizingMethod='crop');}
+
+/* Just Hacks
+-------------------------------------- */
+.create .registration .b-r {right:-1px;}
+.create .registration .bg {padding-bottom:20px;}
+#header {
+   zoom:1;
+   height:123px;
+   overflow:visible;
+   }
+.you-can-do LI {margin-left:0;}
+.steps .t-r,
+.steps .b-r {right:expression(parentNode.offsetWidth%2?-1:0);}
+#header .user-panel UL {height:24px;}
+#modal .popup-shadow {
+   width:100%;
+   b:expression(!this.a?(this.a=1,(this.style.height=this.parentNode.offsetHeight)):0);
+   }
+#content {
+   height:400px;
+   overflow:visible;
+   }

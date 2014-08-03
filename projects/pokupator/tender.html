@@ -1,0 +1,572 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ru" lang="ru">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<title>Покупатор</title>
+	<link rel="stylesheet" href="s/style.css" type="text/css" />
+	<!--[if lt IE 8]><link rel="stylesheet" href="s/ie7.css" type="text/css" /><![endif]-->
+	<!--[if lt IE 7]><link rel="stylesheet" href="s/ie6.css" type="text/css" /><![endif]-->
+</head>
+<body>
+<div id="header">
+	<h2 class="logo"><a href="/">Покупатор<span></span></a></h2>
+	<div class="info">
+		<ul>
+			<li class="first"><a href="http://blog.pokupator.ru/help">Вопросы и ответы</a></li>
+			<li><a href="#">Помощь</a></li>
+			<li class="communities-dropdown-logic">
+				<div class="l">
+					<a href="#" class="drop-down">Сообщества</a>
+					<ul>
+						<li><a href="http://vkontakte.ru/club10951038">В Контакте</a></li>
+						<li><a href="http://www.facebook.com/group.php?gid=112863247689">Facebook</a></li>
+						<li><a href="http://community.livejournal.com/pokupator_ru/">Livejournal</a></li>
+						<li><a href="http://twitter.com/pokupator">Twitter</a></li>
+						<li class="last"><a href="http://friendfeed.com/pokupatr">FriendFeed</a></li>
+					</ul>
+				</div>
+			</li>
+		</ul>
+		<form action="/products/search" class="srch" method="get">
+			<fieldset>
+				<input type="text" title="Поиск по каталогу" name="query" class="txt example" value="Поищите по каталогу"/><input type="image" src="i/buttons/search.png" alt="Поиск" class="btn"/>
+			</fieldset>
+			<p class="note">&hellip;или <a href="#">напишите, что хотите купить</a>, своими словами.</p>
+		</form>
+	</div>
+	<div class="user-actions">
+		<div class="user">
+		<div class="t-r">
+		<div class="b-l">	
+		<ul class="b-r">
+			<li><a href="/seller/orders" class="male">unlinl+shop2</a></li>
+			<li class="exit"><a href="http://test20.pokupator.ru/session" onclick="var f = document.createElement('form'); f.style.display = 'none'; this.parentNode.appendChild(f); f.method = 'POST'; f.action = this.href;var m = document.createElement('input'); m.setAttribute('type', 'hidden'); m.setAttribute('name', '_method'); m.setAttribute('value', 'delete'); f.appendChild(m);var s = document.createElement('input'); s.setAttribute('type', 'hidden'); s.setAttribute('name', 'authenticity_token'); s.setAttribute('value', '7q9KYwH7FAY31qc1L3btGADZnYWGFGT/p63h9iRumSU='); f.appendChild(s);f.submit();return false;">Выход</a></li>
+		</ul>
+		</div>
+		</div>
+		</div>
+		<a href="#" class="help">Он-лайн помощь</a>
+	</div>
+</div>
+<div id="main-nav">
+	<div class="main">
+		<table>
+			<tr>
+				<td class="active">
+					<div class="item category-dropdown">
+						<div class="r"><div class="l"><a href="/categories/31">Фото</a></div></div>
+						<ul class="list" style="top:2.75em;">
+							<li><a href="/categories/32">Фотоаппараты</a></li>
+							<li><a href="/categories/33">Видеокамеры</a></li>
+							<li><a href="/categories/10">Сумки для фото и видеокамер</a></li>
+							<li><a href="/categories/35">Вспышки</a></li>
+							<li class="last"><a href="/categories/36">Штативы</a></li>
+							<li class="all"><a href="/categories/31">Посмотреть все...</a></li>
+						</ul>
+					</div>
+				</td>
+				<td>
+					<div class="item category-dropdown">
+						<div class="r"><div class="l"><a href="/categories/18">Бытовая техника</a></div></div>
+						<ul class="list" style="top:2.75em;"><!-- Top выстчитываем: высота .l - 1px -->
+							<li><a href="/categories/19">Для кухни</a></li>
+							<li class="last"><a href="/categories/20">Для дома</a></li>
+							<li class="all"><a href="/categories/18">Посмотреть все...</a></li>
+						</ul>
+					</div>
+				</td>
+				<td>
+					<div class="item category-dropdown">
+						<div class="r"><div class="l"><a href="/categories/43">Электроника</a></div></div>
+						<ul class="list" style="top:3.75em;">
+							<li><a href="/categories/44">Телевизоры и плазменные панели</a></li>
+							<li><a href="/categories/45">Проекторы</a></li>
+							<li class="last"><a href="/categories/46">DVD - плееры</a></li>
+							<li class="all"><a href="/categories/43">Посмотреть все...</a></li>
+						</ul>
+					</div>
+				</td>
+				<td>
+					<div class="item category-dropdown">
+						<div class="r"><div class="l"><a href="/categories/39">Телефония</a></div></div>
+						<ul class="list" style="top:2.75em;">
+							<li><a href="/categories/40">Сотовые телефоны</a></li>
+							<li><a href="/categories/41">Проводные телефоны</a></li>
+							<li><a href="/categories/47">Спутниковые телефоны</a></li>
+							<li class="last"><a href="/categories/48">Аксессуары к сотовым телефонам</a></li>
+							<li class="all"><a href="/categories/39">Посмотреть все...</a></li>
+						</ul>
+					</div>
+				</td>
+				<td>
+					<div class="item category-dropdown">
+						<div class="r"><div class="l"><a href="/categories/22">Компьютерная техника</a></div></div>
+						<ul class="list" style="top:2.75em;">
+							<li><a href="/categories/27">Ноутбуки</a></li>
+							<li><a href="/categories/26">Мониторы</a></li>
+							<li><a href="/categories/28">Игровые приставки</a></li>
+							<li><a href="/categories/30">Компьютерная акустика</a></li>
+							<li class="last"><a href="/categories/37">Принтеры и МФУ</a></li>
+							<li class="all"><a href="/categories/22">Посмотреть все...</a></li>
+						</ul>
+					</div>
+				</td>
+				<td>
+					<div class="item more"><div class="r"><div class="l"><a href="/categories">Еще</a></div></div></div>
+				</td>
+			</tr>
+		</table>
+	</div>
+	<div class="tender">
+	<div class="wrapper">
+		<ul class="tender-info">
+			<li class="status">Торги идут</li>
+			<li class="scale"><img src="i/example/scale.png" alt=""/></li>
+			<li class="end">Окончание через 20 часов</li>
+			<li class="prolong"><a href="#">Продлить торги...</a></li>
+			<li class="request-number">Заявка 3456</li>
+			<li class="request-cancel"><a href="#">Отменить заявку</a></li>
+		</ul>
+		<ul class="tender-tabs">
+			<li class="help"><span>Помощь в выборе</span><i class="t-l"></i><i class="t-r"></i></li>
+			<li class="details"><span>Детали доставки</span><i class="t-l"></i><i class="t-r"></i></li>
+			<li class="settings"><span>Настройка заявки</span><i class="t-l"></i><i class="t-r"></i></li>
+			<li class="offers cur"><span>Предложения</span><i class="t-l"></i><i class="t-r"></i></li>
+		</ul>
+	</div>
+	</div>
+</div>
+<div id="content">
+	<div class="service-note"><div class="t-r"><div class="b-l"><div class="b-r">
+		<p>Хотите что-то узнать у службы заботы о клиентах Покупатора?</p>
+		<a href="#" class="ask">Задать вопрос</a>
+	</div></div></div></div>
+	<div class="tender-main">
+		<div class="offer">
+			<div class="heading open"><div class="t-l"><ul class="t-r">
+				<li class="recom">4 друга рекомендуют</li>
+				<li class="name"><a href="#">eldorado.ru</a></li>
+				<li class="history">История торгов:</li>
+				<li class="requests"><a href="#">20 предложений</a></li>
+			</ul></div></div>
+			<div class="analogues">
+				<span class="close">Закрыть</span>
+				<h3>Другие аналогичные предложения</h3>
+				<ul class="list">
+					<li class="selected">
+						<div class="info">
+							<h4><a href="#">eldorado.ru</a></h4>
+							<p>Сanon EOS 45D <strong>34 000 р.</strong>, + Вспышка Сanon Speedlight <strong>23 000 р.</strong> доставка <strong>+1000 р.</strong>, - скидка <strong>200 руб.</strong></p>
+							<p class="note"><strong>Действительно до</strong>: 23 сентября 21:00, Доставим: 25 октября 09,</p>
+							<p class="note"><strong>Оплата</strong>: Кредитными картами, наличными, webmoney</p>
+						</div>
+						<div class="price">
+							<h6>Итого</h6>
+							<strong>34 990 руб.</strong>
+							<div class="button orange-onE9"><span class="r"><a href="#">Купить самовывозом</a></span></div>
+							<p class="note">Самовывоз невозможен</p>
+						</div>
+					</li>
+					<li>
+						<div class="info">
+							<h4><a href="#">eldorado.ru</a></h4>
+							<p>Сanon EOS 45D <strong>34 000 р.</strong>, + Вспышка Сanon Speedlight <strong>23 000 р.</strong> доставка <strong>+1000 р.</strong>, - скидка <strong>200 руб.</strong></p>
+							<p class="note"><strong>Действительно до</strong>: 23 сентября 21:00, Доставим: 25 октября 09,</p>
+							<p class="note"><strong>Оплата</strong>: Кредитными картами, наличными, webmoney</p>
+						</div>
+						<div class="price">
+							<h6>Итого</h6>
+							<strong>34 990 руб.</strong>
+							<div class="button orange-thin"><span class="r"><a href="#">Купить</a></span></div>
+							<p class="note">Самовывоз невозможен</p>
+						</div>
+					</li>
+					<li class="selected">
+						<div class="info">
+							<h4><a href="#">eldorado.ru</a></h4>
+							<p>Сanon EOS 45D <strong>34 000 р.</strong>, + Вспышка Сanon Speedlight <strong>23 000 р.</strong> доставка <strong>+1000 р.</strong>, - скидка <strong>200 руб.</strong></p>
+							<p class="note"><strong>Действительно до</strong>: 23 сентября 21:00, Доставим: 25 октября 09,</p>
+							<p class="note"><strong>Оплата</strong>: Кредитными картами, наличными, webmoney</p>
+						</div>
+						<div class="price">
+							<h6>Итого</h6>
+							<strong>34 990 руб.</strong>
+						</div>
+					</li>
+					<li>
+						<div class="info">
+							<h4><a href="#">eldorado.ru</a></h4>
+							<p>Сanon EOS 45D <strong>34 000 р.</strong>, + Вспышка Сanon Speedlight <strong>23 000 р.</strong> доставка <strong>+1000 р.</strong>, - скидка <strong>200 руб.</strong></p>
+							<p class="note"><strong>Действительно до</strong>: 23 сентября 21:00, Доставим: 25 октября 09,</p>
+							<p class="note"><strong>Оплата</strong>: Кредитными картами, наличными, webmoney</p>
+						</div>
+						<div class="price">
+							<h6>Итого</h6>
+							<strong>34 990 руб.</strong>
+						</div>
+					</li>
+				</ul>
+			</div>
+			<div class="item">
+				<dl class="price">
+					<dt>Цена в магазине</dt>
+					<dd class="value">34 990 руб.</dd>
+					<dd class="produced">Произведен для России</dd>
+				</dl>
+				<div class="pic"><img src="i/example/product-middle.jpg" alt=""/></div>
+				<div class="info">
+					<h2><a href="#">Canon EOS 450D Kit</a></h2>
+					<h3>EF-S 17-85 mm f/4-5,6 IS USM</h3>
+					<p>Достоинства: Их так много что даже не пересчитать! Действительно мощная машина! <a href="#">Подробнее</a></p>
+				</div>
+				<ul class="offer-me">
+					<li class="yes"><span class="t-r"><span class="b-l"><span class="b-r"><span class="ico">Предлагайте эту модель</span></span></span></span> <span class="del">&times;</span></li>
+					<li class="no"><span class="t-r"><span class="b-l"><span class="b-r"><span class="ico">Не предлагайте</span></span></span></span> <span class="del">&times;</span></li>
+				</ul>
+			</div>
+			<div class="delivery">
+				<p class="count">+ <strong>450 руб.</strong></p>
+				<h4>Доставка курьером по адресу: <em>г. Москва, ул. Московская д.5 корп. 5, кв. 15</em></h4>
+			</div>
+			<div class="discount">
+				<p class="count">- 200 руб.</p>
+				<h4>Скидка</h4>
+			</div>
+			<div class="summary">
+				<div class="price">
+					<h5>Предложение магазина:</h5>
+					<strong>34 990 руб.</strong>
+					<div class="button orange"><span class="r"><a href="#">Купить</a></span></div>
+					<p class="note">Самовывоз невозможен</p>
+				</div>
+				<div class="info">
+					<div class="moneyback"><div class="t"><div class="b">
+						<span class="rosette"></span>
+						<h3>Покупатор вернет вам <strong>1450 руб.</strong> после оплаты</h3>
+						<p>с учетом этого цена составит всего <strong>27450</strong> руб.</p>
+					</div></div></div>
+					<dl>
+						<dt>Оплата:</dt>
+						<dd>Кредитными картами, Наличными</dd>
+					</dl>
+					<dl>
+						<dt>Доставим:</dt>
+						<dd>24 июля (четверг) 14:00–19:00</dd>
+					</dl>
+					<dl>
+						<dt>Предложение до:</dt>
+						<dd>3 дня, 5 ч 30 м</dd>
+					</dl>
+				</div>
+			</div>
+			<div class="ask">
+				<a href="#">Задать вопрос магазину</a>
+			</div>
+			<i class="t-l"></i><i class="t-r"></i><i class="b-l"></i><i class="b-r"></i>
+		</div>
+		<div class="more-offers">
+			<p><a href="#">Еще предложения</a></p>
+		</div>
+		<div class="stores-offers"><div class="t-r"><div class="b-l"><div class="b-r">		
+			<div class="stores-heading">
+				<span class="visible"></span>
+				<h3>Фотоаппарат + вспышка</h3>
+				<fieldset class="sort">
+					<label for="sort">Сортировать по:</label>
+					<select name="" id="sort">
+						<option value="">дате доставки</option>
+					</select>
+				</fieldset>
+			</div>
+			<div class="offer">
+				<div class="heading"><div class="t-l"><ul class="t-r">
+					<li class="name"><a href="#">eldorado.ru</a></li>
+				</ul></div></div>
+				<div class="item">
+					<dl class="price">
+						<dt>Цена в магазине</dt>
+						<dd class="value">34 990 руб.</dd>
+						<dd class="produced">Произведен для России</dd>
+					</dl>
+					<div class="pic"><img src="i/example/product-small.jpg" alt=""/></div>
+					<div class="info">
+						<h2><a href="#">Canon EOS 450D Kit</a></h2>
+						<h3>EF-S 17-85 mm f/4-5,6 IS USM</h3>
+						<p>Достоинства: Их так много что даже не пересчитать! Действительно мощная машина! <a href="#">Подробнее</a></p>
+					</div>
+					<ul class="offer-me">
+						<li class="yes"><span class="t-r"><span class="b-l"><span class="b-r"><span class="ico">Предлагайте эту модель</span></span></span></span> <span class="del">&times;</span></li>
+						<li class="no no-selected"><span class="t-r"><span class="b-l"><span class="b-r"><span class="ico">Не предлагайте</span></span></span></span> <span class="del">&times;</span></li>
+					</ul>
+				</div>
+				<div class="item">
+					<dl class="price">
+						<dt>Цена в магазине</dt>
+						<dd class="value">34 990 руб.</dd>
+						<dd class="produced">Произведен для России</dd>
+					</dl>
+					<div class="pic"><img src="i/example/product-small.jpg" alt=""/></div>
+					<div class="info">
+						<h4><a href="#">Nikon Speedlight SB-600</a></h4>
+						<h3>EF-S 17-85 mm f/4-5,6 IS USM</h3>
+						<p>Достоинства: Их так много что даже не пересчитать! Действительно мощная машина! <a href="#">Подробнее</a></p>
+					</div>
+					<ul class="offer-me">
+						<li class="yes yes-selected"><span class="t-r"><span class="b-l"><span class="b-r"><span class="ico">Предлагайте эту модель</span></span></span></span> <span class="del">&times;</span></li>
+						<li class="no"><span class="t-r"><span class="b-l"><span class="b-r"><span class="ico">Не предлагайте</span></span></span></span> <span class="del">&times;</span></li>
+					</ul>
+				</div>
+				<div class="delivery">
+					<p class="count">+ <strong>450 руб.</strong></p>
+					<h4>Доставка курьером</h4>
+				</div>
+				<div class="discount">
+					<p class="count">- 200 руб.</p>
+					<h4>Скидка</h4>
+				</div>
+				<div class="summary">
+					<div class="price">
+						<strong>34 990 руб.</strong>
+						<div class="button orange"><span class="r"><a href="#">Купить</a></span></div>
+						<p class="note">Самовывоз невозможен</p>
+					</div>
+					<div class="info">
+						<dl>
+							<dt>Оплата:</dt>
+							<dd>Кредитными картами, Наличными</dd>
+						</dl>
+						<dl>
+							<dt>Доставим:</dt>
+							<dd>24 июля (четверг) 14:00–19:00</dd>
+						</dl>
+						<dl>
+							<dt>Предложение до:</dt>
+							<dd>3 дня, 5 ч 30 м</dd>
+						</dl>
+					</div>
+				</div>
+				<div class="ask">
+					<a href="#">Задать вопрос магазину</a>
+				</div>
+				<i class="t-l"></i><i class="t-r"></i><i class="b-l"></i><i class="b-r"></i>
+			</div>
+			<div class="offer">
+				<div class="heading"><div class="t-l"><ul class="t-r">
+					<li class="recom">4 друга рекомендуют</li>
+					<li class="name"><a href="#">eldorado.ru</a></li>
+					<li class="history">История торгов:</li>
+					<li class="requests"><a href="#">20 предложений</a></li>
+				</ul></div></div>
+				<div class="item">
+					<dl class="price">
+						<dt>Цена в магазине</dt>
+						<dd class="value">34 990 руб.</dd>
+					</dl>
+					<div class="pic"><img src="i/example/product-small.jpg" alt=""/></div>
+					<div class="info">
+						<h2><a href="#">Panasonic Lumix DMC-FS6 Best Camera Of The World</a></h2>
+						<h3>EF-S 17-85 mm f/4-5,6 IS USM</h3>
+					</div>
+					<ul class="offer-me">
+						<li class="yes yes-selected"><span class="t-r"><span class="b-l"><span class="b-r"><span class="ico">Предлагайте эту модель</span></span></span></span> <span class="del">&times;</span></li>
+						<li class="no"><span class="t-r"><span class="b-l"><span class="b-r"><span class="ico">Не предлагать</span></span></span></span> <span class="del">&times;</span></li>
+					</ul>
+				</div>
+				<div class="item">
+					<dl class="price">
+						<dt>Цена в магазине</dt>
+						<dd class="value">34 990 руб.</dd>
+					</dl>
+					<div class="pic"><img src="i/example/product-small.jpg" alt=""/></div>
+					<div class="info">
+						<h4><a href="#">Nikon Speedlight SB-600</a></h4>
+						<h3>EF-S 17-85 mm f/4-5,6 IS USM</h3>
+					</div>
+					<ul class="offer-me">
+						<li class="yes"><span class="t-r"><span class="b-l"><span class="b-r"><span class="ico">Предлагайте эту модель</span></span></span></span> <span class="del">&times;</span></li>
+						<li class="no"><span class="t-r"><span class="b-l"><span class="b-r"><span class="ico">Не предлагайте</span></span></span></span> <span class="del">&times;</span></li>
+						<li class="note indent">Если модель произведена не для России</li>
+					</ul>
+				</div>
+				<div class="item">
+					<dl class="price">
+						<dt>Цена в магазине</dt>
+						<dd class="value">34 990 руб.</dd>
+					</dl>
+					<div class="pic"><img src="i/example/product-small.jpg" alt=""/></div>
+					<div class="info">
+						<h4><a href="#">Nikon Speedlight SB-600</a></h4>
+						<h3>EF-S 17-85 mm f/4-5,6 IS USM</h3>
+					</div>
+					<ul class="offer-me">
+						<li class="yes"><span class="t-r"><span class="b-l"><span class="b-r"><span class="ico">Предлагайте эту модель</span></span></span></span> <span class="del">&times;</span></li>
+						<li class="no"><span class="t-r"><span class="b-l"><span class="b-r"><span class="ico">Не предлагайте</span></span></span></span> <span class="del">&times;</span></li>
+						<li class="note">Если модель произведена для России</li>
+					</ul>
+				</div>
+				<div class="item">
+					<dl class="price">
+						<dt>Цена в магазине</dt>
+						<dd class="value">34 990 руб.</dd>
+					</dl>
+					<div class="pic"><img src="i/example/product-small.jpg" alt=""/></div>
+					<div class="info">
+						<h4><a href="#">Nikon Speedlight SB-600</a></h4>
+						<h3>EF-S 17-85 mm f/4-5,6 IS USM</h3>
+					</div>
+					<ul class="offer-me">
+						<li class="yes"><span class="t-r"><span class="b-l"><span class="b-r"><span class="ico">Предлагайте эту модель</span></span></span></span> <span class="del">&times;</span></li>
+						<li class="no no-selected"><span class="t-r"><span class="b-l"><span class="b-r"><span class="ico">Не предлагайте</span></span></span></span> <span class="del">&times;</span></li>
+						<li class="note indent">Если модель произведена не для России</li>
+					</ul>
+				</div>
+				<div class="item">
+					<dl class="price">
+						<dt>Цена в магазине</dt>
+						<dd class="value">34 990 руб.</dd>
+					</dl>
+					<div class="pic"><img src="i/example/product-small.jpg" alt=""/></div>
+					<div class="info">
+						<h4><a href="#">Nikon Speedlight SB-600</a></h4>
+						<h3>EF-S 17-85 mm f/4-5,6 IS USM</h3>
+					</div>
+					<ul class="offer-me">
+						<li class="yes yes-selected"><span class="t-r"><span class="b-l"><span class="b-r"><span class="ico">Предлагайте эту модель</span></span></span></span> <span class="del">&times;</span></li>
+						<li class="no"><span class="t-r"><span class="b-l"><span class="b-r"><span class="ico">Не предлагайте</span></span></span></span> <span class="del">&times;</span></li>
+						<li class="note">Если модель произведена для России</li>
+					</ul>
+				</div>
+				<div class="delivery">
+					<p class="count">+ <strong>450 руб.</strong></p>
+					<h4>Доставка курьером</h4>
+				</div>
+				<div class="discount">
+					<p class="count">- 200 руб.</p>
+					<h4>Скидка</h4>
+				</div>
+				<div class="summary">
+					<div class="price">
+						<strong>34 990 руб.</strong>
+						<p class="note"><a href="#">Купить самовывозом</a></p>
+						<div class="button orange"><span class="r"><a href="#">Купить</a></span></div>
+					</div>
+					<div class="info">
+						<dl>
+							<dt>Оплата:</dt>
+							<dd>Кредитными картами, Наличными</dd>
+						</dl>
+						<dl>
+							<dt>Доставим:</dt>
+							<dd>24 июля (четверг) 14:00–19:00</dd>
+						</dl>
+						<dl>
+							<dt>Предложение до:</dt>
+							<dd>3 дня, 5 ч 30 м</dd>
+						</dl>
+					</div>
+				</div>
+				<dl class="chat">
+					<dt><span class="hide">Скрыть -</span> Общение с магазином Мир фототехники</dt>
+					<dd>
+						<span class="time">12:10</span>
+						<p>Может скинете немного?</p>
+					</dd>
+					<dd class="store">
+						<span class="time">12:10</span>
+						<p>Можем предложить все вместе со скидкой 30%</p>
+					</dd>
+				</dl>
+				<div class="ask">
+					<a href="#">Задать вопрос магазину</a> <a href="#">Скрыть историю сообщений</a>
+				</div>
+				<i class="t-l"></i><i class="t-r"></i><i class="b-l"></i><i class="b-r"></i>
+			</div>
+			<div class="more-offers">
+				<p><a href="#">Еще предложения</a></p>
+			</div>
+		</div></div></div></div>
+		<div class="stores-offers closed"><div class="t-r"><div class="b-l"><div class="b-r">
+			<div class="stores-heading">
+				<span class="visible off"></span>
+				<h3>Неактивные предложения <small>50</small></h3>
+				<div class="rejected">Предложения от которых вы отказались</div>
+			</div>
+		</div></div></div></div>
+	</div>
+	<div class="tender-sidebar">
+		<div class="navigator">
+		<div class="t-r">
+		<div class="b-l">
+		<dl class="b-r">
+			<dt>Навигатор по предложениям</dt>
+			<dd>
+			<div class="t-r">
+			<div class="b-l">
+			<ul class="b-r">
+				<li class="cur">
+					<h5><a href="#">Фотоаппарат</a> <small>2</small></h5>
+					<p>Лучшая цена с доставкой 23&nbsp;000</p>
+				</li>
+				<li>
+					<h5><a href="#">Фотоаппарат + карта памяти</a></h5>
+					<p>Лучшая цена с доставкой 23&nbsp;000</p>
+				</li>
+				<li>
+					<h5><a href="#">Фотоаппарат + карта памяти</a></h5>
+					<p>Лучшая цена с доставкой 23&nbsp;000</p>
+				</li>
+				<li class="last">
+					<h5><a href="#">Фотоаппарат + сумка + карта памяти</a></h5>
+					<p>Лучшая цена с доставкой 23&nbsp;000</p>
+				</li>
+			</ul>
+			</div>
+			</div>	
+			</dd>
+		</dl>
+		</div>
+		</div>	
+		</div>
+	</div>
+</div>
+<div id="status-bar">
+<div class="wrapper">	
+	<div class="my-tender">Мои торги <small>2</small></div>
+	<ul class="messages">
+		<li class="mail"><a href="#">2 письма</a> от магазинов</li>
+		<li class="offer"><a href="#">2 новых</a> предложения</li>
+	</ul>
+	<div class="recomm">Друзья рекомендуют <a href="#">4 предложения</a></div>
+</div>
+</div>
+<div id="footer">
+	<div class="wrapper">
+	<table>
+	<tr>
+		<td>
+		<ul>
+			<li><a href="#">О Покупаторе</a></li>
+			<li><a href="#">Вакансии</a></li>
+			<li><a href="#">Наш блог</a></li>
+			<li><a href="#">Контакты</a></li>
+		</ul>
+		</td>
+		<td>
+		<ul>
+			<li><a href="#">Для магазинов</a></li>
+			<li><a href="#">Для производителей</a></li>
+			<li><a href="#">Пользовательское соглашение</a></li>
+		</ul>
+		</td>
+		<td class="last">
+		<ul>
+			<li><a href="#">RSS</a></li>
+			<li><a href="#">Каталог</a></li>
+		</ul>
+		</td>
+	</tr>
+	</table>
+	</div>
+</div>
+</body>
+</html>

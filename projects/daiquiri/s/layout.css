@@ -1,0 +1,38 @@
+BODY {
+   font:1em Arial,sans-serif;
+   }
+A {
+   color:#5674B9;
+   }
+
+/* Container
+---------------------------------------- */
+#container {
+   width:80%;
+   min-width:955px;
+   max-width:1600px;
+   margin:auto;
+   padding:30px 0;
+   overflow:hidden;
+   }
+
+         
+/* Content
+---------------------------------------- */
+#content {
+   float:left;
+   width:69%;
+   margin-right:4%;
+   overflow:hidden;
+   }
+      
+/* Sidebar
+---------------------------------------- */
+#sidebar {
+   width:26%;
+   float:left;
+   }
+   #sidebar H3 {
+      font-size:1.4em;
+      margin:0 0 20px 8px;
+      }

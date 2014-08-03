@@ -1,0 +1,312 @@
+#content .add-service {
+   margin:0 20px 30px;
+   padding:12px 12px 12px 0;
+   background:#E6F5F4;
+   }
+   #content .add-service LABEL {
+      font-size:1.4em;
+      margin-left:12px;
+      }
+   #content .add-service SELECT {
+      width:110px;
+      padding:1px 0;
+      vertical-align:bottom;
+      }
+   #content .add-service INPUT {vertical-align:bottom;}
+
+#content .services {margin:0 20px 12px;}
+   #content .services A {
+      color:#FF3300;
+      text-decoration:underline;
+      }
+   #content .services .chk {
+      width:auto !important;
+      margin:0;
+      }
+   #content .services SELECT {padding:1px 0;}
+   #content .services TABLE {width:100%;}
+   #content .services .unfolded .main {background:#CEEBE9;}
+   #content .services TH {font-weight:bold;}
+   #content .services TD {color:#7C7C7C;}
+   #content .services TH,
+   #content .services TD {
+      border-bottom:1px solid #CCC;
+      padding:5px 0 6px 12px;
+      }
+   #content .services .unfold {
+      width:7px;
+      height:8px;
+      margin-top:.4em;
+      background:url(../images/ico/show-small.gif) no-repeat;
+      }
+   #content .services .rollup {
+      width:8px;
+      height:7px;
+      margin-top:.4em;
+      background:url(../images/ico/hide-small.gif) no-repeat;
+      display:none;
+      }
+   #content .services .unfolded .unfold {display:none;}
+   #content .services .unfolded .rollup {display:block;}
+   #content .services .heading .name {width:265px;}
+   #content .services .heading .type {width:185px;}
+   #content .services .heading .status {width:245px;}
+   #content .services .heading .warning {
+      color:#CF0000;
+      font-weight:bold;
+      }
+   #content .services .options {
+      border:6px solid #099C91;
+      border-width:0 6px;
+      padding:15px 0 0;
+      border-bottom:1px solid #CCC;
+      }
+   #content .services .options TD {color:#000;}
+   #content .services .options H2 {
+      color:#099C91;
+      font-size:1.4em;
+      overflow:hidden;
+      margin-bottom:5px;
+      }
+      #content .services .options H2 SPAN {
+         float:left;
+         display:block;
+         margin-right:2px;
+         }
+      #content .services .options H2 .help {
+         display:block;
+         float:left;
+         width:17px;
+         height:16px;
+         text-indent:-9999px;
+         background:url(../images/ico/help-small.png) no-repeat;
+         }
+   /* Common */
+   #content .services .common {margin-bottom:20px;padding:0 6px;}
+   #content .services .common .name {padding:5px 0 6px;}
+   #content .services .common .name INPUT {margin-bottom:6px;}
+   #content .services .common .status INPUT {vertical-align:bottom;margin:0;}
+   #content .services .common TD {border:none;}
+   #content .services .common LABEL {
+      display:block;
+      font-size:.8em;
+      margin-bottom:3px;
+      }
+   #content .services .common INPUT,
+   #content .services .common SELECT {width:170px;}
+   /* Cost */
+   #content .services .cost {
+      border:1px dotted #000;
+      border-width:1px 0;
+      padding:4px 0;
+      margin:0 6px 20px;
+      }
+      #content .services .cost .inner {
+         background:#E1EFEC;
+         padding:15px 7px 7px;
+         overflow:hidden;
+         }
+      #content .services .cost .inner .chk {margin-top:2.3em;}
+      #content .services .cost FIELDSET {
+         width:120px;
+         float:left;
+         margin-right:15px;
+         }
+      #content .services .cost INPUT {width:100px;}
+      #content .services .cost .or {
+         display:block;
+         float:left;
+         margin-right:10px;
+         font-weight:bold;
+         margin-top:3.8em;
+         }
+      #content .services .cost LABEL {
+         color:#2D302F;
+         display:block;
+         font-size:.8em;
+         margin-bottom:3px;
+         }
+         #content .services .cost LABEL SPAN {
+            color:#ACB7B4;
+            display:block;
+            margin-top:10px;
+            }
+      #content .services .cost .warning {
+         width:500px;
+         color:#C00;
+         margin-top:3.8em;
+         }
+   /* Countries */
+   #content .services .countries {
+      margin:0 6px 20px;
+      padding:0 0 20px;
+      border-bottom:1px dotted #000;
+      }
+      #content .services .countries .sort {margin-bottom:15px;}
+      #content .services .countries .sort LI {
+         display:inline;
+         margin-right:15px;
+         }
+      #content .services .countries .country-list {
+         overflow:hidden;
+         background:url(../images/countries-bg.png) repeat-y;
+         }
+         #content .services .countries .country-list LI {
+            width:215px;
+            float:left;
+            margin-right:130px;
+            }
+         #content .services .countries .country-list .third {margin-right:0;}
+         #content .services .countries .country-list LABEL,
+         #content .services .countries .country-list INPUT,
+         #content .services .countries .country-list SELECT {
+            display:block;
+            float:left;
+            }
+         #content .services .countries .country-list LABEL {
+            width:120px;
+            line-height:2;
+            margin-left:4px;
+            }
+   /* Switching */
+   #content .services .switching {
+      margin:0 6px 20px;
+      overflow:hidden;
+      padding:0 6px 15px;
+      border-bottom:1px dotted #000;
+      }
+      #content .services .switching .agr {
+         overflow:hidden;
+         margin-bottom:10px;
+         }
+      #content .services .switching .agr FIELDSET {
+         float:left;
+         width:170px;
+         margin-right:20px;
+         }
+      #content .services .switching .agr FIELDSET INPUT {width:100%;}
+      #content .services .switching .agr FIELDSET LABEL {
+         display:block;
+         color:#2D302F;
+         font-size:.8em;
+         margin-bottom:3px;
+         }
+      #content .services .switching .recognize {
+         margin-top:1.6em;
+         font:bold 1.1em Arial,sans-serif;
+         }
+      #content .services .switching TABLE {
+         width:415px;
+         float:left;
+         margin-right:10px;
+         }
+         #content .services .switching TD,
+         #content .services .switching TH {
+            padding:3px 4px;
+            }
+         #content .services .switching TH {
+            font-size:.8em;
+            color:#696969;
+            font-weight:normal;
+            border-bottom:1px solid #000;
+            }
+         #content .services .switching .country {width:120px;padding-right:10px;}
+         #content .services .switching .country INPUT {width:120px;}
+         #content .services .switching .currency,
+         #content .services .switching .tariff {width:60px;padding-right:10px;}
+         #content .services .switching .currency INPUT,
+         #content .services .switching .tariff INPUT {width:60px;}
+         #content .services .switching .number,
+         #content .services .switching .prefix {width:90px;padding-right:10px;}
+         #content .services .switching .number INPUT,
+         #content .services .switching .prefix INPUT {width:90px;}
+         #content .services .switching .fields TD {border:none;padding-top:10px;}
+         #content .services .switching .btn {margin-top:12em;}
+   /* Abonent */
+    #content .services .abonent {
+      overflow:hidden;
+      margin:0 6px 20px;
+      padding:0 0 15px;
+      border-bottom:1px dotted #000;
+      }
+      #content .services .abonent FIELDSET {
+         width:335px;
+         float:left;
+         margin-right:30px;
+         }
+      #content .services .abonent A {
+         display:block;
+         margin-bottom:5px;
+         }
+      #content .services .abonent TEXTAREA {
+         display:block;
+         width:100%;
+         margin-bottom:10px;
+         }
+      #content .services .abonent LABEL {font-weight:bold;}
+      #content .services .abonent .lang {width:450px;}
+      #content .services .abonent .lang P {margin-top:15px;}
+   /* Specific Options */
+   #content .services .spec-opt {
+      margin:0 6px 20px;
+      padding:0 0 5px;
+      border-bottom:1px dotted #000;
+      }
+      #content .services .spec-opt FIELDSET {
+         margin-bottom:10px;
+         overflow:hidden;
+         }
+      #content .services .spec-opt LABEL {
+         width:13em;
+         float:left;
+         display:block;
+         line-height:2;
+         }
+   /* Test Query */
+   #content .services .test {
+      margin:0 6px 20px;
+      }
+      #content .services .test .select {
+         overflow:hidden;
+         margin-bottom:10px;
+         }
+         #content .services .test .select FIELDSET {
+            float:left;
+            width:170px;
+            margin-right:50px;
+            }
+         #content .services .test LABEL {
+            color:#2D302F;
+            display:block;
+            font-size:.8em;
+            margin:0 0 3px 5px;
+            }
+         #content .services .test .select SELECT {
+            width:170px;
+            }
+      #content .services .test .values {
+         overflow:hidden;
+         margin-bottom:20px;
+         }
+      #content .services .test .values FIELDSET {float:left;margin-right:10px;}
+      #content .services .test .values .text INPUT {width:310px;}
+      
+      #content .services .options .btns {
+         background:#B5E1DE;
+         padding:7px 10px;
+         overflow:hidden;
+         }
+         #content .services .options .btns INPUT,
+         #content .services .options .btns IMG {float:right;margin-right:5px;}
+         #content .services .options .btns .del {margin-right:75px;}
+      #content .services .test .query-data {
+         margin-top:15px;
+         width:100%;
+         }
+         #content .services .test .query-data DT {
+            font-weight:bold;
+            margin-bottom:5px;
+            }
+         #content .services .test .query-data TEXTAREA {
+            width:720px;
+            }

@@ -1,0 +1,80 @@
+BODY {
+	text-align:center;
+	}
+
+/* Main */
+#main {
+	text-align:left;
+	}
+
+/* Header */
+#gast #header H1 {
+	height:136px;
+	he\ight:98px;
+	}
+
+/* Page */
+#page {
+	height:1%;
+	}
+
+#content {
+	}
+* HTML #content {
+	width:630px;
+	w\idth:505px;
+	background:none;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true,sizingMethod=scale,src='i/bg.png');
+	}
+
+* HTML #sidebar {
+	width:316px;
+	w\idth:308px;
+	}
+/* Publish info */
+* HTML #publish-info {
+	width:100%;
+	}
+* HTML .menu {
+	float:left;
+	width:70%;
+	}
+	* HTML .menu.right {
+		float:right;
+		width:20%;
+		}
+* HTML #header H1 {
+		height:136px;
+		he\ight:98px;
+		}
+* HTML #partners {
+	zoom:1;
+	}
+A.rarr,
+A.rarr:hover {
+	background-position:100% 70%;
+	}
+* HTML #project {
+	width:318px;
+	w\idth:315px;
+	}
+* HTML .module {
+	background:none;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true,sizingMethod=scale,src='i/bg.png');
+	zoom:1;
+	}
+* HTML #content .prints {
+	background:#c00
+	zoom:1
+	}
+
+/* Project
+-------------------------------------- */
+#project {
+	position:absolute;
+	bottom:0px;
+	right:0px;
+	width:308px;
+	z-index:2;
+	margin-right:-8px;
+	}

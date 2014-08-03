@@ -1,0 +1,19 @@
+#container {width:955px;}
+.new-project .case .actions {
+   zoom:1;
+   }
+#main-nav UL {width:955px;}
+#main-nav .profile {width:22%;}
+#main-nav LI {width:10%;}
+#main-nav .projects,
+#main-nav .cases {
+   width:10%;
+   }
+   
+#main-nav .dashboard A SPAN {background:none;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='i/main-nav/dashboard.png',sizingMethod='crop');}
+#main-nav .projects A SPAN {background:none;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='i/main-nav/projects.png',sizingMethod='crop');}
+#main-nav .cases A SPAN {background:none;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='i/main-nav/cases.png',sizingMethod='crop');}
+#main-nav .library A SPAN {background:none;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='i/main-nav/library.png',sizingMethod='crop');}
+#main-nav .men A SPAN {background:none;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='i/main-nav/men.png',sizingMethod='crop');}
+#main-nav .address-book A SPAN {background:none;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='i/main-nav/address-book.png',sizingMethod='crop');}
+#main-nav .exit A SPAN {background:none;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='i/main-nav/exit.png',sizingMethod='crop');}

@@ -1,0 +1,61 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title>Remindr</title>
+<link rel="stylesheet" href="s/style.css" type="text/css" />
+<!--[if lt IE 7]><link rel="stylesheet" href="s/ie6.css" type="text/css" /><![endif]-->
+</head>
+<body>
+<div id="container">
+	<div id="page">
+		<h1 class="logo">Remind<span>r</span></h1>
+		<form action="/reminders" class="reminder" id="new_reminder" method="post">
+			<fieldset class="message">
+				<label for="reminder_text">Please remind me to</label>
+				<input id="reminder_text" title="make a post in my blog about Remindr" type="text" />
+			</fieldset>
+			<fieldset class="date">
+				<label for="reminder_date">on</label>
+				<input id="reminder_date" type="text" value="01/16/2009" />
+				<label for="reminder_time">at</label>
+				<input id="reminder_time" title="13:30" type="text" />
+				<span>my local time</span>
+			</fieldset>
+			<div class="contacts">
+				<label for="reminder_twitter" class="main">through</label>
+				<div class="contact">
+					<fieldset class="twitter">
+						<label for="reminder_twitter"><input id="reminder_twitter" name="reminder[twitter]" title="username" type="text" /></label>
+						<p>Here goes your Twitter username. Don't forget to follow our <a href="http://twitter.com/remindr_bot">bot</a> to be able to receive the nudge!</p>
+					</fieldset>
+					<fieldset class="email">
+						<label for="reminder_email"><input id="reminder_email" name="reminder[email]" title="user@domain.com" type="text" /></label>
+						<p>Here goes your e-mail.</p>
+					</fieldset>
+				</div>
+				<div class="contact">
+					<fieldset class="jabber">
+						<label for="reminder_jabber"><input id="reminder_jabber" name="reminder[jabber]" title="user@jabber.org" type="text" /></label>
+						<p>Here goes your Jabber (or Gtalk) account.</p>
+					</fieldset>
+					<fieldset class="phone">
+						<label for="reminder_phone"><input id="reminder_phone" name="reminder[phone]" title="1-555-2368" type="text" /></label>
+						<p>Your phone number with country code, no leading zeros.</p>
+					</fieldset>
+				</div>
+				<fieldset class="btn">
+				<input id="reminder_offset" name="reminder[offset]" type="hidden" />
+				<input type="image" src="i/send.png" value="Save!" alt="Save!" />
+				</fieldset>
+			</div>
+		</form>
+	</div>
+</div>
+<div id="footer">
+<p>&copy; <a href="http://getalime.ru/">Getalime</a> | <a href="mailto:i.want@getalime.ru">Contact us</a></p>
+<p>This application has been written as a part of the <a href="http://railsrumble.com/"><em>Rails Rumble</em></a> contest</p>
+<p>Ruby code by <a href="mailto:labria@getalime.ru">labria</a>, HTML by <a href="mailto:engel@getalime.ru">Olga Aleksashenko</a> (WSG)</p>
+</div>
+</body>
+</html>

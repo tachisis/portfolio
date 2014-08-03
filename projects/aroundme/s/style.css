@@ -1,0 +1,355 @@
+@import 'reset.css';
+@import 'content.css';
+@import 'sidebar-1.css';
+@import 'sidebar-2.css';
+@import 'popup.css';
+@import 'map.css';
+@import 'places.css';
+
+BODY {
+   font:.8em Arial,sans-serif;
+   background:url(../i/layout/body.png) repeat-x;
+   }
+A {color:#000;}
+A:hover {color:#C00;}
+.clear {clear:both;}
+.none {display:none;}
+
+
+/* Container
+-------------------------------------- */
+#container {
+   width:1000px;
+   margin:auto;
+   }
+   
+/* Header
+-------------------------------------- */
+#header {
+   margin-bottom:30px;
+   background:#000 url(../i/menu/menu-bg.png) 0 50% repeat-x;
+   }
+   #header .nav {
+      overflow:hidden;
+      padding:0 25px 5px 37px;
+      background:url(../i/menu/menu-shad.png) 0 100% no-repeat;
+      font-size:.85em;
+      color:#FFF;
+      }
+      #header .nav LI {
+         float:left;
+         padding:3px 8px 7px;
+         background:url(../i/menu/menu-sep.png) 100% 45% no-repeat;
+         }
+         #header .nav LI LI {
+            padding:0;
+            background:none;
+            }
+   #header .nav A {color:#FFF;}
+   #header .nav .city {
+      margin-right:50px;
+      background:none;
+      }
+   #header .nav .fotoweekend A {color:#7BC142;}
+   #header .nav .city STRONG {padding-right:5px;}
+   #header .nav .city A,
+   #header .nav .user-actions A {
+      text-decoration:none;
+      border-bottom:1px dashed #FFF !important;
+      }
+   #header .nav .active {background:#E70707 url(../i/menu/menu-active.png) 0 50% repeat-x;}
+   #header .nav .pre-active,
+   #header .nav .last {background:none !important;}
+   #header .nav .user-actions {
+      float:right;
+      padding:0;
+      background:none;
+      }
+      #header .nav .user-actions LI {
+         padding:3px 9px 7px 8px;
+         background:url(../i/menu/menu-sep.png) 100% 50% no-repeat;
+         }
+	#header .nav .active A {
+		 text-decoration: none;
+	     }
+         
+/* Page
+-------------------------------------- */
+#page {
+   overflow:hidden;
+   margin-bottom:20px;
+   }
+#page.index {
+   background:url(../i/layout/index-bg.png) 0 100% no-repeat;
+   margin-bottom:0;
+   }
+   #page.dashboard {
+      overflow:visible;
+      min-height:230px;
+      }
+   
+/* Footer
+-------------------------------------- */
+#footer {
+   color:#FFF;
+   font-size:.9em;
+   background:#7BC142 url(../i/layout/footer-l.png) no-repeat;
+   }
+   #footer A {color:#FFF;}
+   #footer .copyright {
+      padding:14px 28px 5px;
+      background:url(../i/layout/footer-r.png) 100% 0 no-repeat;
+      }
+   #footer .menu {padding:0 18px 14px;}
+   #footer .menu LI {
+      display:inline;
+      border-right:1px solid #FFF;
+      padding:0 11px 0 9px;
+      }
+   #footer .menu .last {border:none;}
+   
+/* Help
+-------------------------------------- */
+.help {
+   color:#555;
+   margin-bottom:20px;
+   background:url(../i/help/help-bg.png) repeat-y;
+   }
+   .help .t {background:url(../i/help/help-t.png) no-repeat;}
+   .help .b {
+      padding:20px 15px 10px;
+      background:url(../i/help/help-b.png) 0 100% no-repeat;
+      }
+   .help DL {
+      padding:5px 0 5px 43px;
+      background:url(../i/ico/help.png) no-repeat;
+      }
+   .help DT {
+      padding:0 0 15px 14px;
+      font-size:.95em;
+      color:#555;
+      font-weight:bold;
+      }
+   .help DD {font-size:.9em;}
+   .help DD.no-switch {padding-left:14px;}
+   .help DD UL {
+      overflow:hidden;
+      margin-bottom:10px;
+      }
+      .help DD UL LI {float:left;}
+      .help DD UL .prev {
+         width:6px;
+         margin-right:8px;
+         padding-top:2em;
+         }
+         .help DD UL .prev A {
+            display:block;
+            width:6px;
+            height:9px;
+            text-indent:-9999px;
+            background:url(../i/ico/prev.png) no-repeat;
+            }
+      .help DD UL .text {
+         width:116px;
+         margin-right:8px;
+         }
+         .help DD UL .text A {color:#718ACC;}
+      .help DD UL .next {
+         width:6px;
+         padding-top:2em;
+         }
+         .help DD UL .next A {
+            display:block;
+            width:6px;
+            height:9px;
+            text-indent:-9999px;
+            background:url(../i/ico/next.png) no-repeat;
+            }
+      .help DD .more {
+         margin-left:14px;
+         color:#708AC3;
+         text-transform:lowercase;
+         }
+         
+/* Tabs
+-------------------------------------- */
+.tabs {
+   overflow:hidden;
+   padding:0 25px;
+   background:url(../i/tabs/tabs-bg.png) 0 100% repeat-x;
+   }
+.tabs LI {
+   float:left;
+   margin:0 5px -1px 0;
+   height:3em;
+   line-height:3;
+   }
+   .tabs LI .l,
+   .tabs LI .r {
+      display:block;
+      float:left;
+      width:4px;
+      height:100%;
+      }
+   .tabs LI.active .l {background:url(../i/tabs/tab-l.png) no-repeat;}
+   .tabs LI.active .r {background:url(../i/tabs/tab-r.png) no-repeat;}
+   .tabs LI .bg {
+      display:block;
+      float:left;
+      height:100%;
+      padding:0 10px;
+      }
+   .tabs LI STRONG,
+   .tabs LI.active .bg {
+      color:#505050;
+      background:#F7FBF3 url(../i/tabs/tab-bg.png) repeat-x;
+      }
+   .tabs LI A {
+      text-decoration:none;
+      border-bottom:1px dashed #5B9729;
+      }
+   .edit .tabs LI A {
+      color:#ED3527 !important;
+      border-bottom:1px dashed #ED3527;
+      }
+   .tabs .srch INPUT {border:1px solid #5B9729;}
+.tab-container {
+   overflow:hidden;
+   min-height:450px;
+   padding:15px 25px 0;
+   background:#FFF url(../i/tabs/tab-cont-bg.png) repeat-x;
+   }
+   .tab-container.with-map {padding:25px 0 0;}
+   
+/* Poll
+-------------------------------------- */
+#content .poll {
+}
+	#content .poll .votes {
+      display:block;
+      float:right;
+      }
+	#content .poll .rate {
+      float:right;
+      margin:0 10px 0 0;
+      width:76px;
+      height:16px;
+      background:url(../i/ico/stars.png) no-repeat;
+      }
+   	#content .poll .rate SPAN {
+         display:block;
+         text-indent:-9999px;
+         background:url(../i/ico/stars-full.png) no-repeat;
+         }
+   	#content .poll .rate.lvl-0 SPAN {width:0;}
+   	#content .poll .rate.lvl-1 SPAN {width:6px;}
+   	#content .poll .rate.lvl-2 SPAN {width:14px;}
+   	#content .poll .rate.lvl-3 SPAN {width:21px;}
+   	#content .poll .rate.lvl-4 SPAN {width:28px;}
+   	#content .poll .rate.lvl-5 SPAN {width:37px;}
+   	#content .poll .rate.lvl-6 SPAN {width:43px;}
+   	#content .poll .rate.lvl-7 SPAN {width:54px;}
+   	#content .poll .rate.lvl-8 SPAN {width:58px;}
+   	#content .poll .rate.lvl-9 SPAN {width:70px;}
+   	#content .poll .rate.lvl-10 SPAN {width:76px;}
+
+/* User Icons
+-------------------------------------- */
+.orange-1 {
+   min-height:19px;
+   padding-left:18px;
+   background:url(../i/ico/orange-1.png) 0 50% no-repeat;
+   }
+.orange-2 {
+   min-height:19px;
+   padding-left:24px;
+   background:url(../i/ico/orange-2.png) 0 50% no-repeat;
+   }
+.orange-3 {
+   min-height:19px;
+   padding-left:33px;
+   background:url(../i/ico/orange-3.png) 0 50% no-repeat;
+   }
+.blue-1 {
+   min-height:19px;
+   padding-left:18px;
+   background:url(../i/ico/blue-1.png) 0 50% no-repeat;
+   }
+.blue-2 {
+   min-height:19px;
+   padding-left:24px;
+   background:url(../i/ico/blue-2.png) 0 50% no-repeat;
+   }
+.blue-3 {
+   min-height:19px;
+   padding-left:33px;
+   background:url(../i/ico/blue-3.png) 0 50% no-repeat;
+   }
+   
+.rss {
+   display:block;
+   padding:.4em 0 .4em 30px;
+   background:url(../i/ico/rss.png) 0 50% no-repeat;
+   color:#000 !important;
+   text-decoration:none;
+   }
+
+/* Dropdown
+-------------------------------------- */
+#results {
+   margin-top:2em;
+   border: 1px solid #666;
+	border-bottom: 0px;
+	font-size: 10px;
+	font-family: Arial,sans-serif;
+	padding: 0px;
+	display: none;
+   }
+.location-form #results {
+   margin-top:0;
+   width:260px!important;
+   }
+#results DIV {
+    border-bottom:1px solid #666;
+    padding:3px;
+    }
+#results .selected-this {
+	background-color:#666;
+	color:#FFF;
+   }
+#results .unselected-this {
+	background-color:#FFF;
+	color:#666;
+   }
+.centered-popup {
+	left:50%;
+	margin-left:-249px;
+	margin-top:-147px;
+	top:50%;
+   }
+INPUT.hint {color:#AAA;}
+
+/* Logo
+-------------------------------------- */
+.logo {
+   width:202px;
+   height:65px;
+   overflow:hidden;
+   position:relative;
+   margin-bottom:35px;
+   }
+   .logo A {
+      display:block;
+      width:202px;
+      height:65px;
+      cursor:pointer;
+      }
+   .logo SPAN {
+      display:block;
+      width:202px;
+      height:65px;
+      position:absolute;
+      top:0;
+      left:0;
+      background:url(../i/logo.png) no-repeat;
+      }

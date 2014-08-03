@@ -1,0 +1,24 @@
+#sidebar-1 .block .text {padding:8px 80px 13px 17px;}
+#sidebar-2 .places .results LI {margin-bottom:-3px;}
+.popup.big .goto .select-address {
+   top:2em;
+   left:0;
+   }
+.popup.big .goto .fields {position:relative;}
+#sidebar-1 .my-data-transp LI {zoom:1;}
+#dashboard {
+   margin:-50px 20px 20px;
+   position:static;
+   }
+.weekend-head {margin-bottom:30px;}
+.weekend-body .registration .weekend-required {margin-bottom:10px;}
+#content .heading.with-poll H3 {padding-top:5px;}
+.thumbnails .th_photo I {
+   display:inline-block;
+   height:100%;
+   }
+.thumbnails .th_photo I,
+.thumbnails .th_photo IMG {
+   vertical-align:middle;
+   }
+.fz-1 {font-size:4em !important;}

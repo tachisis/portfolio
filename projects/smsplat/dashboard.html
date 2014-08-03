@@ -1,0 +1,423 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ru">
+<head>
+	<title>SMSPlat</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<link rel="stylesheet" type="text/css" href="stylesheets/style.css" />
+	<!--[if lt IE 7]><link rel="stylesheet" type="text/css" href="stylesheets/ie.css" /><![endif]-->
+</head>
+<body>
+<div id="container">
+	<div id="header">
+		<h2 class="logo">SMSPlat<a href="">SMSPlat</a></h2>
+		<ul class="contacts">
+			<li>
+				<span class="phone">(916) 510-15-21<span></span></span>
+				<small>мобильный директора</small>
+			</li>
+			<li>
+				<span class="support">(495) 668-55-44<span></span></span>
+				<small>техническая поддержка</small>
+			</li>
+		</ul>
+	</div>
+	<div id="menu">
+		<ul>
+			<li class="sep">
+				<a href="#" class="home">Домой</a>
+			</li>
+			<li>
+				<a href="#" class="services">Сервисы</a>
+			</li>
+			<li>
+				<a href="#" class="stat">Статистика</a>
+			</li>
+			<li>
+				<a href="#" class="sms">СМСки</a>
+			</li>
+			<li>
+				<a href="#" class="help">Помощь</a>
+			</li>
+			<li>
+				<a href="#" class="support">Поддержка</a>
+			</li>
+			<li class="single">
+				<a href="#" class="exit">Выход</a>
+			</li>
+		</ul>
+	</div>
+	<div id="content">
+		<form action="" class="add-service">
+			<fieldset>
+				<label for="add">Я хочу добавить:</label>
+				<select id="add">
+					<option>смс-чат</option>
+				</select>
+				<input type="image" src="images/forms/ok.png" value="Ok" />
+			</fieldset>
+		</form>
+		<ul class="services">
+			<li>
+				<table class="heading">
+					<tr>
+						<th class="name">Название сервиса</th>
+						<th class="type">Тип сервиса</th>
+						<th class="status">Состояние сервиса</th>
+						<th class="url">Адрес сайта</th>
+					</tr>
+				</table>
+			</li>
+			<li class="unfolded">
+				<table class="heading main">
+					<tr>
+						<td class="name"><a href="#" class="rollup">Свернуть</a> смс-чат на шерстинке</td>
+						<td class="type">смс-чат</td>
+						<td class="status">активен</td>
+						<td class="url"><a href="#">sherstinka.ru</a></td>
+					</tr>
+				</table>
+				<form class="options" action="">
+					<fieldset class="common">
+						<h2><span>Общие</span> <a href="" class="help" title="Помощь">?</a></h2>
+						<table class="heading">
+							<tr>
+								<td class="name">
+									<label for="name">Название</label>
+									<input type="text" value="смс-чат на шерстинке" id="name" />
+								</td>
+								<td class="type">
+									<label for="type">Тип</label>
+									<select id="type"><option>смс-чат</option></select>
+								</td>
+								<td class="status">
+									<label for="status">Состояние</label>
+									<select id="status"><option>активен</option></select>
+								</td>
+								<td class="url">
+									<label for="url">Адрес</label>
+									<input type="text" value="sherstinka.ru" id="url" />
+								</td>
+							</tr>
+						</table>
+					</fieldset>
+					<div class="cost">
+						<div class="inner">
+							<h2><span>Общие</span> <a href="" class="help" title="Помощь">?</a></h2>
+							<fieldset>
+								<label for="min">Минимальная цена<br/> для меня <span>например, 1.5</span></label>
+								<input type="text" value="20" id="min" />
+							</fieldset>
+							<span class="or">или</span>
+							<fieldset>
+								<label for="max">Минимальная цена для пользователя <span>например, 1.5</span></label>
+								<input type="text" value="20" id="max" />
+							</fieldset>
+							<fieldset class="warning">
+								Внимание, минимальная цена пользователя меньше вашей!
+							</fieldset>
+						</div>
+					</div>
+					<div class="countries">
+						<h2><span>Общие</span> <a href="" class="help" title="Помощь">?</a></h2>
+						<ul class="sort">
+							<li><a href="#">страны СНГ</a></li>
+							<li><a href="#">страны СНГ</a></li>
+							<li><a href="#">страны СНГ</a></li>
+							<li><a href="#">страны СНГ</a></li>
+							<li><a href="#">страны СНГ</a></li>
+						</ul>
+						<ul class="country-list">
+							<li>
+								<input type="checkbox" value="" />
+								<label for="russia">Россия</label>
+								<select id="russia">
+									<option>0.15</option>
+								</select>
+							</li>
+							<li>
+								<input type="checkbox" value="" />
+								<label for="russia">Россия</label>
+								<select id="russia">
+									<option>0.15</option>
+								</select>
+							</li>
+							<li class="third">
+								<input type="checkbox" value="" />
+								<label for="russia">Россия</label>
+								<select id="russia">
+									<option>0.15</option>
+								</select>
+							</li>
+							<li>
+								<input type="checkbox" value="" />
+								<label for="russia">Россия</label>
+								<select id="russia">
+									<option>0.15</option>
+								</select>
+							</li>
+							<li>
+								<input type="checkbox" value="" />
+								<label for="russia">Россия</label>
+								<select id="russia">
+									<option>0.15</option>
+								</select>
+							</li>
+							<li class="third">
+								<input type="checkbox" value="" />
+								<label for="russia">Россия</label>
+								<select id="russia">
+									<option>0.15</option>
+								</select>
+							</li>
+							<li>
+								<input type="checkbox" value="" />
+								<label for="russia">Россия</label>
+								<select id="russia">
+									<option>0.15</option>
+								</select>
+							</li>
+							<li>
+								<input type="checkbox" value="" />
+								<label for="russia">Россия</label>
+								<select id="russia">
+									<option>0.15</option>
+								</select>
+							</li>
+							<li class="third">
+								<input type="checkbox" value="" />
+								<label for="russia">Россия</label>
+								<select id="russia">
+									<option>0.15</option>
+								</select>
+							</li>
+							<li>
+								<input type="checkbox" value="" />
+								<label for="russia">Россия</label>
+								<select id="russia">
+									<option>0.15</option>
+								</select>
+							</li>
+							<li>
+								<input type="checkbox" value="" />
+								<label for="russia">Россия</label>
+								<select id="russia">
+									<option>0.15</option>
+								</select>
+							</li>
+							<li class="third">
+								<input type="checkbox" value="" />
+								<label for="russia">Россия</label>
+								<select id="russia">
+									<option>0.15</option>
+								</select>
+							</li>
+							<li>
+								<input type="checkbox" value="" />
+								<label for="russia">Россия</label>
+								<select id="russia">
+									<option>0.15</option>
+								</select>
+							</li>
+							<li>
+								<input type="checkbox" value="" />
+								<label for="russia">Россия</label>
+								<select id="russia">
+									<option>0.15</option>
+								</select>
+							</li>
+							<li class="third">
+								<input type="checkbox" value="" />
+								<label for="russia">Россия</label>
+								<select id="russia">
+									<option>0.15</option>
+								</select>
+							</li>
+							<li>
+								<input type="checkbox" value="" />
+								<label for="russia">Россия</label>
+								<select id="russia">
+									<option>0.15</option>
+								</select>
+							</li>
+							<li>
+								<input type="checkbox" value="" />
+								<label for="russia">Россия</label>
+								<select id="russia">
+									<option>0.15</option>
+								</select>
+							</li>
+							<li class="third">
+								<input type="checkbox" value="" />
+								<label for="russia">Россия</label>
+								<select id="russia">
+									<option>0.15</option>
+								</select>
+							</li>
+						</ul>
+					</div>
+					<div class="switching">
+						<h2><span>Общие</span> <a href="" class="help" title="Помощь">?</a></h2>
+						<div class="agr">
+							<fieldset>
+								<label for="your">Адрес вашего агрегатора</label>
+								<input type="text" value="http://smscoin.ru" />
+							</fieldset>
+							<p class="recognize">Мы вас узнали!</p>
+						</div>
+						<table>
+							<tr>
+								<th class="country">Страна</th>
+								<th class="currency">Валюта</th>
+								<th class="tariff">Тариф</th>
+								<th class="number">Короткий номер</th>
+								<th class="prefix">Префикс</th>
+							</tr>
+							<tr>
+								<td class="country">Россия</td>
+								<td class="currency">rur</td>
+								<td class="tariff">0.15</td>
+								<td class="number">5543</td>
+								<td class="prefix">hhmm</td>
+							</tr>
+							<tr>
+								<td class="country">Россия</td>
+								<td class="currency">rur</td>
+								<td class="tariff">0.15</td>
+								<td class="number">5543</td>
+								<td class="prefix">hhmm</td>
+							</tr>
+							<tr>
+								<td class="country">Россия</td>
+								<td class="currency">rur</td>
+								<td class="tariff">0.15</td>
+								<td class="number">5543</td>
+								<td class="prefix">hhmm</td>
+							</tr>
+							<tr>
+								<td class="country">Россия</td>
+								<td class="currency">rur</td>
+								<td class="tariff">0.15</td>
+								<td class="number">5543</td>
+								<td class="prefix">hhmm</td>
+							</tr>
+							<tr class="fields">
+								<td class="country"><input type="text" value="Россия" /></td>
+								<td class="currency"><input type="text" value="" /></td>
+								<td class="tariff"><input type="text" value="" /></td>
+								<td class="number"><input type="text" value="" /></td>
+								<td class="prefix"><input type="text" value="" /></td>
+							</tr>
+							<tr class="fields">
+								<td class="country"><input type="text" value="Россия" /></td>
+								<td class="currency"><input type="text" value="" /></td>
+								<td class="tariff"><input type="text" value="" /></td>
+								<td class="number"><input type="text" value="" /></td>
+								<td class="prefix"><input type="text" value="" /></td>
+							</tr>
+						</table>
+						<input type="image" src="images/forms/add.png" value="Добавить" class="btn" />
+					</div>
+					<div class="abonent">
+						<h2><span>Общие</span> <a href="" class="help" title="Помощь">?</a></h2>
+						<fieldset>
+							<textarea cols="" rows="7"></textarea>
+							<a href="#">Получить preformatted XML</a>
+							<a href="#">Страница для показа вашему клиенту</a>
+						</fieldset>
+						<fieldset class="lang">
+							<label for="lang">Язык:</label>
+							<select id="lang"><option>Английский</option></select>
+							<p>Разместите этот блок на сайте для того чтобы абонент мог получить ответ из вашего списка в России, он должен прислать кодовое слово hmhmm на сервисный номер 4443. Стоимость запроса на номер 4443 составляет $0,15</p>
+						</fieldset>
+					</div>
+					<div class="spec-opt">
+						<h2><span>Общие</span> <a href="" class="help" title="Помощь">?</a></h2>
+						<fieldset>
+							<label for="time">Время действия ключа:</label>
+							<input type="text" value="" id="time" /> мин
+						</fieldset>
+						<fieldset>
+							<label for="queries">Кол-во запросов:</label>
+							<input type="text" id="queries" value="" />
+						</fieldset>
+					</div>
+					<div class="test">
+						<h2><span>Общие</span> <a href="" class="help" title="Помощь">?</a></h2>
+						<div class="select">
+							<fieldset>
+								<label for="agr">Агрегатор</label>
+								<select id="agr"><option>смс-чат</option></select>
+							</fieldset>
+							<fieldset>
+								<label for="agr">Агрегатор</label>
+								<select id="agr"><option>смс-чат</option></select>
+							</fieldset>
+							<fieldset>
+								<label for="agr">Агрегатор</label>
+								<select id="agr"><option>смс-чат</option></select>
+							</fieldset>
+						</div>
+						<div class="values">
+							<fieldset class="short-number">
+								<label for="short-number">Короткий номер</label>
+								<input type="text" id="short-number" value="" />
+							</fieldset>	
+							<fieldset class="pref">
+								<label for="pref">Префикс</label>
+								<input type="text" id="pref" value="" />
+							</fieldset>
+							<fieldset class="text">
+								<label for="text">Текст сообщения</label>
+								<input type="text" id="text" value="" />
+							</fieldset>
+							<fieldset class="number">
+								<label for="number">Номер телефона</label>
+								<input type="text" id="number" value="" />
+							</fieldset>
+						</div>	
+						<input type="image" src="images/forms/test.png" value="Отправить" />
+					</div>
+					<div class="btns">
+					<input type="image" src="images/forms/save.png" value="Сохранить" />	
+						<input type="image" src="images/forms/cancel.png" value="Отменить" />
+						<input type="image" src="images/forms/hide.png" value="Свернуть" />
+						<input type="image" src="images/forms/delete.png" value="Удалить" class="del" />
+						<input type="image" src="images/forms/hold.png" value="Приостановить" />
+					</div>
+				</form>
+			</li>
+			<li class="hide">
+				<table class="heading">
+					<tr>
+						<td class="name"><a href="#" class="unfold">Развернуть</a> смс-чат на шерстинке</td>
+						<td class="type">смс-чат</td>
+						<td class="status warning">скоро будет деактивирован</td>
+						<td class="url"><a href="#">sherstinka.ru</a></td>
+					</tr>
+				</table>
+			</li>
+		</ul>
+		<ul class="paging">
+		<li class="sep"><a href="#">ещё сервисы &raquo;</a></li>
+			<li><a href="#">&laquo; меньше сервисов</a></li>
+		</ul>
+	</div>
+	<div id="footer">
+		<p class="company">
+			2008 &copy; ООО «Новый биллинг»
+			<span class="address">Остаповский проезд, д.3, офис 211</span>
+		</p>
+		<p class="contacts">
+			<em>(495)</em> 781-9755
+			<a href="#">info@newbilling.ru</a>
+		</p>
+		<ul class="info">
+			<li><a href="#">Условия работы в системе</a></li>
+			<li><a href="#">О компании</a></li>
+			<li><a href="#">Схема проезда</a></li>
+		</ul>
+	</div>
+</div>
+</body>
+</html>
+

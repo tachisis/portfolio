@@ -1,0 +1,142 @@
+/* Secondary Info Page
+-------------------------------------- */
+#container.secondary #content {
+   width:620px;
+   margin:0 0 30px 78px;
+   }
+#container.secondary #header {
+   width:450px;
+   }
+   #container.secondary #header .menu {
+      float:left;
+      width:310px;
+      margin:15px 0 0 30px;
+      }
+   #container.secondary #header .menu LI {
+      display:inline;
+      padding-right:17px;
+      line-height:2;
+      background:url(../images/sec-menu-sep.png) 100% 50% no-repeat;
+      }
+   #container.secondary #header .menu .last {background:none;}
+
+#container.secondary H1 {font-size:2.7em;}
+   
+#container.secondary .err-box {
+   padding:3px;
+   border:1px dotted #000;
+   margin-top:10px;
+   padding-bottom:10px;
+   }
+   
+#container.secondary .err-details {
+   margin:0 0 10px 21px;
+   font-size:1.3em;
+   }
+   #container.secondary .err-details DT {
+      font-weight:bold;
+      display:inline;
+      }
+   #container.secondary .err-details DD {display:inline;}
+
+#container.secondary .check-pass H3 {
+   font-size:1.3em;
+   margin:4px 17px 10px;
+   }
+   #container.secondary .check-pass LABEL {
+      display:block;
+      margin-bottom:5px;
+      }
+   #container.secondary .check-pass .txt {
+      width:205px;
+      margin-right:10px;
+      vertical-align:bottom;
+      }
+   #container.secondary .check-pass FIELDSET {margin:0 17px;}
+   #container.secondary .info H2 {
+      background:#E8F2F8;
+      padding:5px 16px;
+      font-size:1.3em;
+      margin-bottom:7px;
+      }
+      #container.secondary .info H2 SELECT {
+         font-size:.8em;
+         width:85px;
+         margin-left:10px;
+         }
+      #container.secondary .info H2 INPUT {vertical-align:bottom;}
+   #container.secondary .info H5 {
+      margin:0 16px 5px;
+      font:bold 1.1em Arial,sans-serif;
+      }
+   #container.secondary .info H5.warning {
+      color:#DD0000;
+      margin-top:15px;
+      }
+   #container.secondary .info P {
+      margin:0 16px 3px;
+      font-size:1em;
+      }
+   #container.secondary .info .btns {margin:10px 15px 0;}
+   #container.secondary .info .message {
+      font-weight:bold;
+      color:#FF6633;
+      }
+   #container.secondary .info .number {
+      font-weight:bold;
+      color:#006DDC;
+      }
+#container.secondary .state .err-box {
+   padding:15px 21px 10px;
+   margin-bottom:12px;
+   }
+#container.secondary .state INPUT {
+   display:block;
+   margin:0 20px 6px;
+   }
+
+/* Single Error
+-------------------------------------- */
+#error {
+   position:relative;
+   background:#FFF;
+   height:100%;
+   }
+   #error .err-body {
+      position:absolute;
+      top:50%;
+      left:50%;
+      margin:-125px 0 0 -315px;
+      width:630px;
+      height:250px;
+      border:none;
+      text-align:center;
+      }
+   #error .err-body .logo {
+   	width:67px;
+	   height:24px;
+	   margin:0 auto 50px;
+	   overflow:hidden;
+	   position:relative;
+	   font-size:1em;
+      }
+      #error .err-body .logo A {
+			display:block;
+			width:67px;
+   	   height:24px;
+			position:absolute;
+			top:0;
+			left:0;
+			text-indent:-9999px;
+   	   background:url(../images/logo.png) no-repeat;
+			}
+	#error .err-body P {
+	  font-size:30px;
+	  color:#C50000;
+	  margin-bottom:12px;
+	  }
+	 #error .err-body.success P {color:#1A3B60;}
+   #error .err-body .translate {
+      padding-top:12px;
+      border-top:1px solid #CCC;
+      }

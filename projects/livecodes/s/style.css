@@ -1,0 +1,1021 @@
+@import 'reset.css';
+@import 'layout.css';
+
+/* Forms
+-------------------------------------- */
+TEXTAREA {
+   display:block;
+   width:98%;
+   font:.9em Georgia,serif;
+   }
+TEXTAREA.tarea {width:330px;}
+INPUT {
+   vertical-align:middle;
+   font:.9em Georgia,serif;
+   }
+SELECT {font:.9em Georgia,serif;}
+INPUT.txt {width:180px;}
+.registration {
+   width:238px;
+   }
+   .registration .bg {
+      background:#D5EDED;
+      position:relative;
+      width:218px;
+      padding:10px 10px 10px;
+      margin-bottom:10px;
+      }
+   .registration .b-l,
+   .registration .b-r {
+      width:11px;
+      height:11px;
+      position:absolute;
+      bottom:0;
+      font-size:0;
+      }
+   .registration .b-l {
+      left:0;
+      background:url(../i/modules/blue-cor.png) no-repeat;
+      }
+   .registration .b-r {
+      right:0;
+      background:url(../i/modules/blue-cor.png) 100% 0 no-repeat;
+      }
+   .registration FIELDSET {
+      margin-bottom:10px;
+      width:218px;
+      margin-right:0;
+      position:relative;
+      }
+   .registration INPUT {
+      display:block;
+      width:210px;
+      }
+   .registration LABEL {
+      font-size:1em;
+      color:#000;
+      }
+   .registration .err {
+      position:absolute;
+      right:-140px;
+      top:2em;
+      width:130px;
+      padding:3px 5px;
+      font:bold .7em Arial,sans-serif;
+      color:#FFF;
+      background:#AF0C0C;
+      }
+
+
+/* Server Error
+-------------------------------------- */
+.server-error {
+   padding:0 35px 20px;
+   }
+   .server-error H2 {
+      width:770px;
+      padding-bottom:10px;
+      margin-bottom:20px;
+      color:#107F7E;
+      font:bold 10em/.8 Arial,sans-serif;
+      border-bottom:10px solid #E9EFEE;
+      }
+      .server-error H2 EM {
+         display:block;
+         padding:0 5px;
+         font:bold 24px/1 Arial,sans-serif;
+         color:#002F6F;
+         }
+   .server-error H3 {font-size:1.4em;}
+      
+/* Logo
+-------------------------------------- */
+.logo {
+   width:350px;
+   height:114px;
+   overflow:hidden;
+   font:1.8em/1 Georgia,serif;
+   text-align:center;
+   position:relative;
+   }
+   .logo A,
+   .logo SPAN {
+      display:block;
+      width:350px;
+      height:114px;
+      cursor:pointer;
+      }
+   .logo SPAN {
+      position:absolute;
+      top:0;
+      left:0;
+      background:url(../i/header/logo.jpg) no-repeat;
+      }
+      
+/* Create Form
+-------------------------------------- */
+.create .textarea {
+   overflow:hidden;
+   margin-bottom:35px;
+   }
+   .create .textarea TEXTAREA {width:450px;}
+   .create .textarea LABEL {
+      float:right;
+      width:160px;
+      padding-top:25px;
+      font:italic .9em Georgia,serif;
+      }
+   .create .textarea .module-violet {
+      float:left;
+      width:492px;
+      }
+
+.create .chk {
+   margin-bottom:15px;
+   }
+   .create .chk INPUT {
+      margin:.3em 5px 0 0;
+      padding:0;
+      vertical-align:top;
+      }
+   .create .chk LABEL {font-size:1.1em;}
+      
+.create .reg-or-not {
+   padding-left:1px;
+   overflow:hidden;
+   margin-bottom:20px;
+   }
+   .create .reg-or-not .group {
+      float:left;
+      width:300px;
+      margin-right:30px;
+      }
+   .create .reg-or-not .note {
+      padding:0 0 10px 25px;
+      font:italic .75em Georgia,serif;
+      color:#333;
+      }
+   .create .reg-or-not .signed-in {
+      padding-top:9em;
+      }
+      .create .reg-or-not .signed-in A {
+         font-size:1.1em;
+         margin-left:25px;
+         }
+         
+.create .registration {
+   margin-left:19px;
+   padding:4px 9px 0 6px;
+   }
+      
+.create .module-gray {
+   width:243px;
+   margin-bottom:30px;
+   }
+   .create .module-gray .pic {
+      width:211px;
+      height:154px;
+      padding:0 1px 12px;
+      background:url(../i/layout/pic-bg.png) no-repeat;
+      }
+   .create .module-gray .pic.err {background:url(../i/layout/pic-bg-err.png) no-repeat;}
+   .create .module-gray .pic IMG {vertical-align:bottom;}
+
+.create .link {
+   margin:0 10px 20px 0;
+   }
+   .create .link .module-violet .bg {overflow:hidden;}
+   .create .link TEXTAREA {
+      width:390px;
+      float:left;
+      margin-right:20px;
+      }
+   .create .link LABEL {
+      float:left;
+      width:160px;
+      padding:25px 0 0 15px;
+      font:italic .9em Georgia,serif;
+      }
+      
+.create .name {margin-bottom:20px;}
+   .create .name .bg {overflow:hidden;}
+   .create .name FIELDSET {
+      width:195px;
+      float:left;
+      display:inline;
+      margin:0 50px 10px 0;
+      }
+   .create .name INPUT {
+      width:178px;
+      margin:3px 5px;
+      }
+   .create .name LABEL {
+      font-size:.9em;
+      margin:0 5px;
+      }
+
+.create .contact-info {
+   width:100%;
+   overflow:hidden;
+   }
+   .create .contact-info .group {
+      width:290px;
+      float:left;
+      margin:0 0 0 15px;
+      }
+   .create .contact-info INPUT {
+      width:178px;
+      margin:3px 5px;
+      }
+   .create .contact-info LABEL {
+      font:italic .75em Georgia,serif;
+      margin-left:5px;
+      }
+   .create .contact-info FIELDSET {margin-bottom:15px;}
+   .create .contact-info H3 {
+      font-size:.9em;
+      margin-left:15px;
+      }
+   
+.create .address {
+   overflow:hidden;
+   margin-bottom:20px;
+   padding:0 0 20px 15px;
+   border-bottom:10px solid #E8EEEE;
+   }
+   .create .address H3 {
+      font-size:.9em;
+      margin-left:5px;
+      }
+   .create .address TEXTAREA {
+      width:245px;
+      margin:3px 5px;
+      }
+   
+.create .error {
+   display:block;
+   float:left;
+   padding:3px 5px;
+   background:#CB0C0C;
+   }
+   .create .error INPUT,
+   .create .error TEXTAREA {margin:0;}
+   .create .error STRONG {
+      display:block;
+      color:#FFF;
+      text-align:right;
+      font:.7em/1.4 Arial,sans-serif;
+      }
+      
+.create .registration {
+   background:url(../i/modules/blue-t.png) no-repeat;
+   }
+
+/* Code Content
+---------------------------------------- */
+.code-content {}
+.code-content H3 {
+	font-size:1.9em;
+	margin-bottom:20px;
+	}
+
+/* My code
+-------------------------------------- */
+.my-code {
+   overflow:hidden;
+   margin-bottom:30px;
+   width:100%;
+   }
+   .my-code IMG {
+      float:left;
+      margin:0 15px 15px 0;
+      }
+   .my-code TEXTAREA {
+      width:250px;
+      font:.75em/1.5 Arial,sans-serif;
+      }
+.my-code .you-can-do {
+   float:left;
+   width:280px;
+   }
+   .you-can-do LI {
+      padding-left:8px;
+      font-size:.9em;
+      background:url(../i/layout/bullet.gif) 0 50% no-repeat;
+      margin:0 0 15px -8px;
+      }
+.my-code .to-my-space {
+   float:left;
+   width:180px;
+   margin:1.8em 0 0 5px;
+   padding-left:15px;
+   border-left:1px solid #CCC;
+   }
+   .my-code .to-my-space .note {
+      color:#36373A;
+      font:italic .8em Georgia,serif;
+      }
+   .my-code .to-my-space .go {font-size:1.05em;}
+   
+/* Search Form
+-------------------------------------- */
+.search {margin-bottom:30px;}
+   .search .field {
+      width:460px;
+      margin-right:15px;
+      font-size:1.7em;
+      }
+      
+/* My Space
+-------------------------------------- */
+.my-space P,
+.my-space .to-code LI {
+   margin-bottom:5px;
+   font-size:1.05em;
+   }
+.my-space .to-code {margin-bottom:15px;}
+.my-space .sort {
+   margin-bottom:30px;
+   font:italic .9em Georgia,serif;
+   }
+   .my-space .sort DT,
+   .my-space .sort DD {display:inline;}
+   .my-space .sort A {
+      text-decoration:none;
+      border-bottom:1px dashed #06226B;
+      }
+   .my-space TABLE {font-size:.9em;}
+   .my-space TH,
+   .my-space TD {
+      padding:10px 10px 10px 0;
+      vertical-align:top;
+      }
+   .my-space TD {border-bottom:1px solid #CCC;}
+   .my-space TH {
+      font-size:.8em;
+      border-bottom:4px solid #CCC;
+      }
+   .my-space .code {
+      width:270px;
+      padding-right:20px;
+		font-size:.9em;
+      }
+		.my-space .code H3 {
+			font-size:1.5em;
+			color:#0B2360;
+			}
+   .my-space .views {width:70px;}
+   .my-space .code-type {
+		width:50px;
+		vertical-align:middle;
+		}
+   .my-space .link {width:40px;}
+   .my-space .date {width:100px;}
+   .my-space .actions {width:70px;}
+   .my-space .date, 
+   .my-space .actions {color:#646464;}
+   .my-space .date,
+   .my-space .code-link,
+   .my-space .views {font-size:.8em;}
+   .my-space .actions A {
+      display:block;
+      width:21px;
+      height:21px;
+      float:left;
+      text-indent:-9999px;
+      }
+   .my-space .edit {background:url(../i/ico/edit.png) no-repeat;}
+   .my-space .delete {background:url(../i/ico/delete.png) no-repeat;}
+   .my-space .print {background:url(../i/ico/print.png) no-repeat;}
+   .my-space .pic {
+      float:left;
+      margin:0 10px 5px 0;
+      }
+   .my-space .link,
+   .my-space .text,
+   .my-space .photo,
+   .my-space .contact {
+      display:block;
+      text-indent:-9999px;
+      }
+   .my-space .link {
+      width:42px;
+      height:35px;
+      background:url(../i/ico/link-small.png) no-repeat;
+      }
+   .my-space .text {
+      width:39px;
+      height:49px;
+      background:url(../i/ico/text-small.png) no-repeat;
+      }
+   .my-space .photo {
+      width:41px;
+      height:38px;
+      background:url(../i/ico/photo-small.png) no-repeat;
+      }
+   .my-space .contact {
+      width:45px;
+      height:31px;
+      background:url(../i/ico/contact-small.png) no-repeat;
+      }
+      
+/* FAQ
+-------------------------------------- */
+.faq {margin-bottom:15px;}
+   .faq DT {
+      margin-bottom:15px;
+      font-size:1.5em;
+      }
+      .faq DT A {
+         padding-left:25px;
+         color:#000;
+         text-decoration:none;
+         background:url(../i/ico/close.png) 0 50% no-repeat;
+         }
+         .faq DT A SPAN {border-bottom:1px dashed #000;}
+   .faq DD {
+      padding-left:25px;
+      overflow:hidden;
+      }
+      .faq DD P {margin-bottom:15px;}
+   .faq .small {
+      float:left;
+      width:185px;
+      margin-right:50px;
+      }
+   .faq #main-nav {margin:0 0 -10px -20px;}
+   .faq .pic {
+      float:left;
+      margin:0 15px 15px 0;
+      }
+   .faq.closed DD {display:none;}
+   .faq.closed DT A {
+      background:url(../i/ico/open.png) 0 50% no-repeat;
+      color:#06226B;
+      }
+      
+/* Steps
+-------------------------------------- */
+.steps .t-l,
+.steps .t-r,
+.steps .b-l,
+.steps .b-r {
+   display:none;
+   width:6px;
+   height:6px;
+   position:absolute;
+   font-size:0;    
+   }
+.steps .t-l {
+   top:0;
+   left:0;
+   background:url(../i/modules/gray-green-full-cor.png) no-repeat;
+   }
+.steps .t-r {
+   top:0;
+   right:0;
+   background:url(../i/modules/gray-green-full-cor.png) -6px 0 no-repeat;
+   }
+.steps .b-l {
+   bottom:0;
+   left:0;
+   background:url(../i/modules/gray-green-full-cor.png) 0 -6px no-repeat;
+   }
+.steps .b-r {
+   bottom:0;
+   right:0;
+   background:url(../i/modules/gray-green-full-cor.png) -6px -6px no-repeat;
+   }
+.steps UL {
+   width:100%;
+   overflow:hidden;
+   background:url(../i/layout/how-steps-bg.png) 119px 33px no-repeat;
+   }
+   .steps LI {
+      float:left;
+      display:inline;
+      text-align:center;
+      }
+   .steps .step-1 {
+      width:130px;
+      padding-right:15px;
+      }
+   .steps .step-2 {
+      width:120px;
+      padding-right:30px;
+      }
+   .steps .step-3 {
+      width:130px;
+      padding-right:25px;
+      }
+   .steps .step-4 {
+      width:130px;
+      padding-right:25px;
+      }
+	.steps .step-5 {
+	      width:125px;
+	      padding-right:0;
+	      }
+.steps P {
+   text-align:left;
+   margin-bottom:0 !important;
+   padding:4px 10px 10px;
+   }
+
+/* Reader
+-------------------------------------- */
+.reader {
+   position:relative;
+   background:#EAF4F4;
+   margin-left:-25px;
+   padding:15px 20px;
+   }
+   .reader .t-l,
+   .reader .t-r,
+   .reader .b-l,
+   .reader .b-r {
+      display:block;
+      width:6px;
+      height:6px;
+      position:absolute;
+      font-size:0;
+      }
+      .reader .t-l {
+         top:0;
+         left:0;
+         background:url(../i/modules/gray-green-full-cor.png) no-repeat;
+         }
+      .reader .t-r {
+         top:0;
+         right:0;
+         background:url(../i/modules/gray-green-full-cor.png) -6px 0 no-repeat;
+         }
+      .reader .b-l {
+         bottom:0;
+         left:0;
+         background:url(../i/modules/gray-green-full-cor.png) 0 -6px no-repeat;
+         }
+      .reader .b-r {
+         bottom:0;
+         right:0;
+         background:url(../i/modules/gray-green-full-cor.png) -6px -6px no-repeat;
+         }
+   
+/* Choose Reader
+-------------------------------------- */
+.choose-reader {
+   width:260px;
+   margin-bottom:20px;
+   }
+   .choose-reader LABEL {
+      display:block;
+      font:bold .9em Georgia,serif;
+      margin-bottom:10px;
+      }
+   .choose-reader SELECT {width:220px;}
+   .choose-reader .producer {margin-bottom:15px;}
+   
+/* Reader For Me
+-------------------------------------- */
+.readers-for-me {
+   margin:0 30px 0;
+   width:500px;
+   }
+   .readers-for-me DT {
+      font-size:1.1em;
+      margin-bottom:5px;
+      }
+   .readers-for-me DT A {
+      padding:0;
+      color:#06226B;
+      text-decoration:underline;
+      background:none;
+      }
+      .readers-for-me DT A SPAN {border:none;}
+   .readers-for-me DD {
+      margin:0 0 10px 0;
+      padding:0 0 10px 0;
+      font-size:.9em;
+      border-bottom:1px solid #BBC3C3;
+      }
+   .readers-for-me .last {border:none;}
+   
+/* How does it work?
+-------------------------------------- */
+.how {
+   margin-bottom:30px;
+   }
+   .how .bg {
+      padding:25px 18px 5px;
+      background:url(../i/modules/pink-t.png) no-repeat;
+      }
+   .how .b {
+      height:12px;
+      font-size:0;
+      background:url(../i/modules/pink-b.png) no-repeat;
+      }
+   .how H3 {color:#9B3979;}
+   .how .steps {
+      width:100%;
+      overflow:hidden;
+      background:url(../i/layout/how-steps-bg.png) 158px 43px no-repeat;
+      }
+      
+/* You Can Code
+-------------------------------------- */
+.you-can-code {
+   margin:0 0 30px 20px;
+   }
+   .you-can-code UL {
+      width:100%;
+      margin:0 0 70px 10px;
+      overflow:hidden;
+      }
+      .you-can-code LI {
+         float:left;
+         width:300px;
+         margin:0 20px;
+         display:inline;
+         }
+         .you-can-code LI IMG {
+            float:left;
+            margin-right:35px;
+            }
+   .you-can-code H4 {font-size:1.1em;}
+
+/* Mainpage Round
+-------------------------------------- */
+.promo {
+   background:url(../i/main-page/round-both.png) no-repeat;
+   width:520px;
+   height:521px;
+   margin:0 0 0 210px;
+   position:relative;
+   }
+   .promo.hover {background:url(../i/main-page/round-both.png) 0 -521px no-repeat;}
+   .promo A {
+      position:absolute;
+      text-indent:-9999px;
+      display:block;
+      width:520px;
+      height:521px;
+      }
+      
+.main-page .download-reader {
+   position:absolute;
+   top:108px;
+   right:20px;
+   z-index:100;
+   }
+   
+/* Use It
+-------------------------------------- */
+.use-it {
+   height:300px;
+   }
+   .use-it LI {
+      position:absolute;
+      width:190px;
+      font-size:.85em;
+      }
+   .use-it A {
+      display:block;
+      padding-top:85px;
+      text-decoration:none;
+      color:#000;
+      }
+   .use-it .create-link {
+      top:550px;
+      left:40px;
+      background:url(../i/ico/link.png) 32px 0 no-repeat;
+      }
+   .use-it .create-text {
+      top:690px;
+      left:250px;
+      background:url(../i/ico/text.png) 50% 0 no-repeat;
+      }
+   .use-it .create-contact {
+      top:715px;
+      left:490px;
+      background:url(../i/ico/contact.png) 50% 0 no-repeat;
+      }
+   .use-it .create-photo {
+      top:560px;
+      left:745px;
+      background:url(../i/ico/photo.jpg) 58px 0 no-repeat;
+      }
+      
+/* Popup
+-------------------------------------- */
+.popup {
+   display:none;
+   position:absolute;
+   top:148px;
+   left:50%;
+   margin-left:-260px;
+   width:520px;
+   height:520px;
+   z-index:110;
+   background:url(../i/layout/popup-bg.png) no-repeat;
+   }
+   .popup .close {
+      display:block;
+      margin:5px 0 0;
+      text-decoration:none;
+      text-transform:uppercase;
+      color:#323F4A;
+      font-size:.9em;
+      text-align:center;
+      }
+   .popup H4 {
+      margin:40px 0 20px;
+      text-align:center;
+      font-size:2.1em;
+      }
+   .popup .registration {margin:0 auto 0;}
+   .popup .registration .fieldWithErrors {
+     padding:2px;
+     background-color:red;
+     display:table;
+     }
+   .popup .btn {
+      margin-top:25px;
+      text-align:center;
+      }
+   .popup .btn INPUT {
+      width:auto;
+      display:inline;
+      }
+   .popup .auth {margin-top:80px;}
+   .popup .module-gray-1px {
+      width:190px;
+      margin:25px auto 20px;
+      font-size:.9em;
+      }
+      .popup .module-gray-1px A {color:#086715;}
+      .popup .module-gray-1px .r-b {padding:0 15px;}
+   .popup .note {
+      width:300px;
+      margin:0 auto 15px;
+      font:italic .9em Georgia,serif;
+      text-align:center;
+      color:#4C4C4C;
+      }
+   .popup .error {
+      width:400px;
+      margin:0 auto;
+      font:italic 1.4em Georgia,serif;
+      text-align:center;
+      color:#BA0000;
+      }
+    .popup .no-error {
+       width:400px;
+       margin:0 auto;
+       font:italic 1.4em Georgia,serif;
+       text-align:center;
+       color:#00BA00;
+       }
+	.popup .restore {margin-top:90px;}
+	.popup .feedback {
+		width:360px;
+		margin:auto;
+		}
+		.popup .feedback FIELDSET {
+			position:relative;
+			}
+		.popup .feedback H4 {margin:50px 0 10px;}
+		.popup .feedback .text {
+			margin-bottom:10px;
+			padding:15px 25px 20px;
+			background:#D5EDED;
+			}
+		.popup .feedback LABEL {
+			display:block;
+			font-size:.9em;
+			margin-bottom:4px;
+			}
+		.popup .feedback .input {
+			padding:0 25px 10px;
+			}
+			.popup .feedback .input INPUT {
+				width:310px;
+				font-size:.9em;
+				}
+		.popup .feedback .btn {margin-top:10px;}
+		.popup .feedback .answ {
+			margin-top:150px;
+			font:italic 1.2em/1.5 Georgia,serif;
+			text-align:center;
+			}
+	   .popup .feedback .err {
+	      position:absolute;
+	      right:-126px;
+	      top:2.4em;
+	      width:130px;
+	      padding:3px 5px;
+	      font:bold .7em Arial,sans-serif;
+	      color:#FFF;
+	      background:#AF0C0C;
+	      }
+	
+   
+/* Download Reader
+-------------------------------------- */
+.download-reader {
+   width:232px;
+   height:232px;
+   background:url(../i/layout/download-reader.png) no-repeat;
+   color:#784B95;
+   font-size:1.2em;
+   }
+   .download-reader A {
+      display:block;
+      padding:65px 98px 77px 28px;
+      text-decoration:none;
+      color:#784B95;
+      }
+   
+/* Create Your Code
+-------------------------------------- */
+.create-your-code {
+   min-width:138px;
+   min-height:64px;
+   padding:85px 47px 83px 47px;
+   font-size:1.5em;
+   text-align:center;
+   background:url(../i/layout/create-your-code.jpg) no-repeat;
+   }
+   
+/* T-Shirt
+-------------------------------------- */
+.t-shirt {
+   
+   }
+   .t-shirt .part {
+      width:100%;
+      overflow:hidden;
+      margin-bottom:15px;
+      }
+   .t-shirt LABEL {
+      display:block;
+      margin-bottom:3px;
+      font-size:.9em;
+      }
+   .t-shirt FIELDSET {
+      float:left;
+      width:182px;
+      margin-right:25px;
+      }
+   .t-shirt .long {
+      width:500px;
+      margin-bottom:10px;
+      }
+      .t-shirt .long .txt {width:390px;}
+   .t-shirt .radio {
+      padding-bottom:3px;
+      border-bottom:1px solid #CCC;
+      }
+      .t-shirt .radio LABEL {
+         display:inline;
+         margin:0 40px 0 0;
+         vertical-align:bottom;
+         }
+   .t-shirt SELECT {width:180px;}
+   .t-shirt SELECT.small {width:75px;}
+   .t-shirt .colors {
+      width:100%;
+      overflow:hidden;
+      }
+      .t-shirt .colors INPUT {float:left;}
+      .t-shirt .colors LABEL {
+         float:left;
+         width:60px;
+         margin:0 50px 0 5px;
+         }
+      .t-shirt .colors LABEL SPAN {
+         display:block;
+         font-size:0;
+         width:52px;
+         height:18px;
+         margin-bottom:3px;
+         }
+      .t-shirt .colors .green {background:#00920A;}
+      .t-shirt .colors .red {background:#920F00;}
+      .t-shirt .colors .white {
+         background:#FFF;
+         width:50px;
+         height:16px;
+         border:1px solid #CCC;
+         }
+   .t-shirt .error {
+      display:block;
+      float:left;
+      padding:3px 5px;
+      background:#CB0C0C;
+      }
+      .t-shirt .error INPUT,
+      .t-shirt .error TEXTAREA {margin:0;}
+      .t-shirt .error STRONG {
+         display:block;
+         color:#FFF;
+         text-align:right;
+         font:.7em/1.4 Arial,sans-serif;
+         }
+   .t-shirt TEXTAREA {
+      width:390px;
+      }
+   .t-shirt .note {width:390px;}
+
+/* Usecases
+-------------------------------------- */
+.usecases {   
+   }
+   .usecases P {display:none;}
+   .usecases .open,
+   .usecases .nav {display:block;}
+   .usecases .open {margin-bottom:15px;}
+   .usecases .nav {
+      overflow:hidden;
+      width:100%;
+      }
+   .usecases .prev,
+   .usecases .next {
+      display:block;
+      width:28px;
+      height:28px;
+      margin-right:5px;
+      text-indent:-9999px;
+      float:left;
+      }
+   .usecases .prev {background:url(../i/ico/usecases.png) no-repeat;}
+   .usecases .next {background:url(../i/ico/usecases.png) -28px 0 no-repeat;}
+
+/* Agreement
+---------------------------------------- */
+.agreement {
+	font-size:.9em;
+	}
+	.agreement P,
+	.agreement UL LI {
+		font-size:1em;
+		margin-bottom:20px;
+		}
+		
+/* Create Visitcard
+---------------------------------------- */
+.visitcard {
+	width:680px;
+	}
+	.visitcard .part {
+		width:100%;
+		overflow:hidden;
+		margin-bottom:25px;
+		}
+	.visitcard H1 EM {
+		display:block;
+		font-size:.7em;
+		}
+	.visitcard H3 {
+		font:italic 1.2em Georgia,serif;
+		margin-bottom:10px;
+		}
+	.visitcard H4 {
+		font-size:.9em;
+		margin:0 0 10px 15px;
+		}
+	.visitcard FIELDSET {
+		display:inline;
+		margin-left:15px;
+		}
+	.visitcard .create FIELDSET {margin-left:0;}
+	.visitcard .module-gray {margin-bottom:0;}
+	.visitcard .module-violet FIELDSET {
+		float:left;
+		width:180px;
+		margin:0 50px 10px 0;
+		}
+	.visitcard .module-violet LABEL {
+		display:block;
+		font-size:.9em;
+		margin-bottom:5px;
+		}
+	.visitcard .double {margin-bottom:15px;}
+	.visitcard .double.last {margin-bottom:25px;}
+	.visitcard .double FIELDSET {
+		float:left;
+		width:280px;
+		margin:0 40px 0 15px;
+		}
+	.visitcard .double LABEL {font:italic .8em Georgia,serif;}
+	.visitcard .about {
+		width:620px;
+		margin:0 0 10px 15px;
+		}
+		.visitcard .about STRONG {
+			display:block;
+			font-size:1.2em;
+			margin-bottom:5px;
+			}
+		.visitcard .about EM {
+			color:#484848;
+			}

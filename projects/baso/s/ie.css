@@ -1,0 +1,39 @@
+#header,
+#container,
+#content .small-articles LI,
+#content .in-sw LI,
+#content .sidebar,
+#content .sidebar .russian-world LI,
+#content .sidebar .russian-world .banner,
+#footer,
+#sidebar .weather UL,
+#content .posts .post-info .time,
+#content .posts .post-info .time SPAN,
+#content .posts LI,
+#content .posts .comments,
+#content .sidebar .calendar CAPTION SPAN SPAN,
+#content .sidebar .popular UL,
+#content .blog-info,
+#content.blog-page .leave-comment FIELDSET,
+#content .subscribe FORM FIELDSET,
+#content .switcher,
+#content .paging,
+#content .section,
+#content .article-pages,
+#content .br-h,
+#content .first-news,
+#content .news-list LI,
+#content .main.news-arch DL,
+#content .options,
+#content .options DD,
+#content .result,
+#content .sec-menu,
+#container.err-404 .nav,
+#container.err-404 .nav LI {
+	zoom:1;
+	}
+#sidebar .subscribe H3 {background:url(../i/subscribe.gif) 24px 0 no-repeat;}
+* HTML #sidebar .useful {height:348px;}
+* HTML #content .subscribe FORM {height:324px;}
+* HTML #content .sidebar .russian-world .tags,
+* HTML #content .sidebar .russian-world .comments {font-size:85%;}

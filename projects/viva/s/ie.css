@@ -1,0 +1,41 @@
+* HTML #header {
+	background:none;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true,sizingMethod=crop,src='i/header.png');
+	}
+* HTML #nav {
+	height:220px;
+	background:none;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true,sizingMethod=crop,src='i/menu-bg.png');
+	}
+* HTML #nav LI.empty {
+	background:none;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true,sizingMethod=crop,src='i/star-empty.png');
+	}
+* HTML #content {
+	zoom:1;
+	margin-top:-40px;
+	}
+* HTML #content.anfisa .photos {
+	background:none;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true,sizingMethod=crop,src='i/people/anfisa.png');
+	}
+* HTML #content.bachinskiy .photos {
+	background:none;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true,sizingMethod=crop,src='i/people/bachinskiy.png');
+	}
+* HTML #content.subbotina .photos {
+	background:none;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true,sizingMethod=crop,src='i/people/subbotina.png');
+	}
+* HTML #content.chaif .photos {
+	width:627px;
+	background:none;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true,sizingMethod=crop,src='i/people/chaif.png');
+	}
+* HTML #content .magazine .mag {
+	background:none;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true,sizingMethod=crop,src='i/mag-bg.png');
+	}
+* HTML #content .magazine {left:410px;}
+* HTML #content .about {width:350px;}
+* HTML #footer .copy {text-indent:0;}

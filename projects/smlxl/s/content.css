@@ -1,0 +1,1135 @@
+/* Header Logo
+---------------------------------------- */
+#header .logo {
+	width:278px;
+	float:left;
+	margin-right:20px;
+	position:relative;
+	}
+	#header .logo .main {
+		position:relative;
+		float:left;
+		width:164px;
+		padding:15px 20px;
+		height:41px;
+		overflow:hidden;
+		font-size:26px;
+		}
+		#header .logo .main A {text-decoration:none;}
+		#header .logo .main SPAN {
+			display:block;
+			width:194px;
+			height:71px;
+			position:absolute;
+			top:0;
+			left:0;
+			background:url(../i/logo.png) no-repeat;
+			cursor:pointer;
+			z-index:1;
+			}
+	#header .logo .how {
+		position:absolute;
+		top:5px;
+		right:0;
+		display:block;
+		font-size:10px;
+		color:#B2B2B2;
+		z-index:10;
+		}
+		#header .logo .how A {color:#B2B2B2;}
+		
+/* Header Navigation
+---------------------------------------- */
+#header .nav {
+	float:right;
+	max-width:580px;
+	min-width:470px;
+	width:39em;
+	}
+#header .user-actions {
+	padding:5px 0 20px;
+	font-size:10px;
+	width:100%;
+	}
+	#header .user-actions LI {float:left;}
+	#header .user-actions .wishlist.full {font-weight:bold;}
+	#header .user-actions .wishlist A {color:#808080;}
+	#header .user-actions .wishlist .ico {
+		width:14px;
+		height:10px;
+		background:url(../i/ico/hanger-small.png) no-repeat;
+		}
+	#header .user-actions .logging {float:right;}
+/* Menu */
+#header .menu {
+	float:right;
+	font-size:14px;
+	line-height:1;
+	}
+	#header .menu LI {
+		float:left;
+		margin:0 0 3px 3px;
+		}
+	#header .menu A {
+		display:block;	
+		padding:8px 12px 7px;
+		text-decoration:none;
+		color:#FFF;
+		}
+	#header .menu .tshirts {margin-left:0;}
+	#header .menu .tshirts A {background-color:#683494}
+	#header .menu.sub .tshirts-cur A,
+	#header .menu.sub .tshirts A:hover {background-color:#683494 !important;}
+	#header .menu .brands A {background-color:#DD6AA9;}
+	#header .menu.sub .brands-cur A,
+	#header .menu.sub .brands A:hover {background-color:#DD6AA9 !important;}
+	#header .menu .stores A {background-color:#9DCB3B;}
+	#header .menu.sub .stores-cur A,
+	#header .menu.sub .stores A:hover {background-color:#9DCB3B !important;}
+	#header .menu.sub .tshirts A {background-color:#D1C2DF;}
+	#header .menu.sub .brands A {background-color:#F5D2E5;}
+	#header .menu.sub .stores A {background-color:#E1EFC4;}
+/* Search Form */
+#header .search {
+	float:right;
+	width:220px;
+	margin-left:3px;
+	}
+	#header .search INPUT {
+		display:block;
+		float:left;
+		}
+	#header .search .txt {
+		width:178px;
+		padding:6px 3px 5px;
+		margin:0 2px 0 0;
+		font-size:14px;
+		line-height:1;
+		color:#683494;
+		border:1px solid #683494;
+		}
+		
+/* Footer
+---------------------------------------- */
+#footer LI {
+	display:inline;
+	margin-right:25px;
+	}
+#footer .links {float:left;}
+#footer .copyrights {float:right;}
+#footer IMG {vertical-align:middle;}
+#footer .smlxl {margin-right:0;}
+#footer .smlxl .ico {
+	width:11px;
+	height:10px;
+	top:2px;
+	background:url(../i/ico/smlxl.png) no-repeat;
+	}
+#footer .smlxl A {text-decoration:none;}
+
+/* Howto
+---------------------------------------- */
+.howto-page {font-size: 14px;}
+	.howto-page H1 {padding-left: 20px;}
+	.howto-page .intro {padding: 1.4em 20px 0 297px;}
+		.howto-page .intro P {margin-bottom: 1.4em;}
+	.howto-page P.border {border-bottom: 2px solid #EEE;}		
+	.howto-page P.paragraph {padding: 1.4em 20px;}
+		.howto-page P.paragraph IMG {
+			float: right;
+			margin-left: 2.5em;
+			}
+			
+/* Index Page
+---------------------------------------- */
+.index-page H1 {
+	padding:0 7px 30px;
+	font-size:24px;
+	color:#7954A8;
+	}
+	.index-page H1 .male {color:#7954A8;}
+	.index-page H1 .female {color:#DD6AA9;}
+	.index-page H1 A:hover {text-decoration:none;}
+	.index-page H2 {
+		padding:0 20px;
+		font-size:21px;
+		margin-bottom:25px;
+		}
+	.index-page H2.brands {
+		padding-top:5px;
+		color:#DD6AA9;
+		}
+	.index-page H2.stores {color:#9DCB3B;}
+	.index-page DL {
+		padding:0 0 0 20px;
+		margin-bottom:40px;
+		}
+	.index-page DT {
+		float:left;
+		margin-right:5px;
+		font-size:11px;
+		line-height:1.1;
+		text-align:center;
+		}
+		.index-page DT A {color:#FFF;}
+		.index-page DT A:hover {text-decoration:none;}
+	.index-page DD {
+		float:left;
+		width:150px;
+		text-align:center;
+		margin-right:3px;
+		font-size:9px;
+		}
+		.index-page DD .pic {
+			height:50px;
+			margin-bottom:5px;
+			}
+	.index-page .last {margin-right:0;}
+	.index-page .brands DT {
+		width:35px;
+		padding:26px 23px 13px;
+		margin-top:.5em;
+		background:url(../i/bg/all-brands.png) 50% 50% no-repeat;
+		}
+	.index-page .brands DD {width:120px;}
+		.index-page .brands DD .pic {height:80px;}
+	.index-page .stores DT {
+		width:54px;
+		padding:15px 5px 19px;
+		background:url(../i/bg/all-stores.png) 50% 50% no-repeat;
+		}
+
+/* T-shirts Wall
+---------------------------------------- */
+.tshirts-wall {
+	width:100%;
+	height:157px;
+	margin-bottom:10px;
+	overflow:hidden;
+	position:relative;
+	}
+	.tshirts-wall H3 {
+		padding:0 22px 15px 22px;
+		font-size:14px;
+		color:#808080;
+		}
+	.tshirts-wall.normal {
+		width:auto;
+		padding:0 10px;
+		height:auto;
+		margin-bottom:40px;
+		overflow:visible;
+		}
+	.tshirts-wall.normal UL {
+		position:static;
+		width:100% !important;
+		}
+	.tshirts-wall UL {
+		position:absolute;
+		top:0;
+		left:-200%;
+		width:400%;
+		}
+	.tshirts-wall LI {
+		float:left;
+		position:relative;
+		margin-bottom:20px;
+		}
+	.tshirts-wall A.thumb {
+		display:block;
+		padding:1px 0;
+		height:140px;
+		border:5px solid #FFF;
+		border-width:5px 0;
+		}
+		.tshirts-wall A.thumb:hover {border-color:#E4DDED;}
+		
+/* Heading Brand Full
+---------------------------------------- */
+.heading-brand-full {
+	position:relative;
+	padding-bottom:10px;
+	border-bottom:2px solid #F2F2F2;
+	margin-bottom:13px;
+	height:85px;
+	overflow:hidden;
+	}
+	.heading-brand-full .btn {
+		position:absolute;
+		top:50%;
+		right:0;
+		margin-top:-.8em;
+		white-space:nowrap;
+		}
+	.heading-brand-full .logo {
+		vertical-align:middle;
+		margin-right:30px;
+		}
+	.heading-brand-full .desc {
+		display:inline-block;
+		vertical-align:middle;
+		width:440px;
+		font-size:14px;
+		}
+		
+/* Heading Brand
+---------------------------------------- */
+.heading-brand {
+	position:relative;
+	margin-bottom:20px;
+	height:75px;
+	}
+	.heading-brand .btn {
+		position:absolute;
+		top:50%;
+		right:0;
+		margin-top:-.9em;
+		}
+	.heading-brand .logo {
+		vertical-align:middle;
+		margin-right:30px;
+		}
+
+/* Heading Store Full
+---------------------------------------- */
+.heading-store-full {
+	position:relative;
+	padding-bottom:13px;
+	border-bottom:2px solid #F2F2F2;
+	margin-bottom:13px;
+	height:75px;
+	}
+	.heading-store-full .btn {
+		position:absolute;
+		top:50%;
+		right:0;
+		margin-top:-.9em;
+		}
+	.heading-store-full .logo {
+		vertical-align:middle;
+		margin-right:20px;
+		}
+
+/* Page Switcher
+---------------------------------------- */
+.page-switcher {margin-bottom:20px;}
+	.page-switcher LI {padding:0 !important;}
+	.page-switcher .l A {padding-right:12px;}
+	.page-switcher .r A {padding-left:12px;}
+	
+/* Paging
+---------------------------------------- */
+.paging {margin-bottom:20px;}
+.paging.center {margin-left:230px;}
+	.paging .first,
+	.paging .last {
+		width:17px;
+		height:30px;
+		background:url(../i/bg/paging.png) no-repeat;
+		}
+	.paging .last {background-position:-17px 0;}
+	.paging LI {
+		float:left;
+		margin-right:3px;
+		font:bold 14px Arial,sans-serif;
+		}
+	.paging A {
+		display:block;
+		padding:6px 10px 7px;
+		min-height:17px;
+		max-height:17px;
+		background-color:#D1C2DF;
+		color:#8553A2;
+		text-decoration:none;
+		}
+	.paging A:hover,
+	.paging .cur A {
+		background-color:#683494;
+		color:#FFF;
+		}
+	.paging .cur A {cursor:text;}
+	.paging .btn {
+		min-height:15px;
+		max-height:15px;
+		padding:7px 10px 8px 15px;
+		font:12px Arial,sans-serif;
+		}
+	.paging .r {
+		padding:7px 15px 8px 10px !important;
+		float:left !important;
+		}
+	.paging .btn A {
+		display:inline;
+		padding:0;
+		background:none;
+		color:#FFF;
+		text-decoration:underline;
+		}
+		
+/* Brands Page
+---------------------------------------- */
+.brands-page {
+	width: 900px;
+	padding-top:15px;
+	}
+	.brands-page H1 {padding:0 7px 24px;}
+	.brands-page UL LI{
+		display: block;
+		float: left;
+		height: 156px;
+		width: 120px;
+		margin: 0 30px 20px 0;
+		line-height: 14px;
+		}
+	.brands-page A {color: #808080;}
+	.brands-page A.description { 
+		display: block;
+		height:140px;
+		font-size: 10px;
+		overflow: hidden;
+		}
+		.brands-page A.description img {
+			display: block; 
+			height: 80px;
+			}
+	.brands-page A.catalog {
+		font-weight: bold;
+		font-size: 12px;
+		}
+	.brands-page LI a:hover {text-decoration: none;}
+	
+/* Tshirt Picture
+---------------------------------------- */
+.tshirt-picture {
+	}
+	.tshirt-picture .main {
+		float:left;
+		margin-right:10px;
+		position:relative;
+		text-align:center;
+		}
+	.tshirt-picture.inline .main {margin-bottom:25px;}
+		.tshirt-picture .main .zoom {
+			position:absolute;
+			top:15px;
+			left:10px;
+			display:block;
+			padding:1px 0 1px 22px;
+			background:url(../i/ico/zoom.png) 0 50% no-repeat;
+			text-decoration:underline;
+			cursor:pointer;
+			}
+		.tshirt-picture .main .heart {
+      		display:block;
+			position:absolute;
+			top:0;
+			right:10px;
+			display:block;
+			width:22px;
+			height:20px;
+			padding:18px 17px;
+			border:solid 1px #E0E0E0;
+			background:none;
+			text-indent:-9999px;			
+			}
+		.tshirt-picture .main .heart A {
+			top:19px;
+			right:17px;
+			}
+			/* Previews */
+			.tshirt-picture .views LI {
+				float:left;
+				width:82px;
+				height:82px;
+				margin:0 5px 5px 0;
+				}
+			.two-cols .tshirt-picture .views {
+				width:87px;
+				float:left;
+				}
+
+/* Tshirts Block
+---------------------------------------- */
+.tshirts-block {margin-bottom:40px;}
+	.tshirts-block .tshirts-wall {
+		width:700px;
+		padding:0;
+		margin:0;
+		float:left;
+		}
+	.tshirts-block .wishlist-block {
+		float:right;
+		position:relative;
+		width:160px;
+		font-size:13px;
+		}
+		.tshirts-block .wishlist-block DT {
+			width:144px;
+			background:#683494;
+			padding:5px;
+			color:#FFF;
+			text-align:center;
+			}
+			.tshirts-block .wishlist-block DT A {color:#FFF;}
+		.tshirts-block .wishlist-block.full DT {
+			width:auto;
+			background:#683494 url(../i/btn/violet-r.png) 100% 50% no-repeat;
+			}
+		.tshirts-block .wishlist-block DD {
+			position:relative;
+			min-height:204px;
+			width:90px;
+			padding:30px;
+			border:2px solid #683494;
+			border-top:1px solid #683494;
+			background:url(../i/bg/wishlist-empty.png) 50% 44px no-repeat;
+			}
+		.tshirts-block .wishlist-block .help {
+			position:absolute;
+			top:44px;
+			right:33px;
+			width:84px;
+			height:86px;
+			cursor:pointer;
+			text-indent:-9999px;
+			}
+		.tshirts-block .wishlist-block.full DD {
+			background:none;
+			height:auto !important;
+			}
+		.tshirts-block .wishlist-block.full .help {
+			position:absolute;
+			top:5px;
+			right:5px;
+			display:block;
+			width:13px;
+			height:13px;
+			background-color:#7954A8;
+			color:#FFF;
+			font-size:12px;
+			text-align:center;
+			cursor:pointer;
+			overflow:hidden;
+			}
+			.tshirts-block .wishlist-block.full .help SPAN {
+				position:absolute;
+				top:0;
+				right:0;
+				display:block;
+				width:13px;
+				height:13px;
+				background:url(../i/ico/help.png) no-repeat;
+				text-indent:0;
+				cursor:pointer;
+				}
+		.tshirts-block .wishlist-block LI {
+			position:relative;
+			text-align:center;
+			padding:5px 0;
+			width:90px;
+			}
+		.tshirts-block .wishlist-block .like-it,
+		.tshirts-block .wishlist-block .star-it {
+			top:0;
+			right:10px;
+			}
+		.tshirts-block .wishlist-block .hint {
+			display:none;
+			position:absolute;
+			top:0;
+			left:-312px;
+			width:300px;
+			min-height:271px;
+			padding:5px 5px 15px;
+			border:2px solid #683494;
+			background-color:#FFF;
+			z-index:100;
+			}
+		.tshirts-block .wishlist-block .hint.open {display:block;}
+			.tshirts-block .wishlist-block .hint .hide {
+				display:block;
+				background-color:#F2F2F2;
+				padding:3px 5px;
+				margin-bottom:10px;
+				font:10px Arial,sans-serif;
+				text-align:right;
+				text-decoration:underline;
+				color:#808080;
+				cursor:pointer;
+				}
+			.tshirts-block .wishlist-block .hint H4 {
+				font:bold 12px Arial,sans-serif;
+				padding:0 18px 10px;
+				}
+			.tshirts-block .wishlist-block .hint P {margin:10px 18px 0;}
+			.tshirts-block .wishlist-block .hint .like {
+				margin:5px 18px;
+				padding:0 0 0 30px;
+				background:url(../i/ico/like-dis-20.png) 0 8px no-repeat;
+				}
+				.tshirts-block .wishlist-block .hint .like.yes {background:url(../i/ico/like-en-20.png) 0 8px no-repeat;}
+				
+/* Main Navigation
+---------------------------------------- */
+.main-nav .tabs {
+	margin-bottom:10px;
+	border-bottom:2px solid #EEE;
+	font-size:14px;
+	}
+	.main-nav .tabs LI {
+		float:left;
+		margin-right:3px;
+		margin-top: 6px;
+		}
+	.main-nav .tabs LI.cur {
+		margin-top: 0px;
+		}			
+	.main-nav .tabs .female A {background-color:#F5D2E5;}
+	.main-nav .tabs .male A {background-color:#D1C2DF;}
+	.main-nav .tabs A {
+		display:block;
+		padding:4px 25px 2px 25px;
+		color:#FFF;
+		text-decoration:none;
+		}		
+	.main-nav .tabs .cur A {
+		margin-top: 2px;
+		padding-bottom:6px;
+		cursor: default;
+		}
+	.main-nav .tabs .cur.female A,
+	.main-nav .tabs .female A:hover {background-color:#DD6AA9;}
+	.main-nav .tabs .cur.male A,
+	.main-nav .tabs .male A:hover {background-color:#683494;}
+	.main-nav .tabs .fitting {
+		float:right;
+		background-color:#6bcbe4;
+		}
+		.main-nav .tabs .fitting A{
+			padding-left: 36px;
+			padding-right: 15px;
+			background: url(../i/ico/fitting-tab-ico.png) 7px 4px no-repeat;
+			}
+			.main-nav .tabs .fitting A SPAN{
+				font-size: 12px;
+				padding-left: 10px;
+				}
+
+.main-nav .categories {
+	padding:0 0 10px 8px;
+	font-size:12px;
+	border-bottom:2px solid #EEE;
+	margin-bottom: 5px;
+	}
+	.main-nav .categories UL {
+		float:left;
+		margin-right:10px;
+		}
+	.main-nav .categories UL LI {			
+		padding:3px 9px;
+		margin-bottom:4px;
+		}
+	.main-nav .categories .scrollable { overflow:hidden; max-height:182px; }
+	.main-nav .categories .type {width:102px;}
+	.main-nav .categories .size {width:104px;}
+	.main-nav .categories .brand {width:103px;}
+	.main-nav .categories .price {width:106px;}
+	.main-nav .categories .color {width:102px;}
+	.main-nav .categories .graphics {width:102px;}
+	.main-nav .categories .store {width:134px;margin-right:0;}
+	.main-nav .categories .type,
+	.main-nav .categories .category {font-weight:bold;}
+	.main-nav .categories .type .cur {background:#D1C2DF url(../i/btn/type.png) 100% 50% no-repeat;}
+	.main-nav .categories .size .cur {background:#F7F150 url(../i/btn/size.png) 100% 50% no-repeat;}
+	.main-nav .categories .brand .cur {background:#E5FCB3 url(../i/btn/brand.png) 100% 50% no-repeat;}
+	.main-nav .categories .price .cur {background:#DBD5FF url(../i/btn/price.png) 100% 50% no-repeat;}
+	.main-nav .categories .graphics .cur {background:#ECC7FC url(../i/btn/graphics.png) 100% 50% no-repeat;}
+	.main-nav .categories .store .cur {background:#FCEAD8 url(../i/btn/store.png) 100% 50% no-repeat;}
+	.main-nav .store .sale {
+		padding-right:45px;
+		background:url(../i/ico/sale.png) 100% 50% no-repeat;
+		}
+	.main-nav .categories .color LI {
+		height:13px;
+		text-indent:-9999px;
+		font-size:0;
+		margin-bottom:1px;
+		padding:0;
+		}
+	.main-nav .categories .color A {
+		display:block;
+		height:100%;
+		padding:0;
+		}
+	.main-nav .categories .color .category {
+		text-indent:0;
+		padding:3px 9px;
+		margin-bottom:5px;
+		font-size:12px;
+		height:auto;
+		}
+	.main-nav .categories .color .white {
+		height:11px;
+		border:1px solid #E2E2E2;
+		background-color:#FFF;
+		}
+	.main-nav .categories .color .black {background-color:#000;}
+	.main-nav .categories .color .gray {background-color:#A0A0A0;}
+	.main-nav .categories .color .pink {background-color:#F38FE1;}
+	.main-nav .categories .color .red {background-color:#F72E00;}
+	.main-nav .categories .color .brown {background-color:#904B30;}
+	.main-nav .categories .color .yellow {background-color:#FFD114;}
+	.main-nav .categories .color .green {background-color:#9DCB3B;}
+	.main-nav .categories .color .sky-blue {background-color:#18BBE6;}
+	.main-nav .categories .color .blue {background-color:#4C63BE;}
+	.main-nav .categories .color .purple {background-color:#683494;}
+	.main-nav .categories .color .cur {background:url(../i/bg/color-cur.png) 0 50% no-repeat;}
+	.main-nav .categories .color .category.cur {background:#C7E5FC url(../i/btn/color.png) 100% 50% no-repeat;}
+	.main-nav .categories .color .white .cur {background:url(../i/bg/color-cur-black.png) 0 50% no-repeat;}
+	.main-nav .categories .color .orange {background-color:#F5874A;}
+			
+/* Fitting Room
+---------------------------------------- */
+.fitting-room {
+	width:907px;
+	margin:auto;
+	position:relative;
+	}
+	.fitting-room .model {
+		position:absolute;
+		left:0;
+		width:230px;
+		margin-right:10px;
+		}
+	.fitting-room .model.top {top:0;}
+	.fitting-room .model.fixed {
+    	position:fixed;
+    	top:0;
+    	}
+	.fitting-room .model.bottom {bottom:10px;}
+	.fitting-room .model.position {height:1px;}
+	.fitting-room .tshirts-block {
+		float:right;
+    	min-height:500px;
+		width:667px;
+		}
+		.fitting-room .tshirts-block .tshirts-wall {
+			width:667px;
+			padding:0;
+			}
+			.fitting-room .tshirts-wall A.thumb {position: relative;}
+			.fitting-room .tshirts-wall LI .info,
+			.fitting-room .tshirts-wall LI .fit {
+				display: block;
+				position: absolute;
+				top: 100px;
+				width: 64px;
+				height: 22px;
+				background-color: #9571b4;
+				color: #fff;
+				line-height: 22px;
+				font-size: 12px;
+				text-decoration: underline;
+				text-align: center;
+				cursor: pointer;
+				z-index: 100;
+				}
+			.fitting-room .tshirts-wall .info:hover,
+			.fitting-room .tshirts-wall .fit:hover {background-color: #683494;}
+			.fitting-room .tshirts-wall LI .fit {left:0;}
+			.fitting-room .tshirts-wall LI .info {right:0}
+			.fitting-room .tshirts-wall LI .no-fit {
+				right:50%;
+				margin-right:-32px;
+				}
+
+/* Tshirt Details
+---------------------------------------- */
+.tshirt-details {
+	padding:10px 0;
+	margin-bottom:20px;
+	border-bottom:2px solid #EEE;
+	}
+	.tshirt-details .tshirt-picture {
+		width:490px;
+		float:left;
+		margin-right:12px;
+		}
+	.tshirt-details .about {
+		float:right;
+		width:367px;
+		}
+	.tshirt-details.two-cols .tshirt-picture {width:576px;}
+	.tshirt-details.two-cols .about {width:282px;}
+		.tshirt-details .about DL {padding-bottom:7px;}
+		.tshirt-details .about DT {
+			position:relative;
+			padding-right:40px;
+			margin-bottom:13px;
+			font:bold 18px Arial,sans-serif;
+			color:#683494;
+			}
+		.tshirt-details .about DD {margin-bottom:13px;}
+		.tshirt-details .about .price {
+			color:#683494;
+			font:bold 21px Arial,sans-serif;
+			}
+		.tshirt-details .about .close {
+			position:absolute;
+			top:0;
+			right:0;
+			display:block;
+			padding:2px 6px 1px;
+			background-color:#683494;
+			color:#FFF;
+			font:24px/1 Arial,sans-serif;
+			cursor:pointer;
+			}
+			.tshirt-details .about DT A {color:#683494;}
+		.tshirt-details .about .stores {
+			padding:10px;
+			margin-bottom:20px;
+			background-color:#F2F2F2;
+			}
+			.tshirt-details .about .stores .how-to {
+				float:right;
+				padding:5px 7px;
+				background-color:#F5874A;
+				color:#FFF;
+				}
+			.tshirt-details .about .stores .how-to A {color:#FFF;}
+			.tshirt-details .about .stores .store {
+				display:block;
+				padding:5px 0;
+				}
+		.tshirt-details .about .actions {margin-bottom:20px;}
+			.tshirt-details .about .actions LI {
+				display:inline;
+				margin-right:25px;
+				padding-left:30px;
+				}
+			.tshirt-details .about .actions .comments {background:url(../i/ico/comments.png) 7px 60% no-repeat;}
+			.tshirt-details .about .actions .tags {background:url(../i/ico/tags.png) 7px 60% no-repeat;}
+			.tshirt-details .about .actions .code {
+				display:block;
+				background:url(../i/ico/code.png) 0 50% no-repeat;
+				margin:20px 0 0;
+				}
+			.tshirt-details .about .actions .code LABEL {
+				margin-right:5px;
+				vertical-align:middle;
+				}
+			.tshirt-details .about .actions .code INPUT.txt {width:158px;}
+			
+/* Modal Box
+---------------------------------------- */
+#modal-shadow {
+	position:fixed;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	background-color:#FFF;
+	opacity:0.8;
+	filter:progid:DXImageTransform.Microsoft.Alpha(opacity=80);
+	z-index:3000;
+	}
+.modal-box {
+	position:fixed;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	z-index:4000;
+	}
+	.modal-box .inner {
+		position:absolute;
+		top:50%;
+		left:50%;
+		width:600px;
+		height:600px;
+		margin:-300px 0 0 -300px;
+		border:1px solid #8453A4;
+		background-color:#FFF;
+		z-index:4000;
+		}
+	.modal-box .close {
+		position:absolute;
+		top:12px;
+		right:-27px;
+		width:15px;
+		height:16px;
+		padding:3px 6px;
+		font-size:24px;
+		line-height:1;
+		background-color:#8453A4;
+		color:#FFF;
+		overflow:hidden;
+		cursor:pointer;
+		}
+		.modal-box .close SPAN {
+			position:absolute;
+			top:0;
+			left:0;
+			width:27px;
+			height:22px;
+			background:url(../i/btn/close.png) no-repeat;
+			cursor:pointer;
+			}
+	.modal-box .switcher {
+		width:580px;
+		position:absolute;
+		top:0;
+		left:10px;
+		font-size:14px;
+		}
+		.modal-box .switcher LI {
+			position:absolute;
+			height:600px;
+			width:177px;
+			z-index:1000;
+			}
+		.modal-box .switcher A {
+			display:block;
+			height:600px;
+			width:177px;
+			position:absolute;
+			top:0;
+			left:0;
+			text-decoration:none;
+			background:url(about.blank) 0 0 no-repeat;
+			}
+		.modal-box .switcher .l {
+			top:0;
+			left:0;
+			}
+			.modal-box .switcher .l A:hover {background:url(../i/btn/switcher-l.png) 0 50% no-repeat;}
+		.modal-box .switcher .r {
+			top:0;
+			right:0;
+			}
+			.modal-box .switcher .r A:hover {background:url(../i/btn/switcher-r.png) 100% 50% no-repeat;}
+	.modal-box .pic {display:block;}
+	/* Sign In Popup */
+	.modal-box.sign-in .inner {
+		top:40%;
+		width:340px;
+		padding:15px 20px;
+		height:260px;
+		margin:-145px 0 0 -190px;
+		border:4px solid #8453A4;
+		background-color:#FFF;
+		z-index:4000;
+		}
+		.modal-box.sign-in .form-btn {
+			width:auto;
+			padding:7px 30px 6px;
+			}
+	
+/* Wishlist Page
+---------------------------------------- */
+.wishlist-page .heading {padding:0 10px 25px;}
+	.wishlist-page .heading H2 {
+		float:left;
+		margin:.3em 20px 0 0;
+		font:bold 24px Arial,sans-serif;
+		color:#683494;
+		}
+	.wishlist-page .heading .btn {padding:.9em 15px .9em 12px;}
+	.wishlist-page .heading .note {
+		float:right;
+		background-color:#E4DDEE;
+		width:40em;
+		min-width:440px;
+		}
+	.wishlist-page .heading .note P {
+		float:left;
+		width:260px;
+		padding:5px 10px;
+		color:#7954A8;
+		font:12px/1.2 Arial,sans-serif;
+		}
+.wishlist-page .switcher {
+	float:right;
+	width:110px;
+	font-size:12px;
+	}
+.wishlist-page .switcher DT,
+.wishlist-page .switcher DD {padding:3px 0;}
+.wishlist-page .switcher DT {font-weight:bold;}
+.wishlist-page .tshirts-wall {
+	float:left;
+	width:710px;
+	}
+	
+/* Signup Page
+---------------------------------------- */
+.signup {padding-top:15px;}
+.signup .promo {
+	float:left;
+	width:445px;
+	margin-right:50px;
+	}
+	.signup .promo H3 {
+		padding:0 10px 20px;
+		font:20px/1 Arial,sans-serif;
+		color:#683494;
+		}
+	.signup .promo IMG {
+		display:block;
+		margin-bottom:5px;
+		}
+.signup .logging-form {float:left;}
+.signup .wishlist {
+	position:relative;
+	float:left;
+	padding:0 22px 0 0;
+	width:415px;
+	margin:0 50px 0 0;
+	}
+	.signup .wishlist .inner {
+		padding:15px 30px 20px;
+		border:1px solid #CCC;
+		}
+	.signup .wishlist H2 {
+		padding:0 0 20px;
+		font:20px/1 Arial,sans-serif;
+		color:#683494;
+		}
+		.signup .wishlist H2 .ico {
+			top:5px;
+			width:27px;
+			height:27px;
+			margin-right:6px;
+			background:url(../i/ico/hanger-en.png) no-repeat;
+			font-size:0;
+			cursor:pointer;
+			}
+	.signup .wishlist .cor {
+		position:absolute;
+		top:40px;
+		right:0;
+		width:23px;
+		height:49px;
+		font-size:0;
+		background:url(../i/bg/wishlist-cor.png) no-repeat;
+		z-index:100;
+		}
+	.signup .wishlist .wishes LI {
+		float:left;
+		margin:0 12px 10px 0;
+		}
+		
+/* Logging Page
+---------------------------------------- */
+.logging-page .logging-form {margin:auto;}
+.logging-page .logging-form .submit .form-btn {
+	width:auto;
+	padding:7px 30px 6px;
+	}
+
+/* Account
+---------------------------------------- */
+.account {padding:0 17px 40px;}
+	.account .account-switcher {
+		width:100%;
+		overflow:hidden;
+		margin-bottom:30px;
+		color:#683494;
+		font-size:1.7em;
+		}
+		.account .account-switcher LI {
+			float:left;
+			margin-right:15px;
+			padding:5px 15px;
+			}
+		.account .account-switcher .current {background-color:#E1D6EA;}
+		.account .account-switcher A {color:#683494;}
+		.account .user-data .types {
+			width:350px;
+			float:left;
+			margin-right:30px;
+			}
+		.account .user-data .types UL {
+			width:100%;
+			overflow:hidden;
+			margin:0 0 90px 0;
+			padding-top:5px;
+			font:bold 1em Arial,sans-serif;
+			color:#FFF;
+			}
+			.account .user-data .types UL A {
+				text-decoration:none;
+				color:#FFF;
+				}
+			.account .user-data .types LI {
+				float:left;
+				padding:5px 15px 4px;
+				margin-top:5px;
+				cursor:pointer;
+				}
+			.account .user-data .types .current {
+				margin-top:0;
+				padding:10px 15px 8px;
+				cursor:text;
+				}
+			.account .user-data .types .male {background-color:#8553A2;}
+			.account .user-data .types .female {background-color:#DD6AA9;}
+			.account .user-data .types .both {background-color:#9DCB3B;}
+		.account .user-data .sizes {
+			float:left;
+			width:300px;
+			}
+		.account .user-data .sizes DL {
+			width:100%;
+			padding-top:5px;
+			margin-left:6px;
+			overflow:hidden;
+			font-size:1.1em;
+			color:#808080;
+			}
+		.account .user-data .sizes DT {
+			float:left;
+			padding:3px 15px 1px;
+			margin-right:10px;
+			border:solid 1px #D5D5D5;
+			font:bold 1.75em Arial,sans-serif;
+			color:#7954A8;
+			}
+		.account .user-data .sizes DD {padding-top:.6em;}
+			.account .user-data .sizes DD A {color:#808080;}
+			
+/* Old Search
+---------------------------------------- */
+#search .choose .no-scrl {padding-right:13px;}
+#search .track {
+	float:left;
+	height:182px;
+	margin-right:10px;
+	position:relative;
+	width:9px;
+	background:url(../i/bg/srch-controls.png) no-repeat;
+	font-size:0;
+	}
+#search .handle {
+	cursor:move;
+	height:45px;
+	margin-left:-3px;
+	position:absolute;
+	width:15px;
+	background:url(../i/bg/srch-controls.png) no-repeat;
+	font-size:0;
+	}
+/* active menu colour */
+#search .size-scrl {}
+#search .size-scrl .handle {background-position:-54px 0;}
+#search .color-scrl {background-position:-9px 0;}
+#search .color-scrl .handle {background-position:-54px -45px;}
+#search .price-scrl {background-position:-18px 0;}
+#search .price-scrl .handle {background-position:-54px -90px;}
+#search .graphics-scrl {background-position:-27px 0;}
+#search .graphics-scrl .handle {background-position:-54px -135px;}
+#search .brand-scrl {background-position:-36px 0;}
+#search .brand-scrl .handle {background-position:-69px 0;}
+#search .store-scrl {background-position:-45px 0;}
+#search .store-scrl .handle {background-position:-69px -45px;}

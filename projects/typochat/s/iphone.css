@@ -1,0 +1,213 @@
+@import 'reset.css';
+BODY {
+	font:1em/1.3 Helvetica,sans-serif;
+	background:#FFF url(../i/iphone/bg.png);
+	color:#000;
+	}
+#wrapper {
+	padding:15px 5px;
+	background:url(../i/iphone/shadow-t.png) repeat-x;
+	}
+H1 {
+	padding:0 15px 10px;
+	font-size:20px;
+	color:#7B7C7D;
+	}
+	H1 STRONG {
+		font-weight:normal;
+		color:#000;
+		}
+
+/* User message common
+---------------------------------------- */
+#wrapper .user-message:nth-child(2) {margin-top:0;}
+.user-message {
+	position:relative;
+	margin-top:-18px;
+	border:solid 3px #FFF;
+	-webkit-box-shadow: 0 0 6px rgba(0,0,0,.30);
+	-webkit-border-radius:14px;
+	}
+	.user-message .message {
+		margin:0 -3px;
+		padding:3px 10px;
+		background:url(../i/iphone/message-gr.png) repeat-x;
+		-webkit-background-size:100% 100%;
+		overflow:hidden;
+		font:16px Arial,sans-serif;
+		}
+	.user-message .message P {
+		padding:8px;
+		font:14px Arial,sans-serif;
+		text-shadow:#FFF 1px 1px;
+		}
+	.user-message .message .timestamp {
+		float:right;
+		font:14px Helvetica,sans-serif;
+		text-shadow:rgba(0,0,0,.20) 1px -1px;
+		color:#FFF;
+		}
+.user-message .name {
+	background:url(../i/iphone/message-gr.png) repeat-x, url(../i/iphone/top-glare.png) 3px 0 no-repeat;
+	-webkit-background-size:100% 100%, 99% 19px;
+	}
+	.user-message .name H2 {
+		font-size:14px;
+		text-shadow:#FFF 1px 1px;
+		}
+.user-message LI:last-child {
+	padding-bottom:18px;
+	border-bottom:none;
+	}
+.user-message .info {
+	display:block;
+	float:right;
+	width:17px;
+	height:19px;
+	margin-top:.4em;
+	text-indent:-9999px;
+	background:url(../i/iphone/info.png) no-repeat;
+	}
+
+/* Green
+---------------------------------------- */
+.green {background-color:#AFDFAF;}
+	.green .message {border-bottom:solid 1px #DBF1DB;}
+	.green .name H2 {color:#408040;}
+
+/* Blue
+---------------------------------------- */
+.blue {background-color:#9FCFFF;}
+	.blue .message {border-bottom:solid 1px #D4EAFF;}
+	.blue .name H2 {color:#608FBF;}
+	
+/* Me
+---------------------------------------- */
+.me {background:#E5E5E5;}
+	.me .name {
+		background:url(../i/iphone/top-glare.png) 3px 0 no-repeat;
+		-webkit-background-size:99% 19px;
+		}
+		.me .name H2 {color:#ACACAC;}
+	.me .message .timestamp {
+		text-shadow:#FFF 1px 1px;
+		color:#CECECE;
+		}
+	.me .input {
+		padding:22px 10px 8px !important;
+		background:url(../i/iphone/me-t.png) no-repeat;
+		}
+	.me.first .input {
+		padding:8px 10px !important;
+		background:none;
+		}
+	.me TEXTAREA {
+		display:block;
+		width:87%;
+		font:14px Arial,sans-serif;
+		text-shadow:#FFF 1px 1px;
+		border:none;
+		background:url(about:blank);
+		}
+	.me TEXTAREA.example {color:#A6A6A6;}
+	
+	
+/* Youtube
+---------------------------------------- */
+.user-message .youtube {padding-bottom:10px;}
+	.user-message .youtube A {text-decoration:none;}
+	.youtube .pic {
+		float:left;
+		position:relative;
+		background-color:#FFF;
+		-webkit-border-radius:3px;
+		padding:5px;
+		margin-right:13px;
+		-webkit-box-shadow: 0 0 5px rgba(0,0,0,.25);
+		}
+		.youtube .pic IMG {vertical-align:middle;}
+		.youtube .pic SPAN {
+			position:absolute;
+			left:50%;
+			top:50%;
+			margin:-17px 0 0 -15px;
+			display:block;
+			width:30px;
+			height:35px;
+			background:url(../i/iphone/play.png) no-repeat;
+			cursor:pointer;
+			}
+	.youtube .type {
+		display:block;
+		font:bold 12px Arial,sans-serif;
+		color:#FFF;
+		text-shadow:#98B8D7 1px -1px;
+		margin:10px 0 5px 120px;
+		}
+	.youtube STRONG {
+		display:block;
+		color:#000;
+		text-shadow:#F5FAFE 1px 1px;
+		margin:0 0 5px 120px;
+		font-size:16px;
+		}
+	.youtube .size {
+		display:block;
+		font:bold 12px Arial,sans-serif;
+		color:#FFF;
+		text-shadow:#98B8D7 1px -1px;
+		margin:0 0 5px 120px;
+		}
+		
+/* File
+---------------------------------------- */
+.file {
+	display:block;
+	text-decoration:none;
+	padding-left:26px;
+	}
+	.file STRONG {
+		display:block;
+		color:#000;
+		text-shadow:#F5FAFE 1px 1px;
+		font-size:16px;
+		}
+	.file .size {
+		display:block;
+		font:bold 12px Arial,sans-serif;
+		color:#FFF;
+		text-shadow:#98B8D7 1px -1px;
+		}
+	.file.pdf {background:url(../i/iphone/pdf.png) 0 50% no-repeat;}
+	
+/* Settings
+---------------------------------------- */
+.settings {
+	padding:0 10px;
+	}
+	.settings .input {
+		margin-bottom:15px;
+		padding:5px 10px 4px;
+		border:solid 3px #FFF;
+		-webkit-box-shadow: 0 0 6px rgba(0,0,0,.30);
+		-webkit-border-radius:14px;
+		background-color:#E5E5E5;
+		}
+	.settings INPUT {
+		display:block;
+		width:100%;
+		font:16px Arial,sans-serif;
+		border:none;
+		background:url(about:blank);
+		color:rgba(0,0,0,.80);		
+		}
+	.settings INPUT.example {
+		color:#B2B2B2;
+		text-shadow:#FFF 1px 1px;
+		}
+	.settings .note {
+		padding:0 35px;
+		color:#667380;
+		text-align:center;
+		font-size:15px;
+		}

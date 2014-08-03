@@ -1,0 +1,24 @@
+/* Header
+---------------------------------------- */
+#header {
+	width:870px;
+	margin:0 auto;
+	padding-bottom:10px;
+	}
+
+/* Content
+---------------------------------------- */
+.content {
+	width:870px;
+	margin:15px auto 0;
+	}
+	
+/* Footer
+---------------------------------------- */
+#footer {
+	width:830px;
+	margin:50px auto 0;
+	padding:10px 20px;
+	border-top:2px solid #EEE;
+	font-size:10px;
+	}

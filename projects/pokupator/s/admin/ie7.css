@@ -1,0 +1,18 @@
+.my-offers .aside .navigator {zoom:1;}
+.add-plus {top:0;}
+.switcher {top:.6em;}
+.edit-type .spec LI {zoom:1;border:solid 1px #FFF;}
+.edit-type .spec LI .counter,
+.edit-type .spec LI .name,
+.edit-type .spec LI .type,
+.edit-type .spec LI .units,
+.edit-type .spec LI .delete,
+.edit-type .spec LI .main {margin-right:10px;}
+.add-product .alternate LI {zoom:1;margin-top:-3px;}
+.add-product .categories .add-small {margin-left:0;}
+.request .request-data .client-actions .txt {width:140px;}
+.request .details .request-item .heading .count {width:80px;}
+.request .details .request-item .heading .data LABEL {width:50px;}
+.tender-main .offer {zoom:1;}
+.tender-main .stores-offers DIV.b-r {zoom:1;}
+.tender-sidebar .navigator .b-r {zoom:1;}

@@ -1,0 +1,120 @@
+/* Forms
+---------------------------------------- */
+INPUT.txt {
+	padding:2px;
+	border:1px solid #CCC;
+	font:11px Arial,sans-serif;
+	color:#4D4D4D;
+	vertical-align:middle;
+	}
+INPUT.selected {background-color:#FCFAB4;}
+TEXTAREA.txt {
+	padding:2px;
+	border:1px solid #CCC;
+	color:#4D4D4D;
+	font:11px Arial,sans-serif;
+	}
+SELECT.txt {
+	border:1px solid #CCC;
+	font:11px Arial,sans-serif;
+	color:#4D4D4D;
+	vertical-align:middle;
+	}
+INPUT.form-btn {
+	padding:7px 10px 6px;
+	border:none;
+	background-color:#7954A8;
+	color:#FFF;
+	font-size:15px;
+	cursor:pointer;
+	text-align:center;
+	vertical-align:middle;
+	}
+	
+/* Contact Form
+---------------------------------------- */
+.contact-form {
+	width:340px;
+	}
+	.contact-form H2 {
+		font-size:18px;
+		margin-bottom:15px;
+		}
+	.contact-form FIELDSET {margin-bottom:15px;}
+	.contact-form SELECT.txt {
+		width:340px;
+		font-size:21px;
+		}
+	.contact-form LABEL {
+		display:block;
+		margin-bottom:3px;
+		font-size:11px;
+		}
+	.contact-form TEXTAREA {width:340px;}
+
+/* Logging Forms
+---------------------------------------- */
+.logging-form {
+	width:340px;
+	margin-bottom:30px;
+	}
+	.logging-form H2 {
+		margin-bottom:15px;
+		font:bold 18px/1 Arial,sans-serif;
+		color:#683494;
+		}
+		.logging-form H2 SMALL {
+			float:right;
+			margin-top:.5em;
+			font:10px Arial,sans-serif;
+			}
+	.logging-form FIELDSET {margin-bottom:10px;}
+	.logging-form LABEL {
+		display:block;
+		margin-bottom:3px;
+		font-size:11px;
+		}
+	.logging-form INPUT.txt {
+		display:block;
+		width:334px;
+		font-size:21px;
+		}
+	.logging-form .form-btn {width:340px;}
+	.logging-form .note {
+		margin-top:3px;
+		font-size:9px;
+		}
+	.logging-form .error {
+		margin-top:3px;
+		font-size:9px;
+		color:#F00;
+		}
+	.logging-form .done {
+		margin-top:15px;
+		font-size:12px;
+		color:#683494;
+		}
+	.logging-form .submit {padding-top:5px;}
+		.logging-form .submit A {font-size:15px;}
+	.logging-form .chk LABEL {font-size:13px;}
+	.logging-form .chk INPUT,
+	.logging-form .chk LABEL {
+		display:inline;
+		vertical-align:middle;
+		}
+		
+/* User Data
+---------------------------------------- */
+.user-data {width:100%;}
+.user-data LABEL {font-size:12px;}
+.user-data .col {
+	float:left;
+	width:340px;
+	margin-right:20px;
+	}
+.user-data .email {margin-bottom:1.6em;}
+.user-data .submit {
+	width:100%;
+	clear:both;
+	padding-top:50px;
+	}

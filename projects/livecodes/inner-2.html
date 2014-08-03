@@ -1,0 +1,174 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ru" lang="ru">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<title>Живой код</title>
+	<link rel="stylesheet" href="s/style.css" type="text/css" />
+	<!--[if lt IE 7]><link rel="stylesheet" href="s/ie6.css" type="text/css" /><![endif]-->
+</head>
+<body>
+<div id="page">
+	<div id="header">
+		<h1 class="logo"><a href="/">Живой код: современнейшая технология<span></span></a></h1>
+		<a href="#" class="more">Узнать больше</a>
+		<div class="user-panel signed-in">
+			<span class="l"></span>
+			<ul>
+				<li class="hello">Привет, Сергей!</li>
+				<li class="current">мои коды</li>
+				<li><a href="#">настройки</a></li>
+				<li class="sign-out"><a href="#">Выйти</a></li>
+			</ul>
+			<span class="r"></span>
+		</div>
+		<ul class="about">
+			<li><a href="#">Что такое живой код?</a></li>
+			<li><a href="#">Скачать ридер для мобильника</a></li>
+			<li><a href="#">Создать свой живой код</a></li>
+		</ul>
+	</div>
+	<div id="main-nav">
+		<!-- Друг! Из-за IE6 это меню стало очень сложным: первый и последний элементы в обычном состоянии имеют классы first и last соответственно. Однако, в активном состоянии, вместо того, чтобы просто приписать класс active, как это происходит с двумя средними пунктами, придется заменять класс first на first-active и для last аналогично. Надеюсь, с точки зрения программирования это не вызовет больших сложностей — вариантов у нас, к сожалению, нет. -->
+		<span class="t"></span>
+		<ul>
+			<li class="first">
+				<span class="shadow">
+					<a href="">	
+						<span class="text-img"></span>
+						<strong><span class="cor"></span><span>Текст</span></strong>
+					</a>
+				</span>
+			</li>
+			<li class="">
+				<span class="shadow">
+					<a href="#">
+						<span class="link-img"></span>
+						<strong><span class="cor"></span><span>Ссылка</span></strong>
+					</a>
+				</span>
+			</li>
+			<li class="">
+				<span class="shadow">
+					<a href="#">
+						<span class="contact-img"></span>
+						<strong><span class="cor"></span><span>Контакт</span></strong>
+					</a>
+				</span>
+			</li>			
+			<li class="last">
+				<span class="shadow">
+					<a href="#">
+						<span class="photo-img"></span>
+						<strong><span class="cor"></span><span>Фотография</span></strong>
+					</a>
+				</span>
+			</li>
+		</ul>
+		<span class="shad"></span>
+	</div>
+	<div id="content">
+		<div class="sidebar">
+			<h3>Привет! Теперь это твое личное пространство</h3>
+			<p>Здесь ты можешь размещать и редактировать свою информацию. Для того, чтобы редактировать текст (текст с картинкой), ссылку либо контакт, воспользуйся панелью управления кодом.</p>
+			<p>Можно добавлять или сокращать информацию, полностью удалять сообщения и менять их местами.</p>
+			<p>Счетчик количества просмотров твоей информации покажет, какие сообщения наиболее популярны у тебя и твоих друзей.</p>
+		</div>
+		<div class="main-text">
+			<h2>Поиск</h2>
+			<form action="" class="search">
+				<fieldset>
+					<input type="text" value="" class="field" />
+					<input type="image" src="i/forms/search.png" value="Искать" alt="Искать" />
+				</fieldset>
+			</form>
+			<h2>Мои коды</h2>
+			<div class="my-space">
+				<dl class="sort">
+					<dt>Показать:</dt>
+					<dd>все,  <a href="#">текст</a>, <a href="#">ссылку</a>, <a href="#">контакт</a>, <a href="#">фотографию</a></dd>
+				</dl>
+				<table>
+					<tr>
+						<th class="code-type"></th>
+						<th class="code">Содержание кода</th>
+						<th class="views">Просмотров</th>
+						<th class="code-link">Как&nbsp;выглядит?</th>
+						<th class="date">Дата создания</th>
+						<th class="actions">Управление</th>
+					</tr>
+					<tr>
+						<td class="code-type"><span class="text">Текст</span></td>
+						<td class="code">
+							<h3>Название кода</h3>
+							&laquo;Комбинаторное приращение взаимно. В заключении добавлю, рефлексия семантически дает одиннадцатисложник и передается в этом стихотворении Донна метафорическим образом цир... вызывает деструктивный реформаторский.. пафос, несмотря на отсутствие единого пунктуационного алгоритма&raquo;
+						</td>
+						<td class="views">12</td>
+						<td class="code-link"><a href="#">посмотреть</a></td>
+						<td class="date">15.03.2008&nbsp;/&nbsp;15:18</td>
+						<td class="actions"><a href="#" class="edit" title="Редактировать">Редактировать</a> <a href="#" class="delete" title="Удалить">Удалить</a> <a href="#" class="print" title="Напечатать">Напечатать</a></td>
+					</tr>
+					<tr>
+						<td class="code-type"><span class="photo">Фотография</span></td>
+						<td class="code">
+							<h3>Название кода</h3>
+							<img src="i/example/pic-small.jpg" alt="" class="pic" /> &laquo;заключении Комбинаторное приращение взаимно. В заключении добавлю, рефлексия семантически дает одиннадцатисложник и передается в этом стихотворении Донна метафорическим образом цир... вызывает деструктивный реформаторский.. пафос, несмотря на отсутствие единого пунктуационного алгоритма&raquo;
+						</td>
+						<td class="views">12</td>
+						<td class="code-link"><a href="#">посмотреть</a></td>
+						<td class="date">15.03.2008 / 15:18</td>
+						<td class="actions"><a href="#" class="edit" title="Редактировать">Редактировать</a> <a href="#" class="delete" title="Удалить">Удалить</a> <a href="#" class="print" title="Напечатать">Напечатать</a></td>
+					</tr>
+					<tr>
+						<td class="code-type"><span class="link">Ссылка</span></td>
+						<td class="code">
+							<h3>Название кода</h3>
+							<a href="#">http://livecodes.ru</a>
+						</td>
+						<td class="views">12</td>
+						<td class="code-link"><a href="#">посмотреть</a></td>
+						<td class="date">15.03.2008 / 15:18</td>
+						<td class="actions"><a href="#" class="edit" title="Редактировать">Редактировать</a> <a href="#" class="delete" title="Удалить">Удалить</a> <a href="#" class="print" title="Напечатать">Напечатать</a></td>
+					</tr>
+					<tr>
+						<td class="code-type"><span class="contact">Контакт</span></td>
+						<td class="code">
+							<h3>Название кода</h3>
+							<div class="vcard">
+								<p class="fn n"><span class="given-name">Имя</span> <span class="family-name">Фамилия</span></p>
+								<p class="tel"><span class="value">(495) 353-33-21</span> — <span class="type">дом.</span></p>
+								<p class="tel"><span class="value">(495) 545-66-66</span> — <span class="type">раб.</span></p>
+								<p class="adr"><span class="locality">Москва</span>, <span class="street-address">улица Моховая, д. 5, кв. 116</span></p>
+							</div>
+						</td>
+						<td class="views">12</td>
+						<td class="code-link"><a href="#">посмотреть</a></td>
+						<td class="date">15.03.2008 / 15:18</td>
+						<td class="actions"><a href="#" class="edit" title="Редактировать">Редактировать</a> <a href="#" class="delete" title="Удалить">Удалить</a> <a href="#" class="print" title="Напечатать">Напечатать</a></td>
+					</tr>
+				</table>
+			</div>
+		</div>
+	</div>
+	<div id="footer">
+		<div class="main-part">
+			<ul class="menu">
+				<li class="first"><a href="/api/key">API</a></li>
+				<li><a href="http://livecoderu.wordpress.com/">Блог проекта</a></li>
+				<li><a href="/agreement">Пользовательское соглашение</a></li>
+				<li><a href="/contacts">Контакты</a></li>
+				<li><a href="#" class="feedback-popup-button">Задать вопрос</a></li>
+			</ul>
+			<p class="logos">
+				<a href="http://inventure.ru"><img src="i/pic/inventure.png" alt="inVenture"/></a>
+				<img src="i/pic/livecode-logo-sm.png" alt="Живой Код"/>
+			</p>
+			<p class="copyright">&copy; 2008 LiveCode. Все права защищены.</p>
+		</div>
+		<dl class="design">
+			<dt>Дизайн рисовали:</dt>
+			<dd><a href="http://c-tm.ru/"><img src="i/pic/cr-team.png" alt="Creative team" /></a></dd>
+		</dl>
+	</div>
+</div>	
+</body>
+</html>

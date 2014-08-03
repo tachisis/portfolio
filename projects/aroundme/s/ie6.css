@@ -1,0 +1,220 @@
+/* hasLayout
+-------------------------------------- */
+#header .nav,
+#page,
+#sidebar-1 .mine DD LI,
+#sidebar-1 .block,
+#sidebar-1 .adv,
+#sidebar-2 .search FIELDSET,
+#sidebar-2 .selected LI,
+#sidebar-2 .selected LI .t-r,
+#sidebar-2 .selected LI .b-l,
+#sidebar-2 .selected LI .b-r,
+#sidebar-2 .selected H5 SPAN,
+#sidebar-2 .selected H5 SPAN SPAN,
+#sidebar-2 .selected H5 SPAN SPAN A,
+#sidebar-2 .search .btns,
+.places DT SPAN,
+#sidebar-2 .search,
+.places .results LI,
+.places .paging,
+.places,
+.help DD UL,
+.popup DT,
+.popup DD.l .bg,
+.popup.big .text .name,
+.text .captcha,
+.map,
+.map .b-r,
+.map .b-l,
+.map .t-r,
+.help .b,
+.popup.big .goto,
+.popup .cities .paging,
+.popup .cities .city-list,
+#sidebar-1 .my-data LI,
+#sidebar-1 .showing DD,
+#sidebar-2 .search-failed .b-l,
+#sidebar-2 .places.last DD,
+#sidebar-2 .places DT,
+#sidebar-2 .places DT SPAN,
+#sidebar-1 .my-data-transp LI SPAN,
+#sidebar-1 .my-data-transp LI STRONG,
+#sidebar-2 .tags UL,
+#content .error .t,
+#content .error .b,
+.heading,
+.two-col #content .place-about,
+#content .content-bg,
+.content-b,
+.two-col #content .place-about .gallery,
+.two-col #content .responds .respond .heading,
+.two-col #content .responds H2 .b,
+.two-col #content .place-info .more-place-info .b,
+.two-col #content .ext-info .selected .items LI SPAN,
+.two-col #content .ext-info .selected .items LI A,
+.two-col #content .ext-info .selected .items,
+.two-col #content .ext-info .sponsors,
+.tabs,
+.tab-container,
+.two-col #content .map-profile,
+.two-col #content .heading-green,
+.two-col #content .heading-green .t-l,
+.two-col #content .heading-green .t-r,
+.two-col #content .heading-green .b-l,
+.two-col #content .heading-green .b-r,
+.two-col #content .comments .comment,
+.two-col #content .places-list LI,
+.two-col #content .places-list .img-n-rate .poll,
+.two-col #content .edit-place .heading,
+.two-col #content .edit-place .gallery,
+.two-col #content .edit-place .contacts,
+#sidebar-2 .map-info .bg,
+.two-col #content .user-profile .user-info-double,
+.two-col #content .user-profile .user-info-part,
+.two-col #content .user-profile FIELDSET,
+.popup.inside FIELDSET,
+.two-col #content .note-book H3 .t,
+.two-col #content .note-book H3 .b,
+.two-col #content .note-book H3 .r-b,
+.two-col #content .note-book DL,
+.paging-big,
+.categories H4,
+.chat .prefences,
+.chat .messages-cont,
+.chat .messages-cont .act,
+#dashboard,
+#dashboard .debate,
+#dashboard .details .new-awards LI,
+#dashboard .details,
+#dashboard .details .editors UL,
+#dashboard .blocks,
+#dashboard .details .search-radio .b,
+.index #content .search-main FORM,
+.index #sidebar-2 .reasons,
+.two-col #content .responds .respond,
+.weekend-head,
+.weekend-body,
+.weekend-body .registration .weekend-required,
+.how-to .points,
+.weekend-body .congrat,
+.jury UL,
+.bubble .info .with-pic,
+.weekend-body .partners LI,
+#content .resp-head,
+#dashboard .debate .secondary LI,
+.winners,
+.winner {
+   zoom:1;
+   }
+
+/* PNG-24 Filter
+-------------------------------------- */   
+.stripe {background:none;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../i/map/stripe-bg.png', sizingMethod='scale');}
+.bubble DT {padding-bottom:0;background:none;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../i/map/bubble-t.png', sizingMethod='crop');}
+.bubble DD {background:none;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../i/map/bubble-bg.png', sizingMethod='scale');}
+.bubble .bot {background:none;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../i/map/bubble-b.png', sizingMethod='crop');}
+.popup DT .cor-l {background:none;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../i/popups/popup-t-l.png', sizingMethod='crop');}
+.popup DT .cor-r {background:none;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../i/popups/popup-t-r.png', sizingMethod='crop');}
+.popup .bot .cor-l {background:none;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../i/popups/popup-b-l.png', sizingMethod='crop');}
+.popup .bot .cor-r {background:none;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../i/popups/popup-b-r.png', sizingMethod='crop');}
+.shadow {background:none;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../i/popups/shadow.png', sizingMethod='scale');}
+.searching .shad {background:none;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../i/popups/shadow.png', sizingMethod='scale');}
+#sidebar-1 .showing .eat DD {background:none;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../i/markers/marker-2.png', sizingMethod='crop');}
+#sidebar-1 .showing .movie DD {background:none;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../i/markers/marker-3.png', sizingMethod='crop');}
+#add-place {background:none;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../i/forms/add-place.png', sizingMethod='crop');}
+.places-subscribe-edit .food {background:none;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../i/markers/marker-2.png', sizingMethod='crop');}
+.places-subscribe-edit .money {background:none;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../i/markers/marker-1.png', sizingMethod='crop');}
+.places-subscribe-edit .cinema {background:none;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../i/markers/marker-3.png', sizingMethod='crop');}
+.notice-photo DT .cor-l {background:none;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../i/popups/notice-photo-t-l.png', sizingMethod='crop') !important;}
+.notice-photo DT .cor-r {background:none;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../i/popups/notice-photo-t-r.png', sizingMethod='crop') !important;}
+.notice-photo .bot .cor-l {background:none;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../i/popups/notice-photo-b-l.png', sizingMethod='crop') !important;}
+.notice-photo .bot .cor-r {background:none;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../i/popups/notice-photo-b-r.png', sizingMethod='crop') !important;}
+.notice-popup .bot .cor-l, .notice-popup .bot .cor-r {filter:none !important;}
+.index #content .map-picture {background:none;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../i/map-picture.png', sizingMethod='crop') !important;}
+.index .main-actions, .index .main-actions .in-a-name-of-ie {background:none;}
+.index .main-actions .in-a-name-of-ie {position:absolute;top:0;left:0;width:559px;height:280px;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../i/main-actions.png', sizingMethod='crop');}
+.index .main-actions .stat .one {background:none;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../i/ico/1.png', sizingMethod='crop');}
+.index .main-actions .stat .two {background:none;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../i/ico/2.png', sizingMethod='crop');}
+.index .main-actions .stat .three {background:none;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../i/ico/3.png', sizingMethod='crop');}
+.index .main-actions .stat .four {background:none;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../i/ico/4.png', sizingMethod='crop');}
+.index .main-actions .stat .five {background:none;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../i/ico/5.png', sizingMethod='crop');}
+.index .main-actions .stat .six {background:none;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../i/ico/6.png', sizingMethod='crop');}
+.index .main-actions .stat .seven {background:none;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../i/ico/7.png', sizingMethod='crop');}
+.index .main-actions .stat .eight {background:none;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../i/ico/8.png', sizingMethod='crop');}
+.index .main-actions .stat .nine {background:none;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../i/ico/9.png', sizingMethod='crop');}
+.index .main-actions .stat .zero {background:none;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../i/ico/0.png', sizingMethod='crop');}
+.hello .picture {background:none !important;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../i/weekend/hello.png', sizingMethod='crop');}
+div.fancy_bg_n {background:none !important;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../i/fancy/fancy_shadow_n.png', sizingMethod='scale');}
+div.fancy_bg_ne {background:none !important;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../i/fancy/fancy_shadow_ne.png', sizingMethod='scale');}
+div.fancy_bg_e {background:none !important;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../i/fancy/fancy_shadow_e.png', sizingMethod='scale');}
+div.fancy_bg_se {background:none !important;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../i/fancy/fancy_shadow_se.png', sizingMethod='scale');}
+div.fancy_bg_s {background:none !important;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../i/fancy/fancy_shadow_s.png', sizingMethod='scale');}
+div.fancy_bg_sw {background:none !important;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../i/fancy/fancy_shadow_sw.png', sizingMethod='scale');}
+div.fancy_bg_w {background:none !important;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../i/fancy/fancy_shadow_w.png', sizingMethod='scale');}
+div.fancy_bg_nw {background:none !important;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../i/fancy/fancy_shadow_nw.png', sizingMethod='scale');}
+div#fancy_close {background:none !important;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../i/fancy/fancy_closebox.png', sizingMethod='crop');}
+.to-exh {background:none !important;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../i/weekend/to-exh.png', sizingMethod='crop');zoom:1;position:relative;cursor:pointer;}
+
+/* Min Heights
+-------------------------------------- */
+.tab-container,
+#content .edit-place {
+   height:450px;
+   overflow:visible;
+   }
+.weekend-body .phases .phase {height:210px;}
+#page.dashboard {height:230px;}
+
+/* Just Hacks
+-------------------------------------- */
+#sidebar-2 .search .txt {height:18px;}
+.places .results LI {padding-bottom:5px;}
+.popup.big .text FIELDSET {margin-bottom:10px;}
+.popup.big .text .object {width:353px;}
+.popup.big .goto {margin-bottom:0;}
+.popup.big .goto .fields,
+.popup.big .goto .btn {margin-top:-10px;}
+.popup DD.l {background:url(../i/popups/popup-bg-l-ie.png) repeat-y;}
+.popup DD.l .r {background:url(../i/popups/popup-bg-r-ie.png) 100% 0 repeat-y;}
+.places .results LI {padding-bottom:0;}
+#content .error .l {margin-right:-3px;}
+#content .error .bg {margin:0 8px 0 0;}
+#content .error .r {margin-top:-16px;}
+#content .orange-1, #content .orange-2, #content .orange-3, #content .blue-1, #content .blue-2, #content .blue-3 {height:19px;}
+.popup.inside .shad-l,
+.popup.inside .shad-b {background:none;}
+.popup DT .bg {padding:5px 7px 6px;}
+.two-col #content .note-book DD P {margin-top:0;}
+.two-col #content .note-book.edit H3 .r-b {width:400px;}
+.heading {padding:0 25px 10px;}
+.tabs {font-size:.9em;}
+.mail {height:900px;}
+#dashboard .debate .info .awards SPAN {height:19px;}
+#dashboard .debate .secondary .info .comments {width:60px;overflow:hidden;}
+#dashboard .details .block {margin-right:20px;}
+#content .edit {width:725px !important;margin-right:0 !important;}
+.places.hidden.last DT SPAN {background:url(../i/places/places-t.png) 0 0 no-repeat !important;}
+.index #content {padding-right:0;margin-right:0;}
+.index #sidebar-2 {width:322px;}
+.places DT SPAN {padding:4px 14px 3px;}
+.weekend-body .text {margin:0 0 0 20px;}
+#modal .shadow {
+   width:100%;
+   b:expression(!this.a?(this.a=1,(this.style.height=this.parentNode.offsetHeight)):0);
+   }
+.index #sidebar-2 .reasons LI {
+   float:none;
+   display:inline-block;
+   }
+.bubble .info A {position:relative;}
+#location_map {width:370px;overflow:hidden;}
+#content .map .with-tabs .heading {margin:0 0 10px;}
+#content .map .with-tabs .heading H1 {font-size:1.8em;}
+.bubble DT .close,
+#new-geo {
+   position:relative;
+   zoom:1;
+   }
+#content .responds .respond .avatar .nickname {margin-left:0;}
+#page.found {margin-bottom:-10px;}

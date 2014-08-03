@@ -1,0 +1,519 @@
+/* Place About
+-------------------------------------- */
+.two-col #content .place-about {
+   width:430px;
+   float:left;
+   margin-right:30px;
+   }
+   /* Gallery */
+   .two-col #content .place-about .gallery {
+      margin-bottom:15px;
+      overflow:hidden;
+      }
+   .two-col #content .place-about .gallery LI {
+      float:left;
+      width:101px;
+      margin-right:17px;
+      }
+   .two-col #content .place-about .gallery .upload {
+      margin-right:0;
+      line-height:1.4;
+      padding-top:2.6em;
+      }
+   /* Text */
+   .two-col #content .place-about .text P {
+      margin-bottom:15px;
+      line-height:1.3;
+      }
+   .two-col #content .place-about .text .text-actions {margin-bottom:15px;}
+      .two-col #content .place-about .text .text-actions LI {
+         display:inline;
+         padding:0 10px 0 0;
+         border:none;
+         }
+         
+/* Extended Info
+-------------------------------------- */
+#content .ext-info {
+   float:left;
+   width:215px;
+   }
+   #content .ext-info H4 {
+      font-size:1em;
+      font-weight:bold;
+      margin-bottom:5px;
+      }
+   #content .ext-info DT {margin-bottom:5px;}
+   #content .ext-info DD {margin-bottom:15px;}
+   #content .ext-info DD LI {display:inline;}
+   #content .ext-info .sponsors {
+      margin-bottom:15px;
+      background:url(../i/sponsors-bg.png) repeat-y;
+      }
+      #content .ext-info .sponsors .t {
+         background:url(../i/sponsors-t.png) no-repeat;
+         }
+         #content .ext-info .sponsors .b {
+            padding:15px 50px 15px 15px;
+            background:url(../i/sponsors-b.png) 0 100% no-repeat;
+            }
+      #content .ext-info .sponsors IMG {
+         display:block;
+         margin:7px 0;
+         }
+   #content .ext-info .items LI {margin-bottom:10px;}
+         
+/* Selected
+-------------------------------------- */
+.two-col #content .selected {margin:10px 0 15px;}   
+.two-col #content .selected .items {
+   overflow:hidden;
+   margin-bottom:4px;
+   width:176px;
+   }
+.two-col #content .selected .items A {
+   color:#FFF;
+   text-decoration:none;
+   }
+.two-col #content .selected .items LI {
+   float:left;
+   margin:0 3px 3px 0;
+   background:#84C54F url(../i/selected/title-t-l.png) no-repeat;
+   }
+   .two-col #content .selected .items LI SPAN,
+   .two-col #content .selected .items LI A {
+      display:block;
+      overflow:hidden;
+      color:#FFF;
+      float:left;
+      }
+   .two-col #content .selected .items LI A {padding:3px 7px;}
+.two-col #content .selected .items LI SPAN {background:url(../i/selected/item-t-r.png) 100% 0 no-repeat;}
+   .two-col #content .selected .items LI SPAN SPAN {background:url(../i/selected/item-b-l.png) 0 100% no-repeat;}
+      .two-col #content .selected .items LI SPAN SPAN A {background:url(../i/selected/item-b-r.png) 100% 100% no-repeat;}
+.two-col #content .selected .items LI.selected-saved {background:#84C54F url(../i/selected/selected-saved-t-l.png) no-repeat;}
+   .two-col #content .selected .items LI.selected-saved SPAN {background:url(../i/selected/selected-saved-b-r.png) 100% 100% no-repeat;}
+      .two-col #content .selected .items LI.selected-saved SPAN SPAN {background:url(../i/selected/selected-saved-t-r.png) 100% 0 no-repeat;}
+         .two-col #content .selected .items LI.selected-saved SPAN SPAN A {background:url(../i/selected/selected-saved-b-l.png) 0 100% no-repeat;}
+.two-col #content .selected .items LI.selected-now {background:#F00 url(../i/selected/selected-now-t-l.png) no-repeat;}
+   .two-col #content .selected .items LI.selected-now SPAN {background:url(../i/selected/selected-now-b-r.png) 100% 100% no-repeat;}
+      .two-col #content .selected .items LI.selected-now SPAN SPAN {background:url(../i/selected/selected-now-t-r.png) 100% 0 no-repeat;}
+         .two-col #content .selected .items LI.selected-now SPAN SPAN A {background:url(../i/selected/selected-now-b-l.png) 0 100% no-repeat;}
+.two-col #content .selected .specify {
+   background:none;
+   margin-top:15px;
+   width:175px;
+   }
+.two-col #content .selected .specify DT {
+   border-bottom:1px solid #6C6C6C;
+   padding:0 3px 4px 3px;
+   background:none;
+   color:#000;
+   margin-bottom:10px;
+   }
+.two-col #content .selected .specify DD {
+   background:none;
+   padding:0 0 0 3px;
+   }
+.two-col #content .selected .specify .chk {
+   margin:0;
+   padding:0;
+   vertical-align:top;
+   }
+.two-col #content .selected .specify LI {
+   padding:0;
+   margin:0 0 8px 0;
+   }
+.two-col #content .selected .specify LABEL {
+   color:#656565;
+   display:inline;
+   font-size:.9em;
+   }
+
+/* Place Info
+-------------------------------------- */
+.two-col #content .place-info {margin-bottom:15px;}
+   .two-col #content .place-info TD,
+   .two-col #content .place-info TH {
+      padding:5px;
+      vertical-align:middle;
+      }
+   .two-col #content .place-info TABLE .name {
+      width:145px;
+      font-size:1.4em;
+      }
+   .two-col #content .place-info TABLE .phone {width:115px;}
+   .two-col #content .place-info TABLE .more-info {width:135px;}
+   
+   .two-col #content .place-info .more-place-info {
+      width:428px;
+      margin-top:10px;
+      }
+      .two-col #content .place-info .more-place-info .t {
+         background:url(../i/more-t.png) no-repeat;
+         height:8px;
+         font-size:0;
+         }
+      .two-col #content .place-info .more-place-info .b {
+         background:url(../i/more-b.png) 0 100% no-repeat;
+         height:8px;
+         font-size:0;
+         }
+      .two-col #content .place-info .more-place-info TABLE {
+         width:100%;
+         background:#F6FBF3 url(../i/more-bg.png) repeat-y;
+         }
+
+/* Places List
+-------------------------------------- */
+.two-col #content .places-list LI {
+   overflow:hidden;
+   border-bottom:1px solid #E7E7E7;
+   padding:15px 10px;
+   }
+.two-col #content .places-list LI.selected {background:#F4FAEF;}
+.two-col #content .places-list LI.last {
+   border-bottom:none;
+   padding-bottom:0;
+   }
+.two-col #content .places-list .place-about {
+   width:520px;
+   margin-right:10px;
+   }
+   .two-col #content .places-list .place-about H2 {
+      font-size:1.4em;
+      margin-bottom:3px;
+      }
+   .two-col #content .places-list .place-about .address {
+      color:#5B9729;
+      margin-bottom:10px;
+      }
+   .two-col #content .places-list .text-actions EM {
+      font-style:normal;
+      color:#E70707;
+      }
+   .two-col #content .places-list .text-actions .add-respond A {color:#E70707;}
+   .two-col #content .places-list .gallery LI {
+      border-bottom:none;
+      padding:0;
+      }
+.two-col #content .places-list .img-n-rate {
+   float:right;
+   width:120px;
+   }
+   .two-col #content .places-list .img-n-rate .poll {
+      overflow:hidden;
+      margin-bottom:10px;
+      }
+
+/* Edit Place
+-------------------------------------- */
+#content .edit-place {
+   margin-bottom:15px;
+   min-height:450px;
+   }
+   #content .edit-place .situated {
+      display:block;
+      margin-bottom:15px;
+      }
+   #content .edit-place FORM {padding:0 25px;}
+   #content .edit-place .heading {overflow:hidden;}
+      #content .edit-place .heading H2 {
+         float:left;
+         margin-right:30px;
+         color:#599124;
+         font-size:1.9em;
+         }
+      #content .edit-place .heading LI {
+         display:inline;
+         padding-right:10px;
+         line-height:2.4em;
+         }
+      #content .edit-place .heading LI A {color:#969696;}
+   #content .edit-place .address {margin-bottom:15px;}
+   #content .edit-place .gallery {
+      margin-bottom:15px;
+      overflow:hidden;
+      }
+   #content .edit-place .gallery LI {
+      float:left;
+      margin:0 10px 10px 0;
+      }
+      #content .edit-place .gallery LI IMG {
+         display:block;
+         float:left;
+         margin-right:5px;
+         }
+   #content .edit-place .gallery .del {
+      text-decoration:none;
+      color:#E70707;
+      font-size:1.4em;
+      }
+   #content .edit-place .gallery FORM {padding:0;}
+   #content .edit-place LABEL {
+      display:block;
+      margin-bottom:5px;
+      font-size:1.1em;
+      }
+   #content .edit-place FIELDSET {margin-bottom:15px;}
+   #content .edit-place .field {
+      width:320px;
+      border:1px solid #A5C78C;
+      }
+   #content .edit-place .error {color: #ff0000;}
+   #content .edit-place .note {
+      margin-top:5px;
+      font-size:.9em;
+      }
+   #content .edit-place .btns INPUT {margin-right:15px;}
+   #content .edit-place .contacts {
+      overflow:hidden;
+      margin-bottom:15px;
+      }
+   #content .edit-place .contacts FIELDSET {
+      width:255px;
+      float:left;
+      margin-right:40px;
+      }
+   #content .edit-place .contacts .field {width:195px;}
+   #content .edit-place .working-time {margin-bottom:15px;}
+   #content .edit-place .working-time TH,
+   #content .edit-place .working-time TD {
+      padding:5px 10px;
+      font-size:.9em;
+      }
+   #content .edit-place .working-time .time {
+      width:2em;
+      border:1px solid #A5C78C;
+      }
+   #content .edit-place .working-time .selected TD {background:#F0F8EA;}
+   #content .edit-place H3 {
+      font-size:1.4em;
+      margin-bottom:10px;
+      }
+   #content .edit-place .create-com-map {
+      padding:0;
+      width:322px;
+      }
+
+/* Place Menu
+-------------------------------------- */
+.two-col #content .place-menu {margin-bottom:10px;}
+#content .content-bg.with-tabs .place-menu {margin:0 0 10px 25px;}
+.two-col #content .place-menu LI {
+   display:inline;
+   margin-right:8px;
+   line-height:1.5;
+   font-size:.85em;
+   }
+.two-col #content .place-menu * {display:inline;}
+
+/* Places Subscribe Edit
+-------------------------------------- */
+.places-subscribe-edit {margin-bottom:20px;}
+.places-subscribe-edit H2 {
+   font-size:1.2em;
+   margin-bottom:10px;
+   }
+.places-subscribe-edit DL {
+   overflow:hidden;
+   border-top:1px solid #E7E7E7;
+   padding-top:10px;
+   margin-bottom:10px;
+   }
+   .places-subscribe-edit DT {
+      float:left;
+      width:240px;
+      padding:1em 0 1em 55px;
+      margin-right:10px;
+      font-size:1.4em;
+      }
+   .places-subscribe-edit .food {background:url(../i/markers/marker-2.png) 0 50% no-repeat;}
+   .places-subscribe-edit .money {background:url(../i/markers/marker-1.png) 0 50% no-repeat;}
+   .places-subscribe-edit .cinema {background:url(../i/markers/marker-3.png) 0 50% no-repeat;}
+   .places-subscribe-edit DT .del {
+      font-size:.8em;
+      text-decoration:none;
+      color:#E70707 !important;
+      }
+   .places-subscribe-edit DD {float:left;width:369px;}
+   .places-subscribe-edit DD .excerpt {
+      float:left;
+      width:240px;
+      margin-right:10px;
+      padding:2.1em 0;
+      overflow:hidden;
+      }
+   .places-subscribe-edit DD .place-pic {float:right;}
+   
+/* Sidebar Places
+-------------------------------------- */
+.places-all {
+   padding-bottom:5px;
+   background:url(../i/places/places-b.png) 0 100% no-repeat !important;
+   margin-bottom:15px;
+   }
+.places {
+   width:217px;
+   overflow:hidden;
+   background:url(../i/places/places-bg.png) repeat-y;
+   }
+   .places DT {
+      color:#FFF;
+      font-size:1em !important;
+      background:#096C08 url(../i/places/places-title-bg.png) 0 50% repeat-x;
+      }
+      .places DT SPAN {
+         display:block;
+         padding:7px 14px 5px;
+         width:189px;
+         background:url(../i/places/places-t.png) no-repeat;
+         overflow:hidden;
+         }
+      .places.following DT SPAN {background:none;}
+      .places DT A {
+         display:block;
+         width:100px;
+         font-weight:normal;
+         float:left;
+         color:#FFF !important;
+         text-decoration:none;
+         }
+      .places DT EM {
+         display:block;
+         width:85px;
+         font-style:normal;
+         float:right;
+         text-align:right;
+         }
+.places DD {padding:0 1px;}
+.places .sort-by {position:relative;}
+.places .sort-by UL {
+   position:absolute;
+   top:0;
+   right:0;
+   width:98px;
+   padding:5px 0;
+   background:url(../i/sort-by-b.png) 0 100% no-repeat;
+   }
+   .places .sort-by LI {padding:4px 7px;}
+   .places .sort-by LI.alt {background:#94CD66;}
+   .places .sort-by A {
+      text-decoration:none;
+      color:#FFF !important;
+      }
+.places .more {
+   padding:8px 14px;
+   font-size:.9em;
+   border-bottom:1px solid #E3E3E3;
+   }
+   .places .more A {
+      color:#ED3527;
+      text-decoration:none;
+      border-bottom:1px dashed #ED3527;
+      }
+.places .results LI {
+   overflow:hidden;
+   padding:8px 14px;
+   }
+.places .results LI.alt {background:#F2F9EC;}
+.places .results LI:hover,
+.places .results LI.highlighted {
+   color:#FFF;
+   background:#096C07;
+   }
+.places .results LI:hover A,
+.places .results LI.highlighted A,
+.places .results LI:hover SMALL,
+.places .results LI.highlighted SMALL,
+.places .results LI:hover .mark SPAN SPAN SPAN SPAN,
+.places .results LI.highlighted .mark SPAN SPAN SPAN SPAN {color:#FFF !important;}
+.places .results A {color:#5B9729;}
+.places .results .place {
+   font-size:1.1em;
+   float:left;
+   width:140px;
+   overflow:hidden;
+   }
+   .places .results .place SMALL {
+      display:block;
+      color:#686868;
+      font-size:.85em;
+      }
+.places .results .mark {
+   display:block;
+   float:right;
+   width:44px;
+   background:url(../i/marks/mark-b-l.png) 0 100% no-repeat;
+   }
+   .places .results .mark SPAN {
+      display:block;
+      background:url(../i/marks/mark-t-r.png) 100% 0 no-repeat;
+      }
+      .places .results .mark SPAN SPAN {background:url(../i/marks/mark-t-l.png) no-repeat;}
+         .places .results .mark SPAN SPAN SPAN {background:url(../i/marks/mark-b-r.png) 100% 100% no-repeat;}
+            .places .results .mark SPAN SPAN SPAN SPAN,
+            .places .results .alt .mark SPAN SPAN SPAN SPAN {
+               padding:5px 8px 3px;
+               color:#686868;
+               font-size:.75em;
+               background:url(../i/ico/star.png) 80% 50% no-repeat;
+               }
+.places .results .alt .mark {background:url(../i/marks/mark-alt-b-l.png) 0 100% no-repeat;}
+   .places .results .alt .mark SPAN {background:url(../i/marks/mark-alt-t-r.png) 100% 0 no-repeat;}
+      .places .results .alt .mark SPAN SPAN {background:url(../i/marks/mark-alt-t-l.png) no-repeat;}
+         .places .results .alt .mark SPAN SPAN SPAN {background:url(../i/marks/mark-alt-b-r.png) 100% 100% no-repeat;}
+
+.places .results LI:hover .mark,
+.places .results LI.highlighted .mark {background:url(../i/marks/mark-sel-b-l.png) 0 100% no-repeat;}
+   .places .results LI:hover .mark SPAN,
+   .places .results LI.highlighted .mark SPAN  {background:url(../i/marks/mark-sel-t-r.png) 100% 0 no-repeat;}
+      .places .results LI:hover .mark SPAN SPAN,
+      .places .results LI.highlighted .mark SPAN SPAN {background:url(../i/marks/mark-sel-t-l.png) no-repeat;}
+         .places .results LI:hover .mark SPAN SPAN SPAN,
+         .places .results LI.highlighted .mark SPAN SPAN SPAN {background:url(../i/marks/mark-sel-b-r.png) 100% 100% no-repeat;}
+            .places .results LI:hover .mark SPAN SPAN SPAN SPAN,
+            .places .results LI.highlighted .mark SPAN SPAN SPAN SPAN {background:url(../i/ico/star-green.png) 80% 50% no-repeat;}
+.places .paging {
+   overflow:hidden;
+   position:relative;
+   padding:10px 20px;
+   border-top:1px solid #F2F9EC;
+   }
+.places .paging A {
+   text-decoration:none;
+   color:#7BC142;
+   }
+   .places .paging .back {position:absolute;top:10px;left:20px;}
+   .places .paging .pages {
+      text-align:center;
+      font-size:.85em;
+      }
+   .places .paging .forward {position:absolute;top:10px;right:20px;}
+.places.hidden DD {display:none;}
+.places.hidden.last DT SPAN {background:url(../i/places/places-b-transp.png) 0 100% no-repeat !important;}
+.places.hidden DT {
+   overflow:hidden;
+   background:#3D3D3D url(../i/places/places-hidden-bg.png) 0 50% repeat-x;
+   border-top:1px solid #DFDFDF;
+   }
+.places.hidden DT SPAN {
+   padding:4px 14px 6px;
+   background:none;
+   }
+.places.hidden DT A,
+.places.hidden DT STRONG {
+   float:left;
+   width:100px;
+   font-weight:normal;
+   color:#FFF;
+   }
+.places .results .del {
+   display:block;
+   float:right;
+   width:44px;
+   text-align:right;
+   font-size:1.4em;
+   color:#E93532;
+   text-decoration:none;
+   }

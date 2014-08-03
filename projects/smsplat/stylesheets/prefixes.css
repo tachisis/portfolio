@@ -1,0 +1,84 @@
+#content .tree {
+   font:.95em Arial,sans-serif;
+   margin-left:13px;
+   }
+#content .tree H3 {font-size:1em;}
+#content .tree LI {margin-bottom:10px;}
+#content .tree LI LI LI LI {margin-bottom:4px;}
+#content .tree LI LI LI UL {margin-top:4px;}
+#content .tree UL,
+#content .tree .main-add {margin:10px 0 0 25px;}
+#content .tree .main-add {overflow:hidden;}
+   #content .tree .main-add FIELDSET {
+      float:left;
+      margin-right:8px;
+      }
+   #content .tree .main-add LABEL {
+      display:block;
+      font-size:.85em;
+      color:#414141;
+      margin-bottom:3px;
+      }
+   #content .tree .main-add INPUT.text {width:85px;}
+   #content .tree .main-add .btns INPUT {
+      width:auto;
+      margin-top:1em;
+      }
+   #content .tree EM {
+      font-style:normal;
+      color:#A7A7A7;
+      }
+#content .unfold {
+   display:block;
+   float:left;
+   width:9px;
+   height:9px;
+   text-indent:-9999px;
+   margin:.2em 5px 0 0;
+   background:url(../images/ico/unfold.png) 0 50% no-repeat;
+   }
+#content .rollup {
+   display:block;
+   float:left;
+   width:9px;
+   height:9px;
+   text-indent:-9999px;
+   margin:.2em 5px 0 0;
+   background:url(../images/ico/rollup.png) 0 50% no-repeat;
+   font-weight:bold;
+   color:#F43D00;
+   }
+#content .unfolded A {
+   font-weight:bold;
+   color:#F43D00;
+   }
+#content A.add {
+   color:#32AE1E;
+   padding-left:10px;
+   }
+#content .tree INPUT {vertical-align:middle;margin:0;}
+#content .tree TABLE {margin-bottom:5px;}
+#content .tree TABLE.gray TD {color:#A7A7A7;}
+#content .tree TABLE .del TD {text-decoration:line-through;}
+#content .tree TD {vertical-align:middle;}
+#content .tree TH {font:.8em Arial,sans-serif;}
+#content .tree TD.name {width:118px;}
+   #content .tree TD.name .txt {width:80px;}
+#content .tree TD.currency {width:70px;}
+   #content .tree TD.currency INPUT {width:50px;}
+#content .tree TD.taxfree,
+#content .tree TD.tax {width:100px;}
+   #content .tree TD.taxfree INPUT,
+   #content .tree TD.tax INPUT {width:80px;}
+#content .tree TD.gaming,
+#content .tree TD.adult {width:100px;}
+   #content .tree TD.gaming INPUT,
+   #content .tree TD.adult INPUT {margin-right:3px;}
+#content .tree TD.our {width:90px;}
+   #content .tree TD.our INPUT {width:70px;}
+#content .tree TD.off {
+   width:90px;
+   color:#AB0000 !important;
+   font-weight:bold;
+   text-decoration:none !important;
+   }

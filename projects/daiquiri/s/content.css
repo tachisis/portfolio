@@ -1,0 +1,551 @@
+/* Main Navigation
+---------------------------------------- */
+#main-nav {
+   padding:12px 0 1px;
+   height:6.8em;
+   background:#E1E1E1 url(../i/main-nav/bg.png) 0 100% repeat-x;
+   border-bottom:4px solid #ECECEC;
+   }
+   #main-nav UL {
+      width:90%;
+      min-width:955px;
+      max-width:1600px;
+      margin:auto;
+      height:100%;
+      font-size:.9em;
+      }
+      #main-nav LI {
+         float:left;
+         width:11%;
+         height:100%;
+         text-align:center;
+         }
+      #main-nav .cur {background:url(../i/main-nav/cur.png) 20% 100% no-repeat;}
+      #main-nav .sep {
+         height:93%;
+         border-right:dotted 1px #6C6C6C;
+         }
+      #main-nav A {
+         display:block;
+         padding-top:5px;
+         color:#000;
+         text-decoration:none;
+         }
+      #main-nav .sub {
+         margin-top:3px;
+         padding:0 0 0 11px;
+         color:#636363;
+         font-size:.75em;
+         background:url(../i/main-nav/sub.gif) 0 50% no-repeat;
+         }
+      #main-nav A SPAN {
+         display:block;
+         width:62px;
+         height:52px;
+         margin:0 auto 5px;
+         }
+      #main-nav .projects,
+      #main-nav .cases {
+         text-align:left;
+         width:9.5%;
+         padding-left:18px;
+         }
+      #main-nav .dashboard A SPAN {background:url(../i/main-nav/dashboard.png) 0 0 no-repeat;}
+      #main-nav .projects A SPAN {background:url(../i/main-nav/projects.png) 0 0 no-repeat;margin:0 0 5px;}
+      #main-nav .cases A SPAN {background:url(../i/main-nav/cases.png) 0 0 no-repeat;margin:0 0 5px;}
+      #main-nav .library A SPAN {background:url(../i/main-nav/library.png) 0 0 no-repeat;}
+      #main-nav .address-book A SPAN {background:url(../i/main-nav/address-book.png) 0 0 no-repeat;}
+      #main-nav .men A SPAN {background:url(../i/main-nav/men.png) 0 0 no-repeat;}
+      #main-nav .exit A SPAN {background:url(../i/main-nav/exit.png) 0 0 no-repeat;}
+      #main-nav .profile {
+         width:22.2%;
+         position:relative;
+         }
+         #main-nav .profile IMG {
+            position:absolute;
+            top:5px;
+            left:15px;
+            }
+         #main-nav .profile STRONG {
+            display:block;
+            margin:0 0 5px 100px;
+            padding-top:5px;
+            font-weight:normal;
+            text-align:left;
+            }
+         #main-nav .profile A {
+            margin-left:100px;
+            text-align:left;
+            color:#636363;
+            text-decoration:underline;
+            font-size:.9em;
+            padding:0 0 0 15px;
+            background:url(../i/main-nav/profile.png) 0 55% no-repeat;
+            }
+   
+/* New Project
+---------------------------------------- */
+.new-project H2 {
+   font-size:1.7em;
+   margin:0 0 15px 0;
+   }
+
+/* Main */
+.new-project .main {margin-bottom:20px;}
+   .new-project .main FIELDSET {
+      width:100%;
+      overflow:hidden;
+      padding-bottom:15px;
+      }
+   .new-project .main H2 {margin-left:180px;}
+   .new-project .main LABEL {
+      display:block;
+      width:160px;
+      float:left;
+      margin-right:20px;
+      text-align:right;
+      font-size:1.1em;
+      }
+   .new-project .main INPUT {
+      width:70%;
+      float:left;
+      font-size:.9em;
+      }
+   .new-project .main .note {
+      margin:0 0 0 160px;
+      padding:0 20px 20px;
+      font-size:.8em;
+      border-bottom:solid 1px #959595;
+      }
+
+/* Tasks */
+.new-project .tasks {
+   padding:0 17px 20px 0;
+   margin:0 0 20px 156px;
+   border-bottom:dotted 1px #959595;
+   }
+.new-project .tasks H2 {margin-left:24px;}
+.new-project .tasks TABLE {
+   width:100%;
+   margin:0 0 10px 0;
+   font-size:.85em;
+   }
+   .new-project .tasks TD {
+      padding:5px 0;
+      vertical-align:top;
+      }
+   .new-project .tasks .edit .cur {background-color:#FBFACE;}
+   .new-project .tasks .desc {
+      width:40%;
+      padding:5px 5px 5px 25px;
+      }
+      .new-project .tasks .desc INPUT {width:95%;}
+   .new-project .tasks .open .desc {background:url(../i/ico/open-task.png) 0 50% no-repeat;}
+   .new-project .tasks .close .desc {background:url(../i/ico/closed-task.png) 0 50% no-repeat;}
+   .new-project .tasks .start,
+   .new-project .tasks .end {
+      width:30%;
+      padding:5px;
+      color:#B7B7B7;
+      font-size:.75em;
+      position:relative;
+      }
+   .new-project .tasks .start INPUT,
+   .new-project .tasks .end INPUT {
+      width:25px;
+      float:left;
+      margin-right:5px;
+      font-size:1.1em;
+      }
+   .new-project .tasks .switcher {
+      display:block;
+      width:11px;
+      height:17px;
+      float:left;
+      margin:2px 5px 0 0;
+      position:relative;
+      background:url(../i/ico/switcher.gif) 0 0 no-repeat;
+      }
+      .new-project .tasks .switcher A {
+         display:block;
+         width:11px;
+         height:6px;
+         position:absolute;
+         left:0;
+         text-indent:-9999px;
+         }
+      .new-project .tasks .switcher .up {top:0;}
+      .new-project .tasks .switcher .down {bottom:0;}
+   .new-project .tasks .start SELECT,
+   .new-project .tasks .end SELECT {
+      width:75px;
+      float:left;
+      font-size:1.1em;
+      }
+   .new-project .tasks .st,
+   .new-project .tasks .fin {
+      display:block;
+      margin:2.3em 0 0 55px;
+      padding-left:10px;
+      }
+   .new-project .tasks .st {background:url(../i/ico/start.gif) 0 50% no-repeat;}
+   .new-project .tasks .fin {background:url(../i/ico/finish.gif) 0 50% no-repeat;}
+   .new-project .add-task {
+      display:block;
+      position:relative;
+      width:125px;
+      height:23px;
+      margin-left:24px;
+      font-size:.8em;
+      overflow:hidden;
+      color:#898989;
+      text-decoration:none;
+      }
+      .new-project .add-task SPAN {
+         display:block;
+         position:absolute;
+         width:125px;
+         height:23px;
+         top:0;
+         left:0;
+         background:url(../i/buttons/add-task.png) 0 0 no-repeat;
+         }
+         
+/* Cases */
+.new-project .cases {
+   margin:0 0 10px 160px;
+   border-bottom:solid 1px #959595;
+   }
+   .new-project .cases H2 {margin-left:20px;}
+.new-project .case {margin-bottom:30px;}
+.new-project .case DT {margin:0 0 10px 0;}
+   .new-project .case DT .user {
+      padding:0 0 0 20px;
+      background:url(../i/ico/user.png) 0 50% no-repeat;
+      }
+.new-project .case .text {margin:0 0 10px 20px;}
+.new-project .case .desc {
+   margin:0 0 3px 20px;
+   font-size:.8em;
+   color:#959595;
+   }
+   .new-project .case .desc STRONG {
+      font-weight:normal;
+      color:#000;
+      }
+.new-project .case .actions {
+   margin:15px 0 0 20px;
+   overflow:hidden;
+   }
+   .new-project .case .actions A {
+      display:block;
+      float:left;
+      width:26px;
+      height:15px;
+      margin-right:10px;
+      text-indent:-9999px;
+      }
+      .new-project .case .actions .pause {background:url(../i/buttons/pause.png) 0 0 no-repeat;}
+      .new-project .case .actions .renew {background:url(../i/buttons/renew.png) 0 0 no-repeat;}
+   .new-project .case .actions INPUT {
+      float:left;
+      margin:0 3px 0 0;
+      padding:0;
+      }
+   .new-project .case .actions LABEL {
+      float:left;
+      font-size:.8em;
+      line-height:1.3;
+      }
+
+/* Button */
+.new-project .btn {margin-left:175px;}
+
+         
+/* Tips
+---------------------------------------- */
+.tips {
+   font-size:.8em;
+   margin-bottom:20px;
+   }
+   .tips LI {
+      padding:4px 0 4px 8px;
+      margin:2px 0;
+      }
+   .tips LI.cur {background-color:#FBFACE;}
+   
+/* People
+---------------------------------------- */
+.people {
+   position:relative;
+   padding:5px 0;
+   margin:0 0 20px 8px;
+   font-size:.9em;
+   border-bottom:1px solid #959595;
+   }
+   .people:hover {
+      background-color:#FBFACE;
+      border-bottom:1px dotted #959595;
+      }
+   .people.last {border:none;}
+   .people.last:hover {background:none;}
+   .people DT,
+   .people DD {margin:0 0 7px 40px;}
+   .people .avatar {
+      margin:0;
+      position:absolute;
+      top:5px;
+      left:1px;
+      width:33px;
+      height:33px;
+      }
+   .people .work {
+      font-size:.9em;
+      margin-bottom:10px;
+      }
+      .people .work A {
+         padding:3px 0 3px 20px;
+         margin-right:10px;
+         line-height:1.3;
+         background:url(../i/ico/user-tasks.png) 0 50% no-repeat;
+         }
+   .people A {
+      text-decoration:none;
+      color:#707070;
+      }
+      .people A:hover {
+         color:#5674B9;
+         text-decoration:underline;
+         }
+   .people .actions {
+      font-size:.9em;
+      }
+      .people .actions A {
+         display:block;
+         margin-bottom:10px;
+         padding:3px 0 3px 20px;
+         }
+      .people .actions .remove {background:url(../i/ico/remove.png) 0 50% no-repeat;}
+      .people .actions .replace {background:url(../i/ico/replace.png) 0 50% no-repeat;}
+.add-people {
+   display:block;
+   margin:0 0 20px 8px;
+   padding:5px 0 5px 30px;
+   color:#00A651;
+   text-decoration:none;
+   background:url(../i/ico/add-big.png) 0 50% no-repeat;
+   }
+   .add-people SPAN {text-decoration:underline;}
+   
+/* New Ticket
+---------------------------------------- */
+.new-ticket {
+   margin-bottom:40px;
+   }
+   .new-ticket .btn {
+      margin-left:24%;
+      padding-left:35px;
+      }
+      .new-ticket .btn INPUT {
+         width:auto;
+         float:none;
+         }
+   .new-ticket H2 {
+      margin:0 0 15px 24%;
+      padding-left:35px;
+      font-size:1.4em;
+      }
+   .new-ticket .heading {
+      width:100%;
+      overflow:hidden;
+      margin-bottom:20px;
+      }
+      .new-ticket .heading H1 {
+         width:24%;
+         float:left;
+         font-size:1.7em;
+         margin-right:35px;
+         }
+      .new-ticket .heading .ticket-info {
+         float:left;
+         font-size:.9em;
+         padding:6px 15px 3px;
+         background:#F3F3CA url(../i/ico/info.png) 3px 3px no-repeat;
+         }
+      .new-ticket .heading .switch {
+         float:left;
+         padding-top:.5em;
+         }
+         .new-ticket .heading .switch LI {
+            display:inline;
+            font-size:1.1em;
+            margin-right:20px;
+            }
+         .new-ticket .heading .switch A {
+            text-decoration:none;
+            border-bottom:dashed 1px #5674B9;
+            }
+   .new-ticket LABEL {
+      float:left;
+      width:27%;
+      margin-right:15px;
+      text-align:right;
+      }
+   .new-ticket INPUT,
+   .new-ticket TEXTAREA {
+      float:left;
+      width:65%;
+      font-size:.8em;
+      }
+   .new-ticket FIELDSET {
+      width:100%;
+      overflow:hidden;
+      padding-bottom:10px;
+      }
+   .new-ticket .how-to LABEL {
+      width:23%;
+      font-size:1.1em;
+      }
+   .new-ticket .how-to OL {
+      float:left;
+      width:74%;
+      list-style:decimal;
+      list-style-position:inside;
+      color:#C2C2C2;
+      font-size:1.4em;
+      }
+      .new-ticket .how-to LI {
+         margin-bottom:15px;
+         position:relative;
+         vertical-align:top;
+         }
+      .new-ticket .how-to INPUT,
+      .new-ticket .how-to TEXTAREA {
+         width:89%;
+         float:none;
+         font-size:.6em;
+         vertical-align:top;
+         margin-right:3px;
+         }
+      .new-ticket .how-to .delete {
+         position:absolute;
+         top:0;
+         right:0;
+         width:20px;
+         height:20px;
+         overflow:hidden;
+         cursor:pointer;
+         color:#A1A1A1;
+         background-color:#EEE;
+         text-align:center;
+         line-height:1;
+         }
+         .new-ticket .how-to .delete SPAN {
+            position:absolute;
+            top:0;
+            right:0;
+            width:20px;
+            height:20px;
+            background:url(../i/ico/times.png) no-repeat;
+            }
+      .new-ticket .how-to .btn {padding-bottom:25px;}
+      .new-ticket .add-block {
+         display:block;
+         width:103px;
+         height:17px;
+         padding:3px 5px;
+         position:relative;
+         overflow:hidden;
+         cursor:pointer;
+         background-color:#EEE;
+         color:#898989;
+         font-size:.9em;
+         }
+         .new-ticket .add-block SPAN {
+            position:absolute;
+            top:0;
+            left:0;
+            display:block;
+            width:113px;
+            height:23px;
+            background:url(../i/buttons/add-block.png) 0 0 no-repeat;
+            }
+      .new-ticket .chk {
+         margin:0 0 0 24%;
+         padding:0 0 40px 35px;
+         font-size:.9em;        
+         }
+         .new-ticket .chk LABEL,
+         .new-ticket .chk INPUT {
+            float:none;
+            text-align:left;
+            width:auto;
+            vertical-align:middle;
+            }
+   .new-ticket .full {
+      margin:0 0 0 24%;
+      padding:0 0 20px 35px;      
+      }
+      .new-ticket .full TEXTAREA {
+         float:none;
+         width:98%;
+         }
+            
+/* Collective Mind
+---------------------------------------- */
+.col-mind {
+   margin:0 0 20px 24%;
+   padding:0 0 0 35px;
+   }
+   .col-mind H2 {
+      margin:0 0 15px 0;
+      font-size:1.4em;
+      }
+   .col-mind UL {
+      margin:0 0 20px 0;
+      }
+   .col-mind LI {
+      margin-bottom:10px;
+      position:relative;
+      padding-right:55px;
+      font-size:.9em;
+      }
+   .col-mind .delete {
+      position:absolute;
+      top:0;
+      right:0;
+      width:26px;
+      height:15px;
+      background-color:#EEE;
+      text-align:center;
+      line-height:1;
+      cursor:pointer;
+      }
+      .col-mind .delete SPAN {
+         position:absolute;
+         top:0;
+         right:0;
+         width:26px;
+         height:15px;
+         background:url(../i/buttons/trash.png) 0 0 no-repeat;
+         }
+   .col-mind .srch {
+      display:block;
+      position:relative;
+      width:159px;
+      height:23px;
+      background-color:#EEE;
+      color:#898989;
+      font-size:.8em;
+      line-height:1;
+      text-align:center;
+      }
+      .col-mind .srch SPAN {
+         position:absolute;
+         top:0;
+         left:0;
+         display:block;
+         width:159px;
+         height:23px;
+         background:url(../i/buttons/srch-lib.png) 0 0 no-repeat;
+         }

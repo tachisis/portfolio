@@ -1,0 +1,10 @@
+* HTML #navigation,
+* HTML #menu,
+* HTML #footer,
+* HTML .counters,
+* HTML #inner #content {
+	height:1%;
+	}
+#inner .picture {
+	position:relative;
+	}

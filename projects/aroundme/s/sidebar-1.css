@@ -1,0 +1,246 @@
+/* Sidebar-1
+-------------------------------------- */
+#sidebar-1 {
+   float:left;
+   width:232px;
+   margin:0 0 0 19px;
+   display:inline;
+   }
+         
+   /* My Data */
+   #sidebar-1 .my-data {
+      width:217px;
+      margin-bottom:20px;
+      background:url(../i/mine/my-data-bg.png) repeat-y;
+      }
+      #sidebar-1 .my-data UL {
+         margin-bottom:20px;
+         background:url(../i/mine/my-data-t.png) no-repeat;
+         }
+         #sidebar-1 .my-data LI {
+            padding:12px 24px;
+            overflow:hidden;
+            }
+            #sidebar-1 .my-data LI:hover {
+               cursor:pointer;
+               background:#C4E3AB;
+               }
+            #sidebar-1 .my-data LI A {
+               display:block;
+               float:left;
+               width:135px;
+               color:#096C07;
+               text-decoration:none;
+               }
+            #sidebar-1 .my-data LI EM {
+               display:block;
+               float:right;
+               width:25px;
+               text-align:right;
+               font-style:normal;
+               }
+            #sidebar-1 .my-data LI EM.new {color:#E70707;}
+      #sidebar-1 .my-data .all {
+         font-size:.9em;
+         padding:0 24px 15px 24px;
+         background:url(../i/mine/my-data-b.png) 0 100% no-repeat;
+         }
+         #sidebar-1 .my-data .all A {
+            color:#E70707;
+            text-decoration:none;
+            }
+         
+   /* Advert */
+   #sidebar-1 .adv {
+      width:217px;
+      margin-bottom:23px;
+      background:url(../i/adv-bg.png) repeat-y;
+      }
+      #sidebar-1 .adv .t {background:url(../i/adv-t.png) no-repeat;}
+      #sidebar-1 .adv .b {
+         padding:10px 8px 11px 9px;
+         background:url(../i/adv-b.png) 0 100% no-repeat;
+         }
+      #sidebar-1 .adv IMG {vertical-align:bottom;}
+         
+   /* Block */
+   .block {
+      width:217px;
+      margin-bottom:20px;
+      background:url(../i/block-bg.png) repeat-y;
+      }
+      .block .t {
+         overflow:hidden;
+         background:url(../i/block-t.png) no-repeat;
+         }
+      .block .b {
+         padding:1px;
+         background:url(../i/block-b.png) 0 100% no-repeat;
+         }
+      .block .text {padding:10px 80px 15px 17px;}
+      .block .text.color {background:url(../i/ico/color.png) 0 100% no-repeat;}
+      .block .text.friend {background:url(../i/ico/friend.png) 0 100% no-repeat;}
+      .block .text.another {background:url(../i/ico/another.png) 0 100% no-repeat;}
+      .block .text H4 {
+         margin-bottom:3px;
+         font:1.4em Calibri,Arial,sans-serif;
+         }
+      .block .text P {
+         color:#999;
+         font-size:.7em;
+         }
+         
+   /* Showing Places */
+   #sidebar-1 .showing {
+      width:217px;
+      margin-bottom:20px;
+      background:#F5FAF0 url(../i/showing-bg.png) repeat-y;
+      }
+      #sidebar-1 .showing DT {
+         color:#FFF;
+         font-size:1.1em;
+         background:#7BC142 url(../i/showing-title-bg.png) 0 50% repeat-x;
+         }
+      #sidebar-1 .showing DT SPAN {
+         display:block;
+         padding:5px 8px 5px;
+         background:url(../i/showing-t.png) no-repeat;
+         }
+      #sidebar-1 .showing DD {
+         padding:10px 10px 0;
+         background:url(../i/showing-b.png) 0 100% no-repeat;
+         }
+      #sidebar-1 .showing DD DT {
+         color:#000;
+         font:bold .9em Arial,sans-serif;
+         background:none;
+         margin-bottom:10px;
+         padding-left:5px;
+         }
+      #sidebar-1 .showing DD DD {
+         background:none;
+         padding:0 10px 20px 40px;
+         }
+      #sidebar-1 .showing DD A {color:#096C07;}
+      #sidebar-1 .showing DD LI {margin-bottom:5px;}
+      #sidebar-1 .showing .eat DD {background:url(../i/markers/marker-2.png) no-repeat;}
+      #sidebar-1 .showing .movie DD {background:url(../i/markers/marker-3.png) no-repeat;}
+      
+   /* Total */
+   #sidebar-1 .total {
+      width:217px;
+      margin-bottom:20px;
+      padding-left:15px;
+      }
+      #sidebar-1 .total DT {
+         color:#000;
+         font:bold .9em Arial,sans-serif;
+         margin-bottom:10px;
+         }
+      #sidebar-1 .total DD {
+         color:#ED3527;
+         font-size:.85em;
+         }
+      #sidebar-1 .total DD LI {margin-bottom:3px;}
+      
+   /* Help */
+   #sidebar-1 .help {width:217px;}
+   
+   /* My Data Transparent */
+   #sidebar-1 .my-data-transp {
+      margin-bottom:20px;
+      font-size:1.2em;
+      }
+      #sidebar-1 .my-data-transp LI {
+         margin-bottom:5px;
+         padding-top:0;
+         position:relative;
+         }
+      #sidebar-1 .my-data-transp LI SPAN {
+         display:block;
+         padding:7px 30px 7px 20px;
+         overflow:hidden;
+         }
+         #sidebar-1 .my-data-transp LI .t,
+         #sidebar-1 .my-data-transp LI .b {
+            width:233px;
+            padding:0;
+            height:4px;
+            }
+         #sidebar-1 .my-data-transp LI .bg {width:183px;}
+         #sidebar-1 .my-data-transp LI.active .t {background:url(../i/mine/my-data-transp-t.png) no-repeat;}
+         #sidebar-1 .my-data-transp LI.active .b {background:url(../i/mine/my-data-transp-b.png) no-repeat;}
+         #sidebar-1 .my-data-transp LI.active .bg {background:url(../i/mine/my-data-transp-bg.png) repeat-y;}
+         #sidebar-1 .my-data-transp LI A,
+         #sidebar-1 .my-data-transp LI STRONG {
+            display:block;
+            float:left;
+            width:145px;
+            color:#096C07;
+            text-decoration:none;
+            color:#096C07;
+            }
+         #sidebar-1 .my-data-transp LI EM {
+            display:block;
+            float:right;
+            width:25px;
+            text-align:right;
+            font-style:normal;
+            font-size:.8em;
+            }
+         #sidebar-1 .my-data-transp LI STRONG {
+            font-weight:normal;
+            color:#000;
+            }
+         #sidebar-1 .my-data-transp LI EM.new {color:#E70707;}
+
+/* Near
+-------------------------------------- */    
+.near .bg {
+   padding:9px;
+   background:url(../i/layout/content-two-col-inner-bg.png) repeat-x;
+   }
+.near #map {
+   width:200px;
+   height:200px;
+   overflow:hidden;
+   }
+.near H3 {
+   margin-bottom:10px;
+   color:#EA3427;
+   }
+   
+/* Question
+-------------------------------------- */
+.question H3 {
+   padding:15px 20px 10px;
+   font:bold 1.1em 'Lucida Grande',Arial,sans-serif;
+   background:url(../i/faq/question-t.png) no-repeat;
+   }
+.question SMALL {
+   display:block;
+   font-size:.9em;
+   padding:0 20px 10px;
+   color:#505050;
+   }
+.question FORM {
+   color:#505050;
+   font-size:.9em;
+   padding:0 20px 10px;
+   }
+.question LABEL {
+   display:block;
+   margin-bottom:3px;
+   }
+.question .field {
+   display:block;
+   margin-bottom:10px;
+   width:99%;
+   border:1px solid #A5C78C;
+   }
+
+.question .error {color:#FF1200;}
+
+/* Direct
+-------------------------------------- */
+#y5_direct1 {width:217px;}

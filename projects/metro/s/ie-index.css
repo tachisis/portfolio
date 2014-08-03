@@ -1,0 +1,39 @@
+#logos {
+	filter:alpha(opacity=30);
+}
+
+BODY {
+	text-align: center;
+}
+#ind-container,
+#ind-footer DIV {
+	text-align: left;
+	}
+.ind-menu LI {
+	height: 1%;
+	}
+* HTML .ind-menu {
+	width:100%;
+	}
+* HTML .ind-menu .ind-distr {
+			margin-left:65px;
+			}
+* HTML .paging {
+	margin-left:0;
+	}
+* HTML #shops UL LI {
+			margin-left:0;
+			marg\in-left:16px;
+			}
+* HTML #ind-content {
+	width:620px;
+	w\idth:600px;
+	}
+* HTML #ind-sidebar {
+	width:280px;
+	w\idth:310px;
+	}
+.ind-news .image,
+.ind-news .video {
+	zoom: 1;
+	}

@@ -1,0 +1,186 @@
+@import 'reset.css';
+HTML {font-size:100.01%;}
+BODY {
+	padding:5px 0;
+	background:#e7edee;
+	color:#000;
+	font:.9em Arial,sans-serif;
+	}
+A {text-decoration:none;}
+A:hover {color:#727272}
+STRONG {font-weight:bold;}
+
+/* Container
+-------------------------------------- */	
+#container {
+	width:730px;
+	padding:16px 20px 0;
+	background:#FFF;
+	margin:auto;
+	}
+
+/* Header
+-------------------------------------- */	
+#header {
+	background:url(../i/header.gif) 0 100% no-repeat;
+	}
+	#header H1 {
+		padding:28px 0 12px 5px;
+		font-size:2.5em;
+		background:url(../i/h1.gif) no-repeat;
+		}
+		#header H1 A {
+			color:#727272;
+			}
+			
+/* Phones
+-------------------------------------- */
+#phones {
+	padding:110px 22px 7px 0;
+	background:url(../i/phones.jpg);
+	text-align:right;
+	font:bold 20px Arial;
+	color:#0a3cb2;
+	}
+	
+/* Nav
+-------------------------------------- */
+#nav {
+	width:730px;
+	padding:0;
+	overflow:hidden;
+	background:#5a7995;
+	}
+	#nav A {
+		color:#e8f1fa;
+		font:bold .9em Arial;
+		}
+	#nav A:hover {
+		color:#FFF;
+		}
+	#nav LI {
+		float:left;
+		padding:5px 35px;
+		background:url(../i/sep.gif) 100% 50% no-repeat;
+		}
+	#nav LI.catalog {
+		float:right;
+		padding:5px 60px;
+		background:url(../i/catalog.gif) 100% 0 no-repeat;
+		}
+		
+/* Content
+-------------------------------------- */
+#content {
+	width:730px;
+	padding:22px 0 0 0;
+	margin-bottom:10px;
+	background:url(../i/content.jpg) no-repeat;
+	overflow:hidden;
+	line-height:1.4em;
+	}
+	#content P,
+	#content UL {
+		margin-bottom:5px;
+		}
+	#content DL UL LI {
+		padding-left:15px;
+		margin-bottom:4px;
+		background:url(../i/bull.gif) 0 50% no-repeat;
+		}
+	#content DL {
+		float:left;
+		width:502px;
+		padding:40px 0 0 0;
+		background:url(../i/news.gif) no-repeat;
+		}
+	#content DL DT {
+		margin-bottom:10px;
+		padding:0 8px 0 20px;
+		font-weight:bold;
+		text-transform:uppercase;
+		background:url(../i/head-ico.gif) 0 50% no-repeat;
+		}
+	#content DL DT A {
+		color:#000;
+		}
+	#content DL DD {
+		margin-bottom:20px;
+		padding:0 10px 0 20px;
+		}
+		#content DL DD A {
+			text-decoration:underline;
+			}
+	#content DL DD.news A {
+		color:#036;
+		}
+		#content DL DD.news A:hover {
+			color:#5187a5;
+			}
+	#content DL DD.last {
+		padding-bottom:35px;
+		background:url(../i/content-footer.gif) 0 100% no-repeat;
+		}
+
+/* Sidebar
+-------------------------------------- */
+#sidebar {
+	float:right;
+	width:217px;
+	}
+	#sidebar .panel {
+		background:#f5f5e4;
+		margin-bottom:15px;
+		}
+	#sidebar .menu {
+		padding:38px 0 50px 10px;
+		background:#FFF;
+		text-transform:uppercase;
+		font-size:.8em;
+		background:url(../i/nav-head.gif) no-repeat;
+		}
+	#sidebar .menu A {
+		color:#036;
+		}
+		#sidebar .menu A:hover {
+			color:#5187a5;
+			}
+		#sidebar .menu LI {
+			padding:5px;
+			border-top:1px dotted #8f2572;
+			background:#FFF;
+			}
+		#sidebar .menu LI.last {
+			border-bottom:1px dotted #8f2572;
+			}
+		#sidebar #maps {
+			padding:60px 0 0;
+			background:#f5f5e4 url(../i/maps-top.gif) no-repeat;
+			}
+		#sidebar #maps UL {
+			padding-bottom:30px;
+			background:url(../i/maps-bt.gif) 0 100% no-repeat;
+			}
+			#sidebar #maps UL LI {
+				margin-bottom:30px;
+				}
+		#sidebar #maps IMG {
+			display:block;
+			margin:auto;
+			}
+			
+/* Footer
+-------------------------------------- */
+#footer {
+	padding:30px 15px 20px;
+	background:url(../i/footer.gif) 0 100% no-repeat;
+	text-align:right;
+	color:#FFF;
+	font:bold .8em Arial,sans-serif;
+	}
+	#footer A {
+		color:#FFF;
+		}
+	#footer A:hover {
+			color:#036;
+			}

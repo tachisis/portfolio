@@ -1,0 +1,408 @@
+/* Main Page Header
+---------------------------------------- */
+#main-page #header {
+	width:867px;
+	padding:0 0 20px;
+	}
+	#main-page #header .logo {
+		margin:20px 50px 0 0;
+		}
+	#main-page #header .info {
+		width:350px;
+		margin:39px 0 0 0;
+		padding:0;
+		}
+		#main-page #header .info UL {font:14px Arial,sans-serif;}
+	#main-page #header .user-actions {margin:47px 0 0 0;}
+
+/* Main Page Container
+---------------------------------------- */
+#main-page .container {
+	width:867px;
+	margin:auto;
+	}
+
+/* Main Page — Make Offer Block
+---------------------------------------- */
+.main-page-top {
+	padding:30px 0 20px;
+	border-top:2px solid #D6D6D6;
+	background:#F6F6F6 url(../i/bgs/main-page-shad.png) 0 0 repeat-x;
+	}
+	.main-page-top H1 {
+		position:relative;
+		width:500px;
+		height:30px;
+		margin:0 auto 15px;
+		overflow:hidden;
+		font:32px/1 'Myriad Pro',Arial,sans-serif;
+		color:#0079B7;
+		}
+		.main-page-top H1 SPAN {
+			display:block;
+			position:absolute;
+			top:0;
+			left:0;
+			width:100%;
+			height:100%;
+			font-size:0;
+			background:url(../i/bgs/main-heading.png) no-repeat;
+			}
+	.main-page-top .make-offer {}
+		.main-page-top .make-offer .t {
+			height:16px;
+			font-size:0;
+			background:url(../i/bgs/make-offer.png) no-repeat;
+			}
+		.main-page-top .make-offer .b {
+			height:37px;
+			font-size:0;
+			background:url(../i/bgs/make-offer.png) 0 -16px no-repeat;
+			}
+		.main-page-top .make-offer .bg {
+			padding:15px 29px 0;
+			background:url(../i/bgs/make-offer.png) -867px 0 repeat-y;
+			}
+		.main-page-top .make-offer .offer {
+			width:100%;
+			overflow:hidden;
+			margin-bottom:15px;
+			}
+			.main-page-top .make-offer .offer .txt {
+				float:left;
+				width:458px;
+				min-height:118px;
+				height:5.5em;
+				margin:1px 9px 0 0;
+				padding:15px;
+				border:1px solid #7E91A5;
+				color:#424242;
+				background:url(../i/bgs/srch-shad.png) no-repeat;
+				}
+			.main-page-top .make-offer .offer .example {
+				font:16px Arial,sans-serif;
+				color:#6C7A85;
+				}
+			.main-page-top .make-offer .offer .hints {
+				float:left;
+				width:299px;
+				padding-left:11px;
+				background:url(../i/bgs/mp-hints-tail.png) 0 50% no-repeat;
+				font-size:12px;
+				line-height:1.2;
+				}
+				.main-page-top .make-offer .offer .hints .t,
+				.main-page-top .make-offer .offer .hints .b {
+					height:2px;
+					background:url(../i/corners/mp-hints-cor.png) no-repeat;
+					}
+				.main-page-top .make-offer .offer .hints .b {background-position:0 -2px;}
+				.main-page-top .make-offer .offer .hints .bg {
+					padding:10px 16px;
+					background:#DCEBF3;
+					}
+				.main-page-top .make-offer .offer .hints .cont {
+					height:128px;
+					overflow:hidden;
+					}
+					
+				.main-page-top .make-offer .offer .hints TD {
+					height:44px;
+					vertical-align:middle;
+					border-bottom:1px solid #C7D5DC;
+					}
+				.main-page-top .make-offer .offer .first {border-top:none;}
+				.main-page-top .make-offer .offer .last {border-bottom:none;}
+				.main-page-top .make-offer .offer .hints A {text-decoration:none;}
+			.main-page-top .make-offer .submit {margin-bottom:-8px;}
+				.main-page-top .make-offer .submit INPUT {
+					margin-right:20px;
+					vertical-align:middle;
+					}
+				.main-page-top .make-offer .submit .note {
+					display:inline;
+					font-size:13px;
+					color:#6C7A85;
+					}
+/* Main Page Tabs
+---------------------------------------- */
+.main-page-tabs {
+	width:100%;
+	overflow:hidden;
+	background:#F6F6F6 url(../i/bgs/mp-tabs.gif) 0 100% repeat-x;
+	font:16px/1 'Myriad Pro',Arial,sans-serif;
+	}
+	.main-page-tabs LI {
+		float:left;
+		margin:3px 8px 1px 0;
+		background:#E5E5E5 url(../i/corners/mp-tabs-l.png) no-repeat;
+		}
+	.main-page-tabs .r {
+		display:block;
+		padding:10px 25px 8px;
+		background:url(../i/corners/mp-tabs-r.png) 100% 0 no-repeat;
+		}
+	.main-page-tabs A {color:#144E6F;}
+	.main-page-tabs A:hover {text-decoration:none;}
+	.main-page-tabs .last {
+		float:right;
+		margin-right:0 !important;
+		}
+	.main-page-tabs LI.active {
+		margin:0 8px 0 0;
+		background:#FFF url(../i/corners/mp-tabs-act-l.png) no-repeat;
+		}
+		.main-page-tabs LI.active .r {
+			padding:12px 25px 10px;
+			background:url(../i/corners/mp-tabs-act-r.png) 100% 0 no-repeat;
+			}
+		.main-page-tabs LI.active A {
+			text-decoration:none;
+			color:#444;
+			font-weight:bold;
+			cursor:text;
+			}
+			
+/* Main Page Tab Container
+---------------------------------------- */
+.main-page-tab-data {
+	width:100%;
+	overflow:hidden;
+	padding:15px 0;
+	font-size:12px;
+	}
+	.main-page-tab-data LI {
+		float:left;
+		width:385px;
+		padding:10px 15px;
+		margin-right:35px;
+		min-height:85px;
+		border-bottom:1px solid #DCDCDC;
+		}
+	.main-page-tab-data LI.second {margin-right:0;}
+	.main-page-tab-data LI.last {border-bottom:none;}
+	.main-page-tab-data .example {
+		float:left;
+		width:125px;
+		margin-right:15px;
+		text-align:center;
+		}
+		.main-page-tab-data .example .pic {margin-bottom:7px;}
+			.main-page-tab-data .example .pic IMG {vertical-align:middle;}
+		.main-page-tab-data .example DT {
+			margin-bottom:2px;
+			font:12px Arial,sans-serif;
+			}
+			.main-page-tab-data .example DT A {text-decoration:none;}
+		.main-page-tab-data .example .price {font:bold 14px Arial,sans-serif;}
+	.main-page-tab-data H3 {
+		margin-bottom:6px;
+		font:bold 17px Arial,sans-serif;
+		}
+		.main-page-tab-data H3 A {text-decoration:none;}
+	.main-page-tab-data .sub A {
+		color:#424242;
+		text-decoration:none;
+		}
+		.main-page-tab-data .sub A:hover {text-decoration:underline;}
+		
+/* Main Page Promo Block
+---------------------------------------- */
+.main-page-promo {
+	width:100%;
+	overflow:hidden;
+	padding-bottom:40px;
+	font-size:12px;
+	}
+	.main-page-promo .promo {
+		position:relative;
+		float:left;
+		width:531px;
+		margin-right:7px;
+		border:2px solid #0071B0;
+		}
+	.main-page-promo .promo I {
+		display:block;
+		position:absolute;
+		width:11px;
+		height:11px;
+		font-size:0;
+		background:url(../i/corners/mp-promo-cor.png) no-repeat;
+		}
+	.main-page-promo .promo .t-l {
+		top:-2px;
+		left:-2px;
+		background-position:0 0;
+		}
+	.main-page-promo .promo .t-r {
+		top:-2px;
+		right:-2px;
+		background-position:-11px 0;
+		}
+	.main-page-promo .promo .b-l {
+		bottom:-2px;
+		left:-2px;
+		background-position:0 -11px;
+		}
+	.main-page-promo .promo .b-r {
+		bottom:-2px;
+		right:-2px;
+		background-position:-11px -11px;
+		}
+	.main-page-promo .promo .data {
+		padding:15px 20px;
+		overflow:hidden;
+		min-height:150px;
+		}
+	.main-page-promo .promo H3 {
+		margin-bottom:20px;
+		font:bold 16px 'Myriad Pro',Arial,sans-serif;
+		}
+	.main-page-promo .promo .pic {
+		float:left;
+		width:160px;
+		margin-right:15px;
+		}
+	.main-page-promo .promo .pic img{width:94px;height:94px;}
+	.main-page-promo .promo DT {
+		font:bold 24px/1.1 Arial,sans-serif;
+		color:#0078B6;
+		}
+		.main-page-promo .promo DT A {text-decoration:none;}
+	.main-page-promo .promo .note {
+		margin-bottom:10px;
+		font-size:13px;
+		color:#666;
+		}
+	.main-page-promo .promo .price {
+		margin-bottom:10px;
+		font-size:21px;
+		}
+	.main-page-promo .promo .actions {
+		font-size:11px;
+		color:#666;
+		}
+		.main-page-promo .promo .actions A {font-size:12px;}
+		.main-page-promo .promo .actions .sep {
+			margin:0 10px;
+			font-size:12px;
+			color:#B5B5B5;
+			}
+	.main-page-promo .promo-tabs {
+		overflow:hidden;
+		padding:0 11px 1px;
+		background-color:#0071B0;
+		}
+		.main-page-promo .promo-tabs A {
+			text-decoration:none;
+			color:#FFF;
+			}
+		.main-page-promo .promo-tabs LI {
+			float:left;
+			margin-right:5px;
+			}
+		.main-page-promo .promo-tabs LI.active {
+			background:#FFF url(../i/corners/mp-promo-tabs-l.png) 0 100% no-repeat;
+			}
+			.main-page-promo .promo-tabs LI.active .r {
+				background:url(../i/corners/mp-promo-tabs-r.png) 100% 100% no-repeat;
+				}
+			.main-page-promo .promo-tabs LI.active A {
+				font:bold 14px Arial,sans-serif;
+				color:#424242;
+				cursor:text;
+				}
+		.main-page-promo .promo-tabs .r {
+			display:block;
+			padding:10px 10px 5px;
+			}
+	.main-page-promo .like-it {
+		float:left;
+		width:315px;
+		padding-left:10px;
+		background:url(../i/bgs/mp-like-tail.png) 0 50% no-repeat;
+		}
+		.main-page-promo .like-it .t,
+		.main-page-promo .like-it .b {
+			height:6px;
+			font-size:0;
+			background:url(../i/corners/mp-like.png) no-repeat;
+			}
+		.main-page-promo .like-it .b {background-position:0 -6px;}
+		.main-page-promo .like-it .bg {
+			padding:25px 35px 14px;
+			background-color:#D5E5EF;
+			}
+		.main-page-promo .like-it H2 {
+			width:130px;
+			margin-bottom:10px;
+			font:bold 20px 'Myriad Pro',Arial,sans-serif;
+			color:#0579B5;
+			}
+		.main-page-promo .like-it P {
+			margin-bottom:10px;
+			font-size:14px;
+			color:#6F8391;
+			}
+		.main-page-promo .like-it .make-request {
+			display:block;
+			width:196px;
+			height:41px;
+			position:relative;
+			overflow:hidden;
+			}
+			.main-page-promo .like-it .make-request SPAN {
+				position:absolute;
+				top:0;
+				left:0;
+				width:100%;
+				height:100%;
+				font-size:0;
+				background:url(../i/buttons/make-request.png) no-repeat;
+				}
+			
+		
+/* Main Page Footer
+---------------------------------------- */
+#main-page #footer {
+	width:100%;
+	overflow:hidden;
+	}
+#main-page #footer TABLE {float:left;}
+#main-page #footer P {
+	position:relative;
+	font-size:11px;
+	color:#646464;
+	}
+	#main-page #footer P A {color:#646464;}
+#main-page #footer .design {
+	float:right;
+	width:80px;
+	padding:3px 0 3px 44px;
+	margin-left:45px;
+	background:url(../i/knock-logo.png) 0 50% no-repeat;
+	}
+	#main-page #footer .design .logo {
+		display:block;
+		text-indent:-9999px;
+		width:31px;
+		height:100%;
+		position:absolute;
+		top:0;
+		left:0;
+		}
+#main-page #footer .inventure {
+	float:right;
+	width:100px;
+	padding:3px 0 3px 120px;
+	background:url(../i/inventure-logo.png) 0 50% no-repeat;
+	}
+	#main-page #footer .inventure .logo {
+		display:block;
+		text-indent:-9999px;
+		width:108px;
+		height:100%;
+		position:absolute;
+		top:0;
+		left:0;
+		}

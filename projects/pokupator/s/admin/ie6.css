@@ -1,0 +1,59 @@
+.accessory .actions,
+.accessory .text,
+.control-panel,
+.popup .select-card LI,
+.request .request-data,
+.request .request-data .inner,
+.request .details .request-item .heading,
+.request .details .request-item .model-details,
+.request .details .request-item .same-things UL,
+.req-details .req-now .part,
+.my-offers .offer-block .details,
+.my-offers .offer-block .summary,
+.my-offers .offer-block .discount,
+.my-offers .offer-block .delivery,
+.my-offers .offer-block .item,
+.stores-req .footing,
+.stores-req .wrapper,
+.stores-req .filters {
+	zoom:1;
+	}
+.accessory .about {
+	float:left;
+	margin-left:0;
+	}
+.add-product .desc INPUT.txt {width:560px;}
+.accessory .info .name .txt {width:240px;}
+.accessory .info .name {width:250px;}
+.add-product .photo-list .switcher {right:2em;}
+.request .sidebar {width:260px;}
+.request .sidebar .call-center TEXTAREA {width:225px;}
+.request .details .request-item .close {top:5px;right:8px;}
+.req-constructor .offer-constructor .col {width:400px;}
+.my-offers .aside {width:230px;}
+.my-offers .offer-block .heading {left:-4px;}
+.my-offers .offer-block.winner .heading,
+.my-offers .offer-block.loser .heading {left:-6px;}
+.my-offers .offer-block .delivery .count SPAN,
+.my-offers .offer-block .discount .count SPAN {position:static;}
+BODY, HTML {height:100%;}
+BODY {background:#FFF url(about:blank) fixed;}
+#shadow,
+.popup {
+	position:absolute;
+	top:expression(0+((e=document.documentElement.scrollTop)?e:document.body.scrollTop)+'px');
+	}
+.popup {margin-top:100px;}
+.stores-req {margin-top:0;}
+.stores-req .content {width:715px;}
+.offer-block .item {zoom:1;}
+.tender-main .offer .analogues {width:592px;overflow:hidden;}
+.tender-main .offer .analogues,
+.tender-main .offer .analogues .list,
+.tender-main .offer .analogues .list LI {zoom:1;}
+.tender-main .offer I.b-l {bottom:expression(parentNode.offsetHeight%2?-2:-1);}
+.tender-main .offer I.b-r {
+	bottom:expression(parentNode.offsetHeight%2?-2:-1);
+	right:expression(parentNode.offsetWidth%2?-2:-1);
+	}
+.tender-main .offer .heading .t-r {zoom:1;}

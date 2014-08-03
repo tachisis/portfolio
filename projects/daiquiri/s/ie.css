@@ -1,0 +1,7 @@
+.new-project .case .actions INPUT,
+.new-project .case .actions LABEL {margin-top:-2px;}
+.new-ticket .how-to INPUT,
+.new-ticket .how-to TEXTAREA {
+   margin-left:10px;
+   width:88%;
+   }

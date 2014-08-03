@@ -1,0 +1,35 @@
+/* Simplify Forms
+---------------------------------------- */
+#message-box .text,
+#message-box .text DIV,
+.enter .name,
+.enter .name .bor,
+.create-chat .name,
+.create-chat .name .bor {
+	border:none;
+	background:none;
+	}
+#message-box .text I,
+.enter .name I,
+.create-chat .name I {
+	display:none;
+	}
+#message-box .text TEXTAREA {
+	width:99%;
+	border:1px solid #B6B6B6;
+	}
+.enter .name .bor,
+.create-chat .name .bor {padding:0;}
+.enter .name INPUT {
+	padding:2px 4px 3px;
+	border:solid 1px #EBEBEB;
+	}
+.create-chat .name INPUT {border:solid 1px #EBEBEB;}
+
+/* Hacks
+---------------------------------------- */
+#sidebar .t-l,
+#sidebar .t-r {
+	top:1px;
+	}
+	
