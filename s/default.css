@@ -3,7 +3,7 @@
 body {
 	background: #150200;
 	color: #250400;
-	font: 16px/1.6 Palatino,serif;
+	font: 16px/1.6 "Palatino Linotype",Palatino,"Book Antiqua",serif;
 	}
 a {
 	color: #b22d00;
@@ -289,5 +289,11 @@ footer .top {
    }
    .photo .col {
    	min-height: 0;
+   }
+   .contacts li {
+   	font-size: 20px;
+   }
+   header nav li {
+   	padding: 8px 5px;
    }
 }
